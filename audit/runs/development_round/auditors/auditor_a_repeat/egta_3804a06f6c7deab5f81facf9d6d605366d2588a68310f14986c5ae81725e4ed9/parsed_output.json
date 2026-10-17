@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_3804a06f6c7deab5f81facf9d6d605366d2588a68310f14986c5ae81725e4ed9",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "1983",
+    "state": "value"
+  },
+  "rationale": "e1 (Wikipedia, accessed 2026-07-22) states the Raiders' three Super Bowl championships are XI (1976), XV (1980), and XVIII (1983), with no fourth title listed, indicating 1983 remains the most recent Raiders Super Bowl win as of the access date. e2 confirms the most recent Super Bowl (LX) was won by Seattle over New England, not the Raiders, corroborating that no newer Raiders win has occurred. This question is inherently temporal (the answer could change if the Raiders win a future Super Bowl), and its natural reading asks for the currently most recent year, so direction is 'current'. The frozen answer '1983' matches the current evidence-supported answer, so the verdict is still_valid with no conflicting sources.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

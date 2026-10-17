@@ -1,0 +1,34 @@
+{
+  "item_id": "egta_371c2ba137115fca3d278af199d222fc7c9d05b6fddc945539b9532ddd2ed50f",
+  "question": "nq question: who won the wwe championship elimination chamber 2018",
+  "frozen_answer": "Roman Reigns",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Elimination_Chamber_(2018)",
+      "title": "Elimination Chamber (2018)",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2026-07-06",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "Roman Reigns won the first-ever seven-man Elimination Chamber match to become the number one contender against Brock Lesnar for the Universal Championship at WrestleMania 34.",
+          "locator": "article lead/event summary",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "Roman Reigns defeated Braun Strowman, Seth Rollins, Finn Bálor, John Cena, Elias, and The Miz",
+          "locator": "main event results section",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Year-anchored item (Elimination Chamber 2018). Fetched Wikipedia 'Elimination Chamber (2018)' directly; page confirms Roman Reigns won the men's Elimination Chamber match at the 2018 event. Note: the match was for a Universal Championship title shot, not the WWE Championship itself; Reigns is nonetheless the winner of the 2018 Elimination Chamber match, matching the frozen answer. Single source sufficient.",
+  "change_date_hint": null
+}

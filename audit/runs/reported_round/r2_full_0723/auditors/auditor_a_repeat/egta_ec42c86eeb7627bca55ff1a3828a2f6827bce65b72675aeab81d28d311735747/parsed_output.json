@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_ec42c86eeb7627bca55ff1a3828a2f6827bce65b72675aeab81d28d311735747",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Ram Nath Kovind",
+    "state": "value"
+  },
+  "rationale": "The question includes an explicit year anchor (\"2017\"), so per the temporal reading policy this is a historically-anchored query with direction=historical, evaluated at that anchored time rather than at audit_as_of. Evidence e1 (spans s1, s2) establishes that in the 2017 Indian presidential election, Ram Nath Kovind was the NDA-backed nominee who contested against opposition nominee Meira Kumar and was declared President-elect after counting on 20 July 2017. This directly supports the frozen answer \"Ram Nath Kovind\" as valid at the 2017 anchor. There is no evidence of any later revision or retirement of this historical fact (the identity of the 2017 nominee/winner does not change), so no change_date applies. Verdict is historically_valid.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

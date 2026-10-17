@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2025-06-04",
+    "latest": "2025-06-17",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_ed60b9d60120640b981ff203a204968df9210d8c105e0417b7339d6a1bdded56",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Florida Panthers and Edmonton Oilers",
+    "state": "value"
+  },
+  "rationale": "The question contains only a deictic anchor (\"last year\"), no explicit year/date, so per policy it is resolved relative to audit_as_of (2026-07-21), making \"last year\" = 2025 and direction = current. e1 establishes that the 2025 Stanley Cup Finals (played June 4-17, 2025) were contested by the Florida Panthers and Edmonton Oilers, with Florida winning. The frozen answer \"Pittsburgh Penguins\" matches the 2017 Stanley Cup Finals (e2, series played May 29-June 11, 2017, Penguins champions), which is consistent with the NQ reference_time (annotation no later than 2019), i.e., the frozen answer held near the dataset's reference time when \"last year\" plausibly meant 2017 or a nearby year. Evaluated at audit_as_of under this protocol's current-reading convention, \"last year\" now designates the 2025 Finals, whose participants (Florida Panthers, Edmonton Oilers) differ from the frozen Penguins answer, so the frozen answer is superseded by the natural annual rotation of this fact (event_type: revision). No source conflict exists between e1 and e2; they describe different years' Finals.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

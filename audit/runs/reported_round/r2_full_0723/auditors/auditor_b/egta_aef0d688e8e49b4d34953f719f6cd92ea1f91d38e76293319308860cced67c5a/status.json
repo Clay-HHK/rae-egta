@@ -1,0 +1,26 @@
+{
+  "backend": "codex_cli",
+  "date_normalization": {
+    "applied": false,
+    "normalized": {
+      "earliest": "2020-04-01",
+      "latest": "2020-04-01",
+      "precision": "day"
+    },
+    "raw": {
+      "earliest": "2020-04-01",
+      "latest": "2020-04-01",
+      "precision": "day"
+    }
+  },
+  "evidence_contract_error": null,
+  "evidence_contract_valid": true,
+  "item_id": "egta_aef0d688e8e49b4d34953f719f6cd92ea1f91d38e76293319308860cced67c5a",
+  "json_parse_valid": true,
+  "judgment_schema_errors": [],
+  "judgment_schema_valid": true,
+  "requested_model": "gpt-5.6-terra",
+  "role": "auditor_b",
+  "terminal_status": "ok",
+  "zero_tool_calls": true
+}

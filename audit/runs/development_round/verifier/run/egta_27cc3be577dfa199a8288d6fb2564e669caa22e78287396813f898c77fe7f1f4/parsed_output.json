@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2026-04-05",
+    "latest": "2026-04-05",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_27cc3be577dfa199a8288d6fb2564e669caa22e78287396813f898c77fe7f1f4",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "Frozen South Carolina is identified only as 2017 champion (e1 s1), consistent with an original NQ reference window ending 2019. Evidence shows later winners 2025 UConn and 2026 UCLA (e1 s2-s3; e2 s1-s2, game 2026-04-05), so any deictic reading of last year's under audit_as_of 2026-07-21 is ambiguous between those values and cannot be resolved to a single current answer.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "ambiguous_context"
+}

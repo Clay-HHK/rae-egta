@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_318edb8b32721e39f5472155bce2b60038c24de056a00e74f42d0097dcb490de",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The evidence_sources array is empty, so no cited material is available to verify who currently or previously presented I'm a Celebrity...Get Me Out of Here! beyond the frozen answer 'Ant & Dec'. The question phrasing itself ('who used to present ... now') is ambiguous between historical and current framing, and query_temporal_context marks scope as uncertain with only a coarse year-level reference_time bound. Without grounded evidence of hosting history or a current lineup, abstaining conservatively with insufficient_evidence per protocol.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "uncertain",
+  "verdict": "insufficient_evidence"
+}

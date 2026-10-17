@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_97ccd4a84ad55b9d24bcd0f953bb6a28a84a2a50a30c6846cbd1ff4fc4a4813b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Yuzuru Hanyu",
+    "state": "value"
+  },
+  "rationale": "The cited source identifies Yuzuru Hanyu as the 2018 Olympic men's singles gold medalist. The question concerns a fixed historical event, and no change is indicated.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

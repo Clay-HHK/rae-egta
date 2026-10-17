@@ -1,0 +1,70 @@
+{
+  "duration_api_ms": 43456,
+  "duration_ms": 44511,
+  "errors": [
+    "Failed to provide valid structured output after 5 attempts"
+  ],
+  "fast_mode_state": "off",
+  "is_error": true,
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 0,
+      "contextWindow": 200000,
+      "costUSD": 0.002739,
+      "inputTokens": 2634,
+      "maxOutputTokens": 32000,
+      "outputTokens": 21,
+      "webSearchRequests": 0
+    },
+    "claude-sonnet-5": {
+      "cacheCreationInputTokens": 5772,
+      "cacheReadInputTokens": 14606,
+      "contextWindow": 1000000,
+      "costUSD": 0.0842928,
+      "inputTokens": 3,
+      "maxOutputTokens": 64000,
+      "outputTokens": 3018,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 6,
+  "permission_denials": [],
+  "session_id": "5a6f9de9-864a-45ad-bce3-3e07a8a3543e",
+  "stop_reason": "tool_use",
+  "subtype": "error_max_structured_output_retries",
+  "terminal_reason": "structured_output_retry_exhausted",
+  "total_cost_usd": 0.08703179999999999,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5772,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 5772,
+    "cache_read_input_tokens": 14606,
+    "inference_geo": "not_available",
+    "input_tokens": 3,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 2974,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 2974,
+        "cache_read_input_tokens": 8702,
+        "input_tokens": 2,
+        "output_tokens": 268,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 3018,
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "069492c4-3e7a-4a9b-95a6-4870f5a02828"
+}

@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0dd7d306ea549b8e372c89e7ea6deea09860d8b16d46aa6c1243fe149c64d2bb",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "joe daniher (mark of the year); daniel rioli (goal of the year)",
+    "state": "value"
+  },
+  "rationale": "Frozen evidence identifies Joe Daniher as 2017 AFL Mark of the Year (e1, e2) and Daniel Rioli as 2017 Goal of the Year (e2). Wikipedia as of 2026-01-16 still lists Daniher for Mark of the Year, matching the frozen answer on that award. No evidence of any later revision, retirement, or source conflict over either 2017 winner; both are stable historical facts, so the frozen mark-winner claim remains valid and the dual-award current answer is Daniher plus Rioli.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

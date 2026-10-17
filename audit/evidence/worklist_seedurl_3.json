@@ -1,0 +1,82 @@
+[
+ {
+  "item_id": "egta_daab0bc1b66530b276d14c88386844e35bc557abd76b84e4eddf691ba6af8e1e",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: who did dwight howard play for last year",
+  "frozen_answer": "Atlanta Hawks",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "none (retired Mar 2026; BIG3 in 2025)",
+  "legacy_note": "left NBA 2022; retirement case",
+  "seed_url": "https://www.hoopsrumors.com/2026/03/dwight-howard-announces-retirement.html"
+ },
+ {
+  "item_id": "egta_aef0d688e8e49b4d34953f719f6cd92ea1f91d38e76293319308860cced67c5a",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: what is the current rate of interest on ppf",
+  "frozen_answer": "7.6%",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "7.1%",
+  "legacy_note": "cut to 7.1% in April 2020, unchanged since",
+  "seed_url": "https://upstox.com/news/personal-finance/investing/public-provident-fund-ppf-interest-rate-for-july-september-2026/article-196141/"
+ },
+ {
+  "item_id": "egta_703b072fd3c02387d80c035d491e2dc519b599cfb7e582af259254b6a0b0f6e1",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: when was the last year the eagles went to the superbowl",
+  "frozen_answer": "2017",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "2024 season (Super Bowl LIX, Feb 2025)",
+  "legacy_note": "Eagles reached SB LVII and LIX after the frozen 2017 appearance",
+  "seed_url": "https://www.espn.com/nfl/recap/_/gameId/401671889"
+ },
+ {
+  "item_id": "egta_5b09970a39729260b53911633b8f916a35ed1d6b254ea37cacc36b67cab7de3c",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: who does dwyane wade play for right now",
+  "frozen_answer": "Miami Heat",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "none (retired Apr 2019)",
+  "legacy_note": "retirement case; last game April 2019",
+  "seed_url": "https://en.wikipedia.org/wiki/Dwyane_Wade"
+ },
+ {
+  "item_id": "egta_4d277b573eea9240cbd8a455a2b5be8f4a82b5442ea8c6637fd6a63f80f82d36",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: latest series of keeping up with the kardashians",
+  "frozen_answer": "14",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "20 (series ended 2021)",
+  "legacy_note": "same event as idx 8158, distinct question row",
+  "seed_url": "https://variety.com/2020/tv/news/keeping-up-with-the-kardashians-ending-season-20-e-kuwtk-1234762635/"
+ },
+ {
+  "item_id": "egta_ed60b9d60120640b981ff203a204968df9210d8c105e0417b7339d6a1bdded56",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: who played in the stanley cup finals last year",
+  "frozen_answer": "Pittsburgh Penguins",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "Panthers vs Oilers (2025 final)",
+  "legacy_note": "any recent last-year reading differs from Penguins (last finals 2017)",
+  "seed_url": "https://www.nbcnews.com/sports/nhl/stanley-cup-final-2025-panthers-win-defeat-oilers-rcna213524"
+ },
+ {
+  "item_id": "egta_e6aa2995af8c94faac2af949ec52db19626235fbe360cca400f0de0d724d4bb2",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: what is the current mac os operating system",
+  "frozen_answer": "10.13.4",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "macOS Tahoe 26.5.2 (2026-06-29)",
+  "legacy_note": "annual macOS releases since 2018; adjudicator-annotated (missed batch item)",
+  "seed_url": "https://www.macworld.com/article/2644146/macos-26-features-latest-update-release-date-beta.html"
+ },
+ {
+  "item_id": "egta_417a8c76b0075eccfdf2fa4ee7c34b68790ab82099ce111eaa68559e8d5f3679",
+  "stratum": "B_deictic_year",
+  "question": "nq question: what is the latest version of microsoft office 2010",
+  "frozen_answer": "14.0.7182.5000",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "14.0.7268.5000 (final; support ended Oct 2020)",
+  "legacy_note": "later Office 2010 builds until EOL superseded frozen build",
+  "seed_url": "https://learn.microsoft.com/en-us/officeupdates/update-history-office-2010-click-to-run"
+ }
+]

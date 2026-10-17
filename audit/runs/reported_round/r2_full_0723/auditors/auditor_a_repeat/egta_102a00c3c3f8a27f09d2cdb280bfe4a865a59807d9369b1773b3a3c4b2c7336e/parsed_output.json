@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_102a00c3c3f8a27f09d2cdb280bfe4a865a59807d9369b1773b3a3c4b2c7336e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Terrell Owens",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (\"2018 football hall of fame\"), so per the temporal reading policy this is interpreted at that anchored time, giving direction historical. Both the official Pro Football Hall of Fame profile (e1) and Wikipedia (e2) confirm Terrell Owens was part of the Class of 2018 / voted into the Hall of Fame in 2018, matching the frozen answer. Hall of Fame induction class membership is a permanent historical fact that does not get revised or retired, so the frozen answer is valid at the anchored time (verdict: historically_valid) with no subsequent change.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

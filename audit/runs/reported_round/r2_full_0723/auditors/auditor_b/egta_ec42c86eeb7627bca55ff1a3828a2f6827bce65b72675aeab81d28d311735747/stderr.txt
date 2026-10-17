@@ -1,0 +1,6 @@
+Reading additional input from stdin...
+2026-07-22T15:29:03.578462Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+2026-07-22T15:29:03.583353Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+2026-07-22T15:29:16.115469Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("http/request failed: error sending request for url (https://docs.langchain.com/mcp)")))
+2026-07-22T15:29:16.118516Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("http/request failed: error sending request for url (https://docs.langchain.com/mcp)")))
+2026-07-22T15:29:30.816753Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit

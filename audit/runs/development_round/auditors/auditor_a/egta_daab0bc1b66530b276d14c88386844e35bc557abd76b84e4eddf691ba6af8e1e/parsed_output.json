@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2026-03-12",
+    "latest": "2026-03-12",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_daab0bc1b66530b276d14c88386844e35bc557abd76b84e4eddf691ba6af8e1e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "The frozen answer 'Atlanta Hawks' derives from Howard's July 2016 signing with Atlanta (e2/s1), consistent with the NQ question's original reference time (no later than ~2019). Both sources now confirm (e1/s1, e2/s2) that Howard officially announced his retirement from basketball on 2026-03-12, and e1/s2-s3 show that after 2016 he moved through Rockets, Hawks, Hornets, Wizards, Sixers, Lakers (2012-22) and then spent recent years in Taiwan, Puerto Rico, and the BIG3 rather than the NBA. Under a current-time reading of 'last year,' Howard has not played for the Hawks in roughly a decade and has now retired entirely, so the frozen answer is superseded by his retirement. Under the original historical reading tied to the NQ annotation window, the answer remains valid for that period, but as an audit of current validity the retirement event controls. No conflict exists between the two reliable sources.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_retirement"
+}

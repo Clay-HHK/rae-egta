@@ -1,0 +1,29 @@
+{
+  "evidence_package_id": "egta_evidence_8ba60e0054dc71a29b37843c44f8429eb64f79dcdf5987cfed1172a72a25b1fe",
+  "evidence_sources": [],
+  "frozen_answer": {
+    "normalized": "missi hale",
+    "raw": "Missi Hale"
+  },
+  "item_id": "egta_abef7c23ea52878030b6b91c618d3ab2c4954c48dac22e59520ac4aacdc3f344",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "now"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: who sings what the world needs now in boss baby",
+  "schema_version": "egta.v1"
+}

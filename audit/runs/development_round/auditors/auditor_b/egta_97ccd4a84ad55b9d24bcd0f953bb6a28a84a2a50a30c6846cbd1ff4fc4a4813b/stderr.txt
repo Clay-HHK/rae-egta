@@ -1,0 +1,4 @@
+Reading additional input from stdin...
+2026-07-22T13:29:42.847397Z ERROR codex_models_manager::cache: failed to load models cache: missing field `supports_reasoning_summaries` at line 88 column 5
+2026-07-22T13:29:47.844166Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+2026-07-22T13:29:47.848020Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit

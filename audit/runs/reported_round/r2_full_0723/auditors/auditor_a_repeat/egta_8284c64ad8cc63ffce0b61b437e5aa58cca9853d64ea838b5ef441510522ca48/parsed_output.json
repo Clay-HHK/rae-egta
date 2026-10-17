@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_8284c64ad8cc63ffce0b61b437e5aa58cca9853d64ea838b5ef441510522ca48",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "sloane stephens",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (\"2017\"), so per the temporal reading policy direction is historical and the question is interpreted at that anchored time. Evidence e1 (Wikipedia article on the 2017 US Open Women's singles) directly states Sloane Stephens defeated Madison Keys in the final to win the 2017 US Open women's singles title, matching the frozen answer exactly. This is a fixed historical sporting result that does not change over time, so the frozen answer is historically valid at the anchored 2017 time and remains the correct historical record as of the audit date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

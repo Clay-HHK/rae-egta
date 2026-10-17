@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2018-12-01",
+    "latest": "2018-12-31",
+    "precision": "month"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0671570008bb8e9dbabca041f523b1dc8c4185a5a377af33bf7a7a98f4aac380",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Jamal Bryant",
+    "state": "value"
+  },
+  "rationale": "The frozen answer is identified as Stephen A. Davis, who resigned in June 2018. The source states that Jamal Bryant became senior pastor in December 2018 and remains senior pastor since 2018, so the answer was superseded by a revision.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

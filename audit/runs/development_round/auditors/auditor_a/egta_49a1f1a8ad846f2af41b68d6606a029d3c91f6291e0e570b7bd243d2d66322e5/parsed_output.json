@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_49a1f1a8ad846f2af41b68d6606a029d3c91f6291e0e570b7bd243d2d66322e5",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "No evidence_sources were provided in the blind package (empty list), so the frozen answer \"digitization of social systems\" cannot be verified, contextualized, or updated against any citable source. Independently, the question \"the most recent technological change to the U.S. economy\" is a superlative/deictic query whose true answer shifts continuously with the passage of time and depends on an undated reference point; the query context itself flags direction as ambiguous and scope as uncertain, with only a soft NQ/TACL 2019 provenance bound (no later than 2019) and no earliest bound. Without any evidence to ground either the historical NQ-era answer or a current-as-of-2026 answer, and with no citable IDs available, this must be treated as insufficient evidence rather than adjudicated as still valid, superseded, or historically valid.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "uncertain",
+  "verdict": "insufficient_evidence"
+}

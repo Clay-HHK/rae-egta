@@ -1,0 +1,25 @@
+{
+  "backend": "codex_cli",
+  "backend_versions": [
+    "codex-cli 0.144.4"
+  ],
+  "cache_reused": false,
+  "evidence_snapshot_error": null,
+  "evidence_snapshot_sha256": "17ebfce19e1bf7c6bb6119f80350298d61cc940766b4ed59b1f5a4f72dc5ae95",
+  "input_sha256": "2c1b2ca83cdc426f1784ae5f69cd2947bda2c6c8feeda9bcf782b7bd466ffd8f",
+  "item_count": 47,
+  "prompt_template_sha256": "1a381f48c31ee0a9977f1be192ddccf875b5f54ce0f61cd374937a2e263033b6",
+  "repeat_of": null,
+  "requested_model": "gpt-5.6-terra",
+  "resolved_models": [
+    "gpt-5.6-terra"
+  ],
+  "results_sha256": "1655a9bb2875bde6e2d2366873b695451c001ac505568b6a1d763b9f8a725be6",
+  "role": "auditor_b",
+  "schema_version": "egta_auditor_manifest.v1",
+  "session_persistence": false,
+  "status_counts": {
+    "ok": 47
+  },
+  "tool_calls_allowed": false
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "egta_d477d79b9c6a80fc7cef7bd21a604029bf224490f97fc610b95fa38740f9cee7",
+  "question": "nq question: when was the last year thanksgiving was on the 23rd",
+  "frozen_answer": "2017",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://www.calendardate.com/thanksgiving_2023.htm",
+      "title": "Thanksgiving Day 2023 - Calendar Date",
+      "publisher": "CalendarDate.com",
+      "source_tier": "reliable_secondary",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {"span_id": "s1", "text": "Thanksgiving Day for the year 2023 is celebrated/ observed on Thursday, November 23rd.", "locator": "page lead sentence", "supports": ["current_answer", "change_date"]}
+      ]
+    }
+  ],
+  "search_log": "Seed URL (calendardate.com Thanksgiving 2023) accessible and supportive: Thanksgiving 2023 fell on Thursday, November 23rd, so as of 2026 the last year Thanksgiving was on the 23rd is 2023, superseding frozen 2017. Frozen answer's past validity (2017 was the most recent Nov-23 Thanksgiving before 2023) follows from calendar arithmetic and was not separately fetched to stay within budget. 1 fetch used.",
+  "change_date_hint": "2023-11-23 (Thanksgiving fell on November 23 in 2023, updating the answer from 2017)"
+}

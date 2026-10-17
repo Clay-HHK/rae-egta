@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_3f8e1e5110880e2e62703c3614d01edcf360540ab4bcd86a60945aac2184c500",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Scott Blumstein",
+    "state": "value"
+  },
+  "rationale": "The question is anchored to the completed 2017 event. Evidence e1 identifies Scott Blumstein as the Main Event first-place finisher, with no evidence of a subsequent revision or retirement.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

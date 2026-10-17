@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_318edb8b32721e39f5472155bce2b60038c24de056a00e74f42d0097dcb490de",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The evidence_sources array supplied in this blind request is empty, so no citable evidence exists to verify who is claimed by the frozen answer 'Ant & Dec' or to determine a current answer. Additionally, the question wording 'who used to present i'm a celebrity now' is internally ambiguous: 'now' could be a deictic marker (per audit_as_of policy, resolving to a present-tense reading) or could instead be part of the distinct show title 'I'm a Celebrity...Get Me Out of Here! NOW!', a companion/spin-off program with its own separate history of presenters. Without any evidence to disambiguate the entity reference or verify presenter history/timeline, and with zero supporting sources provided, I cannot establish reference-time validity, a later revision/retirement, or a reliable current-day answer. Abstaining conservatively per protocol instructions.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

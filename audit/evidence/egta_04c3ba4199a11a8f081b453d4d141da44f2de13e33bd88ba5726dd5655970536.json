@@ -1,0 +1,34 @@
+{
+  "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
+  "question": "nq question: who is the president of usa right now",
+  "frozen_answer": "Donald Trump",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://www.whitehouse.gov/administration/",
+      "title": "The Trump Administration",
+      "publisher": "The White House",
+      "source_tier": "official_primary",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "45th & 47th President of the United States",
+          "locator": "Administration 区 Trump 官方肖像下方副标题",
+          "supports": ["current_answer", "frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "After a landslide election victory in 2024, President Donald J. Trump is returning to the White House",
+          "locator": "Trump 肖像下方描述文字",
+          "supports": ["current_answer", "change_date"]
+        }
+      ]
+    }
+  ],
+  "search_log": "seed URL (whitehouse.gov 官方页) 可访问且支持性内容仍在。'45th & 47th' 同时支持 frozen 过去成立（第 45 任）与当前成立（第 47 任），即 STILL_VALID 且中间存在空档（页面本身只体现 2024 胜选后回归，未逐字给出 Biden 2021-2025 任期，故 change_date_hint 置 null）。单一官方源覆盖 (a)(b)，未再消耗预算。",
+  "change_date_hint": null
+}

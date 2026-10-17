@@ -1,0 +1,73 @@
+{
+  "evidence_package_id": "egta_evidence_a085ada41c23b1972aaee7910e1b9cd70f727b64fab6a5b8a13d95eea4a402c4",
+  "evidence_sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://learn.microsoft.com/en-us/officeupdates/update-history-office-2010-click-to-run",
+      "content_sha256": "1bef332dbb3f4b3810ab3406c41e336a2a5e159007e28bfadf9de9a581d6f8ac",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "Microsoft Learn",
+      "source_tier": "official_primary",
+      "spans": [
+        {
+          "locator": "note box above the update table (bold markers removed)",
+          "span_id": "s1",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "The most current version of Office 2010 is 14.0.7261.5000, which was released on October 13, 2020."
+        },
+        {
+          "locator": "update history table, 2017 release-year block, row cells joined with |",
+          "span_id": "s2",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "June 13 | 14.0.7182.5000 | KB 4023935"
+        },
+        {
+          "locator": "Important banner at top of page",
+          "span_id": "s3",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "Support for Office 2010 ended on October 13, 2020."
+        }
+      ],
+      "title": "Update history for Office 2010 Click-to-Run products - Office release notes | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/officeupdates/update-history-office-2010-click-to-run"
+    }
+  ],
+  "frozen_answer": {
+    "normalized": "14.0.7182.5000",
+    "raw": "14.0.7182.5000"
+  },
+  "item_id": "egta_417a8c76b0075eccfdf2fa4ee7c34b68790ab82099ce111eaa68559e8d5f3679",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "latest"
+      },
+      {
+        "kind": "explicit_year",
+        "text": "2010"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: what is the latest version of microsoft office 2010",
+  "schema_version": "egta.v1"
+}

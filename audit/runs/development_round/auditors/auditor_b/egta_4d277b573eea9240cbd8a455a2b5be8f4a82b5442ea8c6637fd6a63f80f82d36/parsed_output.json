@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_4d277b573eea9240cbd8a455a2b5be8f4a82b5442ea8c6637fd6a63f80f82d36",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The source identifies season 14 and states that the series concluded in 2021, but it does not identify which season was latest after the 2019 reference time or provide a dated season-level replacement event.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "insufficient_evidence"
+}

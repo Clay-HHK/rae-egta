@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_8284c64ad8cc63ffce0b61b437e5aa58cca9853d64ea838b5ef441510522ca48",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Sloane Stephens",
+    "state": "value"
+  },
+  "rationale": "Evidence span states Sloane Stephens won the 2017 US Open women's singles title, matching the frozen answer. That past tournament result is a fixed historical fact with no revision or retirement indicated in the package, so the answer remains valid for the 2017-specific question.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

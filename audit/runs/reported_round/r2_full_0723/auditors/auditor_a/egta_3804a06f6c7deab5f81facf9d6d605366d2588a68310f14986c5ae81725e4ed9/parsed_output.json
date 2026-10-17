@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_3804a06f6c7deab5f81facf9d6d605366d2588a68310f14986c5ae81725e4ed9",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "1983",
+    "state": "value"
+  },
+  "rationale": "The question asks for \"the last year\" (i.e., most recent year) the Raiders won the Super Bowl, an unqualified present-tense superlative, so per the reading policy it is evaluated as of audit_as_of (2026-07-21) and direction is 'current'. Evidence e1 (Las Vegas Raiders, Wikipedia, accessed 2026-07-22) lists the franchise's three Super Bowl championships as XI (1976), XV (1980), and XVIII (1983), with 1983 being the most recent and no later Raiders championship reported. This directly confirms the frozen answer '1983' remains correct at audit time; there is no evidence of the Raiders winning a Super Bowl after 1983. Evidence e2 concerns Super Bowl LX, a game between the Seahawks and Patriots with no Raiders involvement, so it does not bear on the Raiders' championship history and is not used to support the current answer despite its 'supports' tag. No revision or retirement event is indicated.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

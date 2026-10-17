@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_65345b3fe1cc99c84e26f12f8508ef78152a8b4df2114973adde0689f7e5f1fa",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Atlantic Ocean",
+    "state": "value"
+  },
+  "rationale": "“ocean current” is a common-noun description of the Gulf Stream, not a deictic temporal claim. The requested water body is therefore a non-temporal geographic fact.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

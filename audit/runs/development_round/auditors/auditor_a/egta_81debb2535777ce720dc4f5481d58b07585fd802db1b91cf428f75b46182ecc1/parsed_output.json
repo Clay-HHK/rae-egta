@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_81debb2535777ce720dc4f5481d58b07585fd802db1b91cf428f75b46182ecc1",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The evidence_sources array supplied with this blind request is empty, so there is no cited material to confirm the frozen answer ('February 27, 2015'), identify what work 'Where Are You Now' refers to, or assess whether the question concerns a static release-date fact versus something with temporal variability. Without any evidence to ground the claim, per protocol I must abstain rather than assert or supersede the frozen answer.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "uncertain",
+  "verdict": "insufficient_evidence"
+}

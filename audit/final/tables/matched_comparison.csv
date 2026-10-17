@@ -1,0 +1,3 @@
+method,qeval_row_count,target_row_count,obsolete_row_count,stable_row_count,historical_row_count,target_success,historical_accuracy,stable_accuracy,stable_cvbd,evidence_hit_target,obsolete_answer_rate,pre_event_retention_qeval,current_valid_accuracy_qeval
+oldref_adapted_preserver,17550,4500,4050,9000,4050,1.0,1.0,1.0,0.0,1.0,1.0,0.7435897435897436,0.7692307692307693
+postevent_validity_filter,17550,4500,4050,9000,4050,1.0,1.0,1.0,0.0,1.0,0.0,0.5128205128205128,1.0

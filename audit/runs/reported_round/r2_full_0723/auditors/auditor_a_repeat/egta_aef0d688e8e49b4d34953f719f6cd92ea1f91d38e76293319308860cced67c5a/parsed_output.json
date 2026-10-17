@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2020-04-01",
+    "latest": "2020-04-01",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_aef0d688e8e49b4d34953f719f6cd92ea1f91d38e76293319308860cced67c5a",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "7.1%",
+    "state": "value"
+  },
+  "rationale": "The query uses the deictic term \"current\", which under the protocol reading policy is interpreted relative to audit_as_of (2026-07-21), giving direction=current. The frozen answer 7.6% is corroborated by Wikipedia's historical rate table (e2/s1) as the PPF rate for Jan-Sep 2018, near the NQ reference period. Both e1 (Upstox, accessed 2026-07-22, reporting the July-Sep 2026 quarter rate) and e2 (Wikipedia table row \"April 2020 - September 2026\", 7.1%) agree the rate has been 7.1% continuously since April 1, 2020, with e1 explicitly stating \"no change in the interest rate for PPF deposits since April 1, 2020.\" This is a clear, source-agreeing revision: the frozen 7.6% figure held historically but was revised to 7.1% effective April 1, 2020, and remains the current rate through the 2026-07-21 audit date. No conflict between sources; both are consistent and mutually reinforcing on the current value and the April 2020 change date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

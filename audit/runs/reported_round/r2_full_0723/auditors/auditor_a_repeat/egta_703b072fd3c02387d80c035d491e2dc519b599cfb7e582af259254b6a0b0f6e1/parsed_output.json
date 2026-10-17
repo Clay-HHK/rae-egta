@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": "2025-02-09",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_703b072fd3c02387d80c035d491e2dc519b599cfb7e582af259254b6a0b0f6e1",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "2024",
+    "state": "value"
+  },
+  "rationale": "The question 'last year the Eagles went to the Super Bowl' is an unqualified present-tense superlative, read per policy relative to audit_as_of (2026-07-21), so direction is current. e2 (Wikipedia, Super Bowl LII) supports the frozen answer 2017 as the Eagles' most recent Super Bowl appearance (2017 season, played Feb 4, 2018) at/near the NQ reference time. e1 (ESPN, published 2025-02-09) establishes that the Eagles played in and won Super Bowl LIX on Feb 9, 2025, a materially later Super Bowl appearance (2024 season). This directly contradicts 2017 as still being the most recent appearance, so the frozen answer is superseded by a later revision (a newer Eagles Super Bowl appearance), not a retirement. Following the same season-year convention used for the frozen answer (2017 for the game played Feb 2018), the current canonical answer is 2024 (season corresponding to the Feb 9, 2025 game in e1). The exact date the frozen answer first became stale is not established by the provided evidence (an intervening Eagles Super Bowl appearance, e.g. Super Bowl LVII in Feb 2023, is plausible but not in the evidence package), so change_date is bounded only by the confirmed e1 date as a latest bound, with an open/unknown earliest bound. No conflict exists between e1 and e2, as they describe different, non-overlapping games.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

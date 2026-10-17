@@ -1,0 +1,30 @@
+{
+ "denominator_unique_items": 47,
+ "primary_reference_time_latest": "2019-12-31",
+ "accepted_supersession_primary": 6,
+ "accepted_items_primary": [
+  "egta_a4d88c02ca4ad9f1",
+  "egta_daab0bc1b66530b2",
+  "egta_aef0d688e8e49b4d",
+  "egta_703b072fd3c02387",
+  "egta_ed60b9d60120640b",
+  "egta_417a8c76b0075ecc"
+ ],
+ "strict_reference_time_latest": "2021-10-31",
+ "accepted_supersession_strict": 4,
+ "accepted_items_strict": [
+  "egta_a4d88c02ca4ad9f1",
+  "egta_daab0bc1b66530b2",
+  "egta_703b072fd3c02387",
+  "egta_ed60b9d60120640b"
+ ],
+ "queue_trigger_reason_counts": {
+  "auditor_ambiguity_or_conflict": 3,
+  "current_answer_incompatible": 11,
+  "revision_retirement_event_type_disagreement": 8,
+  "supporting_evidence_disagreement": 3,
+  "temporal_scope_disagreement": 4,
+  "verdict_disagreement": 23
+ },
+ "note": "primary bound follows audit/evidence/REFERENCE_TIME_PROVENANCE.md; strict bound is the MEND arXiv v1 date sensitivity check"
+}

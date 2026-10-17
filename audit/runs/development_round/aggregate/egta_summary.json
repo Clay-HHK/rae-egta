@@ -1,0 +1,137 @@
+{
+  "accepted_supersession": {
+    "denominator": 47,
+    "numerator": 0,
+    "rate": 0.0,
+    "wilson95_high": 0.07555760416399632,
+    "wilson95_low": -6.938893903907228e-18
+  },
+  "agreement": {
+    "current_answer": {
+      "denominator": 46,
+      "numerator": 32,
+      "rate": 0.6956521739130435,
+      "wilson95_high": 0.8092015919723277,
+      "wilson95_low": 0.5519435355159235
+    },
+    "event_type": {
+      "denominator": 46,
+      "numerator": 30,
+      "rate": 0.6521739130434783,
+      "wilson95_high": 0.7731900662924567,
+      "wilson95_low": 0.5077005884206276
+    },
+    "exact_class": {
+      "denominator": 46,
+      "numerator": 19,
+      "rate": 0.41304347826086957,
+      "wilson95_high": 0.5566050222015385,
+      "wilson95_low": 0.2828860322481277
+    },
+    "frozen_answer": {
+      "denominator": 46,
+      "numerator": 36,
+      "rate": 0.782608695652174,
+      "wilson95_high": 0.8773909467543746,
+      "wilson95_low": 0.6442631262842105
+    },
+    "mean_source_jaccard": {
+      "denominator": 46,
+      "numerator": "",
+      "rate": 0.9130434782608695,
+      "wilson95_high": null,
+      "wilson95_low": null
+    },
+    "shared_supporting_source": {
+      "denominator": 46,
+      "numerator": 35,
+      "rate": 0.7608695652173914,
+      "wilson95_high": 0.8608782222272219,
+      "wilson95_low": 0.6206486144237798
+    },
+    "temporal_scope": {
+      "denominator": 46,
+      "numerator": 21,
+      "rate": 0.45652173913043476,
+      "wilson95_high": 0.5981981894019872,
+      "wilson95_low": 0.32154733782284584
+    }
+  },
+  "schema_version": "egta_summary.v1",
+  "stability": {
+    "current_answer": {
+      "denominator": 44,
+      "numerator": 41,
+      "rate": 0.9318181818181818,
+      "wilson95_high": 0.9765406040926183,
+      "wilson95_low": 0.8177495562977846
+    },
+    "exact_class": {
+      "denominator": 44,
+      "numerator": 35,
+      "rate": 0.7954545454545454,
+      "wilson95_high": 0.8884674692991871,
+      "wilson95_low": 0.6549942193889834
+    },
+    "source_selection": {
+      "denominator": 44,
+      "numerator": 39,
+      "rate": 0.8863636363636364,
+      "wilson95_high": 0.950472193989075,
+      "wilson95_low": 0.7602084758339172
+    }
+  },
+  "terminal_item_count": 47,
+  "unique_item_count": 47,
+  "verdict_counts": {
+    "ambiguous_context": 29,
+    "historically_valid": 9,
+    "insufficient_evidence": 5,
+    "non_temporal_exclusion": 1,
+    "still_valid": 3
+  },
+  "verdict_distribution": {
+    "ambiguous_context": {
+      "denominator": 47,
+      "numerator": 29,
+      "rate": 0.6170212765957447,
+      "wilson95_high": 0.7420931890357799,
+      "wilson95_low": 0.47426566956413574
+    },
+    "historically_valid": {
+      "denominator": 47,
+      "numerator": 9,
+      "rate": 0.19148936170212766,
+      "wilson95_high": 0.32544004579661767,
+      "wilson95_low": 0.10415932698542259
+    },
+    "insufficient_evidence": {
+      "denominator": 47,
+      "numerator": 5,
+      "rate": 0.10638297872340426,
+      "wilson95_high": 0.22594269343738355,
+      "wilson95_low": 0.04630478218108157
+    },
+    "non_temporal_exclusion": {
+      "denominator": 47,
+      "numerator": 1,
+      "rate": 0.02127659574468085,
+      "wilson95_high": 0.11112981041629327,
+      "wilson95_low": 0.003765768038596788
+    },
+    "still_valid": {
+      "denominator": 47,
+      "numerator": 3,
+      "rate": 0.06382978723404255,
+      "wilson95_high": 0.17162614183124436,
+      "wilson95_low": 0.021945385205433238
+    }
+  },
+  "verifier_trigger": {
+    "denominator": 47,
+    "numerator": 32,
+    "rate": 0.6808510638297872,
+    "wilson95_high": 0.7960462125036255,
+    "wilson95_low": 0.5383265689689715
+  }
+}

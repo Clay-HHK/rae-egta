@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": false,
+  "item_id": "egta_d477d79b9c6a80fc7cef7bd21a604029bf224490f97fc610b95fa38740f9cee7",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "Per temporal policy, deictic “last year” is read as of audit_as_of 2026-07-21, so direction is current. The sole frozen span only states Thanksgiving 2023 fell on Nov 23 and does not confirm frozen 2017 at reference_time, nor whether any year after 2023 also falls on the 23rd, so the current “last year” and any supersession/change_date cannot be resolved from this package.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

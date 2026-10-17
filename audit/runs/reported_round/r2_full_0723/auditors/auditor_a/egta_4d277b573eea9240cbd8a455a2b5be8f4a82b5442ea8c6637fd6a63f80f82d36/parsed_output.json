@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2018-03-05",
+    "latest": "2021-06-20",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_4d277b573eea9240cbd8a455a2b5be8f4a82b5442ea8c6637fd6a63f80f82d36",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "Per the reading policy, the deictic anchor 'latest' is interpreted relative to audit_as_of (2026-07-21), giving direction=current. The frozen answer '14' (season 14, aired Oct 2017-Mar 2018, per s1) may have been the latest season near the reference_time (~2019), but s2/s3 establish the series continued and concluded June 20, 2021, meaning additional seasons aired after season 14, superseding it as the 'latest' season by audit time. The evidence does not state the exact final season number, so the current correct answer cannot be pinned down (state=unresolved); only that season 14 is no longer current. Change date is bounded between the end of season 14 (2018-03-04, earliest bound the next day) and the series finale (2021-06-20), the only dates available in evidence for when the answer became stale.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_65345b3fe1cc99c84e26f12f8508ef78152a8b4df2114973adde0689f7e5f1fa",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Atlantic Ocean",
+    "state": "value"
+  },
+  "rationale": "The question asks which water body the Gulf Stream flows along the western side of, with the frozen answer \"Atlantic Ocean.\" This is a stable physical-geographic fact (ocean current location relative to a named ocean basin) that is not subject to temporal change or revision over time, unlike facts about incumbents, records, or current events. No evidence sources were provided in this blind package to cite, but the classification as non-temporal rests on the intrinsic nature of the question itself (geography/oceanography), not on verifying a changeable fact. Since temporal_scope is non_temporal, verdict is null per protocol, and the proposed current answer matches the frozen answer.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

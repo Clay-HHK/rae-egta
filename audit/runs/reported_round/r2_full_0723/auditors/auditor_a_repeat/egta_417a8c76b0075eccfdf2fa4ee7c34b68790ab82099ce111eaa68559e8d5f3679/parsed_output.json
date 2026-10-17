@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2020-10-13",
+    "latest": "2020-10-13",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_417a8c76b0075eccfdf2fa4ee7c34b68790ab82099ce111eaa68559e8d5f3679",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "14.0.7261.5000",
+    "state": "value"
+  },
+  "rationale": "The \"2010\" in the question identifies the product (Microsoft Office 2010), not a temporal anchor for the question itself; the only temporal anchor is the deictic \"latest,\" which per policy is read relative to audit_as_of (2026-07-21), so direction is current. The frozen answer 14.0.7182.5000 (June 13, 2017, per e1/s2) plausibly reflected the latest version as of the reference_time (~2019). Evidence e1/s1 and e1/s3 (official Microsoft Learn page) establish that a later Click-to-Run build, 14.0.7261.5000, was released on 2020-10-13, coinciding with the end of Office 2010 support, and is now documented as the most current version. This later revision postdates the reference_time and makes the frozen answer no longer current at audit time, so the verdict is superseded_revision with the current answer being 14.0.7261.5000.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

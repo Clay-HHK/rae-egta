@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_27cc3be577dfa199a8288d6fb2564e669caa22e78287396813f898c77fe7f1f4",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The deictic phrase \"last year's\" lacks a resolved reference year. e1 identifies South Carolina as the 2017 winner but also shows later winners, so no single current answer can be proposed without resolving the question time.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "ambiguous_context"
+}

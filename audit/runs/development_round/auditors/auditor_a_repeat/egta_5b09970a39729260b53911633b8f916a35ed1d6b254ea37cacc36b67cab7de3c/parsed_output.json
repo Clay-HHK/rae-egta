@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2019-04-01",
+    "latest": "2019-04-30",
+    "precision": "month"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_5b09970a39729260b53911633b8f916a35ed1d6b254ea37cacc36b67cab7de3c",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "The frozen answer \"Miami Heat\" reflects Wade's team for most of his career (span s1), but the same source documents that he announced retirement in the 2018 offseason and played his final NBA game in April 2019 against Brooklyn (spans s2, s3), ending his career. As of audit_as_of 2026-07-21, a question asking who he plays for \"right now\" cannot be answered \"Miami Heat\" since he is retired and plays for no team; the frozen answer is superseded by his retirement.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_retirement"
+}

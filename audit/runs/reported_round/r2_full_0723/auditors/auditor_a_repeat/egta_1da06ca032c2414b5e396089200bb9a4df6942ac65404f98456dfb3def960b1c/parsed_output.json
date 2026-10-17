@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2015-01-01",
+    "latest": "2016-12-31",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_1da06ca032c2414b5e396089200bb9a4df6942ac65404f98456dfb3def960b1c",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Yushan, China",
+    "state": "value"
+  },
+  "rationale": "The deictic \"currently\" resolves to audit_as_of (2026-07-21) per the temporal reading policy, making direction \"current\". Evidence (e1, s2) states China hosted the World Open in Haikou from 2012 to 2014, then in Yushan since 2016, and (e1, s1) confirms the 2025 edition was held in Yushan. The frozen answer \"Haikou\" reflects the 2012-2014 venue, later revised to Yushan around 2015-2016, remaining Yushan through the audit date. Since reference_time's earliest bound is unspecified (only a 2019 latest bound), it is plausible the frozen answer was accurate at or near the actual annotation time, and the venue was subsequently revised, so this is classified as superseded_revision.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

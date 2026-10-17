@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_27cc3be577dfa199a8288d6fb2564e669caa22e78287396813f898c77fe7f1f4",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "UConn",
+    "state": "value"
+  },
+  "rationale": "Under the audit-time reading, “last year's” refers to 2025. e1 lists UConn as the 2025 winner, corroborated by e2's description of South Carolina's 2025 championship-game loss to UConn. e1 identifies South Carolina as the 2017 winner, but the evidence does not establish that the frozen answer was valid at or near the reference time, so a supersession date and revision verdict cannot be assigned conservatively.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

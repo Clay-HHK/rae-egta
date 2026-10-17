@@ -1,0 +1,10 @@
+{
+  "item_id": "egta_7f8c00077aec671118e0b415c7c22fe70389109e09d1d7a480002841efa7c98b",
+  "question": "nq question: what are the main sources of economic growth in the us currently",
+  "frozen_answer": "telecommunications",
+  "backfill_status": "insufficient_candidate",
+  "access_date": "2026-07-22",
+  "evidence_sources": [],
+  "search_log": "WebSearch (wikipedia 'economic history of the United States' economic growth telecommunications main sources): no Wikipedia article asserting telecommunications as the main source of current US growth; only sector-specific productivity pieces (BLS, Econlib, Fed). Fetched en.wikipedia.org/wiki/Technological_and_industrial_history_of_the_United_States: no sentence naming telecommunications as a main source of US economic growth. Wikipedia fulltext search for \"main sources of economic growth\"+telecommunications+United States: zero results. Question is subjective/deictic with no canonical current answer; the frozen NQ gold likely came from a 2017-2018 Wikipedia revision no longer present. Stopped within budget (2 searches + 2 fetches), no qualified supporting source found.",
+  "change_date_hint": null
+}

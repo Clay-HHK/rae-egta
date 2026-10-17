@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_a482982ba9a8c979ee19b978f6de860808684164eb5363cc0b9654ba9ce3ef2b",
+  "item_id": "egta_0dd7d306ea549b8e372c89e7ea6deea09860d8b16d46aa6c1243fe149c64d2bb",
+  "package_sha256": "a482982ba9a8c979ee19b978f6de860808684164eb5363cc0b9654ba9ce3ef2b",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "The winner was Essendon's Joe Daniher, which surprised many fans and media personal who expected Jeremy Howe of Collingwood to win the award",
+    "e2": "Essendon big man Joe Daniher took out the Mark of the Year\nRichmond youngster Daniel Rioli has been awarded the 2017 Goal of the Year for his remarkable effort from the boundary against West Coast."
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/2017_AFL_Mark_of_the_Year",
+      "content_sha256": "e681166d8306b72c78595ceffd510d0114518575465a8f93737828e47a93a46b",
+      "evidence_id": "e1",
+      "publication_or_update_date": "2026-01-16",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "article body, winner announcement",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer",
+            "current_answer"
+          ],
+          "text": "The winner was Essendon's Joe Daniher, which surprised many fans and media personal who expected Jeremy Howe of Collingwood to win the award"
+        }
+      ],
+      "title": "2017 AFL Mark of the Year",
+      "url": "https://en.wikipedia.org/wiki/2017_AFL_Mark_of_the_Year"
+    },
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://www.zerohanger.com/2017-mark-goal-year-winners-announced-15967/",
+      "content_sha256": "4b200dce4f9ab2eae3a238637809d651711ee7f0f620ddc7db484a3d299f12c6",
+      "evidence_id": "e2",
+      "publication_or_update_date": "2017-09-25",
+      "publisher": "Zero Hanger",
+      "source_tier": "reliable_secondary",
+      "spans": [
+        {
+          "locator": "article body",
+          "span_id": "s2",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "Essendon big man Joe Daniher took out the Mark of the Year"
+        },
+        {
+          "locator": "article body",
+          "span_id": "s3",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "Richmond youngster Daniel Rioli has been awarded the 2017 Goal of the Year for his remarkable effort from the boundary against West Coast."
+        }
+      ],
+      "title": "2017 Mark and Goal of the Year winners announced",
+      "url": "https://www.zerohanger.com/2017-mark-goal-year-winners-announced-15967/"
+    }
+  ]
+}

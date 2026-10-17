@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2023-11-23",
+    "latest": "2023-11-23",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_d477d79b9c6a80fc7cef7bd21a604029bf224490f97fc610b95fa38740f9cee7",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "2023",
+    "state": "value"
+  },
+  "rationale": "The question asks for the last year Thanksgiving fell on the 23rd, using a deictic anchor read relative to audit_as_of 2026-07-21, giving direction current. The frozen answer 2017 reflects the NQ annotation context, reference_time no later than 2019, consistent with 2017 being the most recent prior occurrence of Thanksgiving on Nov 23 at that time. Evidence e1 establishes that Thanksgiving 2023 was observed on Thursday, November 23. Since 2023 is a later occurrence than 2017, the frozen answer is superseded as of the audit date; the most recent evidenced matching year is 2023, effective from that occurrence. No evidence covers 2024 or 2025 Thanksgiving dates, but e1 is the only available data point and it identifies 2023 as the most recent matching year, making it the best evidence-grounded current answer.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

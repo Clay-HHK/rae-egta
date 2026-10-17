@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2020-04-01",
+    "latest": "2020-04-01",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_aef0d688e8e49b4d34953f719f6cd92ea1f91d38e76293319308860cced67c5a",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "7.1%",
+    "state": "value"
+  },
+  "rationale": "The query uses the deictic term \"current,\" which per the temporal reading policy is interpreted relative to audit_as_of (2026-07-21), giving direction=current. The frozen answer 7.6% matches the PPF rate documented for the Jan-Sep 2018 period (e2 s1), consistent with holding near the reference_time (annotation no later than 2019). Both evidence sources agree that the PPF interest rate was revised to 7.1% effective April 1, 2020 (e1 s2, e2 s2) and has remained unchanged at 7.1% through at least July-September 2026 (e1 s1, e2 s2), making it still the current rate as of audit_as_of. Since the frozen 7.6% answer was valid near reference_time but has since been superseded by a later rate revision, this is a case of superseded_revision, not still_valid or historically_valid (the question has no explicit year anchor).",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

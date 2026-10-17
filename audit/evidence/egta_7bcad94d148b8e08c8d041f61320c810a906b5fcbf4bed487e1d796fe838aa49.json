@@ -1,0 +1,28 @@
+{
+  "item_id": "egta_7bcad94d148b8e08c8d041f61320c810a906b5fcbf4bed487e1d796fe838aa49",
+  "question": "nq question: where is the world cup being held 2018",
+  "frozen_answer": "Russia",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup",
+      "title": "2018 FIFA World Cup",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "It took place in Russia from 14 June to 15 July 2018, after the country was awarded the hosting rights in late 2010.",
+          "locator": "article lead",
+          "supports": ["frozen_answer", "current_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Direct fetch of Wikipedia 2018 FIFA World Cup article; host country confirmed in lead. Last-edited date not visible in fetched excerpt, left null. 2018 host is a fixed past event, valid for the anchored year. 1 fetch used.",
+  "change_date_hint": null
+}

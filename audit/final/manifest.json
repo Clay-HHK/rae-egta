@@ -1,0 +1,178 @@
+{
+  "claim_boundary": "Existence in one sampled published lineage, controlled selection consequences, and controlled robustness only. No benchmark-wide prevalence, production-RAG, or human-confirmation claim.",
+  "date": "2026-07-24",
+  "generator": {
+    "path": "src/rae_egta/egta/final_evidence.py",
+    "sha256": "09f8fd835c90616e64c214eeabfae53d34286597c6351959a6784faf35932fa4"
+  },
+  "human_review_status": "PENDING_HUMAN",
+  "noise_inference": {
+    "manifest_sha256": "b5e08cd6cea4f1773a167365f9a4e2ae89be5ba4f063fa7be44d8f8843faee83",
+    "path": "data/noise_selection",
+    "run_id": "block_n_qeval_floor_selection_20260724_v4_clean"
+  },
+  "output_root": "<repo>/audit/final",
+  "outputs": [
+    {
+      "path": "FINAL_STATUS.md",
+      "sha256": "17781235078aeb1f32073435383c9e4b885e8a5ead9ff9d203957ac89d647f8a"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e97b25325c512ab945aee6009166536e1234dc566797b46b95ac9cd420ca14be"
+    },
+    {
+      "path": "figures/fig_sensitivity_bridge.pdf",
+      "sha256": "c541835644a912750f2ffa1d92aec5e9b02fdec0a62a4f5f2d224f95b3c34534"
+    },
+    {
+      "path": "figures/fig_sensitivity_bridge.png",
+      "sha256": "91e647f17fe3db2106b9a8d077402c3a7434eab7cb6bde5dc2c6c667124d07f4"
+    },
+    {
+      "path": "human_review/HUMAN_REVIEW_SIGNOFF.md",
+      "sha256": "709a0a04707527d1680c7edfc2239cdba0933f53cb4bd277eeb5a1093cdfc403"
+    },
+    {
+      "path": "human_review/adjudication.csv",
+      "sha256": "bf1d5b6de04e882b62de6e22a906982ec7113c2efd9594534d1f31a50736f346"
+    },
+    {
+      "path": "human_review/admin/case_key.csv",
+      "sha256": "069959767bc4766d87107334083d5c292f1043189728a1f4cd1e5371061cdf48"
+    },
+    {
+      "path": "human_review/cases/HR-001.md",
+      "sha256": "804298ee822c1a3e47ce9e474c3d36fb954b365197ab7b78c4da32b0150d99e4"
+    },
+    {
+      "path": "human_review/cases/HR-002.md",
+      "sha256": "4656549aaa7b929a3efce6807927c0a49fd1c99888544ab58aa45479737acd6c"
+    },
+    {
+      "path": "human_review/cases/HR-003.md",
+      "sha256": "c6e769b1987566103dabf75e46834044a7b7b4d8b90f3dfafbed9c1f7ec4cdd2"
+    },
+    {
+      "path": "human_review/cases/HR-004.md",
+      "sha256": "e0cc4f8aa91c818983eee9f66cfa205325a88086d230022e9684c23c340210e1"
+    },
+    {
+      "path": "human_review/cases/HR-005.md",
+      "sha256": "9184de1d36e737e6c4d98f5056e758b72cf79240043ee09202c33f376d43ef35"
+    },
+    {
+      "path": "human_review/cases/HR-006.md",
+      "sha256": "2c6c6699f065a34bc26724d43ee72f4b47be781e13903b2f96d8eeb1faddd6ae"
+    },
+    {
+      "path": "human_review/human_review_status.json",
+      "sha256": "e83477d290d7783e7168c0aa10ad233f438ec4648112b947362f742a4ec16b8d"
+    },
+    {
+      "path": "human_review/protocol.md",
+      "sha256": "f6052bcd55e7d64a528eb5501ebd706ac5193e6cc19cc5ce09a9bb78b288b4d4"
+    },
+    {
+      "path": "human_review/reviewer_a_decisions.csv",
+      "sha256": "18f2cf2664253465f1821feb8d6a438e3f3db7e3d11696d5a0a0abb8d9382f54"
+    },
+    {
+      "path": "human_review/reviewer_b_decisions.csv",
+      "sha256": "18f2cf2664253465f1821feb8d6a438e3f3db7e3d11696d5a0a0abb8d9382f54"
+    },
+    {
+      "path": "reports/claim_evidence_map.md",
+      "sha256": "a1edb43eaff0f73f580c338d339d9aea89b1523be4bd853de1278a8260dfb3eb"
+    },
+    {
+      "path": "reports/robustness_noise_selection.md",
+      "sha256": "dad2c9124ee227c83fb5a3dd668b809af6dd7e287051bb641db85beb6085ea78"
+    },
+    {
+      "path": "reports/sensitivity_bridge.md",
+      "sha256": "505ba8f41398e72cfcd684d01a80be0aebd9b46580700f564ba75c3bf726cfb4"
+    },
+    {
+      "path": "reports/matched_selection.md",
+      "sha256": "3b1093a9f38b32e07887c072533ecc752a4184712cc37a48101675c1a7ef5f15"
+    },
+    {
+      "path": "source_inventory.csv",
+      "sha256": "cb447de6cfaac519a4dfaaf0b7fe28aed67bc0ae30702e2509c5bfeb04b7992c"
+    },
+    {
+      "path": "source_snapshots/accepted_records.jsonl",
+      "sha256": "c6d326d23e28f19ba08f5d7f8be56f9b40f77c34f21552547ce04bda3a572557"
+    },
+    {
+      "path": "source_snapshots/egta_summary.json",
+      "sha256": "7233bbc9098f4378a2b1c60b895db6f6facb66c965689e55ceb78f3ce3c41965"
+    },
+    {
+      "path": "source_snapshots/protocol_audit_workbook_2026-07-17.md",
+      "sha256": "28e0a8864ebccfea13ad8edc2f4c66ffe6f3546e4a49a4628be9926f7806054d"
+    },
+    {
+      "path": "source_snapshots/sensitivity_reference_time.json",
+      "sha256": "0ee8985a39b491765ff9b1e743adaeb6b8dd0ad58cb4091702e14071c93484fb"
+    },
+    {
+      "path": "tables/robustness_event_types.csv",
+      "sha256": "51e52cb4aa6b07ab37f0b1d723c218e38d3aaa0866d06af724cbc56089726b9c"
+    },
+    {
+      "path": "tables/robustness_noise_selection.csv",
+      "sha256": "5a2014b12da1a1697155ad164cbe4cb415713c6a0a1cb74318b979e881356c97"
+    },
+    {
+      "path": "tables/robustness_reader_selection.csv",
+      "sha256": "8a7d6ee0398a3686596a87098e4edb836bd38604c2a1ab2cf986992c56ab56c1"
+    },
+    {
+      "path": "tables/audit_accepted_cases.csv",
+      "sha256": "de990c5a3ed7de875c78bf98cdd94f9b5df60e52774ea33b3e50b5497d84fddf"
+    },
+    {
+      "path": "tables/audit_summary.csv",
+      "sha256": "ca39108697a056758c3c71a89ff3e537edd0154da49b225d2ca6e5d52efa936f"
+    },
+    {
+      "path": "tables/protocol_audit.csv",
+      "sha256": "417726dbf709e77bd8b2a90269d8b2263201d8279b068fcc1f747e08045122c5"
+    },
+    {
+      "path": "tables/audit_verdict_distribution.csv",
+      "sha256": "8a5f370e38fb65ae3222d342741ad3abc65eaf171c53acd89a5f392a267a345b"
+    },
+    {
+      "path": "tables/sensitivity_scenarios.csv",
+      "sha256": "4a5f146443d50938a99778f2cd2fe7069e89b6250242adac1866c782bdd12d37"
+    },
+    {
+      "path": "tables/sensitivity_thresholds.csv",
+      "sha256": "ac02f2f1faded1d4809fd59995a7e082141fb7b723e0f051a01b8163d7850481"
+    },
+    {
+      "path": "tables/matched_comparison.csv",
+      "sha256": "cfcfb13fa260818a6cb1e1b4dec56dacfd170b84c7524cb1bcf42941b2f53ddd"
+    },
+    {
+      "path": "tables/matched_selection_summary.csv",
+      "sha256": "6dd5f29d63ec9b1ead5d866b6945e6370d9f6fcf0e8788fd18b10e311cbe343d"
+    }
+  ],
+  "repo_root": "<repo>",
+  "schema_version": "egta_final_bundle.v1",
+  "source_run_cleanliness": {
+    "matched_control_git_dirty": false,
+    "noise_all_source_runs_clean": true,
+    "noise_derived_inference_paper_facing_eligible": true,
+    "note": "The source-run manifests and the selected derived-inference run are clean; the current packaging worktree is tracked separately and all inputs are content-hashed."
+  },
+  "status": "COMPUTATIONAL_COMPLETE_HUMAN_PENDING",
+  "workspace_git": {
+    "git_dirty": true,
+    "git_sha": "829b25c2e55fc57d50b5a937e1ab475d807da486"
+  }
+}

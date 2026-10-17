@@ -1,0 +1,4 @@
+event_type,boundary_role,preserver_target_success,validity_filter_target_success,preserver_obsolete_answer_rate,validity_filter_obsolete_answer_rate,historical_accuracy_delta,event_gate_pass
+ADD,negative_control,1.0,1.0,nan,nan,nan,True
+RETIRE,positive_conflict,1.0,1.0,1.0,0.0,0.0,True
+REVISE,positive_conflict,1.0,1.0,1.0,0.0,0.0,True

@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2019-01-01",
+    "latest": "2021-12-31",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_903a0733925e3051675833bdacc7290cf9afb11f60025f7bedc5032a424344f5",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "27",
+    "state": "value"
+  },
+  "rationale": "Both sources (e1: DPIC, e2: World Population Review) agree that 27 US states currently have the death penalty, with 23 having abolished it. Evidence e1 documents New Hampshire (2019), Colorado (2020), and Virginia (2021) as the most recently abolishing states, indicating a downward trend from 2019-2021. Reconstructing backward from the current count of 27 using these three abolitions yields a pre-2019 figure of about 30, not 31; the frozen answer of 31 is not directly confirmed by evidence at any specific date, but the evidence clearly establishes the current (as of 2026-07-22) count is 27, not 31. Given the deictic anchor \"currently\" in the question, the frozen answer of 31 no longer matches the present state and is superseded by the sequence of state-level abolitions captured in the evidence. No conflict exists between the two sources themselves.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

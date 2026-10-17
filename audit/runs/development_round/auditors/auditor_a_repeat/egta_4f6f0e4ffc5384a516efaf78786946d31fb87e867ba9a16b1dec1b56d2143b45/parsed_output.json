@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2018-01-31",
+    "latest": "2018-04-12",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_4f6f0e4ffc5384a516efaf78786946d31fb87e867ba9a16b1dec1b56d2143b45",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Paul Hollis",
+    "state": "value"
+  },
+  "rationale": "The frozen answer \"David Motl\" reflects the Acting Director role held Jan 20, 2017 - Jan 31, 2018 (span s3). Per the same source, David J. Ryder became the confirmed 39th Director on April 12, 2018 (span s4), superseding Motl well within the NQ reference-time bound (latest 2019-12-31), so the answer was already outdated by the dataset's likely annotation window. The evidence further shows the office has since changed hands again: the current incumbent per the infobox and lead is Paul Hollis, confirmed Dec 18, 2025 and in office since Jan 5, 2026 (spans s1, s2). Since the question asks for the \"current\" director and the office has undergone multiple successions since Motl's tenure, the frozen answer is superseded via normal succession/revision, not retirement of the office itself.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

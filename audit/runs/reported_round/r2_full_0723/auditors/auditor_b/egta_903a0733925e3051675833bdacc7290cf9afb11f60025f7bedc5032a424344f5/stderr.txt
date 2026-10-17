@@ -1,0 +1,6 @@
+Reading additional input from stdin...
+2026-07-22T15:06:08.306570Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("http/request failed: error sending request for url (https://docs.langchain.com/mcp)")))
+2026-07-22T15:06:08.344213Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("http/request failed: error sending request for url (https://docs.langchain.com/mcp)")))
+2026-07-22T15:06:13.978029Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp), when send initialized notification
+2026-07-22T15:06:14.462899Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://docs.langchain.com/mcp), when send initialized notification
+2026-07-22T15:06:14.494014Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://docs.langchain.com/mcp), when send initialized notification

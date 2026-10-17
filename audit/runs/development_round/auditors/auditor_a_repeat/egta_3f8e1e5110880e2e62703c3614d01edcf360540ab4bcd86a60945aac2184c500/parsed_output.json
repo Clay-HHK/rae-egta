@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_3f8e1e5110880e2e62703c3614d01edcf360540ab4bcd86a60945aac2184c500",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Scott Blumstein",
+    "state": "value"
+  },
+  "rationale": "The question explicitly anchors to the 2017 WSOP Main Event, a single completed historical tournament. Evidence e1 (Wikipedia) confirms Scott Blumstein won first place ($8,150,000) in the 2017 Main Event that began July 8, 2017. Since the event is a fixed, closed historical fact, the winner cannot change over time; it is historically_valid for the specified year regardless of audit_as_of date. No revision or retirement is applicable to a concluded past championship.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

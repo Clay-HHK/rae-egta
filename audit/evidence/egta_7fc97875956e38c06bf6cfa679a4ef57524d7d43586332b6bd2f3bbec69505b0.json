@@ -1,0 +1,24 @@
+{
+  "item_id": "egta_7fc97875956e38c06bf6cfa679a4ef57524d7d43586332b6bd2f3bbec69505b0",
+  "question": "nq question: who is currently serving as president of the senate",
+  "frozen_answer": "Orrin Hatch",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/President_pro_tempore_of_the_United_States_Senate",
+      "title": "President pro tempore of the United States Senate - Wikipedia",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {"span_id": "s1", "text": "since January 3, 2025", "locator": "infobox, under Incumbent Chuck Grassley", "supports": ["current_answer", "change_date"]},
+        {"span_id": "s2", "text": "Hatch (2015–2019)", "locator": "historical list of presidents pro tempore", "supports": ["frozen_answer", "change_date"]}
+      ]
+    }
+  ],
+  "search_log": "Seed URL (congress.gov S.Res.3, 119th Congress) returned HTTP 403; senate.gov president pro tempore page also 403. Fell back to Wikipedia article: infobox shows incumbent Chuck Grassley since January 3, 2025, and the historical list shows Hatch (2015-2019), supporting both the frozen answer's past validity and the change. The NQ gold treats 'president of the senate' as president pro tempore. 3 fetches used.",
+  "change_date_hint": "2019-01 (Hatch tenure ended); most recent change 2025-01-03 (Grassley incumbent since)"
+}

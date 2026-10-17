@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2021-06-20",
+    "latest": "2021-06-20",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_5436c8fecc7349da7d8485ea69ab717235e99f6cbae7d17d667d168848679a9b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "20",
+    "state": "value"
+  },
+  "rationale": "Frozen answer 14 is identified via the Series overview Season 14 air dates. Infobox states 20 seasons total and the lead states the series concluded 2021-06-20, so the current latest-season answer is 20; 14 is superseded by later seasons. Query deictic latest remains ambiguous vs the NQ-era reference window, but evidence is sufficient for a current value.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

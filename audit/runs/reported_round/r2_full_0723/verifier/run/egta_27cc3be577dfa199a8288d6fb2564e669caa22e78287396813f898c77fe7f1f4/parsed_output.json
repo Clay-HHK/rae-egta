@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_27cc3be577dfa199a8288d6fb2564e669caa22e78287396813f898c77fe7f1f4",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "Deictic 'last year's' is read relative to audit_as_of 2026-07-21, but season-year vs calendar-year convention remains unresolved: evidence lists 2025 UConn and 2026 UCLA (game dated 2026-04-05), so the intended champion is not uniquely fixed; frozen South Carolina is only listed for 2017.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "ambiguous_context"
+}

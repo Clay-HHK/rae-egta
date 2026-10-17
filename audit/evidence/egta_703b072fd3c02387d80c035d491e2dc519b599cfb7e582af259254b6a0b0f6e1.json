@@ -1,0 +1,57 @@
+{
+  "item_id": "egta_703b072fd3c02387d80c035d491e2dc519b599cfb7e582af259254b6a0b0f6e1",
+  "question": "nq question: when was the last year the eagles went to the superbowl",
+  "frozen_answer": "2017",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://www.espn.com/nfl/recap/_/gameId/401671889",
+      "title": "Eagles 40-22 Chiefs (Feb 9, 2025) Game Recap - ESPN",
+      "publisher": "ESPN",
+      "source_tier": "reliable_secondary",
+      "publication_or_update_date": "2025-02-09",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "the Eagles routed the Chiefs 40-22 on Sunday to secure the franchise's second Super Bowl championship.",
+          "locator": "game recap body (Super Bowl LIX, Feb 9, 2025)",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s2",
+          "text": "the Philadelphia Eagles' ferocious defense denied Patrick Mahomes, Travis Kelce and the Kansas City Chiefs a Super Bowl three-peat",
+          "locator": "game recap lead",
+          "supports": ["current_answer"]
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Super_Bowl_LII",
+      "title": "Super Bowl LII",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "The underdog Eagles defeated the Patriots with a score of 41–33 to win their first Super Bowl and their first NFL title since 1960.",
+          "locator": "article lead section",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "February 4, 2018",
+          "locator": "infobox, Date field (Super Bowl LII, i.e. the 2017-season championship game)",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Seed URL verified accessible; ESPN recap confirms Eagles won Super Bowl LIX on 2025-02-09 (2024 season), superseding the frozen '2017' reading. Added Wikipedia Super Bowl LII as second source confirming the frozen answer's basis: Eagles appeared in and won the 2017-season Super Bowl played 2018-02-04. Intervening SB LVII appearance (Feb 2023) noted in legacy but not separately evidenced within budget.",
+  "change_date_hint": "2025-02-09 (Super Bowl LIX)"
+}

@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2018-01-01",
+    "latest": "2018-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "addition",
+  "frozen_answer_identified": true,
+  "item_id": "egta_102a00c3c3f8a27f09d2cdb280bfe4a865a59807d9369b1773b3a3c4b2c7336e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Terrell Owens",
+    "state": "value"
+  },
+  "rationale": "The question is anchored to the historical 2018 Hall of Fame selection. The official Hall of Fame profile identifies Terrell Owens as Class of 2018, and the corroborating encyclopedia source states that he was voted into the Hall of Fame in 2018.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

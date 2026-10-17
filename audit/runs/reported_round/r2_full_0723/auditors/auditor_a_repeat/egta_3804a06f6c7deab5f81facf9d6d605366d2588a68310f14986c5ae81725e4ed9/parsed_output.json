@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_3804a06f6c7deab5f81facf9d6d605366d2588a68310f14986c5ae81725e4ed9",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "1983",
+    "state": "value"
+  },
+  "rationale": "The question \"when was the last year the Raiders won the Super Bowl\" uses an unqualified present-tense superlative (\"last year ... won\"), read per policy relative to audit_as_of (2026-07-21), giving direction=current. e1 (Wikipedia, accessed 2026-07-22) states the Raiders' full championship history as \"three Super Bowl championships: XI (1976), XV (1980), and XVIII (1983)\" with no indication of any subsequent win, so 1983 remains the most recent Raiders Super Bowl win as of the audit date. e2 (Super Bowl LX) confirms the most recent Super Bowl in evidence did not involve the Raiders. No revision or retirement event is evidenced, so the frozen answer 1983 remains valid.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

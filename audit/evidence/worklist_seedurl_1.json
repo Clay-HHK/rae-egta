@@ -1,0 +1,82 @@
+[
+ {
+  "item_id": "egta_903a0733925e3051675833bdacc7290cf9afb11f60025f7bedc5032a424344f5",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: how many us states currently use capital punishment",
+  "frozen_answer": "31",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "27",
+  "legacy_note": "NH/CO/VA abolitions 2019-2021 cut count to 27",
+  "seed_url": "https://worldpopulationreview.com/state-rankings/death-penalty-states"
+ },
+ {
+  "item_id": "egta_240d8016383aef4cdec8c81300162d2521bbcba96b04d879ca26e560e057223e",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: who won latest america's next top model",
+  "frozen_answer": "Kyla Coleman",
+  "legacy_verdict": "STILL_VALID",
+  "legacy_current_answer": "Kyla Coleman",
+  "legacy_note": "cycle 24 (2018) was final; no revival",
+  "seed_url": "https://en.wikipedia.org/wiki/America%27s_Next_Top_Model_season_24"
+ },
+ {
+  "item_id": "egta_1da06ca032c2414b5e396089200bb9a4df6942ac65404f98456dfb3def960b1c",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: where is the snooker world open currently held",
+  "frozen_answer": "Haikou",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "Yushan, China",
+  "legacy_note": "World Open moved to Yushan 2016; gold likely already stale at freeze",
+  "seed_url": "https://en.wikipedia.org/wiki/2025_World_Open_(snooker)"
+ },
+ {
+  "item_id": "egta_27cc3be577dfa199a8288d6fb2564e669caa22e78287396813f898c77fe7f1f4",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: who won last year's ncaa women's basketball",
+  "frozen_answer": "South Carolina",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "UCLA (2026 champion); UConn (2025)",
+  "legacy_note": "either last-year reading (2025 UConn, 2026 UCLA) differs from frozen gold",
+  "seed_url": "https://www.ncaa.com/news/basketball-women/article/2026-04-05/2026-ncaa-womens-basketball-tournament-bracket-schedule-scores"
+ },
+ {
+  "item_id": "egta_48dd90728455b25e92cd213dbbf35bf75266c5e9039bcffc688c4b0fd88da493",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: when was the latest version of chrome released",
+  "frozen_answer": "2018-01-22",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "2026-06-30 (Chrome 151)",
+  "legacy_note": "4-week release cycle; answer changes monthly",
+  "seed_url": "https://chromereleases.googleblog.com/2026/07/"
+ },
+ {
+  "item_id": "egta_d477d79b9c6a80fc7cef7bd21a604029bf224490f97fc610b95fa38740f9cee7",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: when was the last year thanksgiving was on the 23rd",
+  "frozen_answer": "2017",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "2023",
+  "legacy_note": "Thanksgiving fell on Nov 23 in 2023",
+  "seed_url": "https://www.calendardate.com/thanksgiving_2023.htm"
+ },
+ {
+  "item_id": "egta_7fc97875956e38c06bf6cfa679a4ef57524d7d43586332b6bd2f3bbec69505b0",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: who is currently serving as president of the senate",
+  "frozen_answer": "Orrin Hatch",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "Chuck Grassley (president pro tempore)",
+  "legacy_note": "Hatch retired 2019; multiple successors; Grassley since Jan 2025",
+  "seed_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/3"
+ },
+ {
+  "item_id": "egta_9f48937f2846a57e5f4871a432ee132067b8b77a69293f05f6ff518e0c36421b",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: what is the latest version of chrome for linux",
+  "frozen_answer": "67.0",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "~150 (desktop stable, Jul 2026)",
+  "legacy_note": "Chrome iterated 67 to ~150 since 2018",
+  "seed_url": "https://chromereleases.googleblog.com/2026/07/"
+ }
+]

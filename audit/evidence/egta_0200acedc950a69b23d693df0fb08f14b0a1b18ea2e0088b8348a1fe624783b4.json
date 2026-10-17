@@ -1,0 +1,9 @@
+{
+ "item_id": "egta_0200acedc950a69b23d693df0fb08f14b0a1b18ea2e0088b8348a1fe624783b4",
+ "question": "nq question: who sang it must have been love but its over now",
+ "frozen_answer": "Roxette",
+ "backfill_status": "screening_only",
+ "screening_rationale": "song attribution; \"but it's over now\" is lyric text",
+ "evidence_sources": [],
+ "access_date": "2026-07-22"
+}

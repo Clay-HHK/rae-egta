@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_97ccd4a84ad55b9d24bcd0f953bb6a28a84a2a50a30c6846cbd1ff4fc4a4813b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Yuzuru Hanyu",
+    "state": "value"
+  },
+  "rationale": "The question asks who won men's figure skating at the 2018 Winter Olympics, an explicit, fixed historical event. Evidence e1 (span s1) confirms Yuzuru Hanyu won gold, consistent with the frozen answer. This is a one-time competition result that does not change over time (no evidence of subsequent disqualification or result revision), so the direction is historical and the frozen answer remains historically and currently valid.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

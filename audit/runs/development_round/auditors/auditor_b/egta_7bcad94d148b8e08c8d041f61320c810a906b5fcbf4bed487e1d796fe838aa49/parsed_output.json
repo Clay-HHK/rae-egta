@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_7bcad94d148b8e08c8d041f61320c810a906b5fcbf4bed487e1d796fe838aa49",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Russia",
+    "state": "value"
+  },
+  "rationale": "The question is explicitly anchored to the completed 2018 World Cup. Evidence e1 states that it took place in Russia in 2018, matching the frozen answer; no revision, retirement, or conflicting source is provided.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

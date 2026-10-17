@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_5436c8fecc7349da7d8485ea69ab717235e99f6cbae7d17d667d168848679a9b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "20",
+    "state": "value"
+  },
+  "rationale": "e1 identifies the frozen value 14 as a season entry and reports 20 seasons in the current infobox. However, the supplied context labels the temporal scope and direction uncertain/ambiguous, and no evidence dates the change from 14 to a later season count.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "ambiguous_context"
+}

@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2018-05-01",
+    "latest": "2018-05-31",
+    "precision": "month"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_458565b350c042b7a1b01af65c68678ea691a9909a70383eebe59f8abbdbfa01",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Scottie Scheffler",
+    "state": "value"
+  },
+  "rationale": "The question uses the deictic \"right now,\" which under the protocol policy is read relative to audit_as_of (2026-07-21), giving direction=current. Evidence e1/s1 confirms the frozen answer, Dustin Johnson, became world number one on Feb 19, 2017, consistent with the reference_time window (annotation no later than 2019, with no lower bound), so the frozen answer held near/within that window. Evidence e1/s2 establishes that Johnson was overtaken by Justin Thomas in May 2018, marking the first revision away from the frozen answer. Evidence e2/s4-s5 (dated as of July 19, 2026) and e1/s3 (2025 year-end table) both establish that Scottie Scheffler is the current world number one, distinct from the frozen answer. This is a clear revision-type change (ranking holder changed), not a retirement of the concept. change_date is anchored to the earliest documented divergence event (May 2018) rather than the full subsequent chain of holders, since the evidence package does not itemize every intervening change up to Scheffler.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

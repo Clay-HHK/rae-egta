@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_ec42c86eeb7627bca55ff1a3828a2f6827bce65b72675aeab81d28d311735747",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "ram nath kovind",
+    "state": "value"
+  },
+  "rationale": "Question is explicitly year-anchored to 2017, so direction is historical under the temporal reading policy. Evidence from the 2017 Indian presidential election article establishes that Ram Nath Kovind was a (NDA-backed) nominee and was declared President-elect after the 20 July 2017 count, so the frozen answer is valid at the anchored time. No later revision or retirement applies to this fixed historical fact; no source conflict.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

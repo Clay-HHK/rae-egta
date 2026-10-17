@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_3f8e1e5110880e2e62703c3614d01edcf360540ab4bcd86a60945aac2184c500",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Scott Blumstein",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (2017), so per the temporal reading policy direction is historical and the question is evaluated at that anchored time. Evidence e1 (Wikipedia's 2017 World Series of Poker article) shows Scott Blumstein won the 2017 WSOP Main Event, matching the frozen answer. This is a fixed historical fact (a completed tournament result) that does not change with the passage of time, so the frozen answer is historically valid at the 2017 anchor.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

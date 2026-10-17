@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2020-10-13",
+    "latest": "2020-10-13",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_417a8c76b0075eccfdf2fa4ee7c34b68790ab82099ce111eaa68559e8d5f3679",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "14.0.7261.5000",
+    "state": "value"
+  },
+  "rationale": "The frozen answer 14.0.7182.5000 corresponds to the June 13, 2017 update row (span s2) in the Office 2010 Click-to-Run update history, accurate as the 'latest' version at that earlier point. The same official page states in its note box (span s1) that the most current version of Office 2010 is 14.0.7261.5000, released October 13, 2020, coinciding with the end of support for Office 2010 (span s3). This is a revision: a later build superseded the 2017 build as the final release before support ended. Since the query asks generically for 'the latest version' (current-oriented), the frozen 2017-era answer is superseded by the later 2020 build documented in the same source.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

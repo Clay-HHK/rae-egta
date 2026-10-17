@@ -1,0 +1,8 @@
+benchmark_or_protocol,audit_role,affected_intersection_confirmed,changed_query_in_retention,unrelated_locality_separate,current_history_distinguished,s1_constructible,evidence_class,benchmark_verdict
+CounterFact / zsRE locality as used by ROME/MEMIT evaluations,Candidate,YES,YES (zsRE loc pool),PARTIAL (no changed-gold screening),NO,NO (parametric only),CONFIRMED_FROM_DATA + CONFIRMED_FROM_PAPER,HIT
+MQuAKE,Candidate,NO,NO (changed-gold queries are edit targets),N/A (no own locality metric),PARTIAL (a/a* recorded),"PARTIAL (pre/post gold pairs exist, no store counterfactual)",CONFIRMED_FROM_PAPER,NO-HIT (terminal)
+AToKe,Candidate,NO,Handled via explicit time qualification,YES,YES,NO (parametric only),CONFIRMED_FROM_PAPER,"NO-HIT, counter-example (terminal)"
+EvoWiki,Candidate,NO,NO (current gold on affected; outdated tracked separately),YES,YES (stable/evolved split),"PARTIAL (RAG arm has store, no frozen-component reference)",CONFIRMED_FROM_PAPER,"NO-HIT, aligned convention (terminal)"
+KnowEdit / QAEdit,Candidate,YES (inherited),YES (reuses zsRE loc pool verbatim),PARTIAL,NO,NO,CONFIRMED_FROM_PAPER (+ §2 data via inheritance),HIT (inherited)
+TemporalWiki,Substitute,NOT_USED,—,—,—,—,—,—
+FreshQA,Substitute,NOT_USED,—,—,—,—,—,—

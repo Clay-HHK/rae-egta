@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": false,
+  "item_id": "egta_81debb2535777ce720dc4f5481d58b07585fd802db1b91cf428f75b46182ecc1",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks for the release/premiere date of a work titled \"Where Are You Now,\" which is a fixed historical fact that does not change over calendar time, so per the protocol's non-time-sensitive-question rule this is temporal_scope=non_temporal, direction=none, verdict=null. The apparent \"now\" anchor is part of the work's title, not a deictic reference to the present, so it does not create a genuine current/historical direction question. Separately, no evidence_sources were supplied in this blind request (the evidence_sources array is empty), so no evidence ID can be cited and the frozen answer \"February 27, 2015\" cannot be confirmed or refuted against any source; frozen_answer_identified is therefore false and proposed_current_answer is unresolved.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

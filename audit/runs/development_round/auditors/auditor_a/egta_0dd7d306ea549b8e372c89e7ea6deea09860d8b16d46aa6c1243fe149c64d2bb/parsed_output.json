@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0dd7d306ea549b8e372c89e7ea6deea09860d8b16d46aa6c1243fe149c64d2bb",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "joe daniher",
+    "state": "value"
+  },
+  "rationale": "The question explicitly anchors to the year 2017, asking who won the AFL Mark of the Year (and Goal of the Year) for that specific season. Both e1 (Wikipedia, accessed 2026) and e2 (contemporaneous 2017 news report) agree Joe Daniher won the 2017 Mark of the Year, with no conflicting reports. This is a fixed historical sporting result tied to a specific past season; such award outcomes are not subject to later revision or retirement, so the fact remains true regardless of when it is queried. No change event applies. Note the frozen answer only addresses the Mark of the Year half of the compound question (Goal of the Year winner was Daniel Rioli per e2/s3), but that is a completeness issue rather than a temporal validity issue, so it does not affect the verdict on the cited frozen answer's temporal correctness.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

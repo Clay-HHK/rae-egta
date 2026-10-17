@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_e58bd4c760807425be44b2361300e77779104a70eb822717c45766e7446af699",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "26",
+    "state": "value"
+  },
+  "rationale": "The question concerns a completed 2018 tournament result. Evidence e1 states that India won 26 gold medals, matching the frozen answer; no temporal change is indicated.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

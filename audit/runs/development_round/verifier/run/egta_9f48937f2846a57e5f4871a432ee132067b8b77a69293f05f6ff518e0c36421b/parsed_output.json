@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2026-07-21",
+    "latest": "2026-07-21",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": false,
+  "item_id": "egta_9f48937f2846a57e5f4871a432ee132067b8b77a69293f05f6ff518e0c36421b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "Official Chrome Releases July 2026 archive shows Stable Channel Update for Desktop posts, with the most recent dated Tuesday, July 21, 2026. That establishes ongoing stable desktop releases long after version 67.0, so the frozen NQ answer cannot be the latest Chrome for Linux as of audit_as_of. Evidence spans give no version string, so the current latest value is unresolved while the frozen answer is treated as superseded by later stable-channel revision.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

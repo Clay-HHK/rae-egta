@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2018-12-01",
+    "latest": "2018-12-31",
+    "precision": "month"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0671570008bb8e9dbabca041f523b1dc8c4185a5a377af33bf7a7a98f4aac380",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Jamal Bryant",
+    "state": "value"
+  },
+  "rationale": "The frozen answer 'Stephen A. Davis' reflects a role he held from 2017 until his resignation in June 2018 (span s1). Wikipedia's History section (s2) states Jamal Bryant became senior pastor in December 2018, and the article's lead (s3, accessed 2026-05-18) confirms Bryant remains senior pastor since 2018. This is a single consistent source, so no conflict. The pastor changed (revision) with the change dated to December 2018, making Davis's status superseded as of that date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

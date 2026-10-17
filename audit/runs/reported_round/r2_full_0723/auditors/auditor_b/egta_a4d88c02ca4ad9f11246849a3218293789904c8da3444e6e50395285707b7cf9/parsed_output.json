@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2022-01-01",
+    "latest": "2022-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_a4d88c02ca4ad9f11246849a3218293789904c8da3444e6e50395285707b7cf9",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "10,758",
+    "state": "value"
+  },
+  "rationale": "The deictic term 'current' is evaluated at the audit date. The frozen answer is identified as Bora Bora's 2017 population (10,605), while the later 2022 census reports 10,758; this is a later population-value revision.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

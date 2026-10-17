@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_abef7c23ea52878030b6b91c618d3ab2c4954c48dac22e59520ac4aacdc3f344",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The supplied temporal context marks “now” as deictic, so the protocol requires a current reading. No evidence sources are provided to establish the performer at the reference time or audit time, or any later change.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

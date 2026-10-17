@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_97888a1e65e11adaa94b3d12c8bb3ad99e23da0eec8f720463ef2bfad99b5ed1",
+  "item_id": "egta_d477d79b9c6a80fc7cef7bd21a604029bf224490f97fc610b95fa38740f9cee7",
+  "package_sha256": "97888a1e65e11adaa94b3d12c8bb3ad99e23da0eec8f720463ef2bfad99b5ed1",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "Thanksgiving Day for the year 2023 is celebrated/ observed on Thursday, November 23rd."
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://www.calendardate.com/thanksgiving_2023.htm",
+      "content_sha256": "f4add54eec6a9b430d279d1db15682677ebbf31b7aa22cea5c65cc3b7acf9685",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "CalendarDate.com",
+      "source_tier": "reliable_secondary",
+      "spans": [
+        {
+          "locator": "page lead sentence",
+          "span_id": "s1",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "Thanksgiving Day for the year 2023 is celebrated/ observed on Thursday, November 23rd."
+        }
+      ],
+      "title": "Thanksgiving Day 2023 - Calendar Date",
+      "url": "https://www.calendardate.com/thanksgiving_2023.htm"
+    }
+  ]
+}

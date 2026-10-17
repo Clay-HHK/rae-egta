@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_7f8c00077aec671118e0b415c7c22fe70389109e09d1d7a480002841efa7c98b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "“currently” is read at the 2026-07-21 audit date. No evidence sources are provided to establish the current answer, the frozen answer's reference-time validity, or any intervening change.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

@@ -1,0 +1,3 @@
+old_method,postevent_method,old_target_success,postevent_target_success,target_success_delta,abs_target_success_delta,old_obsolete_answer_rate,postevent_obsolete_answer_rate,obsolete_answer_rate_reduction,old_evidence_hit,postevent_evidence_hit,evidence_hit_delta,old_cvbd,postevent_cvbd,cvbd_delta,old_historical_accuracy,postevent_historical_accuracy,historical_accuracy_delta,matched_target_success,r2_positive
+oldref_adapted_preserver,postevent_validity_filter,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,True,True
+oldref_adapted_preserver,intent_aware_postevent_filter,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,True,True

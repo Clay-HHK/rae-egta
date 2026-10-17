@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_ac827f227796c9832f983dde58060776bbc76ca43163b01222db0ef869539208",
+  "item_id": "egta_a4d88c02ca4ad9f11246849a3218293789904c8da3444e6e50395285707b7cf9",
+  "package_sha256": "ac827f227796c9832f983dde58060776bbc76ca43163b01222db0ef869539208",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "Its population was 10,758 at the 2022 census.\nPopulation (2022) 10,758",
+    "e2": "In 2012, the population was 9,858, which increased to 10,605 according to 2017 estimates\nPopulation: 10,605 (2017)"
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/Bora-Bora_(commune)",
+      "content_sha256": "3bbf757bea5f91da3e9d2f2564b3472c5ae6d8bd1810fcc6f3f1fbdbb51b38be",
+      "evidence_id": "e1",
+      "publication_or_update_date": "2024-05-21",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "开头段落",
+          "span_id": "s1",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "Its population was 10,758 at the 2022 census."
+        },
+        {
+          "locator": "右侧 infobox",
+          "span_id": "s2",
+          "supports": [
+            "current_answer"
+          ],
+          "text": "Population (2022) 10,758"
+        }
+      ],
+      "title": "Bora-Bora (commune) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bora-Bora_(commune)"
+    },
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/Bora_Bora",
+      "content_sha256": "32500f526d05a5c1f24f7e12a7ab4294fc592f6c922b0785715ac4bedce52f0c",
+      "evidence_id": "e2",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "Demographics 段",
+          "span_id": "s3",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "In 2012, the population was 9,858, which increased to 10,605 according to 2017 estimates"
+        },
+        {
+          "locator": "文首 infobox",
+          "span_id": "s4",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "Population: 10,605 (2017)"
+        }
+      ],
+      "title": "Bora Bora - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bora_Bora"
+    }
+  ]
+}

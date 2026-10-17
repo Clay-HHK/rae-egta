@@ -1,0 +1,7183 @@
+{
+  "args": {
+    "add_fraction": 0.1,
+    "chunk_noise_paragraphs": 0,
+    "device": "cuda",
+    "distractors_per_event": 2,
+    "events": 400,
+    "methods": [
+      "no_update",
+      "store_only",
+      "query_rewrite_update",
+      "oldref_adapted_preserver",
+      "postevent_validity_filter",
+      "intent_aware_postevent_filter"
+    ],
+    "noise_assignment_seed": 20260714,
+    "noise_factor": "metadata_missing",
+    "noise_rate": 0.05,
+    "output_dir": "runs/block_n_metadata_intent_noise/metadata_missing_05",
+    "partial_write_every_queries": 250,
+    "rerank_candidate_k": 20,
+    "retire_fraction": 0.4,
+    "retriever": "bm25",
+    "revise_fraction": 0.5,
+    "run_id": "block_n_metadata_missing_05",
+    "seeds": [
+      13,
+      21,
+      34
+    ],
+    "stable_queries_per_event": 2,
+    "stress_axis": "lexical_schema",
+    "top_k": 5
+  },
+  "chunk_record_count": 16560,
+  "condition_spec_hash": "f72e404acb69657e908d0f33f160f6ebb697e10e88f8780ed7e56ce535b721f1",
+  "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+  "document_record_count": 8280,
+  "environment": {
+    "command": "<server-env>/bin/python <server-workspace>/clean_checkout/src/rae_egta/rag_post_event/run_document.py --output-dir runs/block_n_metadata_intent_noise/metadata_missing_05 --run-id block_n_metadata_missing_05 --events 400 --seeds 13 21 34 --methods no_update store_only query_rewrite_update oldref_adapted_preserver postevent_validity_filter intent_aware_postevent_filter --stable-queries-per-event 2 --add-fraction 0.10 --revise-fraction 0.50 --retire-fraction 0.40 --distractors-per-event 2 --chunk-noise-paragraphs 0 --retriever bm25 --top-k 5 --rerank-candidate-k 20 --stress-axis lexical_schema --noise-factor metadata_missing --noise-rate 0.05 --noise-assignment-seed 20260714 --partial-write-every-queries 250 --device cuda",
+    "cuda_available": true,
+    "cuda_device": "Tesla T4",
+    "cuda_version": "12.4",
+    "device": "cuda",
+    "numpy_version": "1.26.4",
+    "pyg_version": "2.8.0",
+    "python_version": "3.12.2",
+    "torch_version": "2.6.0+cu124"
+  },
+  "event_record_count": 1200,
+  "experiment": "rag_post_event_controlled_document_rag",
+  "git": {
+    "git_dirty": false,
+    "git_dirty_ignored_paths": [
+      "data"
+    ],
+    "git_dirty_ignored_prefixes": [
+      "data/",
+      "experiments/kg_external_validation/data/eval_panels/",
+      "experiments/kg_external_validation/data/retired_provenance_audit/",
+      "experiments/kg_external_validation/runs/",
+      "experiments/kg_external_validation/go/runs/",
+      "experiments/primekg_mvp/outputs/",
+      "runs/"
+    ],
+    "git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1",
+    "git_status_short": "",
+    "git_status_short_raw": "<omitted>"
+  },
+  "methods": [
+    "no_update",
+    "store_only",
+    "query_rewrite_update",
+    "oldref_adapted_preserver",
+    "postevent_validity_filter",
+    "intent_aware_postevent_filter"
+  ],
+  "noise_assignment": {
+    "affected_count": 414,
+    "affected_ids": [
+      "13:e0006_old",
+      "13:e0007_stable_0",
+      "13:e0010_distractor_0",
+      "13:e0012_distractor_1",
+      "13:e0012_stable_0",
+      "13:e0017_current",
+      "13:e0027_current",
+      "13:e0030_stable_1",
+      "13:e0033_old",
+      "13:e0035_distractor_0",
+      "13:e0035_stable_1",
+      "13:e0039_stable_0",
+      "13:e0043_historical",
+      "13:e0045_current",
+      "13:e0047_current",
+      "13:e0060_current",
+      "13:e0060_distractor_0",
+      "13:e0063_current",
+      "13:e0064_current",
+      "13:e0064_old",
+      "13:e0069_current",
+      "13:e0073_old",
+      "13:e0075_old",
+      "13:e0081_current",
+      "13:e0082_distractor_0",
+      "13:e0082_distractor_1",
+      "13:e0084_stable_1",
+      "13:e0088_distractor_0",
+      "13:e0090_distractor_1",
+      "13:e0091_distractor_0",
+      "13:e0093_distractor_1",
+      "13:e0096_stable_0",
+      "13:e0115_stable_1",
+      "13:e0121_old",
+      "13:e0122_stable_0",
+      "13:e0128_distractor_0",
+      "13:e0131_current",
+      "13:e0131_stable_1",
+      "13:e0132_stable_0",
+      "13:e0133_historical",
+      "13:e0138_distractor_0",
+      "13:e0141_old",
+      "13:e0143_stable_0",
+      "13:e0144_current",
+      "13:e0148_current",
+      "13:e0149_current",
+      "13:e0157_historical",
+      "13:e0161_distractor_1",
+      "13:e0162_historical",
+      "13:e0163_stable_0",
+      "13:e0169_current",
+      "13:e0174_old",
+      "13:e0175_stable_0",
+      "13:e0176_stable_0",
+      "13:e0177_current",
+      "13:e0181_stable_1",
+      "13:e0183_stable_0",
+      "13:e0190_historical",
+      "13:e0192_current",
+      "13:e0195_historical",
+      "13:e0197_distractor_1",
+      "13:e0198_distractor_0",
+      "13:e0200_stable_0",
+      "13:e0206_historical",
+      "13:e0208_distractor_0",
+      "13:e0208_old",
+      "13:e0208_stable_0",
+      "13:e0214_old_missing",
+      "13:e0218_stable_1",
+      "13:e0224_distractor_0",
+      "13:e0224_old",
+      "13:e0225_stable_0",
+      "13:e0226_distractor_0",
+      "13:e0226_historical",
+      "13:e0227_historical",
+      "13:e0236_historical",
+      "13:e0240_historical",
+      "13:e0242_historical",
+      "13:e0244_stable_1",
+      "13:e0246_distractor_1",
+      "13:e0254_stable_0",
+      "13:e0261_distractor_0",
+      "13:e0262_distractor_1",
+      "13:e0263_old",
+      "13:e0265_distractor_1",
+      "13:e0265_stable_0",
+      "13:e0268_old",
+      "13:e0270_current",
+      "13:e0270_distractor_1",
+      "13:e0271_distractor_0",
+      "13:e0271_old",
+      "13:e0273_distractor_0",
+      "13:e0273_historical",
+      "13:e0281_distractor_0",
+      "13:e0281_historical",
+      "13:e0283_distractor_1",
+      "13:e0284_stable_1",
+      "13:e0286_historical",
+      "13:e0291_old",
+      "13:e0293_stable_0",
+      "13:e0296_distractor_1",
+      "13:e0296_stable_1",
+      "13:e0298_stable_0",
+      "13:e0300_old",
+      "13:e0302_old_missing",
+      "13:e0307_distractor_0",
+      "13:e0310_old",
+      "13:e0311_distractor_1",
+      "13:e0320_distractor_1",
+      "13:e0321_stable_0",
+      "13:e0325_distractor_1",
+      "13:e0331_distractor_1",
+      "13:e0336_distractor_1",
+      "13:e0340_stable_1",
+      "13:e0341_distractor_0",
+      "13:e0346_distractor_1",
+      "13:e0347_stable_0",
+      "13:e0349_distractor_0",
+      "13:e0350_current",
+      "13:e0358_old",
+      "13:e0360_historical",
+      "13:e0361_stable_0",
+      "13:e0363_historical",
+      "13:e0365_old",
+      "13:e0367_current",
+      "13:e0370_stable_1",
+      "13:e0371_stable_0",
+      "13:e0372_stable_0",
+      "13:e0374_distractor_1",
+      "13:e0379_historical",
+      "13:e0379_stable_1",
+      "13:e0380_distractor_1",
+      "13:e0384_stable_0",
+      "13:e0386_stable_0",
+      "13:e0389_distractor_1",
+      "13:e0394_stable_1",
+      "13:e0395_current",
+      "13:e0395_stable_1",
+      "21:e0007_historical",
+      "21:e0009_historical",
+      "21:e0011_historical",
+      "21:e0013_distractor_0",
+      "21:e0014_old",
+      "21:e0015_distractor_0",
+      "21:e0015_stable_1",
+      "21:e0016_distractor_1",
+      "21:e0018_distractor_0",
+      "21:e0025_stable_0",
+      "21:e0027_old",
+      "21:e0029_distractor_1",
+      "21:e0033_stable_1",
+      "21:e0034_distractor_1",
+      "21:e0039_historical",
+      "21:e0046_stable_0",
+      "21:e0054_stable_0",
+      "21:e0055_stable_1",
+      "21:e0061_distractor_0",
+      "21:e0062_old",
+      "21:e0064_current",
+      "21:e0065_current",
+      "21:e0065_distractor_0",
+      "21:e0066_distractor_1",
+      "21:e0071_stable_0",
+      "21:e0072_current",
+      "21:e0072_distractor_0",
+      "21:e0078_distractor_0",
+      "21:e0080_stable_1",
+      "21:e0088_stable_1",
+      "21:e0090_distractor_0",
+      "21:e0092_stable_1",
+      "21:e0094_distractor_0",
+      "21:e0095_historical",
+      "21:e0096_current",
+      "21:e0100_distractor_1",
+      "21:e0100_old",
+      "21:e0101_historical",
+      "21:e0102_distractor_1",
+      "21:e0106_current",
+      "21:e0108_stable_0",
+      "21:e0110_stable_1",
+      "21:e0113_distractor_0",
+      "21:e0117_stable_1",
+      "21:e0118_current",
+      "21:e0118_stable_0",
+      "21:e0120_distractor_0",
+      "21:e0122_current",
+      "21:e0126_old",
+      "21:e0131_distractor_0",
+      "21:e0137_stable_0",
+      "21:e0141_old",
+      "21:e0142_stable_1",
+      "21:e0143_distractor_0",
+      "21:e0150_old",
+      "21:e0153_stable_1",
+      "21:e0154_historical",
+      "21:e0158_historical",
+      "21:e0160_old_missing",
+      "21:e0168_current",
+      "21:e0169_historical",
+      "21:e0171_historical",
+      "21:e0174_distractor_0",
+      "21:e0176_current",
+      "21:e0176_stable_1",
+      "21:e0177_distractor_0",
+      "21:e0178_distractor_1",
+      "21:e0180_distractor_1",
+      "21:e0181_old",
+      "21:e0183_current",
+      "21:e0184_stable_0",
+      "21:e0184_stable_1",
+      "21:e0190_stable_1",
+      "21:e0192_historical",
+      "21:e0196_distractor_0",
+      "21:e0198_historical",
+      "21:e0198_stable_0",
+      "21:e0204_current",
+      "21:e0204_historical",
+      "21:e0209_distractor_0",
+      "21:e0212_stable_0",
+      "21:e0213_current",
+      "21:e0213_stable_0",
+      "21:e0214_current",
+      "21:e0217_stable_0",
+      "21:e0225_stable_1",
+      "21:e0230_distractor_1",
+      "21:e0243_distractor_1",
+      "21:e0246_distractor_0",
+      "21:e0247_stable_1",
+      "21:e0249_stable_0",
+      "21:e0253_stable_1",
+      "21:e0257_old",
+      "21:e0258_current",
+      "21:e0268_old_missing",
+      "21:e0270_old",
+      "21:e0279_historical",
+      "21:e0280_historical",
+      "21:e0280_old",
+      "21:e0284_current",
+      "21:e0292_stable_0",
+      "21:e0296_distractor_1",
+      "21:e0296_old",
+      "21:e0300_old",
+      "21:e0300_stable_0",
+      "21:e0302_distractor_1",
+      "21:e0309_stable_1",
+      "21:e0310_distractor_0",
+      "21:e0311_distractor_1",
+      "21:e0312_distractor_1",
+      "21:e0312_old",
+      "21:e0316_distractor_1",
+      "21:e0316_stable_1",
+      "21:e0325_distractor_1",
+      "21:e0325_historical",
+      "21:e0330_old",
+      "21:e0337_stable_0",
+      "21:e0341_current",
+      "21:e0343_old",
+      "21:e0344_historical",
+      "21:e0345_distractor_0",
+      "21:e0345_historical",
+      "21:e0349_stable_1",
+      "21:e0353_stable_0",
+      "21:e0354_current",
+      "21:e0368_stable_1",
+      "21:e0370_current",
+      "21:e0371_distractor_1",
+      "21:e0372_stable_0",
+      "21:e0375_current",
+      "21:e0375_stable_1",
+      "21:e0381_stable_0",
+      "21:e0387_current",
+      "21:e0387_old",
+      "21:e0391_old",
+      "21:e0393_distractor_0",
+      "21:e0396_distractor_0",
+      "21:e0397_distractor_0",
+      "34:e0007_stable_1",
+      "34:e0009_old",
+      "34:e0012_current",
+      "34:e0012_stable_0",
+      "34:e0015_distractor_0",
+      "34:e0016_stable_0",
+      "34:e0021_old",
+      "34:e0024_distractor_1",
+      "34:e0024_historical",
+      "34:e0026_distractor_1",
+      "34:e0027_stable_1",
+      "34:e0030_stable_0",
+      "34:e0031_stable_1",
+      "34:e0035_current",
+      "34:e0035_historical",
+      "34:e0036_current",
+      "34:e0038_distractor_1",
+      "34:e0040_old",
+      "34:e0041_current",
+      "34:e0045_old",
+      "34:e0048_stable_0",
+      "34:e0051_distractor_1",
+      "34:e0054_distractor_1",
+      "34:e0054_old",
+      "34:e0058_current",
+      "34:e0058_distractor_0",
+      "34:e0064_historical",
+      "34:e0065_historical",
+      "34:e0069_old",
+      "34:e0075_old",
+      "34:e0078_distractor_0",
+      "34:e0081_stable_0",
+      "34:e0083_distractor_1",
+      "34:e0083_stable_1",
+      "34:e0086_distractor_1",
+      "34:e0098_stable_0",
+      "34:e0100_historical",
+      "34:e0102_historical",
+      "34:e0102_stable_1",
+      "34:e0104_historical",
+      "34:e0104_stable_0",
+      "34:e0107_stable_0",
+      "34:e0108_distractor_1",
+      "34:e0112_distractor_1",
+      "34:e0114_current",
+      "34:e0118_historical",
+      "34:e0119_distractor_0",
+      "34:e0130_distractor_0",
+      "34:e0133_distractor_1",
+      "34:e0136_old",
+      "34:e0139_old_missing",
+      "34:e0140_stable_1",
+      "34:e0142_stable_1",
+      "34:e0144_historical",
+      "34:e0144_stable_1",
+      "34:e0146_stable_0",
+      "34:e0148_old",
+      "34:e0151_distractor_1",
+      "34:e0161_distractor_1",
+      "34:e0164_distractor_1",
+      "34:e0168_current",
+      "34:e0170_historical",
+      "34:e0170_stable_1",
+      "34:e0178_current",
+      "34:e0183_historical",
+      "34:e0188_distractor_0",
+      "34:e0188_old_missing",
+      "34:e0194_distractor_1",
+      "34:e0203_distractor_1",
+      "34:e0208_current",
+      "34:e0208_stable_0",
+      "34:e0213_current",
+      "34:e0217_stable_0",
+      "34:e0218_distractor_1",
+      "34:e0224_stable_1",
+      "34:e0225_current",
+      "34:e0225_distractor_0",
+      "34:e0226_distractor_0",
+      "34:e0226_old",
+      "34:e0228_current",
+      "34:e0234_historical",
+      "34:e0239_old",
+      "34:e0244_current",
+      "34:e0244_historical",
+      "34:e0254_historical",
+      "34:e0255_stable_0",
+      "34:e0255_stable_1",
+      "34:e0265_current",
+      "34:e0265_old",
+      "34:e0272_distractor_1",
+      "34:e0272_stable_1",
+      "34:e0275_distractor_0",
+      "34:e0275_stable_0",
+      "34:e0280_distractor_1",
+      "34:e0281_old",
+      "34:e0281_stable_1",
+      "34:e0282_current",
+      "34:e0286_historical",
+      "34:e0288_old",
+      "34:e0294_distractor_0",
+      "34:e0294_old",
+      "34:e0298_distractor_1",
+      "34:e0298_stable_0",
+      "34:e0298_stable_1",
+      "34:e0300_historical",
+      "34:e0301_current",
+      "34:e0305_stable_0",
+      "34:e0308_old",
+      "34:e0313_current",
+      "34:e0322_distractor_1",
+      "34:e0323_current",
+      "34:e0325_stable_1",
+      "34:e0326_distractor_1",
+      "34:e0329_stable_1",
+      "34:e0330_distractor_0",
+      "34:e0333_stable_0",
+      "34:e0337_stable_0",
+      "34:e0338_distractor_1",
+      "34:e0342_old",
+      "34:e0342_stable_1",
+      "34:e0349_historical",
+      "34:e0352_distractor_1",
+      "34:e0353_stable_0",
+      "34:e0359_distractor_1",
+      "34:e0360_old",
+      "34:e0361_distractor_0",
+      "34:e0363_distractor_0",
+      "34:e0367_stable_1",
+      "34:e0369_stable_1",
+      "34:e0372_current",
+      "34:e0372_stable_0",
+      "34:e0378_current",
+      "34:e0382_stable_0",
+      "34:e0389_distractor_1",
+      "34:e0390_historical",
+      "34:e0393_distractor_0",
+      "34:e0395_distractor_1",
+      "34:e0395_stable_0"
+    ],
+    "assignment_hash": "1a176393ac510222a3d6f37fc89af5f46a358891a06d97deb4ccaeac9d193469",
+    "assignment_seed": 20260714,
+    "changes": [
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 6,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0006_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 7,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0007_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 10,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0010_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 12,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0012_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 12,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0012_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 17,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0017_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 27,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0027_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 30,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0030_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 33,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0033_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 35,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0035_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 35,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0035_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 39,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0039_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 43,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0043_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 45,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0045_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 47,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0047_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 60,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0060_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 60,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0060_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 63,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0063_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 64,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0064_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 64,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0064_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 69,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0069_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 73,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0073_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 75,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0075_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 81,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0081_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 82,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0082_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 82,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0082_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 84,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0084_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 88,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0088_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 90,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0090_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 91,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0091_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 93,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0093_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 96,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0096_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 115,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0115_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 121,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0121_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 122,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0122_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 128,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0128_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 131,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0131_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 131,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0131_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 132,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0132_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 133,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0133_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 138,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0138_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 141,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0141_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 143,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0143_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 144,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0144_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 148,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0148_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 149,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0149_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 157,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0157_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 161,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0161_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 162,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0162_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 163,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0163_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 169,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0169_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 174,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0174_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 175,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0175_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 176,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0176_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 177,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0177_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 181,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0181_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 183,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0183_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 190,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0190_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 192,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0192_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 195,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0195_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 197,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0197_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 198,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0198_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 200,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0200_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 206,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0206_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 208,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0208_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 208,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0208_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 208,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0208_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old_missing",
+          "version": "old"
+        },
+        "event_id": 214,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "old_missing",
+        "unit_id": "13:e0214_old_missing",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 218,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0218_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 224,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0224_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 224,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0224_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 225,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0225_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 226,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0226_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 226,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0226_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 227,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0227_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 236,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0236_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 240,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0240_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 242,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0242_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 244,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0244_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 246,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0246_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 254,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0254_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 261,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0261_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 262,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0262_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 263,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0263_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 265,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0265_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 265,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0265_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 268,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0268_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 270,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0270_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 270,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0270_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 271,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0271_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 271,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0271_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 273,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0273_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 273,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0273_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 281,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0281_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 281,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0281_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 283,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0283_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 284,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0284_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 286,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0286_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 291,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0291_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 293,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0293_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 296,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0296_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 296,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0296_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 298,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0298_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 300,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0300_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old_missing",
+          "version": "old"
+        },
+        "event_id": 302,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "old_missing",
+        "unit_id": "13:e0302_old_missing",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 307,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0307_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 310,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0310_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 311,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0311_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 320,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0320_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 321,
+        "event_type": "ADD",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0321_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 325,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0325_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 331,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0331_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 336,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0336_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 340,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0340_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 341,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0341_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 346,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0346_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 347,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0347_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 349,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0349_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 350,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0350_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 358,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0358_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 360,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0360_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 361,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0361_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 363,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0363_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 365,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "old",
+        "unit_id": "13:e0365_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 367,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0367_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 370,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0370_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 371,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0371_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 372,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0372_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 374,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0374_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 379,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "historical",
+        "unit_id": "13:e0379_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 379,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0379_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 380,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0380_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 384,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0384_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 386,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0386_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 389,
+        "event_type": "RETIRE",
+        "seed": 13,
+        "stratum_label": "distractor",
+        "unit_id": "13:e0389_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 394,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0394_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 395,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "current",
+        "unit_id": "13:e0395_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 395,
+        "event_type": "REVISE",
+        "seed": 13,
+        "stratum_label": "stable",
+        "unit_id": "13:e0395_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 7,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0007_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 9,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0009_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 11,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0011_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 13,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0013_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 14,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0014_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 15,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0015_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 15,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0015_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 16,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0016_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 18,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0018_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 25,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0025_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 27,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0027_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 29,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0029_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 33,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0033_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 34,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0034_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 39,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0039_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 46,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0046_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 54,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0054_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 55,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0055_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 61,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0061_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 62,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0062_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 64,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0064_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 65,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0065_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 65,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0065_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 66,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0066_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 71,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0071_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 72,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0072_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 72,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0072_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 78,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0078_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 80,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0080_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 88,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0088_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 90,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0090_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 92,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0092_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 94,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0094_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 95,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0095_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 96,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0096_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 100,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0100_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 100,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0100_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 101,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0101_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 102,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0102_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 106,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0106_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 108,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0108_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 110,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0110_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 113,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0113_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 117,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0117_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 118,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0118_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 118,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0118_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 120,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0120_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 122,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0122_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 126,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0126_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 131,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0131_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 137,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0137_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 141,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0141_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 142,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0142_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 143,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0143_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 150,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0150_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 153,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0153_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 154,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0154_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 158,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0158_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old_missing",
+          "version": "old"
+        },
+        "event_id": 160,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "old_missing",
+        "unit_id": "21:e0160_old_missing",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 168,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0168_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 169,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0169_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 171,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0171_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 174,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0174_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 176,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0176_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 176,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0176_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 177,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0177_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 178,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0178_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 180,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0180_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 181,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0181_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 183,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0183_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 184,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0184_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 184,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0184_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 190,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0190_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 192,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0192_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 196,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0196_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 198,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0198_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 198,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0198_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 204,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0204_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 204,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0204_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 209,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0209_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 212,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0212_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 213,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0213_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 213,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0213_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 214,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0214_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 217,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0217_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 225,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0225_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 230,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0230_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 243,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0243_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 246,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0246_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 247,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0247_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 249,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0249_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 253,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0253_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 257,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0257_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 258,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0258_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old_missing",
+          "version": "old"
+        },
+        "event_id": 268,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "old_missing",
+        "unit_id": "21:e0268_old_missing",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 270,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0270_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 279,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0279_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 280,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0280_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 280,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0280_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 284,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0284_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 292,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0292_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 296,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0296_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 296,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0296_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 300,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0300_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 300,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0300_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 302,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0302_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 309,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0309_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 310,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0310_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 311,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0311_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 312,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0312_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 312,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0312_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 316,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0316_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 316,
+        "event_type": "ADD",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0316_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 325,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0325_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 325,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0325_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 330,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0330_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 337,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0337_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 341,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0341_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 343,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0343_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 344,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0344_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 345,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0345_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 345,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "historical",
+        "unit_id": "21:e0345_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 349,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0349_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 353,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0353_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 354,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0354_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 368,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0368_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 370,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0370_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 371,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0371_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 372,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0372_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 375,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0375_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 375,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0375_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 381,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "stable",
+        "unit_id": "21:e0381_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 387,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "current",
+        "unit_id": "21:e0387_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 387,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0387_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 391,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "old",
+        "unit_id": "21:e0391_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 393,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0393_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 396,
+        "event_type": "REVISE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0396_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 397,
+        "event_type": "RETIRE",
+        "seed": 21,
+        "stratum_label": "distractor",
+        "unit_id": "21:e0397_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 7,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0007_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 9,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0009_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 12,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0012_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 12,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0012_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 15,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0015_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 16,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0016_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 21,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0021_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 24,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0024_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 24,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0024_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 26,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0026_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 27,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0027_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 30,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0030_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 31,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0031_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 35,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0035_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 35,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0035_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 36,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0036_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 38,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0038_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 40,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0040_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 41,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0041_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 45,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0045_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 48,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0048_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 51,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0051_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 54,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0054_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 54,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0054_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 58,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0058_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 58,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0058_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 64,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0064_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 65,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0065_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 69,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0069_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 75,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0075_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 78,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0078_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 81,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0081_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 83,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0083_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 83,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0083_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 86,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0086_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 98,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0098_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 100,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0100_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 102,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0102_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 102,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0102_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 104,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0104_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 104,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0104_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 107,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0107_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 108,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0108_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 112,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0112_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 114,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0114_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 118,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0118_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 119,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0119_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 130,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0130_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 133,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0133_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 136,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0136_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old_missing",
+          "version": "old"
+        },
+        "event_id": 139,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "old_missing",
+        "unit_id": "34:e0139_old_missing",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 140,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0140_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 142,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0142_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 144,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0144_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 144,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0144_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 146,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0146_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 148,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0148_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 151,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0151_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 161,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0161_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 164,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0164_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 168,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0168_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 170,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0170_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 170,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0170_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 178,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0178_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 183,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0183_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 188,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0188_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old_missing",
+          "version": "old"
+        },
+        "event_id": 188,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "old_missing",
+        "unit_id": "34:e0188_old_missing",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 194,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0194_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 203,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0203_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 208,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0208_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 208,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0208_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 213,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0213_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 217,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0217_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 218,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0218_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 224,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0224_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 225,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0225_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 225,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0225_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 226,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0226_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 226,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0226_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 228,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0228_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 234,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0234_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 239,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0239_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 244,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0244_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 244,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0244_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 254,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0254_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 255,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0255_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 255,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0255_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 265,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0265_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 265,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0265_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 272,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0272_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 272,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0272_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 275,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0275_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 275,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0275_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 280,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0280_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 281,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0281_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 281,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0281_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 282,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0282_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 286,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0286_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 288,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0288_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 294,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0294_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 294,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0294_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 298,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0298_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 298,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0298_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 298,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0298_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 300,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0300_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 301,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0301_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 305,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0305_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 308,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0308_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 313,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0313_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 322,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0322_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 323,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0323_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 325,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0325_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 326,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0326_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 329,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0329_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 330,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0330_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 333,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0333_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 337,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0337_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 338,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0338_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 342,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0342_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 342,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0342_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 349,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0349_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 352,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0352_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 353,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0353_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 359,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0359_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "old",
+          "version": "old"
+        },
+        "event_id": 360,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "old",
+        "unit_id": "34:e0360_old",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 361,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0361_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 363,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0363_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 367,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0367_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 369,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0369_stable_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 372,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0372_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 372,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0372_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "current",
+          "version": "postevent"
+        },
+        "event_id": 378,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "current",
+        "unit_id": "34:e0378_current",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 382,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0382_stable_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 389,
+        "event_type": "ADD",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0389_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "historical",
+          "version": "historical_archive"
+        },
+        "event_id": 390,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "historical",
+        "unit_id": "34:e0390_historical",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 393,
+        "event_type": "RETIRE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0393_distractor_0",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "distractor",
+          "version": "postevent"
+        },
+        "event_id": 395,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "distractor",
+        "unit_id": "34:e0395_distractor_1",
+        "unit_type": "document"
+      },
+      {
+        "after": {
+          "doc_role": "UNKNOWN_METADATA",
+          "version": "UNKNOWN_METADATA"
+        },
+        "before": {
+          "doc_role": "stable",
+          "version": "stable"
+        },
+        "event_id": 395,
+        "event_type": "REVISE",
+        "seed": 34,
+        "stratum_label": "stable",
+        "unit_id": "34:e0395_stable_0",
+        "unit_type": "document"
+      }
+    ],
+    "eligible_count": 8280,
+    "factor": "metadata_missing",
+    "realized_rate": 0.05,
+    "requested_rate": 0.05,
+    "unit_type": "document"
+  },
+  "row_count": 34560,
+  "schema_addendum": {
+    "fields": [
+      "clean_intent",
+      "effective_intent",
+      "intent_corrupted",
+      "noise_factor",
+      "noise_requested_rate",
+      "noise_realized_rate",
+      "noise_assignment_hash"
+    ],
+    "policy": "Noise columns and manifest fields are present in every condition, including clean. Legacy equivalence projects onto the pre-refactor schema fields."
+  },
+  "schema_fields": [
+    "run_id",
+    "dataset",
+    "seed",
+    "event_id",
+    "event_type",
+    "query_id",
+    "query_type",
+    "method",
+    "old_answer",
+    "postevent_answer",
+    "updated_answer",
+    "target_success",
+    "current_valid_accuracy",
+    "obsolete_answer_rate",
+    "old_reference_retention",
+    "postevent_retention",
+    "cvbd",
+    "total_drift",
+    "store_response_drift",
+    "adaptation_side_effect",
+    "historical_accuracy",
+    "retrieved_doc_ids",
+    "retrieved_versions",
+    "gold_doc_id",
+    "evidence_hit",
+    "obsolete_evidence_hit",
+    "retrieval_recall_at_k",
+    "answer_source",
+    "chunk_rank",
+    "retrieval_prompt",
+    "stress_axis",
+    "clean_intent",
+    "effective_intent",
+    "intent_corrupted",
+    "noise_factor",
+    "noise_requested_rate",
+    "noise_realized_rate",
+    "noise_assignment_hash"
+  ]
+}

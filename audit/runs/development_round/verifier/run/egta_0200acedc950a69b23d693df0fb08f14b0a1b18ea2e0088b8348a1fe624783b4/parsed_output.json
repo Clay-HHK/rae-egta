@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0200acedc950a69b23d693df0fb08f14b0a1b18ea2e0088b8348a1fe624783b4",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "evidence_sources is empty, so there is no frozen evidence with which to ground-check the frozen answer Roxette, assess temporal validity against the NQ reference window or audit_as_of, or determine any change event. Protocol requires abstention when resolution cannot be made from the supplied frozen evidence alone.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "uncertain",
+  "verdict": "insufficient_evidence"
+}

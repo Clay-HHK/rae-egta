@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2025-01-03",
+    "latest": "2025-01-03",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_7fc97875956e38c06bf6cfa679a4ef57524d7d43586332b6bd2f3bbec69505b0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Chuck Grassley",
+    "state": "value"
+  },
+  "rationale": "The question uses the deictic anchor \"currently,\" which under the protocol's reading policy is interpreted relative to audit_as_of (2026-07-21), yielding direction=current. Evidence e1 (span s2) shows the frozen answer Orrin Hatch held the office (President pro tempore of the U.S. Senate, the entity matching the frozen answer) during 2015-2019, consistent with the query's reference_time (latest 2019-12-31), so the frozen answer was valid near the reference time. The same source (span s1) shows the incumbent as Chuck Grassley \"since January 3, 2025,\" establishing that a later change (turnover in officeholder due to a new Congress) makes the frozen answer no longer valid at the audit time. This supports superseded_revision, with the office having changed hands (including intervening officeholders not detailed in the evidence) since Hatch's 2015-2019 tenure, with the most recent evidenced transition being January 3, 2025.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "egta_e58bd4c760807425be44b2361300e77779104a70eb822717c45766e7446af699",
+  "question": "nq question: how many gold medals won by india in 2018 commonwealth games",
+  "frozen_answer": "26",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/India_at_the_2018_Commonwealth_Games",
+      "title": "India at the 2018 Commonwealth Games",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "With 26 Gold medals and a total of 66 medals, India finished 3rd for the tournament.",
+          "locator": "article lead",
+          "supports": ["frozen_answer", "current_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Direct fetch of Wikipedia article on India at the 2018 Commonwealth Games; 26 golds confirmed in lead. Last-edited date not visible in fetched excerpt, left null. 2018 medal tally is a fixed past event, valid for the anchored year. 1 fetch used.",
+  "change_date_hint": null
+}

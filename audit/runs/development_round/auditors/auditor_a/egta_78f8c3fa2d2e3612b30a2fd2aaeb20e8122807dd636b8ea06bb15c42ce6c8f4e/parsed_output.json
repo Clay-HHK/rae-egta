@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_78f8c3fa2d2e3612b30a2fd2aaeb20e8122807dd636b8ea06bb15c42ce6c8f4e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "15 December 2017",
+    "state": "value"
+  },
+  "rationale": "The question asks for the air date of a 2017 episode of The Dumping Ground. Evidence e1 (span s1) directly confirms the series 5 finale 'What Lies Beneath' aired on 15 December 2017, matching the frozen answer exactly. This is a fixed historical broadcast date that does not change over time; the series 6 premiere date (span s2, 11 January 2018) is a distinct fact not reflected in the frozen answer and does not create a conflict. No update or retirement event applies, so the answer remains historically valid as of the audit date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

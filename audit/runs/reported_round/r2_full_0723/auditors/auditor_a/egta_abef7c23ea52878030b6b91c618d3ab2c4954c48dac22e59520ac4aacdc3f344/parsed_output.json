@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_abef7c23ea52878030b6b91c618d3ab2c4954c48dac22e59520ac4aacdc3f344",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks which performer sings a specific song in a specific, already-released film (Boss Baby). This is a fixed fact about a work's credits/performance that does not change over time, so it is non-temporal per protocol (verdict must be null). Additionally, evidence_sources is empty, so no citable evidence exists to confirm or refute the frozen answer 'Missi Hale'; proposed_current_answer is left unresolved with no supporting evidence IDs.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_81debb2535777ce720dc4f5481d58b07585fd802db1b91cf428f75b46182ecc1",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks for a release date of a work titled \"Where Are You Now,\" which is a fixed historical fact rather than something subject to revision over time, making this non-temporal in scope. However, no evidence_sources were provided in the blind package, so there is no basis to confirm which specific work is referenced or to verify the frozen answer of \"February 27, 2015\" against any source. Without any citable evidence, the current answer must be treated as unresolved and no supporting evidence IDs can be listed.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

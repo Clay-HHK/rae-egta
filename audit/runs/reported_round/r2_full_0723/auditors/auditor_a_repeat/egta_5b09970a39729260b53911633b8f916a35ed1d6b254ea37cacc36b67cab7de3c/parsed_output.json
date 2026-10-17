@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2019-04-01",
+    "latest": "2019-04-30",
+    "precision": "month"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_5b09970a39729260b53911633b8f916a35ed1d6b254ea37cacc36b67cab7de3c",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "The question uses the deictic \"right now,\" which under the protocol's reading policy is interpreted relative to audit_as_of (2026-07-21), giving direction=current. The frozen answer \"Miami Heat\" (s1) reflects his career-long team, and it held at or near the reference time (no later than 2019, per NQ annotation provenance). However, evidence (s2, s3) establishes that Wade announced retirement in the 2018-19 offseason and played his final game in April 2019, ending his playing career with the Heat. As of the audit date in 2026, he no longer plays for any team, so the frozen answer is superseded by his retirement rather than a team change.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_retirement"
+}

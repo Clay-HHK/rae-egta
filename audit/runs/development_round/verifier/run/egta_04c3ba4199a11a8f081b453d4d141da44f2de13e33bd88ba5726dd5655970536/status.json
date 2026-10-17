@@ -1,0 +1,22 @@
+{
+  "date_normalization": {
+    "applied": true,
+    "normalized": {
+      "earliest": "2024-01-01",
+      "latest": "2024-12-31",
+      "precision": "year"
+    },
+    "raw": {
+      "earliest": "2024",
+      "latest": "2024",
+      "precision": "year"
+    }
+  },
+  "evidence_contract_valid": true,
+  "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
+  "json_parse_valid": true,
+  "judgment_schema_errors": [],
+  "judgment_schema_valid": true,
+  "terminal_status": "ok",
+  "zero_tool_calls": true
+}

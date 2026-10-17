@@ -1,0 +1,28 @@
+{
+  "backend": "claude_cli",
+  "date_normalization": {
+    "applied": false,
+    "normalized": {
+      "earliest": null,
+      "latest": "2026-04-05",
+      "precision": "unknown"
+    },
+    "raw": {
+      "earliest": null,
+      "latest": "2026-04-05",
+      "precision": "unknown"
+    }
+  },
+  "evidence_contract_error": null,
+  "evidence_contract_valid": true,
+  "item_id": "egta_27cc3be577dfa199a8288d6fb2564e669caa22e78287396813f898c77fe7f1f4",
+  "json_parse_valid": true,
+  "judgment_schema_errors": [
+    "unknown change_date cannot have bounds"
+  ],
+  "judgment_schema_valid": false,
+  "requested_model": "claude-sonnet-5",
+  "role": "auditor_a_repeat",
+  "terminal_status": "schema_failure",
+  "zero_tool_calls": true
+}

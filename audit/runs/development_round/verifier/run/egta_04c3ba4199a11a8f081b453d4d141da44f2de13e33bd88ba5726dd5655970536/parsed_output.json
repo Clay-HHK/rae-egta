@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2024-01-01",
+    "latest": "2024-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "donald trump",
+    "state": "value"
+  },
+  "rationale": "Official White House administration page labels Donald J. Trump as 45th and 47th President and states he is returning to the White House after a 2024 landslide election victory, so the frozen answer matches the current officeholder as of the 2026 audit window; change timing is evidenced only at year precision for 2024.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

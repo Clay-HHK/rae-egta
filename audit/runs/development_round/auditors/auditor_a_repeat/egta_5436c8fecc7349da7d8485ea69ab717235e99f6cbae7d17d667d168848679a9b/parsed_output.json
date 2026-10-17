@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2018-03-04",
+    "latest": "2021-06-20",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_5436c8fecc7349da7d8485ea69ab717235e99f6cbae7d17d667d168848679a9b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "20",
+    "state": "value"
+  },
+  "rationale": "The frozen answer '14' matches evidence span s3, which places Season 14 as airing October 2017–March 2018; this would have been the correct 'latest season' answer only up through that period. Subsequent evidence (s1, s2) shows the series ultimately reached 20 seasons and concluded June 20, 2021, so 'latest season' as of the audit date is season 20, not 14. The frozen answer is historically accurate but has been superseded by later seasons. No evidence pinpoints the exact date Season 14 stopped being 'latest' (i.e., Season 15's premiere), so the change window is bounded only between Season 14's finale and the series' 2021 conclusion. The question's temporal anchor ('latest') is deictic and ambiguous relative to the NQ dataset's ~2019 reference time versus the current audit date, but under evidence-grounded audit-as-of assessment, the answer is no longer current.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

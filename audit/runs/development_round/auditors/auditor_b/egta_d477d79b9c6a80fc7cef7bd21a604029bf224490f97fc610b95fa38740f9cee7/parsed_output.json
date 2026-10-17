@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": false,
+  "item_id": "egta_d477d79b9c6a80fc7cef7bd21a604029bf224490f97fc610b95fa38740f9cee7",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The deictic phrase 'last year' has an uncertain scope and an ambiguous direction; the reference time is only bounded no later than 2019. Evidence e1 establishes that Thanksgiving was on November 23 in 2023, but it neither identifies 2017 nor establishes the most recent qualifying year for either the historical reference context or the audit date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "ambiguous_context"
+}

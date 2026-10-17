@@ -1,0 +1,34 @@
+{
+  "item_id": "egta_ec42c86eeb7627bca55ff1a3828a2f6827bce65b72675aeab81d28d311735747",
+  "question": "nq question: who are nominated for president of india 2017",
+  "frozen_answer": "Ram Nath Kovind",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2017_Indian_presidential_election",
+      "title": "2017 Indian presidential election",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2026-04-05",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "Governor of Bihar Ram Nath Kovind of the Bharatiya Janata Party had the backing of the governing National Democratic Alliance coalition, and went up against opposition candidate Meira Kumar of the Indian National Congress in the vote",
+          "locator": "article lead section",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "Ram Nath Kovind was declared as the President-elect after the counting of votes which was held on 20 July 2017.",
+          "locator": "article lead/results section",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Year-anchored item (2017 nomination). Fetched Wikipedia '2017 Indian presidential election' directly; page confirms Kovind was the NDA-backed nominee and was declared President-elect on 20 July 2017. Single strong versioned source sufficient; no further fetches.",
+  "change_date_hint": null
+}

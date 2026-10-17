@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Donald J. Trump",
+    "state": "value"
+  },
+  "rationale": "The official White House source identifies Donald J. Trump as the 47th President, supporting the proposed current answer and matching the frozen answer. However, the deictic phrase 'right now' conflicts with the supplied pre-2020 reference-time bound, so the intended temporal context is ambiguous. The evidence does not provide a dated presidential assumption-of-office event.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "ambiguous_context"
+}

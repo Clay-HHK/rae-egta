@@ -1,0 +1,3 @@
+Reading additional input from stdin...
+2026-07-22T15:06:38.996957Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+2026-07-22T15:06:39.002383Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit

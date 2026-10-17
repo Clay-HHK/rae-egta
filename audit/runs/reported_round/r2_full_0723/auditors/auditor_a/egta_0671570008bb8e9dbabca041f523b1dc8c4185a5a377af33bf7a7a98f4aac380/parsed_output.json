@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2018-12-01",
+    "latest": "2018-12-31",
+    "precision": "month"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0671570008bb8e9dbabca041f523b1dc8c4185a5a377af33bf7a7a98f4aac380",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Jamal Bryant",
+    "state": "value"
+  },
+  "rationale": "Per the temporal reading policy, the deictic 'now' in the question is interpreted relative to audit_as_of (2026-07-21), making direction 'current'. Evidence (e1, span s1) shows Stephen A. Davis became senior pastor of New Birth Missionary Baptist Church in 2017, matching the frozen answer and consistent with the reference_time window (no later than 2019). Span s1 further shows Davis resigned in June 2018, and span s2 shows Jamal Bryant became senior pastor in December 2018 - a revision that postdates the frozen answer's validity period. Span s3 confirms Bryant remains senior pastor as of the source's most recent update (2026-05-18), close to the audit date. This establishes the frozen answer held near the reference period and was later superseded by a named successor (revision, not a retirement of the role itself).",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

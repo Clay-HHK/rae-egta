@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_7bcad94d148b8e08c8d041f61320c810a906b5fcbf4bed487e1d796fe838aa49",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "russia",
+    "state": "value"
+  },
+  "rationale": "Evidence span states the 2018 FIFA World Cup took place in Russia (14 June–15 July 2018). The frozen answer Russia is therefore identified and remains the correct answer to the year-anchored location question; no superseding host or conflicting source appears in the package.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

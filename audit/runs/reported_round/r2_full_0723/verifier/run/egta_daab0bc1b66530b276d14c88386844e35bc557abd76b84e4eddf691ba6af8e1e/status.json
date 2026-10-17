@@ -1,0 +1,22 @@
+{
+  "date_normalization": {
+    "applied": false,
+    "normalized": {
+      "earliest": "2026-03-12",
+      "latest": "2026-03-12",
+      "precision": "day"
+    },
+    "raw": {
+      "earliest": "2026-03-12",
+      "latest": "2026-03-12",
+      "precision": "day"
+    }
+  },
+  "evidence_contract_valid": true,
+  "item_id": "egta_daab0bc1b66530b276d14c88386844e35bc557abd76b84e4eddf691ba6af8e1e",
+  "json_parse_valid": true,
+  "judgment_schema_errors": [],
+  "judgment_schema_valid": true,
+  "terminal_status": "ok",
+  "zero_tool_calls": true
+}

@@ -1,0 +1,109 @@
+{
+  "args": {
+    "add_fraction": 0.1,
+    "chunk_noise_paragraphs": 0,
+    "device": "cuda",
+    "distractors_per_event": 2,
+    "events": 1500,
+    "methods": [
+      "no_update",
+      "store_only",
+      "query_rewrite_update",
+      "oldref_adapted_preserver",
+      "postevent_validity_filter",
+      "intent_aware_postevent_filter"
+    ],
+    "output_dir": "runs/outputs/rag_doc_postevent_stress_r2_v2_formal",
+    "partial_write_every_queries": 250,
+    "rerank_candidate_k": 20,
+    "retire_fraction": 0.4,
+    "retriever": "bm25",
+    "revise_fraction": 0.5,
+    "run_id": "rag_doc_postevent_stress_r2_v2_formal",
+    "seeds": [
+      13,
+      21,
+      34
+    ],
+    "stable_queries_per_event": 2,
+    "stress_axis": "lexical_schema",
+    "top_k": 5
+  },
+  "chunk_record_count": 62100,
+  "dataset_spec_hash": "73c0c108fc93e71898489b7ee4089ce45bc15a8037b183b76b0caaff6d82ad18",
+  "document_record_count": 31050,
+  "environment": {
+    "command": "<server-env>/bin/python <server-workspace>/workspace/clean_runs/r2_v2_formal_20260707_213124/src/rae_egta/rag_post_event/run_document.py --output-dir runs/outputs/rag_doc_postevent_stress_r2_v2_formal --run-id rag_doc_postevent_stress_r2_v2_formal --events 1500 --seeds 13 21 34 --methods no_update store_only query_rewrite_update oldref_adapted_preserver postevent_validity_filter intent_aware_postevent_filter --stable-queries-per-event 2 --top-k 5 --stress-axis lexical_schema --add-fraction 0.10 --revise-fraction 0.50 --retire-fraction 0.40 --distractors-per-event 2 --chunk-noise-paragraphs 0 --retriever bm25 --rerank-candidate-k 20 --device cuda",
+    "cuda_available": true,
+    "cuda_device": "Tesla T4",
+    "cuda_version": "12.4",
+    "device": "cuda",
+    "numpy_version": "1.26.4",
+    "pyg_version": "2.8.0",
+    "python_version": "3.12.2",
+    "torch_version": "2.6.0+cu124"
+  },
+  "event_record_count": 4500,
+  "experiment": "rag_post_event_controlled_document_rag",
+  "git": {
+    "git_dirty": false,
+    "git_dirty_ignored_paths": [
+      "data"
+    ],
+    "git_dirty_ignored_prefixes": [
+      "data/",
+      "experiments/kg_external_validation/data/eval_panels/",
+      "experiments/kg_external_validation/data/retired_provenance_audit/",
+      "experiments/kg_external_validation/runs/",
+      "experiments/kg_external_validation/go/runs/",
+      "experiments/primekg_mvp/outputs/",
+      "runs/outputs/",
+      "runs/outputs_cached/"
+    ],
+    "git_sha": "5c134fba7640f65f4f3e39d62729bc0f15a0d335",
+    "git_status_short": "",
+    "git_status_short_raw": "<omitted>"
+  },
+  "methods": [
+    "no_update",
+    "store_only",
+    "query_rewrite_update",
+    "oldref_adapted_preserver",
+    "postevent_validity_filter",
+    "intent_aware_postevent_filter"
+  ],
+  "row_count": 129600,
+  "schema_fields": [
+    "run_id",
+    "dataset",
+    "seed",
+    "event_id",
+    "event_type",
+    "query_id",
+    "query_type",
+    "method",
+    "old_answer",
+    "postevent_answer",
+    "updated_answer",
+    "target_success",
+    "current_valid_accuracy",
+    "obsolete_answer_rate",
+    "old_reference_retention",
+    "postevent_retention",
+    "cvbd",
+    "total_drift",
+    "store_response_drift",
+    "adaptation_side_effect",
+    "historical_accuracy",
+    "retrieved_doc_ids",
+    "retrieved_versions",
+    "gold_doc_id",
+    "evidence_hit",
+    "obsolete_evidence_hit",
+    "retrieval_recall_at_k",
+    "answer_source",
+    "chunk_rank",
+    "retrieval_prompt",
+    "stress_axis"
+  ]
+}

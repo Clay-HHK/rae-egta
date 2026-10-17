@@ -1,0 +1,34 @@
+{
+  "item_id": "egta_78f8c3fa2d2e3612b30a2fd2aaeb20e8122807dd636b8ea06bb15c42ce6c8f4e",
+  "question": "nq question: when is the new dumping ground coming out 2017",
+  "frozen_answer": "15 December 2017",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_The_Dumping_Ground_episodes",
+      "title": "List of The Dumping Ground episodes",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2026-04-26",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "15 December 2017 (2017-12-15)",
+          "locator": "series 5 episode table, original air date of final episode 'What Lies Beneath'",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "11 January 2018 (2018-01-11)",
+          "locator": "series 6 episode table, original air date of first episode",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "WebSearch (The Dumping Ground series 6 premiere '15 December 2017') then fetched the Wikipedia episode list. Evidence contradicts the legacy note '2017 premiere date is a fixed past event': on the current page, 15 December 2017 is the air date of the series 5 finale 'What Lies Beneath' (s1), not a premiere; series 5 part 2 premiered 12 October 2017 and series 6 premiered 11 January 2018 (s2). The frozen gold thus does not correspond to any premiere date on current evidence; it matches a 2017 finale broadcast date only. Recorded honestly; year-anchored support for 'premiere on 15 December 2017' is NOT established. 1 search + 1 fetch used.",
+  "change_date_hint": null
+}

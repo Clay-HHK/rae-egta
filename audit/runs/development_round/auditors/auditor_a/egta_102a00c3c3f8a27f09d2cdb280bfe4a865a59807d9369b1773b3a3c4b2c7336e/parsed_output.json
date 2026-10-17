@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2018-01-01",
+    "latest": "2018-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "addition",
+  "frozen_answer_identified": true,
+  "item_id": "egta_102a00c3c3f8a27f09d2cdb280bfe4a865a59807d9369b1773b3a3c4b2c7336e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Terrell Owens",
+    "state": "value"
+  },
+  "rationale": "The question explicitly anchors to the year 2018 (\"2018 football hall of fame\"), asking about a specific historical Hall of Fame induction class. Both an official-primary source (Pro Football Hall of Fame player page, e1, span s1: \"Class of 2018\") and a versioned encyclopedia (Wikipedia, e2, span s2: \"In 2018, Owens was voted into the Hall of Fame.\") corroborate that Terrell Owens was selected/inducted into the Pro Football Hall of Fame as part of the 2018 class. Because the query specifies a fixed historical year rather than asking for the \"current\" or most recent class, and because Hall of Fame induction is a one-time, immutable historical event (not subject to later revision or retirement), the frozen answer remains accurate as a historically anchored fact. There is no indication of any later correction, retraction, or dispute regarding this specific inductee's 2018 class membership across the two sources.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

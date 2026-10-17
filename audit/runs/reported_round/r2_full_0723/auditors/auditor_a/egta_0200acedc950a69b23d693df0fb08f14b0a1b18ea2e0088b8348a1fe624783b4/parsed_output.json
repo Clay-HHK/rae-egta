@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0200acedc950a69b23d693df0fb08f14b0a1b18ea2e0088b8348a1fe624783b4",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks who originally performed/recorded the song \"It Must Have Been Love (But It's Over Now)\". Attribution of a song's original performer is a fixed historical fact, not subject to revision or retirement over time, so this is non_temporal with direction none and verdict null per protocol. Separately, no evidence_sources were provided in this blind request, so no evidence ID is available to cite; the proposed_current_answer is therefore left unresolved rather than asserting the frozen answer \"Roxette\" without grounding evidence.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

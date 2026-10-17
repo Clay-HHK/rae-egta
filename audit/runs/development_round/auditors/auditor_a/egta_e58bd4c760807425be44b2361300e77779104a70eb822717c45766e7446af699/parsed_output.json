@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_e58bd4c760807425be44b2361300e77779104a70eb822717c45766e7446af699",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "26",
+    "state": "value"
+  },
+  "rationale": "The question asks about a fixed historical outcome: the number of gold medals India won at the completed 2018 Commonwealth Games. This is a static historical fact that does not change over time (unlike an ongoing record or current title holder). Evidence e1 confirms India won 26 gold medals, matching the frozen answer exactly, so it remains correct and is not subject to a temporal supersession axis.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

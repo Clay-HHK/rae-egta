@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_318edb8b32721e39f5472155bce2b60038c24de056a00e74f42d0097dcb490de",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "No evidence_sources were provided in the blind request (empty array), so no evidence ID is available to cite in support of any judgment about the frozen answer 'Ant & Dec' or about who currently/formerly presents this program. The question phrasing ('used to present') suggests a historical framing, but without any grounded evidence I cannot confirm the identity of the show, the presenter history, or any change date. Abstaining conservatively per instructions.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

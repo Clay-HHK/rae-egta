@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2018-03-04",
+    "latest": "2021-06-20",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_4d277b573eea9240cbd8a455a2b5be8f4a82b5442ea8c6637fd6a63f80f82d36",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "Span s1 confirms the frozen answer '14' corresponds to season 14, which aired Oct 2017-Mar 2018. But s2/s3 establish the series did not end until its finale aired June 20, 2021, and the network run spanned 2007-2021 -- meaning additional seasons aired after season 14 concluded in March 2018. This makes '14' no longer the correct answer to 'latest series' as of audit_as_of (2026-07-21); the change (a newer season becoming 'latest') must have occurred sometime between season 14's March 2018 conclusion and the series' June 2021 finale. The evidence does not state the actual final/latest season number, so the current canonical answer cannot be resolved from this package alone -- only that 14 is superseded.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

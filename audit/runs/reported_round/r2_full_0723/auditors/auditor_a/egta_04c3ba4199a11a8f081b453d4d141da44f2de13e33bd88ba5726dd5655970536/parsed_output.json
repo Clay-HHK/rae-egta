@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Donald Trump",
+    "state": "value"
+  },
+  "rationale": "Per the temporal reading policy, the deictic \"right now\" is interpreted relative to audit_as_of (2026-07-21), so direction is current. The White House's official administration page (accessed 2026-07-22), a primary source, states Donald J. Trump is the \"45th & 47th President of the United States\" and is \"returning to the White House\" after a 2024 election victory, directly confirming Trump currently holds the office. The frozen NQ answer \"Donald Trump\" therefore remains valid at audit time, even though the office changed hands in the interim (not evidenced in this package); no intervening-period evidence is included, so no change_date is asserted for this still-valid outcome.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

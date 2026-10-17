@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_c00b0ded98829dbaea7dd37b569d8389e704f70c7de68d9c25d51fa2edf196fc",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Georgia Bulldogs",
+    "state": "value"
+  },
+  "rationale": "The question references a specific completed past event, the 2017 SEC Championship Game, explicitly anchored to that year. Evidence (e1, s1) confirms the game featured Georgia Bulldogs vs Auburn Tigers, and (s2) confirms Georgia won 28-7. This is a fixed historical fact about a single, already-concluded game; it cannot be superseded or revised by later events, so there is no applicable change event (event_type: none, change_date unknown/not applicable). The frozen_answer 'georgia bulldogs' is directly supported as one of the two participating teams (Auburn being the other, per s1), so the verdict is historically_valid rather than still_valid, since the query direction concerns a bounded past event rather than an ongoing/current state.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

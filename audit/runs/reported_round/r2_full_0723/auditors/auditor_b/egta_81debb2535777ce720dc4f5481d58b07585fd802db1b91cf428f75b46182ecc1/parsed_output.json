@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": false,
+  "item_id": "egta_81debb2535777ce720dc4f5481d58b07585fd802db1b91cf428f75b46182ecc1",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The deictic anchor is read relative to the audit date under policy, but no evidence sources are provided to identify the work titled \"Where Are You Now,\" verify the frozen release date, or determine any temporal change.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "uncertain",
+  "verdict": "insufficient_evidence"
+}

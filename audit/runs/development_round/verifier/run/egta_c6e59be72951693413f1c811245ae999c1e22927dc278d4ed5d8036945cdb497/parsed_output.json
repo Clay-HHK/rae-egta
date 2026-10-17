@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_c6e59be72951693413f1c811245ae999c1e22927dc278d4ed5d8036945cdb497",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Philadelphia Eagles and New England Patriots",
+    "state": "value"
+  },
+  "rationale": "Frozen evidence for Super Bowl LII identifies the two 2018 Super Bowl teams as the Philadelphia Eagles and New England Patriots (Eagles won 41–33). The frozen answer names only the Eagles, which appears in that evidence but is incomplete for a two-team question; the complete historical matchup is fixed in the provided spans with no revision or conflicting source.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

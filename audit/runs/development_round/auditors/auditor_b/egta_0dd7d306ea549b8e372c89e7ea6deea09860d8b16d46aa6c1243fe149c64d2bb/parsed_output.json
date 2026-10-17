@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0dd7d306ea549b8e372c89e7ea6deea09860d8b16d46aa6c1243fe149c64d2bb",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The frozen answer, Joe Daniher, is identified as the 2017 Mark of the Year winner. However, the question also names Goal of the Year, for which the evidence identifies Daniel Rioli; the question does not specify whether it seeks one award or both, so a single canonical answer cannot be resolved.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "ambiguous_context"
+}

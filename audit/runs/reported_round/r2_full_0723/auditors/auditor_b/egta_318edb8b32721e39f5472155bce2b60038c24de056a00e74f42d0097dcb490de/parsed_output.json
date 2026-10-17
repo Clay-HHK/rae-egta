@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_318edb8b32721e39f5472155bce2b60038c24de056a00e74f42d0097dcb490de",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The deictic \"now\" is read relative to the 2026-07-21 audit date, so the question has a current temporal direction. No evidence sources are provided to establish the frozen answer at the reference time or the current presenter status.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

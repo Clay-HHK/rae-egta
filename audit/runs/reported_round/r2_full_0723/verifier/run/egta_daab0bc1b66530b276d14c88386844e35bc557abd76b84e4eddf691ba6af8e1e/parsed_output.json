@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2026-03-12",
+    "latest": "2026-03-12",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_daab0bc1b66530b276d14c88386844e35bc557abd76b84e4eddf691ba6af8e1e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "Deictic 'last year' is read relative to audit_as_of 2026-07-21 (policy → direction current). Evidence identifies frozen Atlanta Hawks as a prior team (2016 Hawks signing; 2012–22 multi-team NBA career). Both sources place official retirement on 2026-03-12, after which he is not an active player; recent competition was overseas/BIG3, not the Hawks. Thus the frozen last-year team answer is invalid at audit time via retirement.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_retirement"
+}

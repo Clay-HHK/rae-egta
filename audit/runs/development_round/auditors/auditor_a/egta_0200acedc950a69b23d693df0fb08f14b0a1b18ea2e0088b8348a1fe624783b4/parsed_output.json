@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0200acedc950a69b23d693df0fb08f14b0a1b18ea2e0088b8348a1fe624783b4",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks who originally recorded/sang the song \"It Must Have Been Love,\" a historical fact about song authorship/performance that is fixed at the time of recording and does not change over time, making this non-temporal in nature. However, the evidence_sources list supplied in this blind request is empty, so no citable evidence is available to verify or refute the frozen answer \"Roxette.\" Per protocol, no external knowledge or unstated sources may be used, so the current-answer determination must remain unresolved with no supporting evidence IDs cited.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

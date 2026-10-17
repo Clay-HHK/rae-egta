@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_b5d523208d393015202f671b9df4cd6ff3f6b0f7fd55e1ca9f7d6cf910e8243b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "one for arthur",
+    "state": "value"
+  },
+  "rationale": "Evidence e1 states the 2017 Grand National was won by One For Arthur, matching the frozen answer. That historical race result is fixed; no evidence of revision or retirement. The query names 2017 explicitly, so the answer remains the correct historical winner of that edition, with no source conflict.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

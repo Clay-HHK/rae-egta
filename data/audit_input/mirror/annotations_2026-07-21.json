@@ -1,0 +1,747 @@
+[
+ {
+  "idx": 16667,
+  "dup_idxs": [
+   16667,
+   12156,
+   357
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: how many us states currently use capital punishment",
+  "loc_ans": "31",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "27",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://worldpopulationreview.com/state-rankings/death-penalty-states",
+  "note": "NH/CO/VA abolitions 2019-2021 cut count to 27"
+ },
+ {
+  "idx": 6344,
+  "dup_idxs": [
+   6344,
+   5850
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who won latest america's next top model",
+  "loc_ans": "Kyla Coleman",
+  "verdict": "STILL_VALID",
+  "current_answer_2026": "Kyla Coleman",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "https://en.wikipedia.org/wiki/America%27s_Next_Top_Model_season_24",
+  "note": "cycle 24 (2018) was final; no revival"
+ },
+ {
+  "idx": 11846,
+  "dup_idxs": [
+   11846,
+   5501,
+   12646,
+   4394
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: where is the snooker world open currently held",
+  "loc_ans": "Haikou",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "Yushan, China",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": true,
+  "evidence_url": "https://en.wikipedia.org/wiki/2025_World_Open_(snooker)",
+  "note": "World Open moved to Yushan 2016; gold likely already stale at freeze"
+ },
+ {
+  "idx": 12349,
+  "dup_idxs": [
+   12349,
+   14742,
+   9040
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: the gulf stream the world's fastest ocean current flows along the western side of this water body",
+  "loc_ans": "Atlantic ocean",
+  "verdict": "NOT_TIME_SENSITIVE",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "\"ocean current\" is a physical term, not temporal deixis"
+ },
+ {
+  "idx": 8407,
+  "dup_idxs": [
+   8407,
+   11429
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who won last year's ncaa women's basketball",
+  "loc_ans": "South Carolina",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "UCLA (2026 champion); UConn (2025)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.ncaa.com/news/basketball-women/article/2026-04-05/2026-ncaa-womens-basketball-tournament-bracket-schedule-scores",
+  "note": "either last-year reading (2025 UConn, 2026 UCLA) differs from frozen gold"
+ },
+ {
+  "idx": 13425,
+  "dup_idxs": [
+   13425
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: when was the latest version of chrome released",
+  "loc_ans": "2018-01-22",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "2026-06-30 (Chrome 151)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://chromereleases.googleblog.com/2026/07/",
+  "note": "4-week release cycle; answer changes monthly"
+ },
+ {
+  "idx": 143,
+  "dup_idxs": [
+   143,
+   18313
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: when was the last year thanksgiving was on the 23rd",
+  "loc_ans": "2017",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "2023",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.calendardate.com/thanksgiving_2023.htm",
+  "note": "Thanksgiving fell on Nov 23 in 2023"
+ },
+ {
+  "idx": 6806,
+  "dup_idxs": [
+   6806,
+   8441
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who sings what the world needs now in boss baby",
+  "loc_ans": "Missi Hale",
+  "verdict": "NOT_TIME_SENSITIVE",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "fixed fact about a 2017 film soundtrack"
+ },
+ {
+  "idx": 12909,
+  "dup_idxs": [
+   12909,
+   13671,
+   6378,
+   13439
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who is currently serving as president of the senate",
+  "loc_ans": "Orrin Hatch",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "Chuck Grassley (president pro tempore)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/3",
+  "note": "Hatch retired 2019; multiple successors; Grassley since Jan 2025"
+ },
+ {
+  "idx": 15694,
+  "dup_idxs": [
+   15694,
+   3054
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who sang it must have been love but its over now",
+  "loc_ans": "Roxette",
+  "verdict": "NOT_TIME_SENSITIVE",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "song attribution; \"but it's over now\" is lyric text"
+ },
+ {
+  "idx": 4648,
+  "dup_idxs": [
+   4648,
+   11265
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: what is the latest version of chrome for linux",
+  "loc_ans": "67.0",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "~150 (desktop stable, Jul 2026)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://chromereleases.googleblog.com/2026/07/",
+  "note": "Chrome iterated 67 to ~150 since 2018"
+ },
+ {
+  "idx": 17498,
+  "dup_idxs": [
+   17498,
+   16596,
+   10381
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who used to present i'm a celebrity now",
+  "loc_ans": "Ant & Dec",
+  "verdict": "NOT_TIME_SENSITIVE",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "https://en.wikipedia.org/wiki/I%27m_a_Celebrity...Get_Me_Out_of_Here!_(British_TV_series)_series_1",
+  "note": "\"Now!\" is spin-off title; \"used to\" asks a fixed past fact"
+ },
+ {
+  "idx": 7454,
+  "dup_idxs": [
+   7454,
+   18139
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: what is the most current adobe flash player version",
+  "loc_ans": "28.0.0.137",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "discontinued (EOL 2020-12-31)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.adobe.com/products/flashplayer/end-of-life-alternative.html",
+  "note": "Flash Player discontinued Dec 2020; retirement case, no current value"
+ },
+ {
+  "idx": 12091,
+  "dup_idxs": [
+   12091,
+   16505
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who is the current director of the us mint",
+  "loc_ans": "David Motl",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "Paul Hollis",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.usmint.gov/about/leadership/director",
+  "note": "Hollis sworn in Jan 2026; Ryder, Gibson served in between"
+ },
+ {
+  "idx": 3293,
+  "dup_idxs": [
+   3293,
+   17790,
+   12723
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: what are the main sources of economic growth in the us currently",
+  "loc_ans": "telecommunications",
+  "verdict": "UNVERIFIED",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "unknown",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "no authoritative single current answer; gold vague even at freeze"
+ },
+ {
+  "idx": 15029,
+  "dup_idxs": [
+   15029,
+   8458,
+   11249,
+   10086
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: what is the current population of bora bora",
+  "loc_ans": "10,605",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "10,758 (2022 census)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://en.wikipedia.org/wiki/Bora-Bora_(commune)",
+  "note": "2022 census superseded the frozen figure"
+ },
+ {
+  "idx": 11767,
+  "dup_idxs": [
+   11767
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who is the number one ranked golfer in the world right now",
+  "loc_ans": "Dustin Johnson",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "Scottie Scheffler",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.owgr.com/current-world-ranking",
+  "note": "OWGR No.1 changed many times since 2018"
+ },
+ {
+  "idx": 190,
+  "dup_idxs": [
+   190
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who is the pastor of new birth missionary baptist church now",
+  "loc_ans": "Stephen A. Davis",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "Jamal Harrison Bryant",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://en.wikipedia.org/wiki/New_Birth_Missionary_Baptist_Church",
+  "note": "Bryant senior pastor since late 2018; matches Block AUD workbook"
+ },
+ {
+  "idx": 14079,
+  "dup_idxs": [
+   14079
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who is the president of usa right now",
+  "loc_ans": "Donald Trump",
+  "verdict": "STILL_VALID",
+  "current_answer_2026": "Donald Trump",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.whitehouse.gov/administration/",
+  "note": "superseded 2021-2025 (Biden), matches again since Jan 2025"
+ },
+ {
+  "idx": 15747,
+  "dup_idxs": [
+   15747,
+   18759,
+   6551
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: when was the last year the raiders won the superbowl",
+  "loc_ans": "1983",
+  "verdict": "STILL_VALID",
+  "current_answer_2026": "1983",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "https://en.wikipedia.org/wiki/Super_Bowl_LX",
+  "note": "Raiders have not won a Super Bowl since XVIII"
+ },
+ {
+  "idx": 8158,
+  "dup_idxs": [
+   8158
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: latest season on keeping up with the kardashians",
+  "loc_ans": "14",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "20 (series ended 2021)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://variety.com/2020/tv/news/keeping-up-with-the-kardashians-ending-season-20-e-kuwtk-1234762635/",
+  "note": "show ended with season 20 in 2021"
+ },
+ {
+  "idx": 5582,
+  "dup_idxs": [
+   5582,
+   5411
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who's gonna save my soul now breaking bad",
+  "loc_ans": "the closing scene of the final episode of the first season",
+  "verdict": "NOT_TIME_SENSITIVE",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "song placement in show, fixed past fact; \"now\" is title text"
+ },
+ {
+  "idx": 18360,
+  "dup_idxs": [
+   18360
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who did dwight howard play for last year",
+  "loc_ans": "Atlanta Hawks",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "none (retired Mar 2026; BIG3 in 2025)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.hoopsrumors.com/2026/03/dwight-howard-announces-retirement.html",
+  "note": "left NBA 2022; retirement case"
+ },
+ {
+  "idx": 13821,
+  "dup_idxs": [
+   13821
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: when did where are you now come out",
+  "loc_ans": "February 27, 2015",
+  "verdict": "NOT_TIME_SENSITIVE",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "release date of a song, immutable past event"
+ },
+ {
+  "idx": 1938,
+  "dup_idxs": [
+   1938
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: what is the current rate of interest on ppf",
+  "loc_ans": "7.6%",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "7.1%",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://upstox.com/news/personal-finance/investing/public-provident-fund-ppf-interest-rate-for-july-september-2026/article-196141/",
+  "note": "cut to 7.1% in April 2020, unchanged since"
+ },
+ {
+  "idx": 8147,
+  "dup_idxs": [
+   8147
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: when was the last year the eagles went to the superbowl",
+  "loc_ans": "2017",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "2024 season (Super Bowl LIX, Feb 2025)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.espn.com/nfl/recap/_/gameId/401671889",
+  "note": "Eagles reached SB LVII and LIX after the frozen 2017 appearance"
+ },
+ {
+  "idx": 14799,
+  "dup_idxs": [
+   14799
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who does dwyane wade play for right now",
+  "loc_ans": "Miami Heat",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "none (retired Apr 2019)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://en.wikipedia.org/wiki/Dwyane_Wade",
+  "note": "retirement case; last game April 2019"
+ },
+ {
+  "idx": 948,
+  "dup_idxs": [
+   948,
+   12479
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: latest series of keeping up with the kardashians",
+  "loc_ans": "14",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "20 (series ended 2021)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://variety.com/2020/tv/news/keeping-up-with-the-kardashians-ending-season-20-e-kuwtk-1234762635/",
+  "note": "same event as idx 8158, distinct question row"
+ },
+ {
+  "idx": 6034,
+  "dup_idxs": [
+   6034
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: who played in the stanley cup finals last year",
+  "loc_ans": "Pittsburgh Penguins",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "Panthers vs Oilers (2025 final)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.nbcnews.com/sports/nhl/stanley-cup-final-2025-panthers-win-defeat-oilers-rcna213524",
+  "note": "any recent last-year reading differs from Penguins (last finals 2017)"
+ },
+ {
+  "idx": 7202,
+  "dup_idxs": [
+   7202
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: what is the current mac os operating system",
+  "loc_ans": "10.13.4",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "macOS Tahoe 26.5.2 (2026-06-29)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://www.macworld.com/article/2644146/macos-26-features-latest-update-release-date-beta.html",
+  "note": "annual macOS releases since 2018; adjudicator-annotated (missed batch item)"
+ },
+ {
+  "idx": 647,
+  "dup_idxs": [
+   647
+  ],
+  "stratum": "A_deictic_pure",
+  "loc": "nq question: the most recent technological change to the u.s. economy was",
+  "loc_ans": "digitization of social systems",
+  "verdict": "UNVERIFIED",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "unknown",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "adjudicated down from SUPERSEDED: subjective question without canonical answer"
+ },
+ {
+  "idx": 3795,
+  "dup_idxs": [
+   3795,
+   2944,
+   4572,
+   7842,
+   703
+  ],
+  "stratum": "B_deictic_year",
+  "loc": "nq question: who won last year's grand national 2017",
+  "loc_ans": "One For Arthur",
+  "verdict": "STALE_DEIXIS_YEAR_RESCUED",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "\"last year\" stale but 2017 anchor rescues correctness"
+ },
+ {
+  "idx": 7260,
+  "dup_idxs": [
+   7260,
+   3960,
+   17094,
+   14541
+  ],
+  "stratum": "B_deictic_year",
+  "loc": "nq question: who won the ncaa women's championship last year 2017",
+  "loc_ans": "South Carolina",
+  "verdict": "STALE_DEIXIS_YEAR_RESCUED",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "\"last year\" stale but 2017 anchor rescues correctness"
+ },
+ {
+  "idx": 150,
+  "dup_idxs": [
+   150
+  ],
+  "stratum": "B_deictic_year",
+  "loc": "nq question: who has the most rings in the nba right now 2017",
+  "loc_ans": "Bill Russell",
+  "verdict": "STALE_DEIXIS_YEAR_RESCUED",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "\"right now 2017\" anchored; Russell record unchanged regardless"
+ },
+ {
+  "idx": 10183,
+  "dup_idxs": [
+   10183,
+   7117
+  ],
+  "stratum": "B_deictic_year",
+  "loc": "nq question: what is the latest version of microsoft office 2010",
+  "loc_ans": "14.0.7182.5000",
+  "verdict": "SUPERSEDED_CONFIRMED",
+  "current_answer_2026": "14.0.7268.5000 (final; support ended Oct 2020)",
+  "changed_since_freeze": "yes",
+  "stale_at_freeze": false,
+  "evidence_url": "https://learn.microsoft.com/en-us/officeupdates/update-history-office-2010-click-to-run",
+  "note": "later Office 2010 builds until EOL superseded frozen build"
+ },
+ {
+  "idx": 11802,
+  "dup_idxs": [
+   11802
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: who won mark and goal of the year 2017",
+  "loc_ans": "Joe Daniher",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "2017 AFL awards fixed"
+ },
+ {
+  "idx": 6834,
+  "dup_idxs": [
+   6834,
+   15765
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: when is the new dumping ground coming out 2017",
+  "loc_ans": "15 December 2017",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "2017 premiere date is a fixed past event"
+ },
+ {
+  "idx": 829,
+  "dup_idxs": [
+   829
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: how many gold medals won by india in 2018 commonwealth games",
+  "loc_ans": "26",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "2018 Commonwealth Games medal count fixed"
+ },
+ {
+  "idx": 6130,
+  "dup_idxs": [
+   6130,
+   19078
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: where is the world cup being held 2018",
+  "loc_ans": "Russia",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "2018 World Cup host fixed"
+ },
+ {
+  "idx": 15361,
+  "dup_idxs": [
+   15361,
+   6650
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: who are nominated for president of india 2017",
+  "loc_ans": "Ram Nath Kovind",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "anchored to 2017 presidential nomination"
+ },
+ {
+  "idx": 14387,
+  "dup_idxs": [
+   14387
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: who won women's singles us open 2017",
+  "loc_ans": "Sloane Stephens",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "anchored to 2017 US Open"
+ },
+ {
+  "idx": 1368,
+  "dup_idxs": [
+   1368
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: who won the wwe championship elimination chamber 2018",
+  "loc_ans": "Roman Reigns",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "anchored to Elimination Chamber 2018"
+ },
+ {
+  "idx": 11394,
+  "dup_idxs": [
+   11394
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: who's playing in the sec championship 2017",
+  "loc_ans": "Georgia Bulldogs",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "anchored to 2017 SEC championship"
+ },
+ {
+  "idx": 1126,
+  "dup_idxs": [
+   1126
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: who are the two teams in super bowl 2018",
+  "loc_ans": "Philadelphia Eagles",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "anchored to Super Bowl 2018"
+ },
+ {
+  "idx": 16476,
+  "dup_idxs": [
+   16476
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: who won the workd series of poker 2017",
+  "loc_ans": "Scott Blumstein",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "anchored to 2017 WSOP"
+ },
+ {
+  "idx": 15345,
+  "dup_idxs": [
+   15345
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: who was selected for the 2018 football hall of fame",
+  "loc_ans": "Terrell Owens",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "anchored to 2018 HoF class"
+ },
+ {
+  "idx": 4111,
+  "dup_idxs": [
+   4111
+  ],
+  "stratum": "C_year_only",
+  "loc": "nq question: who won the mens figure skating in 2018 olympics",
+  "loc_ans": "Yuzuru Hanyu",
+  "verdict": "YEAR_ANCHORED_VALID",
+  "current_answer_2026": "-",
+  "changed_since_freeze": "no",
+  "stale_at_freeze": false,
+  "evidence_url": "-",
+  "note": "anchored to 2018 Olympics"
+ }
+]

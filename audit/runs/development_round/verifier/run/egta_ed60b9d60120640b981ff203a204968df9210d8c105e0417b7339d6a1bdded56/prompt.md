@@ -1,0 +1,240 @@
+You are the isolated blind verifier for an Evidence-Grounded Temporal Audit.
+
+Use only the request below. It intentionally contains no auditor identity,
+auditor verdict, proposed auditor answer, disagreement reason, or legacy
+annotation. Do not infer or request those fields. Do not browse or call tools.
+Return exactly one JSON object matching the supplied output schema, with no
+Markdown fences or prose outside the object. `manual_override` must be false.
+Resolve the item from the frozen evidence only; otherwise abstain.
+
+For `change_date.earliest` and `change_date.latest`, prefer complete ISO dates
+(`YYYY-MM-DD`). Year precision may use `YYYY`, and month precision may use
+`YYYY-MM`; the parser expands an earliest bound to the start of that period and
+a latest bound to its end. Use `null` bounds with `precision: "unknown"`.
+
+Blind verifier request:
+
+{
+  "evidence_package_id": "egta_evidence_33135950241aa654b9926bc157a2391730bb72f7dfa864d29acb8664a9746037",
+  "evidence_sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_Finals",
+      "content_sha256": "c4cdd4f1ab5d9c26a11d52ae6969b76a073e77e12fc422054f1c95da20e57b14",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "article lead (series played June 4 - June 17, 2025)",
+          "span_id": "s1",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "defending Stanley Cup champion Florida Panthers defeated the Western Conference champion Edmonton Oilers four games to two in the best-of-seven series"
+        }
+      ],
+      "title": "2025 Stanley Cup Final",
+      "url": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_Finals"
+    },
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/2017_Stanley_Cup_Finals",
+      "content_sha256": "7bbdf9d78c1fbe917e02d960936971d6d3453e11e6f2cfd7fd592660e6d04824",
+      "evidence_id": "e2",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "article lead (series played May 29 - June 11, 2017)",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "The Eastern Conference champion and defending Stanley Cup champion Pittsburgh Penguins defeated the Western Conference champion Nashville Predators, four games to two to repeat as Stanley Cup champions."
+        }
+      ],
+      "title": "2017 Stanley Cup Final",
+      "url": "https://en.wikipedia.org/wiki/2017_Stanley_Cup_Finals"
+    }
+  ],
+  "frozen_answer": {
+    "normalized": "pittsburgh penguins",
+    "raw": "Pittsburgh Penguins"
+  },
+  "item_id": "egta_ed60b9d60120640b981ff203a204968df9210d8c105e0417b7339d6a1bdded56",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "last year"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: who played in the stanley cup finals last year",
+  "schema_version": "egta.v1"
+}
+
+Output JSON schema:
+
+{
+  "additionalProperties": false,
+  "properties": {
+    "change_date": {
+      "additionalProperties": false,
+      "properties": {
+        "earliest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "day",
+            "month",
+            "year",
+            "interval",
+            "unknown"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "earliest",
+        "latest",
+        "precision"
+      ],
+      "type": "object"
+    },
+    "credible_source_conflict": {
+      "type": "boolean"
+    },
+    "direction": {
+      "enum": [
+        "current",
+        "historical",
+        "ambiguous",
+        "none"
+      ],
+      "type": "string"
+    },
+    "event_type": {
+      "enum": [
+        "addition",
+        "revision",
+        "retirement",
+        "none",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "frozen_answer_identified": {
+      "type": "boolean"
+    },
+    "item_id": {
+      "type": "string"
+    },
+    "manual_override": {
+      "type": "boolean"
+    },
+    "proposed_current_answer": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "state": {
+          "enum": [
+            "value",
+            "absent_or_retired",
+            "unresolved"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "state",
+        "canonical"
+      ],
+      "type": "object"
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "schema_version": {
+      "enum": [
+        "egta_judgment.v1"
+      ],
+      "type": "string"
+    },
+    "supporting_evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "temporal_scope": {
+      "enum": [
+        "temporal",
+        "non_temporal",
+        "uncertain"
+      ],
+      "type": "string"
+    },
+    "verdict": {
+      "enum": [
+        "still_valid",
+        "superseded_revision",
+        "superseded_retirement",
+        "historically_valid",
+        "ambiguous_context",
+        "insufficient_evidence",
+        "source_conflict",
+        null
+      ],
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "item_id",
+    "temporal_scope",
+    "direction",
+    "verdict",
+    "event_type",
+    "frozen_answer_identified",
+    "proposed_current_answer",
+    "change_date",
+    "supporting_evidence_ids",
+    "credible_source_conflict",
+    "manual_override",
+    "rationale"
+  ],
+  "type": "object"
+}

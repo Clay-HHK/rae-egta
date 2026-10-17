@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_8284c64ad8cc63ffce0b61b437e5aa58cca9853d64ea838b5ef441510522ca48",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Sloane Stephens",
+    "state": "value"
+  },
+  "rationale": "The question asks about the outcome of a specific, completed historical event (the 2017 US Open women's singles final). Evidence e1 confirms Sloane Stephens defeated Madison Keys 6-3, 6-0 to win the title. This is a fixed historical fact that cannot be superseded or revised by later events; the 2017 champion remains Sloane Stephens permanently, so the frozen answer is historically valid.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

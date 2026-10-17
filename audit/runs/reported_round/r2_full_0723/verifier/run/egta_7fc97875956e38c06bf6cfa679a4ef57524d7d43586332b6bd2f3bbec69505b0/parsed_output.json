@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2019-01-01",
+    "latest": "2019-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_7fc97875956e38c06bf6cfa679a4ef57524d7d43586332b6bd2f3bbec69505b0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Chuck Grassley",
+    "state": "value"
+  },
+  "rationale": "Deictic 'currently' is read as of audit_as_of 2026-07-21 under the temporal reading policy, so direction is current. Evidence identifies frozen answer Orrin Hatch as president pro tempore for 2015–2019 (near reference_time) and lists Chuck Grassley as incumbent since 2025-01-03, establishing a later revision that invalidates the frozen answer at audit time.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

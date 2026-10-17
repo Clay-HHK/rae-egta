@@ -1,0 +1,73 @@
+{
+  "evidence_package_id": "egta_evidence_fde11ea42e3674cc92ced71854db3b08d9de4e426f14a1bdbabb348f42454ee9",
+  "evidence_sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "content_sha256": "97e2374dc06831301926c0c75f7c022bacc96136e74daa786b29e298fc88fc83",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "文首概述段",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer",
+            "current_answer"
+          ],
+          "text": "three Super Bowl championships: XI (1976), XV (1980), and XVIII (1983)"
+        }
+      ],
+      "title": "Las Vegas Raiders",
+      "url": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders"
+    },
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/Super_Bowl_LX",
+      "content_sha256": "af0a16161e5a9e5c57795970a199305cd727cacdfedc67081ff68ebc69972122",
+      "evidence_id": "e2",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "正文首段（去除维基内链后的纯文本）",
+          "span_id": "s2",
+          "supports": [
+            "current_answer"
+          ],
+          "text": "The National Football Conference (NFC) champion Seattle Seahawks defeated the American Football Conference (AFC) champion New England Patriots 29–13."
+        }
+      ],
+      "title": "Super Bowl LX",
+      "url": "https://en.wikipedia.org/wiki/Super_Bowl_LX"
+    }
+  ],
+  "frozen_answer": {
+    "normalized": "1983",
+    "raw": "1983"
+  },
+  "item_id": "egta_3804a06f6c7deab5f81facf9d6d605366d2588a68310f14986c5ae81725e4ed9",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "last year"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: when was the last year the raiders won the superbowl",
+  "schema_version": "egta.v1"
+}

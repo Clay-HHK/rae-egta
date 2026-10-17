@@ -1,0 +1,22 @@
+{
+  "date_normalization": {
+    "applied": false,
+    "normalized": {
+      "earliest": null,
+      "latest": null,
+      "precision": "unknown"
+    },
+    "raw": {
+      "earliest": null,
+      "latest": null,
+      "precision": "unknown"
+    }
+  },
+  "evidence_contract_valid": true,
+  "item_id": "egta_ec42c86eeb7627bca55ff1a3828a2f6827bce65b72675aeab81d28d311735747",
+  "json_parse_valid": true,
+  "judgment_schema_errors": [],
+  "judgment_schema_valid": true,
+  "terminal_status": "ok",
+  "zero_tool_calls": true
+}

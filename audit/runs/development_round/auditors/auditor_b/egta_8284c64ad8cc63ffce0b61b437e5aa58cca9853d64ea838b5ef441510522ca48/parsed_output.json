@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_8284c64ad8cc63ffce0b61b437e5aa58cca9853d64ea838b5ef441510522ca48",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Sloane Stephens",
+    "state": "value"
+  },
+  "rationale": "The question asks for the fixed outcome of the explicitly dated 2017 tournament. Evidence e1 identifies Sloane Stephens as the winner, matching the frozen answer; no temporal change is implicated.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

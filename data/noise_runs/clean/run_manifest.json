@@ -1,0 +1,143 @@
+{
+  "args": {
+    "add_fraction": 0.1,
+    "chunk_noise_paragraphs": 0,
+    "device": "cuda",
+    "distractors_per_event": 2,
+    "events": 400,
+    "methods": [
+      "no_update",
+      "store_only",
+      "query_rewrite_update",
+      "oldref_adapted_preserver",
+      "postevent_validity_filter",
+      "intent_aware_postevent_filter"
+    ],
+    "noise_assignment_seed": 20260714,
+    "noise_factor": "clean",
+    "noise_rate": 0.0,
+    "output_dir": "runs/block_n_metadata_intent_noise/clean",
+    "partial_write_every_queries": 250,
+    "rerank_candidate_k": 20,
+    "retire_fraction": 0.4,
+    "retriever": "bm25",
+    "revise_fraction": 0.5,
+    "run_id": "block_n_clean",
+    "seeds": [
+      13,
+      21,
+      34
+    ],
+    "stable_queries_per_event": 2,
+    "stress_axis": "lexical_schema",
+    "top_k": 5
+  },
+  "chunk_record_count": 16560,
+  "condition_spec_hash": "d0deff96bd38a10279e3586b819f3efb0f0b9b04b323bcf3695d341bc869fef7",
+  "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+  "document_record_count": 8280,
+  "environment": {
+    "command": "<server-env>/bin/python <server-workspace>/clean_checkout/src/rae_egta/rag_post_event/run_document.py --output-dir runs/block_n_metadata_intent_noise/clean --run-id block_n_clean --events 400 --seeds 13 21 34 --methods no_update store_only query_rewrite_update oldref_adapted_preserver postevent_validity_filter intent_aware_postevent_filter --stable-queries-per-event 2 --add-fraction 0.10 --revise-fraction 0.50 --retire-fraction 0.40 --distractors-per-event 2 --chunk-noise-paragraphs 0 --retriever bm25 --top-k 5 --rerank-candidate-k 20 --stress-axis lexical_schema --noise-factor clean --noise-rate 0 --noise-assignment-seed 20260714 --partial-write-every-queries 250 --device cuda",
+    "cuda_available": true,
+    "cuda_device": "Tesla T4",
+    "cuda_version": "12.4",
+    "device": "cuda",
+    "numpy_version": "1.26.4",
+    "pyg_version": "2.8.0",
+    "python_version": "3.12.2",
+    "torch_version": "2.6.0+cu124"
+  },
+  "event_record_count": 1200,
+  "experiment": "rag_post_event_controlled_document_rag",
+  "git": {
+    "git_dirty": false,
+    "git_dirty_ignored_paths": [
+      "data"
+    ],
+    "git_dirty_ignored_prefixes": [
+      "data/",
+      "experiments/kg_external_validation/data/eval_panels/",
+      "experiments/kg_external_validation/data/retired_provenance_audit/",
+      "experiments/kg_external_validation/runs/",
+      "experiments/kg_external_validation/go/runs/",
+      "experiments/primekg_mvp/outputs/",
+      "runs/"
+    ],
+    "git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1",
+    "git_status_short": "",
+    "git_status_short_raw": "<omitted>"
+  },
+  "methods": [
+    "no_update",
+    "store_only",
+    "query_rewrite_update",
+    "oldref_adapted_preserver",
+    "postevent_validity_filter",
+    "intent_aware_postevent_filter"
+  ],
+  "noise_assignment": {
+    "affected_count": 0,
+    "affected_ids": [],
+    "assignment_hash": "348446d1055a3abd64adc37cc5305e8cdb9f283d59e8476ed0eb54781bf24099",
+    "assignment_seed": 20260714,
+    "changes": [],
+    "eligible_count": 0,
+    "factor": "clean",
+    "realized_rate": 0.0,
+    "requested_rate": 0.0,
+    "unit_type": "none"
+  },
+  "row_count": 34560,
+  "schema_addendum": {
+    "fields": [
+      "clean_intent",
+      "effective_intent",
+      "intent_corrupted",
+      "noise_factor",
+      "noise_requested_rate",
+      "noise_realized_rate",
+      "noise_assignment_hash"
+    ],
+    "policy": "Noise columns and manifest fields are present in every condition, including clean. Legacy equivalence projects onto the pre-refactor schema fields."
+  },
+  "schema_fields": [
+    "run_id",
+    "dataset",
+    "seed",
+    "event_id",
+    "event_type",
+    "query_id",
+    "query_type",
+    "method",
+    "old_answer",
+    "postevent_answer",
+    "updated_answer",
+    "target_success",
+    "current_valid_accuracy",
+    "obsolete_answer_rate",
+    "old_reference_retention",
+    "postevent_retention",
+    "cvbd",
+    "total_drift",
+    "store_response_drift",
+    "adaptation_side_effect",
+    "historical_accuracy",
+    "retrieved_doc_ids",
+    "retrieved_versions",
+    "gold_doc_id",
+    "evidence_hit",
+    "obsolete_evidence_hit",
+    "retrieval_recall_at_k",
+    "answer_source",
+    "chunk_rank",
+    "retrieval_prompt",
+    "stress_axis",
+    "clean_intent",
+    "effective_intent",
+    "intent_corrupted",
+    "noise_factor",
+    "noise_requested_rate",
+    "noise_realized_rate",
+    "noise_assignment_hash"
+  ]
+}

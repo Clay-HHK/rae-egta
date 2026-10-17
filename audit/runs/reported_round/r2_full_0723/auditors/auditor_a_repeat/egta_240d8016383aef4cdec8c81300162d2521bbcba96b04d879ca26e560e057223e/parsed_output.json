@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_240d8016383aef4cdec8c81300162d2521bbcba96b04d879ca26e560e057223e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Kyla Coleman",
+    "state": "value"
+  },
+  "rationale": "Per the temporal reading policy, the deictic \"latest\" resolves to audit_as_of (2026-07-21), giving direction=current. Evidence e1, accessed/updated 2026-07 (span s2), explicitly identifies cycle 24 as \"the twenty-fourth and final cycle\" of America's Next Top Model, indicating no subsequent cycle exists as of the audit date. Span s1 confirms Kyla Coleman won that cycle. Since the evidence is recent and shows no later cycle superseding it, the frozen answer remains valid at audit time: still_valid.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

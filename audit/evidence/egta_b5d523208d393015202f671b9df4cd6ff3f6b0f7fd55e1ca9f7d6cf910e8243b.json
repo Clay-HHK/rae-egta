@@ -1,0 +1,28 @@
+{
+  "item_id": "egta_b5d523208d393015202f671b9df4cd6ff3f6b0f7fd55e1ca9f7d6cf910e8243b",
+  "question": "nq question: who won last year's grand national 2017",
+  "frozen_answer": "One For Arthur",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2017_Grand_National",
+      "title": "2017 Grand National",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2025-04-14",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "The race was won by One For Arthur, only the second horse trained in Scotland to win the Grand National",
+          "locator": "article lead / race summary",
+          "supports": ["frozen_answer", "current_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Direct fetch of Wikipedia 2017 Grand National article; winner confirmed in lead. 2017 race result is a fixed past event, so frozen answer remains correct under the explicit 2017 anchor. 1 fetch used.",
+  "change_date_hint": null
+}

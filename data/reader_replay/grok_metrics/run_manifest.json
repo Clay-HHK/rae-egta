@@ -1,0 +1,3415 @@
+{
+  "config": {
+    "add_fraction": 0.1,
+    "chunk_noise_paragraphs": 0,
+    "dense_model_id": "Qwen/Qwen3-Embedding-0.6B",
+    "dense_model_snapshot": "97b0c614",
+    "device": "cpu",
+    "distractors_per_event": 2,
+    "exploratory": true,
+    "holdout_offset": 0,
+    "methods": [
+      "no_update",
+      "store_only",
+      "query_rewrite_update",
+      "oldref_adapted_preserver",
+      "postevent_validity_filter",
+      "intent_aware_postevent_filter"
+    ],
+    "mode": "formal",
+    "rerank_candidate_k": 20,
+    "retire_fraction": 0.4,
+    "retrievers": [
+      "bm25"
+    ],
+    "revise_fraction": 0.5,
+    "run_id": "controlled_llm_grok_exploratory_20260717T223053Z",
+    "seeds": [
+      13,
+      21,
+      34
+    ],
+    "source_events_per_seed": 1500,
+    "source_stable_queries_per_event": 2,
+    "stress_axis": "lexical_schema",
+    "top_k": 5
+  },
+  "config_hash": "f32360ceb519cce4edd79571695c35678cf2d9c57e150a9e6464ec166ccdec50",
+  "environment": {
+    "command": "<server-env>/bin/python <server-workspace>/clean_checkout/src/rae_egta/rag_post_event/run_document_llm.py --output-dir runs/controlled_document_llm/exploratory_formal_grok_20260717T223053Z/grok --run-id controlled_llm_grok_exploratory_20260717T223053Z --mode formal --exploratory --seeds 13 21 34 --source-events-per-seed 1500 --source-stable-queries-per-event 2 --methods no_update store_only query_rewrite_update oldref_adapted_preserver postevent_validity_filter intent_aware_postevent_filter --top-k 5 --rerank-candidate-k 20 --stress-axis lexical_schema --device cpu --retrievers bm25 --reader grok_4_5 --reader-model-id grok-4.5 --api-key-env GROK_API_KEY --base-url <GROK_BASE_URL> --reader-concurrency 12",
+    "cuda_available": true,
+    "cuda_device": "Tesla T4",
+    "cuda_version": "12.4",
+    "device": "cpu",
+    "numpy_version": "1.26.4",
+    "pyg_version": "2.8.0",
+    "python_version": "3.12.2",
+    "torch_version": "2.6.0+cu124"
+  },
+  "experiment": "controlled_document_rag_llm_reader",
+  "exploratory": true,
+  "git": {
+    "git_dirty": false,
+    "git_dirty_ignored_paths": [
+      "data"
+    ],
+    "git_dirty_ignored_prefixes": [
+      "data/",
+      "experiments/kg_external_validation/data/eval_panels/",
+      "experiments/kg_external_validation/data/retired_provenance_audit/",
+      "experiments/kg_external_validation/runs/",
+      "experiments/kg_external_validation/go/runs/",
+      "experiments/primekg_mvp/outputs/",
+      "runs/"
+    ],
+    "git_sha": "6efdfcdd0d862b6560135482081fd3f11a4ed6ef",
+    "git_status_short": "",
+    "git_status_short_raw": "<omitted>"
+  },
+  "holdout_offset": 0,
+  "note": "EXPLORATORY pilot-informed run; not pre-registered CL closure; gate query_rewrite_target_success failed at pilot",
+  "preregistered_closure": false,
+  "protocol_version": "controlled_document_llm_v3",
+  "query_template_version": "controlled_rag_query_template_v2",
+  "reader": {
+    "api_key_env": "GROK_API_KEY",
+    "base_urls": [
+      "<GROK_BASE_URL>"
+    ],
+    "cache_hit_count": 1404,
+    "extra_body": {},
+    "max_tokens": 64,
+    "model_id": "grok-4.5",
+    "prompt_policy_version": "naturalrev_reader_v2_extract_when_present",
+    "reader_family": "grok_4_5",
+    "real_call_count": 2052,
+    "require_cache": false,
+    "retries": 3,
+    "system_prompt": "Answer only from the provided documents. For a query about an attribute, use the highest-ranked provided document that states a value for that attribute and return that value verbatim. If a value is stated, do not return UNKNOWN. Return UNKNOWN only if no provided document states a value for the queried attribute. Return only that shortest supported value, without explanation. Do not use outside knowledge.",
+    "temperature": 0.0,
+    "timeout_seconds": 60.0
+  },
+  "reader_concurrency": 12,
+  "retrieval_indexes": [
+    {
+      "chunk_count": 15000,
+      "chunk_fingerprint": "0c728363107fc418e5c257e74c36e5b95a537d5da7ec4885ca6d0c322ca1041d",
+      "protocol_version": "document_bm25_v1",
+      "retriever": "bm25",
+      "seed": 13,
+      "state": "old"
+    },
+    {
+      "chunk_count": 17700,
+      "chunk_fingerprint": "057c1cfe29954479020cf4d0917799b11bbc0288fae3a26d6407021689f243eb",
+      "protocol_version": "document_bm25_v1",
+      "retriever": "bm25",
+      "seed": 13,
+      "state": "postevent"
+    },
+    {
+      "chunk_count": 20700,
+      "chunk_fingerprint": "1f651afca637eddc0703f333d0d6c6292cc67fd638c558b521c60bb282ee50a9",
+      "protocol_version": "document_bm25_v1",
+      "retriever": "bm25",
+      "seed": 13,
+      "state": "combined"
+    },
+    {
+      "chunk_count": 15000,
+      "chunk_fingerprint": "ec7560e1080b26da2ff32622c5f8f374cbedb7cb97f7f4f4b225a623c6c0f7fd",
+      "protocol_version": "document_bm25_v1",
+      "retriever": "bm25",
+      "seed": 21,
+      "state": "old"
+    },
+    {
+      "chunk_count": 17700,
+      "chunk_fingerprint": "52d7ab04e1502faabc720828e2950fef12141b23af399c7aa8a82dec6806e786",
+      "protocol_version": "document_bm25_v1",
+      "retriever": "bm25",
+      "seed": 21,
+      "state": "postevent"
+    },
+    {
+      "chunk_count": 20700,
+      "chunk_fingerprint": "67bd62a0d0adec84560540c2e057f41e38266d00083f1b7e2579ecdfacd3bd17",
+      "protocol_version": "document_bm25_v1",
+      "retriever": "bm25",
+      "seed": 21,
+      "state": "combined"
+    },
+    {
+      "chunk_count": 15000,
+      "chunk_fingerprint": "43bae5f76063edbfbe8c4a7d00ff29cff9ca8d1c8be4539096e9b8acd134c7fe",
+      "protocol_version": "document_bm25_v1",
+      "retriever": "bm25",
+      "seed": 34,
+      "state": "old"
+    },
+    {
+      "chunk_count": 17700,
+      "chunk_fingerprint": "a3dc135db450d1fd71eea9f6cadda18e3db05b50b7fcf7f955034df937cc2a35",
+      "protocol_version": "document_bm25_v1",
+      "retriever": "bm25",
+      "seed": 34,
+      "state": "postevent"
+    },
+    {
+      "chunk_count": 20700,
+      "chunk_fingerprint": "a353e520aeeebfbfd75c523c24e5712e8dd674cb5babf7c646398c349234353b",
+      "protocol_version": "document_bm25_v1",
+      "retriever": "bm25",
+      "seed": 34,
+      "state": "combined"
+    }
+  ],
+  "row_count": 3456,
+  "schema_fields": [
+    "run_id",
+    "dataset",
+    "protocol_version",
+    "exploratory",
+    "query_template_version",
+    "holdout_offset",
+    "subsample_hash",
+    "config_hash",
+    "seed",
+    "event_id",
+    "event_type",
+    "query_id",
+    "query_type",
+    "reader_id",
+    "model_requested",
+    "model_returned",
+    "retriever",
+    "method",
+    "raw_reader_output",
+    "normalized_reader_output",
+    "parsed_answer",
+    "scoring_class",
+    "correct_canonical_contained",
+    "conflicting_canonical_contained",
+    "correct_canonical_answer",
+    "conflicting_canonical_answer",
+    "old_canonical_answer",
+    "new_canonical_answer",
+    "clean_event_type",
+    "effective_event_type",
+    "clean_query_prompt",
+    "effective_reader_query",
+    "effective_retrieval_prompt",
+    "clean_intent",
+    "effective_intent",
+    "intent_corrupted",
+    "clean_gold_doc_id",
+    "effective_retrieved_doc_ids",
+    "effective_retrieved_chunk_ids",
+    "effective_retrieved_versions",
+    "effective_retrieval_scores",
+    "effective_context_sha256",
+    "effective_retrieval_recall_at_k",
+    "effective_evidence_hit",
+    "effective_obsolete_evidence_hit",
+    "clean_record_sha256",
+    "effective_provenance_sha256",
+    "reader_prompt_sha256",
+    "reader_cache_hit",
+    "reader_latency_seconds",
+    "reader_base_url",
+    "reader_prompt_policy_version",
+    "answer_source",
+    "chunk_rank",
+    "stress_axis"
+  ],
+  "selected_event_count": 120,
+  "selected_query_count": 576,
+  "source_event_record_count": 4500,
+  "subsample": {
+    "event_count": 120,
+    "event_counts": {
+      "ADD": 12,
+      "RETIRE": 48,
+      "REVISE": 60
+    },
+    "holdout_offset": 0,
+    "mode": "formal",
+    "per_seed_event_counts": {
+      "13": {
+        "ADD": 4,
+        "RETIRE": 16,
+        "REVISE": 20
+      },
+      "21": {
+        "ADD": 4,
+        "RETIRE": 16,
+        "REVISE": 20
+      },
+      "34": {
+        "ADD": 4,
+        "RETIRE": 16,
+        "REVISE": 20
+      }
+    },
+    "pilot_holdout_selection_version": "controlled_llm_pilot_holdout_blocks_v1",
+    "protocol_version": "controlled_llm_subsample_v2",
+    "query_count": 576,
+    "query_counts": {
+      "current_valid_stable": 240,
+      "historical": 108,
+      "obsolete_unqualified": 108,
+      "target": 120
+    },
+    "query_template_version": "controlled_rag_query_template_v2",
+    "ranking_namespace": "controlled_llm_subsample_v1",
+    "selected_events": [
+      {
+        "event_id": 27,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0027_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0027_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0027_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0027_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0027_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 28,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0028_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0028_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0028_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0028_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0028_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 48,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0048_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0048_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0048_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0048_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0048_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 56,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e0056_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0056_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0056_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 73,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0073_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0073_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0073_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0073_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0073_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 83,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0083_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0083_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0083_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0083_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0083_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 128,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0128_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0128_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0128_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0128_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0128_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 161,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0161_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0161_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0161_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0161_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0161_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 183,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0183_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0183_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0183_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0183_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0183_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 188,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0188_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0188_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0188_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0188_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0188_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 233,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0233_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0233_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0233_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0233_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0233_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 256,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0256_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0256_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0256_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0256_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0256_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 268,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0268_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0268_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0268_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0268_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0268_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 289,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0289_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0289_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0289_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0289_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0289_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 310,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0310_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0310_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0310_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0310_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0310_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 355,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0355_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0355_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0355_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0355_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0355_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 391,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0391_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0391_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0391_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0391_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0391_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 399,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0399_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0399_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0399_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0399_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0399_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 402,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0402_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0402_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0402_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0402_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0402_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 454,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0454_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0454_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0454_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0454_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0454_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 470,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0470_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0470_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0470_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0470_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0470_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 490,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0490_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0490_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0490_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0490_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0490_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 497,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0497_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0497_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0497_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0497_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0497_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 580,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e0580_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0580_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0580_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 596,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0596_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0596_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0596_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0596_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0596_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 622,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0622_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0622_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0622_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0622_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0622_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 644,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0644_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0644_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0644_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0644_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0644_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 647,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0647_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0647_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0647_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0647_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0647_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 677,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e0677_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0677_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0677_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 885,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0885_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0885_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0885_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0885_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0885_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 942,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e0942_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0942_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0942_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 984,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0984_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0984_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0984_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0984_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0984_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 1006,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1006_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1006_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1006_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1006_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1006_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 1055,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1055_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1055_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1055_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1055_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1055_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 1115,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1115_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1115_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1115_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1115_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1115_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 1167,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1167_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1167_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1167_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1167_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1167_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 1260,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1260_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1260_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1260_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1260_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1260_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 1315,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1315_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1315_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1315_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1315_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1315_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 1345,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1345_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1345_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1345_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1345_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1345_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 1475,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1475_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1475_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1475_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1475_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1475_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 13
+      },
+      {
+        "event_id": 29,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0029_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0029_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0029_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0029_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0029_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 33,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0033_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0033_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0033_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0033_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0033_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 39,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0039_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0039_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0039_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0039_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0039_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 67,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e0067_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0067_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0067_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 76,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e0076_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0076_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0076_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 149,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0149_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0149_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0149_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0149_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0149_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 165,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0165_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0165_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0165_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0165_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0165_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 203,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0203_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0203_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0203_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0203_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0203_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 212,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0212_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0212_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0212_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0212_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0212_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 238,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0238_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0238_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0238_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0238_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0238_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 338,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0338_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0338_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0338_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0338_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0338_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 431,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0431_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0431_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0431_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0431_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0431_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 453,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0453_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0453_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0453_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0453_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0453_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 498,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0498_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0498_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0498_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0498_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0498_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 521,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0521_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0521_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0521_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0521_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0521_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 538,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0538_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0538_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0538_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0538_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0538_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 576,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0576_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0576_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0576_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0576_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0576_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 634,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e0634_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0634_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0634_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 644,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0644_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0644_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0644_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0644_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0644_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 654,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0654_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0654_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0654_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0654_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0654_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 667,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0667_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0667_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0667_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0667_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0667_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 714,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0714_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0714_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0714_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0714_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0714_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 768,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0768_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0768_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0768_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0768_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0768_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 821,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0821_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0821_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0821_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0821_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0821_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 822,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0822_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0822_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0822_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0822_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0822_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 842,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0842_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0842_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0842_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0842_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0842_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 965,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0965_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0965_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0965_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0965_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0965_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1014,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1014_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1014_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1014_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1014_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1014_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1031,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1031_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1031_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1031_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1031_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1031_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1045,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1045_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1045_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1045_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1045_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1045_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1066,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1066_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1066_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1066_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1066_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1066_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1095,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1095_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1095_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1095_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1095_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1095_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1143,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1143_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1143_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1143_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1143_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1143_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1155,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1155_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1155_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1155_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1155_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1155_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1185,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1185_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1185_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1185_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1185_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1185_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1193,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1193_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1193_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1193_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1193_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1193_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1201,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1201_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1201_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1201_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1201_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1201_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1217,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e1217_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1217_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1217_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1274,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1274_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1274_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1274_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1274_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1274_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 1439,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1439_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1439_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1439_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1439_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1439_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "event_id": 41,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0041_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0041_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0041_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0041_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0041_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 152,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0152_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0152_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0152_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0152_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0152_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 180,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0180_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0180_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0180_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0180_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0180_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 222,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0222_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0222_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0222_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0222_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0222_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 224,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0224_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0224_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0224_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0224_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0224_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 266,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0266_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0266_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0266_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0266_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0266_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 300,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0300_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0300_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0300_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0300_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0300_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 307,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0307_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0307_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0307_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0307_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0307_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 375,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0375_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0375_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0375_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0375_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0375_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 404,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0404_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0404_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0404_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0404_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0404_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 435,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0435_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0435_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0435_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0435_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0435_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 464,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0464_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0464_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0464_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0464_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0464_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 470,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0470_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0470_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0470_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0470_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0470_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 488,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0488_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0488_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0488_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0488_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0488_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 511,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0511_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0511_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0511_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0511_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0511_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 532,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0532_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0532_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0532_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0532_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0532_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 569,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0569_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0569_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0569_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0569_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0569_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 572,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0572_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0572_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0572_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0572_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0572_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 631,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0631_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0631_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0631_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0631_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0631_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 646,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e0646_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0646_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0646_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 676,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0676_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0676_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0676_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0676_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0676_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 733,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0733_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0733_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0733_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0733_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0733_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 770,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0770_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0770_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0770_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0770_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0770_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 815,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0815_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0815_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0815_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0815_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0815_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 937,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0937_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0937_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0937_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0937_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0937_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 944,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0944_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0944_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0944_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0944_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0944_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 958,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e0958_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0958_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0958_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0958_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0958_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 985,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e0985_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e0985_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e0985_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e0985_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e0985_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1109,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1109_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1109_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1109_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1109_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1109_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1126,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1126_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1126_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1126_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1126_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1126_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1175,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1175_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1175_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1175_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1175_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1175_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1202,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e1202_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1202_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1202_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1230,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1230_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1230_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1230_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1230_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1230_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1266,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1266_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1266_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1266_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1266_stable_1",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1266_stable_0",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1272,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e1272_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1272_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1272_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1348,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1348_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1348_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1348_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1348_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1348_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1349,
+        "event_type": "REVISE",
+        "queries": [
+          {
+            "query_id": "e1349_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1349_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1349_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1349_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1349_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1388,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1388_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1388_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1388_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1388_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1388_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1412,
+        "event_type": "RETIRE",
+        "queries": [
+          {
+            "query_id": "e1412_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1412_obsolete",
+            "query_type": "obsolete_unqualified"
+          },
+          {
+            "query_id": "e1412_historical",
+            "query_type": "historical"
+          },
+          {
+            "query_id": "e1412_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1412_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      },
+      {
+        "event_id": 1494,
+        "event_type": "ADD",
+        "queries": [
+          {
+            "query_id": "e1494_target",
+            "query_type": "target"
+          },
+          {
+            "query_id": "e1494_stable_0",
+            "query_type": "current_valid_stable"
+          },
+          {
+            "query_id": "e1494_stable_1",
+            "query_type": "current_valid_stable"
+          }
+        ],
+        "seed": 34
+      }
+    ],
+    "subsample_hash": "0cbc1ae978fcd1a45b4942a9ca4bb9300d27d72a6d516c6e7367ad4ce1e1085c"
+  },
+  "subsample_hash": "0cbc1ae978fcd1a45b4942a9ca4bb9300d27d72a6d516c6e7367ad4ce1e1085c",
+  "subsample_protocol_version": "controlled_llm_subsample_v2"
+}

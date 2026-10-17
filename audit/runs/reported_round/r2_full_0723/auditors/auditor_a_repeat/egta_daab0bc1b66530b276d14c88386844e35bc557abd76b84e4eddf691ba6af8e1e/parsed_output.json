@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2026-03-12",
+    "latest": "2026-03-12",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_daab0bc1b66530b276d14c88386844e35bc557abd76b84e4eddf691ba6af8e1e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "The question's deictic anchor \"last year\" is interpreted relative to audit_as_of (2026-07-21) per protocol, i.e., 2025. The frozen answer \"Atlanta Hawks\" reflects Howard's 2016-17 Hawks tenure near the NQ reference window. Evidence (e1, e2) establishes that by 2022 Howard had cycled through Lakers, Rockets, Hawks, Hornets, Wizards, and Sixers, then spent recent years competing outside the NBA (Taiwan, Puerto Rico, BIG3) before formally announcing retirement from basketball on 2026-03-12. Neither source names a specific team for 2025 specifically, but both confirm Howard was no longer with Atlanta Hawks or any NBA team long before that point, and is now retired. The frozen answer is therefore invalidated by the subsequent trajectory culminating in a dated, sourced retirement event; no specific replacement team can be identified from the evidence, so the current answer state is treated as retired/absent rather than a named team.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_retirement"
+}

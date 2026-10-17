@@ -1,0 +1,24 @@
+{
+  "item_id": "egta_1da06ca032c2414b5e396089200bb9a4df6942ac65404f98456dfb3def960b1c",
+  "question": "nq question: where is the snooker world open currently held",
+  "frozen_answer": "Haikou",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2025_World_Open_(snooker)",
+      "title": "2025 World Open (snooker) - Wikipedia",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {"span_id": "s1", "text": "The tournament took place from 23 February to 1 March 2025 at the Yushan Sport Centre in Yushan, China.", "locator": "lead section", "supports": ["current_answer"]},
+        {"span_id": "s2", "text": "China hosted the event from 2012 to 2014 in Haikou, and in Yushan since 2016.", "locator": "background/history section", "supports": ["frozen_answer", "current_answer", "change_date"]}
+      ]
+    }
+  ],
+  "search_log": "Seed URL (Wikipedia 2025 World Open) accessible and supportive: 2025 edition held in Yushan, and history sentence confirms both the frozen answer's past validity (Haikou 2012-2014) and the change (Yushan since 2016). Note the frozen NQ gold was likely already stale at freeze time (post-2016). Single source covers all three evidence targets; no second source needed. 1 fetch used.",
+  "change_date_hint": "2016 (event held in Yushan since 2016; Haikou era ended after 2014)"
+}

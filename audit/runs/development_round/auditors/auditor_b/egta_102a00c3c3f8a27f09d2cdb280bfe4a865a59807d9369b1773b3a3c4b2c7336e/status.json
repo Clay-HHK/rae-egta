@@ -1,0 +1,26 @@
+{
+  "backend": "codex_cli",
+  "date_normalization": {
+    "applied": true,
+    "normalized": {
+      "earliest": "2018-01-01",
+      "latest": "2018-12-31",
+      "precision": "year"
+    },
+    "raw": {
+      "earliest": "2018",
+      "latest": "2018",
+      "precision": "year"
+    }
+  },
+  "evidence_contract_error": null,
+  "evidence_contract_valid": true,
+  "item_id": "egta_102a00c3c3f8a27f09d2cdb280bfe4a865a59807d9369b1773b3a3c4b2c7336e",
+  "json_parse_valid": true,
+  "judgment_schema_errors": [],
+  "judgment_schema_valid": true,
+  "requested_model": "gpt-5.6-terra",
+  "role": "auditor_b",
+  "terminal_status": "ok",
+  "zero_tool_calls": true
+}

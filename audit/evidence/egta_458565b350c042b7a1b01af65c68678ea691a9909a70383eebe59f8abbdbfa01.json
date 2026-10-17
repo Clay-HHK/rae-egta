@@ -1,0 +1,63 @@
+{
+  "item_id": "egta_458565b350c042b7a1b01af65c68678ea691a9909a70383eebe59f8abbdbfa01",
+  "question": "nq question: who is the number one ranked golfer in the world right now",
+  "frozen_answer": "Dustin Johnson",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Official_World_Golf_Ranking",
+      "title": "Official World Golf Ranking",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "On February 19, 2017, Dustin Johnson became the 20th player to reach number one in the rankings following his victory at the Genesis Open.",
+          "locator": "Timeline of the 'number one' ranking 段",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "He would remain number one for over a year before being overtaken in May 2018 by Justin Thomas",
+          "locator": "Timeline of the 'number one' ranking 段",
+          "supports": ["frozen_answer", "change_date"]
+        },
+        {
+          "span_id": "s3",
+          "text": "2025 Scheffler (3)",
+          "locator": "Year-end world number 1 ranked golfers 表",
+          "supports": ["current_answer"]
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scottie_Scheffler",
+      "title": "Scottie Scheffler - Wikipedia",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s4",
+          "text": "He is currently ranked world number one in the Official World Golf Ranking",
+          "locator": "文首 infobox / 首段",
+          "supports": ["current_answer"]
+        },
+        {
+          "span_id": "s5",
+          "text": "1 (March 27, 2022) (201 weeks, as of July 19, 2026)",
+          "locator": "infobox Highest ranking 字段",
+          "supports": ["current_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "seed URL owgr.com/current-world-ranking 可访问但排名表为 JS 动态渲染，抓取到的内容只有表头无球员数据，不构成合格源。改用 Wikipedia OWGR 条目（覆盖 frozen：Johnson 2017-02-19 登顶、2018-05 被 Thomas 超越）+ Wikipedia Scheffler 条目（覆盖当前：现任世界第一，截至 2026-07-19 累计 201 周）。第一次抓 OWGR 条目遇 socket closed，重试成功。",
+  "change_date_hint": "2018-05 (Johnson 首次失去第一；此后多次易主，现任 Scheffler)"
+}

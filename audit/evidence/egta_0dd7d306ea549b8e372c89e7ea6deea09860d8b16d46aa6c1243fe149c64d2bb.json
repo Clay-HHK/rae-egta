@@ -1,0 +1,51 @@
+{
+  "item_id": "egta_0dd7d306ea549b8e372c89e7ea6deea09860d8b16d46aa6c1243fe149c64d2bb",
+  "question": "nq question: who won mark and goal of the year 2017",
+  "frozen_answer": "Joe Daniher",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2017_AFL_Mark_of_the_Year",
+      "title": "2017 AFL Mark of the Year",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2026-01-16",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "The winner was Essendon's Joe Daniher, which surprised many fans and media personal who expected Jeremy Howe of Collingwood to win the award",
+          "locator": "article body, winner announcement",
+          "supports": ["frozen_answer", "current_answer"]
+        }
+      ]
+    },
+    {
+      "url": "https://www.zerohanger.com/2017-mark-goal-year-winners-announced-15967/",
+      "title": "2017 Mark and Goal of the Year winners announced",
+      "publisher": "Zero Hanger",
+      "source_tier": "reliable_secondary",
+      "publication_or_update_date": "2017-09-25",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s2",
+          "text": "Essendon big man Joe Daniher took out the Mark of the Year",
+          "locator": "article body",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s3",
+          "text": "Richmond youngster Daniel Rioli has been awarded the 2017 Goal of the Year for his remarkable effort from the boundary against West Coast.",
+          "locator": "article body",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "WebSearch (AFL Mark of the Year 2017 Joe Daniher Goal of the Year 2017 winner), then fetched Wikipedia 2017 AFL Mark of the Year page and contemporaneous Zero Hanger article. Caveat recorded honestly: frozen answer Joe Daniher matches the 2017 Mark of the Year only; the 2017 Goal of the Year went to Daniel Rioli (span s3), so under a strict 'mark AND goal' reading the gold covers half the question. 2017 awards are fixed past events; year-anchored validity for the Mark component is supported. 1 search + 2 fetches used.",
+  "change_date_hint": null
+}

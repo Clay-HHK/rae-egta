@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_fb4fd557ea471a4bb7ce02bf695fad87b49476cd2c5a1d7dc7c7f5b387cd956f",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks which scene/episode of Breaking Bad used the lyric \\\"who's gonna save my soul now\\\" (from Badfinger's \\\"Baby Blue\\\"). This is a fact about a fixed, already-completed creative work (the show finished airing in 2013); once established, such a placement does not change over time, so this item is non-temporal in scope. No evidence_sources were supplied in this blind package, so I cannot cite any evidence to confirm or refute the specific frozen answer's factual accuracy (e.g., whether it was the season-1 finale or the series finale). Per protocol, I abstain on the specific answer (state: unresolved, no supporting evidence) while classifying the scope as non_temporal, which requires verdict: null.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

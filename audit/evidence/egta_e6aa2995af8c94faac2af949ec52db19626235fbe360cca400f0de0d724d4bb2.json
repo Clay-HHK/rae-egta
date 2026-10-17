@@ -1,0 +1,57 @@
+{
+  "item_id": "egta_e6aa2995af8c94faac2af949ec52db19626235fbe360cca400f0de0d724d4bb2",
+  "question": "nq question: what is the current mac os operating system",
+  "frozen_answer": "10.13.4",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://www.macworld.com/article/2644146/macos-26-features-latest-update-release-date-beta.html",
+      "title": "macOS 26 Tahoe Guide: All the new features in macOS Tahoe, including the latest update",
+      "publisher": "Macworld",
+      "source_tier": "reliable_secondary",
+      "publication_or_update_date": "2026-06-29",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "The latest version of macOS is macOS Tahoe 26.5.2, which arrived on June 29, 2026.",
+          "locator": "article summary/lead",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s2",
+          "text": "This update has no new features and contains security fixes.",
+          "locator": "article body, latest update section",
+          "supports": ["current_answer"]
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MacOS_High_Sierra",
+      "title": "macOS High Sierra",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "macOS High Sierra (version 10.13) is the fourteenth major release of macOS, Apple's desktop operating system for Macintosh computers.",
+          "locator": "article lead section",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "10.13.4 | 17E199 | March 29, 2018",
+          "locator": "release history table row (version | build | release date cells joined with |)",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Seed URL verified accessible; Macworld guide (updated 2026-06-29) states the latest macOS is Tahoe 26.5.2, released 2026-06-29, matching the legacy current answer. Added Wikipedia macOS High Sierra to ground the frozen answer: 10.13.4 was released 2018-03-29 and was the then-current macOS point release at NQ collection time. Many intermediate annual releases (10.14 through 26) not individually evidenced within budget.",
+  "change_date_hint": "2026-06-29 (26.5.2 release; frozen answer first superseded by 10.13.5/10.14 in 2018, not evidenced within budget)"
+}

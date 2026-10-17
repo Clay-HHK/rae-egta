@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_3f8e1e5110880e2e62703c3614d01edcf360540ab4bcd86a60945aac2184c500",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Scott Blumstein",
+    "state": "value"
+  },
+  "rationale": "The question explicitly anchors to 2017 (\"world series of poker 2017\"), so per the temporal reading policy this is a historical, year-anchored query with direction historical. Evidence e1 (span s1) confirms Scott Blumstein won the 2017 WSOP Main Event ($8,150,000, first place). The winner of a completed past tournament is a fixed historical fact not subject to later revision or retirement, so the frozen answer is historically_valid at the anchored time of 2017.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

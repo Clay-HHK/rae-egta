@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_49a1f1a8ad846f2af41b68d6606a029d3c91f6291e0e570b7bd243d2d66322e5",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The evidence_sources list supplied with this blind request is empty, so no citable material exists to verify the frozen answer ('digitization of social systems'), identify its original source claim, or determine what a currently 'most recent' technological change to the U.S. economy would be as of audit_as_of 2026-07-21. Per the temporal reading policy, the unqualified deictic superlative 'most recent' is interpreted relative to audit_as_of, giving direction=current, but with zero evidence provided there is no basis to confirm the frozen answer still holds, to identify a superseding change, or to date any transition. This must be abstained as insufficient_evidence rather than guessed from unstated model knowledge.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

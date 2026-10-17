@@ -1,0 +1,40 @@
+{
+  "item_id": "egta_5b09970a39729260b53911633b8f916a35ed1d6b254ea37cacc36b67cab7de3c",
+  "question": "nq question: who does dwyane wade play for right now",
+  "frozen_answer": "Miami Heat",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Dwyane_Wade",
+      "title": "Dwyane Wade - Wikipedia",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "he spent the majority of his 16-year career playing for the Miami Heat of the National Basketball Association (NBA)",
+          "locator": "article lead section",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "In the offseason, Wade announced his intentions to retire after the 2018–19 season.",
+          "locator": "article body, final season section",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s3",
+          "text": "In his final game against the Brooklyn Nets the following night, Wade recorded his fifth career triple-double with 25 points, 11 rebounds, and 10 assists as the Heat lost by a score of 113–94.",
+          "locator": "article body, final season section (end of 2018-19 season, April 2019)",
+          "supports": ["current_answer", "change_date"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Seed URL (Wikipedia Dwyane Wade) verified accessible and still contains supporting content: Wade played the majority of his career for the Miami Heat (frozen answer held while active, including at NQ collection time) and retired at the end of the 2018-19 season with his final game against Brooklyn. Single source covers frozen answer, current status (retired), and change window; no second source needed.",
+  "change_date_hint": "2019-04 (final game at end of 2018-19 season)"
+}

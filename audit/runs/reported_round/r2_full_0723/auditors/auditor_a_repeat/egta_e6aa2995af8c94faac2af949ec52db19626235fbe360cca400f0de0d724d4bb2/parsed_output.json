@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_e6aa2995af8c94faac2af949ec52db19626235fbe360cca400f0de0d724d4bb2",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "macOS Tahoe 26.5.2",
+    "state": "value"
+  },
+  "rationale": "The question is a deictic 'current' query, so per policy direction resolves to 'current' relative to audit_as_of 2026-07-21, not 'ambiguous'. The frozen answer 10.13.4 (macOS High Sierra) is confirmed by e2 as released March 29, 2018, consistent with being the current macOS release at or near the NQ reference_time (no later than 2019). Evidence e1 establishes that as of June 29, 2026, the current macOS release is macOS Tahoe 26.5.2 (version 26.x), a far more recent major release. Numerous macOS revisions have superseded 10.13.4 as 'current' since 2018, so the frozen answer no longer holds at the audit time. No specific evidence pins the exact date 10.13.4 stopped being current, so change_date precision is unknown. No credible source conflict exists between e1 and e2, as they describe different points in time.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

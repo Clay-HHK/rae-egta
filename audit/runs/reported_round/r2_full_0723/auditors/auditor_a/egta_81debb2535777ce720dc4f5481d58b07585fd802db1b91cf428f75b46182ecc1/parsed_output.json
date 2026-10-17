@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_81debb2535777ce720dc4f5481d58b07585fd802db1b91cf428f75b46182ecc1",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks for a static historical release date ('when did [the work titled] \\\"Where Are You Now\\\" come out'). The word \\\"now\\\" here is part of the work's title, not a deictic temporal anchor, so the protocol's current-reading rule for deictic expressions does not apply; this is a fixed past-event fact whose truth value does not change with audit time, so temporal_scope is non_temporal, direction is none, and verdict is null per the decision guide. No evidence_sources were supplied in this blind request, so I cannot verify which work is referenced, confirm the frozen date of February 27, 2015, or cite any supporting evidence id; the proposed current answer is therefore left unresolved rather than asserted.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_ec42c86eeb7627bca55ff1a3828a2f6827bce65b72675aeab81d28d311735747",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Ram Nath Kovind and Meira Kumar",
+    "state": "value"
+  },
+  "rationale": "The explicit 2017 anchor makes this a historical question. e1 identifies Ram Nath Kovind as a candidate in the 2017 vote and names Meira Kumar as the opposing candidate; no post-reference change is relevant to the anchored election.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

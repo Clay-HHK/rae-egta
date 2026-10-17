@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2026-07-21",
+    "latest": "2026-07-21",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": false,
+  "item_id": "egta_48dd90728455b25e92cd213dbbf35bf75266c5e9039bcffc688c4b0fd88da493",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "2026-07-21",
+    "state": "value"
+  },
+  "rationale": "The question uses deictic 'latest' but the supplied historical reference bound and audit context leave its intended time unresolved. e1 identifies the most recent listed July 2026 Stable Channel Update for Desktop as dated 2026-07-21. However, e2 dates the relevant January 2018 stable-desktop post to 2018-01-24, not the frozen answer 2018-01-22, so the frozen date cannot be confirmed from the provided evidence.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "insufficient_evidence"
+}

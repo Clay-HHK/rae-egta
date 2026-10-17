@@ -1,0 +1,26 @@
+{
+  "change_date": {
+    "earliest": "2019-04-01",
+    "latest": "2019-04-30",
+    "precision": "month"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_5b09970a39729260b53911633b8f916a35ed1d6b254ea37cacc36b67cab7de3c",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "s1 confirms the frozen answer 'Miami Heat' as the team Wade spent most of his career with. However, s2/s3 establish he announced retirement before the 2018-19 season and played his final NBA game in April 2019 (end of that season), after which he no longer played for any team. The question's deictic 'right now' anchor is temporally ambiguous relative to a bounded NQ reference time (<=2019), but the retirement event documented in evidence means the frozen answer no longer holds as a current playing affiliation post-retirement; Wade is retired with no current team.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "s1",
+    "s2",
+    "s3"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_retirement"
+}

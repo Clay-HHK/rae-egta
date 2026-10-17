@@ -1,0 +1,59 @@
+{
+  "evidence_package_id": "egta_evidence_b8ebc5c92adcd6abe2a237f0257b9d5f48c0da11c3515181bd94901633b1b074",
+  "evidence_sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://chromereleases.googleblog.com/2026/07/",
+      "content_sha256": "64342de7a5a852bcdbc2a8ec1a59e76673530a518f901e09d7fb7b01d774f40a",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "Google (Chrome Releases blog)",
+      "source_tier": "official_primary",
+      "spans": [
+        {
+          "locator": "post titles in July 2026 archive listing (posts dated July 16 and July 21, 2026)",
+          "span_id": "s1",
+          "supports": [
+            "change_date"
+          ],
+          "text": "Stable Channel Update for Desktop"
+        },
+        {
+          "locator": "date header of most recent Stable Channel Update for Desktop post",
+          "span_id": "s2",
+          "supports": [
+            "change_date"
+          ],
+          "text": "Tuesday, July 21, 2026"
+        }
+      ],
+      "title": "Chrome Releases",
+      "url": "https://chromereleases.googleblog.com/2026/07/"
+    }
+  ],
+  "frozen_answer": {
+    "normalized": "67.0",
+    "raw": "67.0"
+  },
+  "item_id": "egta_9f48937f2846a57e5f4871a432ee132067b8b77a69293f05f6ff518e0c36421b",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "latest"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: what is the latest version of chrome for linux",
+  "schema_version": "egta.v1"
+}

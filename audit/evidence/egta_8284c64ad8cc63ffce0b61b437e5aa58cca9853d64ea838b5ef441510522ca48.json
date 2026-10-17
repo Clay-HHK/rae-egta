@@ -1,0 +1,28 @@
+{
+  "item_id": "egta_8284c64ad8cc63ffce0b61b437e5aa58cca9853d64ea838b5ef441510522ca48",
+  "question": "nq question: who won women's singles us open 2017",
+  "frozen_answer": "Sloane Stephens",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2017_US_Open_%E2%80%93_Women%27s_singles",
+      "title": "2017 US Open – Women's singles",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "Sloane Stephens defeated Madison Keys in the final, 6–3, 6–0 to win the women's singles tennis title at the 2017 US Open.",
+          "locator": "article lead sentence",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Year-anchored item (2017 US Open). Fetched Wikipedia '2017 US Open – Women's singles' directly; lead sentence confirms Stephens won. Last-edited date not visible in fetched excerpt, left null. Single source sufficient.",
+  "change_date_hint": null
+}

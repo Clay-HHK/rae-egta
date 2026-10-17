@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2019-01-01",
+    "latest": "2021-12-31",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_903a0733925e3051675833bdacc7290cf9afb11f60025f7bedc5032a424344f5",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "27",
+    "state": "value"
+  },
+  "rationale": "DPIC (e1) headings state 27 states with and 23 without the death penalty as of access; listed abolitions NH 2019, CO 2020, VA 2021 support count revisions. WPR (e2) independently shows 27 states where death penalty is permitted. Frozen 31 is therefore superseded by current 27 under audit_as_of 2026-07-21; no source conflict.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

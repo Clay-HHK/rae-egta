@@ -1,0 +1,9 @@
+{
+ "item_id": "egta_65345b3fe1cc99c84e26f12f8508ef78152a8b4df2114973adde0689f7e5f1fa",
+ "question": "nq question: the gulf stream the world's fastest ocean current flows along the western side of this water body",
+ "frozen_answer": "Atlantic ocean",
+ "backfill_status": "screening_only",
+ "screening_rationale": "\"ocean current\" is a physical term, not temporal deixis",
+ "evidence_sources": [],
+ "access_date": "2026-07-22"
+}

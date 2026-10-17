@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_cd464c35d079a1da26e455dfb2e3e6eda5332e76d8be2855abba13dd707f60cb",
+  "item_id": "egta_8284c64ad8cc63ffce0b61b437e5aa58cca9853d64ea838b5ef441510522ca48",
+  "package_sha256": "cd464c35d079a1da26e455dfb2e3e6eda5332e76d8be2855abba13dd707f60cb",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "Sloane Stephens defeated Madison Keys in the final, 6–3, 6–0 to win the women's singles tennis title at the 2017 US Open."
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/2017_US_Open_%E2%80%93_Women%27s_singles",
+      "content_sha256": "80c4b26488e36aea88f921bd59b012b69f12460f42c56e8092f43020d161bd9b",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "article lead sentence",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "Sloane Stephens defeated Madison Keys in the final, 6–3, 6–0 to win the women's singles tennis title at the 2017 US Open."
+        }
+      ],
+      "title": "2017 US Open – Women's singles",
+      "url": "https://en.wikipedia.org/wiki/2017_US_Open_%E2%80%93_Women%27s_singles"
+    }
+  ]
+}

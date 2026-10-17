@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_ab477caa7d7e9a4273c4bd6ade633a36d49388ceffcf9e89525d33b23bb3a5e6",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Bill Russell",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (2017), which per the temporal reading policy fixes direction as historical anchored at 2017, overriding the co-occurring deictic \"right now.\" Evidence e1 (Wikipedia, accessed 2026) states Bill Russell holds the all-time record with 11 NBA championships won during his 1956-1969 career. Since this career total was fixed decades before 2017 and the record has not been broken, the frozen answer Bill Russell was valid at the 2017 anchor point, yielding historically_valid. The same evidence, dated 2026-06-16, also confirms Russell still holds the record as of the audit date, so no revision or retirement event has occurred and the current answer remains the same.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_371c2ba137115fca3d278af199d222fc7c9d05b6fddc945539b9532ddd2ed50f",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "roman reigns",
+    "state": "value"
+  },
+  "rationale": "The question specifies a fixed historical event (the 2018 Elimination Chamber match) rather than a role or title subject to change over time; the outcome of a past match is a permanent historical fact, not something that can be superseded or revised going forward. Evidence e1 (spans s1, s2) confirms Roman Reigns won this specific seven-man Elimination Chamber match, matching the frozen answer exactly. Because the query is anchored to a specific past occurrence with no 'current status' interpretation, this item is non-temporal, so verdict is null per protocol.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_371c2ba137115fca3d278af199d222fc7c9d05b6fddc945539b9532ddd2ed50f",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "roman reigns",
+    "state": "value"
+  },
+  "rationale": "Evidence e1 (Wikipedia article on Elimination Chamber (2018)) directly states Roman Reigns won the seven-man Elimination Chamber match at the event, defeating Braun Strowman, Seth Rollins, Finn Balor, John Cena, Elias, and The Miz, becoming number one contender for the Universal Championship at WrestleMania 34. This is a fixed, one-time sporting result from a completed 2018 event; such outcomes do not change over time, so the answer remains historically valid as of the audit date (2026-07-21) with no expected revision or retirement event. The question phrasing \"WWE championship elimination chamber\" is imprecise since the cited chamber match determined the Universal Championship number-one contender rather than being a WWE Championship title match, but the evidence explicitly and unambiguously supports the frozen answer as the winner of the only Elimination Chamber match described at this event, so no source conflict or unresolved state applies.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

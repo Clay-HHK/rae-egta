@@ -1,0 +1,34 @@
+{
+  "item_id": "egta_c6e59be72951693413f1c811245ae999c1e22927dc278d4ed5d8036945cdb497",
+  "question": "nq question: who are the two teams in super bowl 2018",
+  "frozen_answer": "Philadelphia Eagles",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Super_Bowl_LII",
+      "title": "Super Bowl LII",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "the game was between the National Football Conference (NFC) champion Philadelphia Eagles and the American Football Conference (AFC) and defending Super Bowl LI champion New England Patriots.",
+          "locator": "article lead section",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "The underdog Eagles defeated the Patriots with a score of 41–33 to win their first Super Bowl",
+          "locator": "article lead section",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Year-anchored item (Super Bowl played Feb 2018 = Super Bowl LII). Fetched Wikipedia 'Super Bowl LII' directly; page confirms Philadelphia Eagles (vs New England Patriots) were the two teams. Last-edited date not visible in fetched excerpt, left null. Single source sufficient.",
+  "change_date_hint": null
+}

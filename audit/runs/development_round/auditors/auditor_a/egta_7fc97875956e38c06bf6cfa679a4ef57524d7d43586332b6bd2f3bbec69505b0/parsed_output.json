@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2019-01-01",
+    "latest": "2019-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_7fc97875956e38c06bf6cfa679a4ef57524d7d43586332b6bd2f3bbec69505b0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Chuck Grassley",
+    "state": "value"
+  },
+  "rationale": "Evidence e1 (span s2) places Hatch's tenure as president pro tempore in 2015-2019, so the frozen answer 'Orrin Hatch' was accurate only within that historical window and ceased to hold once his term ended in 2019 (exact day not given in evidence, hence year precision). Span s1 shows the current incumbent is Chuck Grassley, holding the office 'since January 3, 2025' per the infobox, which directly supersedes the frozen answer as of the question's 'currently' anchor and the 2026-07-21 audit date. No conflicting sources were provided, so credible_source_conflict is false.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

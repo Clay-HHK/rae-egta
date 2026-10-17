@@ -1,0 +1,24 @@
+{
+  "item_id": "egta_240d8016383aef4cdec8c81300162d2521bbcba96b04d879ca26e560e057223e",
+  "question": "nq question: who won latest america's next top model",
+  "frozen_answer": "Kyla Coleman",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/America%27s_Next_Top_Model_season_24",
+      "title": "America's Next Top Model season 24",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2026-07-07",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {"span_id": "s1", "text": "The winner of the competition was 20 year-old Kyla Coleman from Lacey, Washington with Jeana Turner placing as the runner-up.", "locator": "article body, results paragraph", "supports": ["frozen_answer", "current_answer"]},
+        {"span_id": "s2", "text": "The twenty-fourth and final cycle of America's Next Top Model premiered on January 9, 2018.", "locator": "opening paragraph", "supports": ["current_answer"]}
+      ]
+    }
+  ],
+  "search_log": "Seed URL (Wikipedia season 24 article) accessible and still supportive: names Kyla Coleman as winner and states season 24 was the final cycle, so the frozen answer remains the latest winner. Page footer shows last edited 7 July 2026. No second source needed; answer unchanged. 1 fetch used.",
+  "change_date_hint": null
+}

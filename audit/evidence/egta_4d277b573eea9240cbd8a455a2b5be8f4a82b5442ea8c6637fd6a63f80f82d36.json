@@ -1,0 +1,40 @@
+{
+  "item_id": "egta_4d277b573eea9240cbd8a455a2b5be8f4a82b5442ea8c6637fd6a63f80f82d36",
+  "question": "nq question: latest series of keeping up with the kardashians",
+  "frozen_answer": "14",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Keeping_Up_with_the_Kardashians",
+      "title": "Keeping Up with the Kardashians - Wikipedia",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "The fourteenth season premiered on October 1, 2017 and concluded on March 4, 2018, spanning 19 episodes during this period.",
+          "locator": "article body, season history section",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "concluded on June 20, 2021",
+          "locator": "article lead, statement on the series' final episode",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s3",
+          "text": "aired on the E! network between 2007 and 2021",
+          "locator": "article lead",
+          "supports": ["current_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Seed URL (Variety 2020 article on the show ending with season 20) returned a 307 redirect to tollbit.variety.com which then returned HTTP 402 Payment Required; seed treated as inaccessible and replaced. Substituted Wikipedia Keeping Up with the Kardashians: season 14 aired Oct 2017 - Mar 2018 (frozen answer valid at NQ collection time) and the series concluded 2021-06-20. The exact '20 seasons' phrasing was not captured as a verbatim span within budget; the legacy current answer (season 20, ended 2021) is consistent with the captured spans but the season count itself rests on the legacy hint.",
+  "change_date_hint": "2021-06-20 (series finale; final season announced Sep 2020 per inaccessible seed headline)"
+}

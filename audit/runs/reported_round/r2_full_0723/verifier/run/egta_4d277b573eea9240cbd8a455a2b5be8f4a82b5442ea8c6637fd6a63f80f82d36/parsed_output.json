@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2021-06-20",
+    "latest": "2021-06-20",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_4d277b573eea9240cbd8a455a2b5be8f4a82b5442ea8c6637fd6a63f80f82d36",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "Deictic anchor 'latest' is read at audit_as_of 2026-07-21, so direction is current. Span s1 places season 14 in 2017–2018, consistent with the frozen answer near reference_time. Spans s2–s3 establish the series aired only through 2021 and concluded on 2021-06-20, retiring ongoing seasons and invalidating 14 as the latest at audit time; no later season number is given in the package.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_retirement"
+}

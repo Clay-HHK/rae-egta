@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2025-01-01",
+    "latest": "2025-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "donald trump",
+    "state": "value"
+  },
+  "rationale": "The question asks who is president of the USA \"right now,\" a deictic, current-seeking query, so temporal_scope is temporal and direction is current. Evidence e1 (whitehouse.gov/administration/, accessed 2026-07-22) states Donald J. Trump is the \"45th & 47th President of the United States\" and describes him \"returning to the White House\" after the 2024 election, indicating his second term is presently active as of the audit date. The frozen_answer \"donald trump\" matches this current officeholder, so it remains accurate right now, yielding verdict still_valid with event_type none (no update needed relative to the frozen answer, even though the office changed hands between his two terms). The evidence does not give an exact inauguration date, only the 2024 election reference, so change_date is set at year precision (2025) based on span s2's implication of a post-election return to office; no conflicting sources were provided.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0200acedc950a69b23d693df0fb08f14b0a1b18ea2e0088b8348a1fe624783b4",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Roxette",
+    "state": "value"
+  },
+  "rationale": "The question asks which artist recorded/performed the song \"It Must Have Been Love\"; this is a static fact of authorship/original performance (Roxette, 1987/1990), not something that changes over time, so it is non-temporal. No evidence sources were supplied in this blind package, so no evidence IDs can be cited even though the frozen answer 'Roxette' matches the well-known fact.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

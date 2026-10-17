@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_258989224b469a819508cde8e6e52c1b57147bcfb928b780c2e95a50c8b4e587",
+  "item_id": "egta_240d8016383aef4cdec8c81300162d2521bbcba96b04d879ca26e560e057223e",
+  "package_sha256": "258989224b469a819508cde8e6e52c1b57147bcfb928b780c2e95a50c8b4e587",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "The winner of the competition was 20 year-old Kyla Coleman from Lacey, Washington with Jeana Turner placing as the runner-up.\nThe twenty-fourth and final cycle of America's Next Top Model premiered on January 9, 2018."
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/America%27s_Next_Top_Model_season_24",
+      "content_sha256": "258ba921e45b4e8e1e1b0f611b0286311ca8c110ee9a0c98302a442488766352",
+      "evidence_id": "e1",
+      "publication_or_update_date": "2026-07-07",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "article body, results paragraph",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer",
+            "current_answer"
+          ],
+          "text": "The winner of the competition was 20 year-old Kyla Coleman from Lacey, Washington with Jeana Turner placing as the runner-up."
+        },
+        {
+          "locator": "opening paragraph",
+          "span_id": "s2",
+          "supports": [
+            "current_answer"
+          ],
+          "text": "The twenty-fourth and final cycle of America's Next Top Model premiered on January 9, 2018."
+        }
+      ],
+      "title": "America's Next Top Model season 24",
+      "url": "https://en.wikipedia.org/wiki/America%27s_Next_Top_Model_season_24"
+    }
+  ]
+}

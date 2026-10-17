@@ -1,0 +1,5 @@
+Reading additional input from stdin...
+2026-07-22T15:21:04.522842Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp), when send initialized notification
+2026-07-22T15:21:04.528696Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://developers.openai.com/mcp), when send initialized notification
+2026-07-22T15:21:04.643432Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://docs.langchain.com/mcp), when send initialized notification
+2026-07-22T15:21:04.645249Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://docs.langchain.com/mcp), when send initialized notification

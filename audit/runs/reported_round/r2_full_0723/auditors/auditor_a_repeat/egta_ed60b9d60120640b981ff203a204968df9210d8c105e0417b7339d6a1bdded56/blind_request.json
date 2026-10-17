@@ -1,0 +1,73 @@
+{
+  "evidence_package_id": "egta_evidence_33135950241aa654b9926bc157a2391730bb72f7dfa864d29acb8664a9746037",
+  "evidence_sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_Finals",
+      "content_sha256": "c4cdd4f1ab5d9c26a11d52ae6969b76a073e77e12fc422054f1c95da20e57b14",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "article lead (series played June 4 - June 17, 2025)",
+          "span_id": "s1",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "defending Stanley Cup champion Florida Panthers defeated the Western Conference champion Edmonton Oilers four games to two in the best-of-seven series"
+        }
+      ],
+      "title": "2025 Stanley Cup Final",
+      "url": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_Finals"
+    },
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/2017_Stanley_Cup_Finals",
+      "content_sha256": "7bbdf9d78c1fbe917e02d960936971d6d3453e11e6f2cfd7fd592660e6d04824",
+      "evidence_id": "e2",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "article lead (series played May 29 - June 11, 2017)",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "The Eastern Conference champion and defending Stanley Cup champion Pittsburgh Penguins defeated the Western Conference champion Nashville Predators, four games to two to repeat as Stanley Cup champions."
+        }
+      ],
+      "title": "2017 Stanley Cup Final",
+      "url": "https://en.wikipedia.org/wiki/2017_Stanley_Cup_Finals"
+    }
+  ],
+  "frozen_answer": {
+    "normalized": "pittsburgh penguins",
+    "raw": "Pittsburgh Penguins"
+  },
+  "item_id": "egta_ed60b9d60120640b981ff203a204968df9210d8c105e0417b7339d6a1bdded56",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "last year"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: who played in the stanley cup finals last year",
+  "schema_version": "egta.v1"
+}

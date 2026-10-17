@@ -1,0 +1,26 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_4d277b573eea9240cbd8a455a2b5be8f4a82b5442ea8c6637fd6a63f80f82d36",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The deictic term \"latest\" is read as current at the audit date. Evidence identifies season 14 and shows that the series concluded in 2021, but it does not identify which numbered season was last or establish whether 14 was the latest answer at the reference time. Therefore the current answer and any superseding change cannot be determined.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2",
+    "e3"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

@@ -1,0 +1,26 @@
+{
+  "backend": "claude_cli",
+  "backend_versions": [
+    "2.1.215 (Claude Code)"
+  ],
+  "cache_reused": false,
+  "evidence_snapshot_error": null,
+  "evidence_snapshot_sha256": "17ebfce19e1bf7c6bb6119f80350298d61cc940766b4ed59b1f5a4f72dc5ae95",
+  "input_sha256": "2c1b2ca83cdc426f1784ae5f69cd2947bda2c6c8feeda9bcf782b7bd466ffd8f",
+  "item_count": 47,
+  "prompt_template_sha256": "1a381f48c31ee0a9977f1be192ddccf875b5f54ce0f61cd374937a2e263033b6",
+  "repeat_of": "auditor_a",
+  "requested_model": "claude-sonnet-5",
+  "resolved_models": [
+    "claude-sonnet-5"
+  ],
+  "results_sha256": "3b48fa73beedba3e10be43243a9f0d8da3e107281d867199540166b48c6b0592",
+  "role": "auditor_a_repeat",
+  "schema_version": "egta_auditor_manifest.v1",
+  "session_persistence": false,
+  "status_counts": {
+    "ok": 46,
+    "schema_failure": 1
+  },
+  "tool_calls_allowed": false
+}

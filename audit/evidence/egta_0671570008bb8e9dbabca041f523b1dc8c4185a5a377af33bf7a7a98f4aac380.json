@@ -1,0 +1,40 @@
+{
+  "item_id": "egta_0671570008bb8e9dbabca041f523b1dc8c4185a5a377af33bf7a7a98f4aac380",
+  "question": "nq question: who is the pastor of new birth missionary baptist church now",
+  "frozen_answer": "Stephen A. Davis",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/New_Birth_Missionary_Baptist_Church",
+      "title": "New Birth Missionary Baptist Church - Wikipedia",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2026-05-18",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "In 2017, Stephen A. Davis, pastor of New Birth Birmingham in Birmingham, Alabama became senior pastor while remaining pastor of the Birmingham. However in June, 2018 Bishop Davis resigned.",
+          "locator": "History 段倒数第二段落",
+          "supports": ["frozen_answer", "change_date"]
+        },
+        {
+          "span_id": "s2",
+          "text": "In December 2018, Jamal Bryant became senior pastor.",
+          "locator": "History 段末句",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s3",
+          "text": "Celebrity pastor Jamal Bryant is the senior pastor since 2018.",
+          "locator": "首段",
+          "supports": ["current_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "seed URL (Wikipedia 条目) 可访问且支持性内容仍在，单一源同时覆盖 frozen（Davis 2017 年就任、2018-06 辞职）、当前（Bryant 自 2018-12 任 senior pastor）与变化日期，与 legacy 线索一致，未再消耗预算。",
+  "change_date_hint": "2018-06 (Davis 辞职) 至 2018-12 (Bryant 就任)"
+}

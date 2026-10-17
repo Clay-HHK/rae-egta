@@ -1,0 +1,228 @@
+{
+  "claim_boundary": "Pointwise controlled Block N intervals for the fixed seeds, event mix, methods, and nested noise assignments.  The 20% conditions are stress-only; these results do not establish production-RAG robustness.",
+  "completed_at_utc": "2026-07-24T07:35:07Z",
+  "environment": {
+    "command": "<home>/miniconda3/bin/python3.13 <clean-worktree>/src/rae_egta/rag_post_event/noise_inference.py --input-root <repo>/data/noise_runs --output-dir <repo>/data/noise_selection --run-id block_n_qeval_floor_selection_20260724_v4_clean --bootstrap-replicates 10000 --bootstrap-seed 20260714",
+    "hostname": "<local-host>",
+    "numpy": "2.4.0",
+    "pid": 91861,
+    "platform": "macOS-15.7-arm64-arm-64bit-Mach-O",
+    "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:08) [Clang 20.1.8 ]"
+  },
+  "experiment": "block_n200_metadata_intent_noise_inference",
+  "git": {
+    "git_dirty": false,
+    "git_dirty_ignored_paths": [
+      "data"
+    ],
+    "git_dirty_ignored_prefixes": [
+      "data/",
+      "experiments/kg_external_validation/data/eval_panels/",
+      "experiments/kg_external_validation/data/retired_provenance_audit/",
+      "experiments/kg_external_validation/runs/",
+      "experiments/kg_external_validation/go/runs/",
+      "experiments/primekg_mvp/outputs/",
+      "runs/"
+    ],
+    "git_sha": "f9c43d76d27969785934a898a93febdbea51458d",
+    "git_status_short": "",
+    "git_status_short_raw": ""
+  },
+  "input_root": "<repo>/data/noise_runs",
+  "inputs": {
+    "clean": {
+      "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+      "event_clusters": 1200,
+      "factor": "clean",
+      "manifest_path": "<repo>/data/noise_runs/clean/run_manifest.json",
+      "manifest_sha256": "e33b92626c71736b917c3716c625b75a27e3cbbd39eaea791af728b6e3afd734",
+      "metrics_path": "<repo>/data/noise_runs/clean/rag_postevent_metrics.csv",
+      "metrics_sha256": "20de177af88d1e5af582977dc692aed43ae6fbdc635c1074b59217b8ecaa6f90",
+      "noise_assignment_hash": "348446d1055a3abd64adc37cc5305e8cdb9f283d59e8476ed0eb54781bf24099",
+      "rate": 0.0,
+      "raw_rows": 34560,
+      "source_git_dirty": false,
+      "source_git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1"
+    },
+    "intent_error_05": {
+      "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+      "event_clusters": 1200,
+      "factor": "intent_error",
+      "manifest_path": "<repo>/data/noise_runs/intent_error_05/run_manifest.json",
+      "manifest_sha256": "c7f4495e5c33b02702c80e0f9fc32779d9e25ad05e34bc4ac126c09c6c4034ee",
+      "metrics_path": "<repo>/data/noise_runs/intent_error_05/rag_postevent_metrics.csv",
+      "metrics_sha256": "da255eebfa12114684c0208da332ab3bd503da114bd17dcbeebf1a423eb00ad9",
+      "noise_assignment_hash": "8b59768553b58b3a76896c056b75251ad4745e09617d880837de17ac96208934",
+      "rate": 0.05,
+      "raw_rows": 34560,
+      "source_git_dirty": false,
+      "source_git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1"
+    },
+    "intent_error_10": {
+      "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+      "event_clusters": 1200,
+      "factor": "intent_error",
+      "manifest_path": "<repo>/data/noise_runs/intent_error_10/run_manifest.json",
+      "manifest_sha256": "5dde9fd9405a85418821f11ee0e159c47282fd96141439ee5d3bda35b3600b27",
+      "metrics_path": "<repo>/data/noise_runs/intent_error_10/rag_postevent_metrics.csv",
+      "metrics_sha256": "dcfe949d7b3777f4b16f7954e859d67f58d2a041f3bd2e2db71822a596f03b88",
+      "noise_assignment_hash": "bf0c60635dfec2b67d92a72afdb563b3d3c2ede76aacc8c2d5ff16e680e43d4d",
+      "rate": 0.1,
+      "raw_rows": 34560,
+      "source_git_dirty": false,
+      "source_git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1"
+    },
+    "intent_error_20": {
+      "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+      "event_clusters": 1200,
+      "factor": "intent_error",
+      "manifest_path": "<repo>/data/noise_runs/intent_error_20/run_manifest.json",
+      "manifest_sha256": "00c5487075498366e39ccb15daf5c12fd575473db3b8a40eda08a18b5805d913",
+      "metrics_path": "<repo>/data/noise_runs/intent_error_20/rag_postevent_metrics.csv",
+      "metrics_sha256": "8dbdc8a171c5652d2a7287c1a366ec7e7094059f5a1c690613bc0e3942cacc0d",
+      "noise_assignment_hash": "8e29cbc00eadb33505c250030c58baff818b7921d5f0709aad9e3f1dc52a9bc3",
+      "rate": 0.2,
+      "raw_rows": 34560,
+      "source_git_dirty": false,
+      "source_git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1"
+    },
+    "metadata_corrupted_05": {
+      "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+      "event_clusters": 1200,
+      "factor": "metadata_corrupted",
+      "manifest_path": "<repo>/data/noise_runs/metadata_corrupted_05/run_manifest.json",
+      "manifest_sha256": "977edce62c1d38cd01391264214db7d8150c889783a34613af591e6d9a336d9c",
+      "metrics_path": "<repo>/data/noise_runs/metadata_corrupted_05/rag_postevent_metrics.csv",
+      "metrics_sha256": "39fca95259a91d0615ed272f51ed17777fe9701eb2a0d3b1cc93ecea0abd8307",
+      "noise_assignment_hash": "a73cf1b52b2b8df959d8a00bfa0a76fb3fcaf871720e5422d803b8a4db3d57e8",
+      "rate": 0.05,
+      "raw_rows": 34560,
+      "source_git_dirty": false,
+      "source_git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1"
+    },
+    "metadata_corrupted_10": {
+      "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+      "event_clusters": 1200,
+      "factor": "metadata_corrupted",
+      "manifest_path": "<repo>/data/noise_runs/metadata_corrupted_10/run_manifest.json",
+      "manifest_sha256": "f29dbc9a777017a5aedcb48cb636e15e442934c6f50a1db4bedc5e6cef8e4f69",
+      "metrics_path": "<repo>/data/noise_runs/metadata_corrupted_10/rag_postevent_metrics.csv",
+      "metrics_sha256": "06cd7d140623a8a9ae15593c8bd04e6d4c04d87ae862ba9a74ef7a020f2c9d5e",
+      "noise_assignment_hash": "d80ea820d9eee17e70fcd6e005a7eee18fba60e0dbdf42fb6a090989518b99ef",
+      "rate": 0.1,
+      "raw_rows": 34560,
+      "source_git_dirty": false,
+      "source_git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1"
+    },
+    "metadata_corrupted_20": {
+      "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+      "event_clusters": 1200,
+      "factor": "metadata_corrupted",
+      "manifest_path": "<repo>/data/noise_runs/metadata_corrupted_20/run_manifest.json",
+      "manifest_sha256": "629c21ddd80474264ce215ccf11704478b0051d1899720242867f5e3fa54445e",
+      "metrics_path": "<repo>/data/noise_runs/metadata_corrupted_20/rag_postevent_metrics.csv",
+      "metrics_sha256": "7f08fb9a664f0212d7c6b70cc668e6c0dbe405a312fb0081f0ffaf533935bf75",
+      "noise_assignment_hash": "4f885b33eec98d12ae5d8c8d42799902a01baaca24c311f8bc6c5b47db067a97",
+      "rate": 0.2,
+      "raw_rows": 34560,
+      "source_git_dirty": false,
+      "source_git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1"
+    },
+    "metadata_missing_05": {
+      "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+      "event_clusters": 1200,
+      "factor": "metadata_missing",
+      "manifest_path": "<repo>/data/noise_runs/metadata_missing_05/run_manifest.json",
+      "manifest_sha256": "47bfd71c4fbc933c8b61d4b4e53701ea3bc4e9bcc0ebff8be8f20bfc1b14cc4e",
+      "metrics_path": "<repo>/data/noise_runs/metadata_missing_05/rag_postevent_metrics.csv",
+      "metrics_sha256": "d003a2b3d63fcecea0051ec21611c210bcf3eacadb2b82a1b06bdb26410252e9",
+      "noise_assignment_hash": "1a176393ac510222a3d6f37fc89af5f46a358891a06d97deb4ccaeac9d193469",
+      "rate": 0.05,
+      "raw_rows": 34560,
+      "source_git_dirty": false,
+      "source_git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1"
+    },
+    "metadata_missing_10": {
+      "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+      "event_clusters": 1200,
+      "factor": "metadata_missing",
+      "manifest_path": "<repo>/data/noise_runs/metadata_missing_10/run_manifest.json",
+      "manifest_sha256": "6d5c927e93d1cd3c3be3599aa0e6c2604b18820622bbe2feaaa54cbaeac35861",
+      "metrics_path": "<repo>/data/noise_runs/metadata_missing_10/rag_postevent_metrics.csv",
+      "metrics_sha256": "5999b5b98c933d54e1a82e8d70f790dbb18b7a4624fd41939f8d78b4db760480",
+      "noise_assignment_hash": "38b4c3da537e4db8a12875319091a9b0c91c4e1e8f5f49c4ad2170f02bbb6848",
+      "rate": 0.1,
+      "raw_rows": 34560,
+      "source_git_dirty": false,
+      "source_git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1"
+    },
+    "metadata_missing_20": {
+      "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
+      "event_clusters": 1200,
+      "factor": "metadata_missing",
+      "manifest_path": "<repo>/data/noise_runs/metadata_missing_20/run_manifest.json",
+      "manifest_sha256": "2806b47b7555de404d4b9a0cedbbebb1d861d0586a94cc1f02b4df01abb01181",
+      "metrics_path": "<repo>/data/noise_runs/metadata_missing_20/rag_postevent_metrics.csv",
+      "metrics_sha256": "971f587850be261a7edbff8410a69d384cf614d0bfccd5d83d60392ceb0dcbf0",
+      "noise_assignment_hash": "6097a62a8347b93c0ce0f2d939d3a7b4e09a2f7fbfdbf820667b8bf4e0b97aa0",
+      "rate": 0.2,
+      "raw_rows": 34560,
+      "source_git_dirty": false,
+      "source_git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1"
+    }
+  },
+  "outputs": [
+    "condition_clean_cluster_ci.csv",
+    "condition_metadata_missing_05_cluster_ci.csv",
+    "condition_metadata_missing_10_cluster_ci.csv",
+    "condition_metadata_missing_20_cluster_ci.csv",
+    "condition_metadata_corrupted_05_cluster_ci.csv",
+    "condition_metadata_corrupted_10_cluster_ci.csv",
+    "condition_metadata_corrupted_20_cluster_ci.csv",
+    "condition_intent_error_05_cluster_ci.csv",
+    "condition_intent_error_10_cluster_ci.csv",
+    "condition_intent_error_20_cluster_ci.csv",
+    "condition_inventory.csv",
+    "verdict.json",
+    "analysis_manifest.json",
+    "run.log"
+  ],
+  "paper_facing_eligible": true,
+  "paper_facing_requirement": "All source manifests and this analysis must record git_dirty=false.",
+  "protocol": {
+    "bootstrap_batch_size": 128,
+    "bootstrap_replicates": 10000,
+    "bootstrap_rng_seed": 20260714,
+    "clean_relative_direction": "noise-clean",
+    "cluster_key": [
+      "seed",
+      "event_id"
+    ],
+    "confidence_level": 0.95,
+    "interval": "percentile",
+    "ordinary_metric_estimand": "mean_of_paired_event_cluster_mean_deltas",
+    "paired_across": [
+      "condition",
+      "method",
+      "query_type",
+      "row"
+    ],
+    "quantile_method": "linear",
+    "regret_contract": "full tie set and conservative best-current member of the historical tie set, recomputed inside every paired replicate; Q_eval additionally reports the target-success floor 0.10",
+    "rng_algorithm": "PCG64",
+    "strata": [
+      "seed",
+      "event_type"
+    ],
+    "tie_epsilon": 1e-12
+  },
+  "protocol_hash": "b5ffc36c5b9073a70baa2583ae7861f89c94dfeaafe20884093027d36398177d",
+  "run_id": "block_n_qeval_floor_selection_20260724_v4_clean",
+  "source_code": {
+    "noise_inference_path": "<clean-worktree>/src/rae_egta/rag_post_event/noise_inference.py",
+    "noise_inference_sha256": "0671526321af343f1a0b0c85eccdec07e1f36efacaa0c1ae040d6b2a60dd34b0"
+  },
+  "started_at_utc": "2026-07-24T07:33:48Z",
+  "status": "COMPLETE",
+  "verdict": "METADATA_INTENT_SENSITIVE_BOUNDARY"
+}

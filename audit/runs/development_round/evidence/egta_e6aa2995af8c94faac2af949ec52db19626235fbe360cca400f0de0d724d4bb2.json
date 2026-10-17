@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_a4c18a8ebaa9e55658fc7515aa2a24272d8a370bf4a05b6ec86a0261f1e7fa0b",
+  "item_id": "egta_e6aa2995af8c94faac2af949ec52db19626235fbe360cca400f0de0d724d4bb2",
+  "package_sha256": "a4c18a8ebaa9e55658fc7515aa2a24272d8a370bf4a05b6ec86a0261f1e7fa0b",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "The latest version of macOS is macOS Tahoe 26.5.2, which arrived on June 29, 2026.\nThis update has no new features and contains security fixes.",
+    "e2": "macOS High Sierra (version 10.13) is the fourteenth major release of macOS, Apple's desktop operating system for Macintosh computers.\n10.13.4 | 17E199 | March 29, 2018"
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://www.macworld.com/article/2644146/macos-26-features-latest-update-release-date-beta.html",
+      "content_sha256": "ef6c5e8af743e0c6025bdc9d9763e2078ab85c373dd00ae580a08bf033ae6320",
+      "evidence_id": "e1",
+      "publication_or_update_date": "2026-06-29",
+      "publisher": "Macworld",
+      "source_tier": "reliable_secondary",
+      "spans": [
+        {
+          "locator": "article summary/lead",
+          "span_id": "s1",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "The latest version of macOS is macOS Tahoe 26.5.2, which arrived on June 29, 2026."
+        },
+        {
+          "locator": "article body, latest update section",
+          "span_id": "s2",
+          "supports": [
+            "current_answer"
+          ],
+          "text": "This update has no new features and contains security fixes."
+        }
+      ],
+      "title": "macOS 26 Tahoe Guide: All the new features in macOS Tahoe, including the latest update",
+      "url": "https://www.macworld.com/article/2644146/macos-26-features-latest-update-release-date-beta.html"
+    },
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/MacOS_High_Sierra",
+      "content_sha256": "3e00d90e470b6bfb76a68cced4aafcec6c2269935c98bea4ba02d3b2603195c8",
+      "evidence_id": "e2",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "article lead section",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "macOS High Sierra (version 10.13) is the fourteenth major release of macOS, Apple's desktop operating system for Macintosh computers."
+        },
+        {
+          "locator": "release history table row (version | build | release date cells joined with |)",
+          "span_id": "s2",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "10.13.4 | 17E199 | March 29, 2018"
+        }
+      ],
+      "title": "macOS High Sierra",
+      "url": "https://en.wikipedia.org/wiki/MacOS_High_Sierra"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2019-01-01",
+    "latest": "2019-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_5b09970a39729260b53911633b8f916a35ed1d6b254ea37cacc36b67cab7de3c",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "The query uses the deictic anchor \"right now,\" which per the reading policy is interpreted relative to audit_as_of (2026-07-21), giving direction \"current.\" The frozen answer \"Miami Heat\" reflects Wade's team during his final NBA season (2018-19), consistent with the reference_time window (latest 2019). Evidence span s2 shows Wade announced retirement in the 2018-19 offseason, and span s3 documents his final NBA game in April 2019 with the Heat, after which he did not play for any team. As of the audit date in 2026, Wade is retired and plays for no NBA team, so the frozen answer \"Miami Heat\" no longer describes who he currently plays for. This is a retirement-type change: the frozen answer held at/near the reference time but was superseded by Wade's retirement from the league, leaving no current team affiliation (state: absent_or_retired). Exact retirement/final-game date is not given with day/month precision in the evidence, so change_date uses year precision (2019).",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_retirement"
+}

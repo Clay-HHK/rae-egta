@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_ab477caa7d7e9a4273c4bd6ade633a36d49388ceffcf9e89525d33b23bb3a5e6",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Bill Russell",
+    "state": "value"
+  },
+  "rationale": "The single evidence source (Wikipedia, updated 2026-06-16, accessed 2026-07-22) states Bill Russell holds the record for most NBA championships with 11 titles, matching the frozen answer exactly. This record reflects career totals, not an active-player leaderboard, and no evidence indicates any change to this all-time record between 2017 and the present. The query phrasing mixes a deictic 'right now' with an explicit '2017' anchor, creating ambiguity about which time point is intended, but since the underlying fact (Russell's all-time record) is stable across both, the frozen answer remains valid under either reading.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

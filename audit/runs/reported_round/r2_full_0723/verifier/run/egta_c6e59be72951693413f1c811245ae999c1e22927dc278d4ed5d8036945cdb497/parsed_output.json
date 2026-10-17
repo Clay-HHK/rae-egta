@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_c6e59be72951693413f1c811245ae999c1e22927dc278d4ed5d8036945cdb497",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "philadelphia eagles and new england patriots",
+    "state": "value"
+  },
+  "rationale": "The question is explicitly year-anchored to Super Bowl 2018, so under the temporal reading policy direction is historical. Evidence from the Super Bowl LII article states the game was between the Philadelphia Eagles and New England Patriots and that the Eagles won 41–33; that identifies the frozen answer (Philadelphia Eagles) as a correct historical participant for 2018. Who played in Super Bowl LII is a fixed past fact with no later revision or retirement, so the frozen answer is historically valid at the 2018 anchor. Proposed full answer names both teams per the same evidence.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

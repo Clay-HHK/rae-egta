@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_65345b3fe1cc99c84e26f12f8508ef78152a8b4df2114973adde0689f7e5f1fa",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "atlantic ocean",
+    "state": "value"
+  },
+  "rationale": "The question asks which water body the Gulf Stream flows along the western side of. This is a stable physical-geography fact (the Gulf Stream is a well-established Atlantic Ocean current) that does not change over time, so it is not time-sensitive. No evidence sources were provided in the blind request to cite, but none are needed since the item is non_temporal; per protocol, verdict is null when temporal_scope is non_temporal.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

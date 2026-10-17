@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_49a1f1a8ad846f2af41b68d6606a029d3c91f6291e0e570b7bd243d2d66322e5",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The evidence_sources list is empty, so no evidence can be cited to establish either the source passage's original claim (that \"digitization of social systems\" was the frozen answer at reference_time) or what a current, up-to-date answer would be as of audit_as_of 2026-07-21. Applying the temporal reading policy, the deictic \"most recent\" resolves to a current-direction question, but resolving direction does not substitute for evidence: without any retrievable source, I cannot confirm the frozen answer held near reference_time, cannot confirm whether it has since been superseded, and cannot propose a verified current answer. This is a case of missing/unusable evidence rather than genuine entity or convention ambiguity, so insufficient_evidence is the appropriate verdict rather than ambiguous_context or a supersession/still_valid call.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

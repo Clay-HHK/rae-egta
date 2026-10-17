@@ -1,0 +1,40 @@
+{
+  "item_id": "egta_5436c8fecc7349da7d8485ea69ab717235e99f6cbae7d17d667d168848679a9b",
+  "question": "nq question: latest season on keeping up with the kardashians",
+  "frozen_answer": "14",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Keeping_Up_with_the_Kardashians",
+      "title": "Keeping Up with the Kardashians",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2026-07-17",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "No. of seasons: 20",
+          "locator": "右侧 infobox",
+          "supports": ["current_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "The series concluded on June 20, 2021.",
+          "locator": "开头段落",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s3",
+          "text": "October 1, 2017 (2017-10-01) – March 4, 2018 (2018-03-04)",
+          "locator": "Series overview 表 Season 14 行（首播/收官日期）",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "seed URL (Variety 2020 报道) 抓取被 307 重定向到 tollbit.variety.com 后返回 HTTP 402 付费墙，判定失效。改用 Wikipedia 条目：共 20 季、2021-06-20 完结（支持 current answer '20, series ended 2021'），Season 14 于 2017-10 至 2018-03 播出（支持 frozen answer 14 在当时为最新季）。单一合格源覆盖 (a)(b)(c)。",
+  "change_date_hint": "2021-06-20 (第 20 季完结即系列结束；14 之后各季逐年递增)"
+}

@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_78f8c3fa2d2e3612b30a2fd2aaeb20e8122807dd636b8ea06bb15c42ce6c8f4e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "15 December 2017",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (\"2017\"), so per the temporal reading policy direction is historical, evaluated at that anchored time rather than at audit_as_of. Evidence e1 (span s1) directly supports the frozen answer: the Wikipedia episode list gives 15 December 2017 as the original air date of \"What Lies Beneath,\" the final episode of Series 5, matching the frozen answer exactly and confirming it was accurate contemporaneous information in 2017. Series 6 (the next new series) is shown starting 11 January 2018 (span s2), which does not contradict the frozen answer's status as of the 2017 anchor. No later revision or retirement of this historical fact is evidenced, so the frozen answer is historically_valid at the anchored time; this does not speak to what \"the new Dumping Ground\" would mean at audit_as_of, which is outside the scope of a historically-anchored question.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

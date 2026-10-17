@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_fb4fd557ea471a4bb7ce02bf695fad87b49476cd2c5a1d7dc7c7f5b387cd956f",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks which scene of a completed, long-finished TV series (Breaking Bad, series ended 2013; season 1 aired 2008) featured a particular song. This is a fixed historical fact about a completed work's content that cannot change over time, so it is non-temporal regardless of the 'now' anchor in the question phrasing (which is idiomatic to the song title/lyric, not a request for a time-varying fact). However, no evidence_sources were supplied in this blind package, so I cannot verify or cite support for the frozen answer's accuracy; I abstain on the correctness of the specific placement claim (unresolved/no canonical) while classifying scope as non_temporal, per instructions to set verdict null only for non_temporal items.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

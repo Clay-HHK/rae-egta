@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_78f8c3fa2d2e3612b30a2fd2aaeb20e8122807dd636b8ea06bb15c42ce6c8f4e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "15 December 2017",
+    "state": "value"
+  },
+  "rationale": "The question carries an explicit year anchor ('2017'), which per the temporal reading policy fixes direction to historical regardless of the co-present deictic 'new'. Evidence e1 (span s1) confirms 15 December 2017 as the air date tied to the frozen answer, so the frozen answer is valid at the anchored 2017 timeframe. Note that e1 span s2 shows series 6 premiered 11 January 2018, but this postdates the 2017 anchor and does not bear on the historically-anchored reading, so no revision/retirement applies.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

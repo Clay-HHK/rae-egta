@@ -1,0 +1,3 @@
+selection_scope,criterion,selected_methods,ranking_reversal_against_other_criterion,best_current_valid_accuracy,tie_robust_current_valid_regret
+matched_pair,pre_event_retention_qeval,oldref_adapted_preserver,True,1.0,0.23076923076923073
+matched_pair,current_valid_accuracy_qeval,postevent_validity_filter,True,1.0,0.0

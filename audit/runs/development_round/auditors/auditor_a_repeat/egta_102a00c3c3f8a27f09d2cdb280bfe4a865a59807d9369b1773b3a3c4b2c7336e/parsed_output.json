@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2018-01-01",
+    "latest": "2018-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "addition",
+  "frozen_answer_identified": true,
+  "item_id": "egta_102a00c3c3f8a27f09d2cdb280bfe4a865a59807d9369b1773b3a3c4b2c7336e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Terrell Owens",
+    "state": "value"
+  },
+  "rationale": "The question, anchored by the explicit year \"2018\", asks about who was selected for the Pro Football Hall of Fame's 2018 induction class — a discrete, completed historical event. Both the official Hall of Fame profile (e1, s1: \"Class of 2018\") and Wikipedia (e2, s2: \"In 2018, Owens was voted into the Hall of Fame\") confirm Terrell Owens was part of that class. Because a Hall of Fame induction class is a fixed historical designation that does not get revised or retired once conferred, this fact remains true regardless of the audit-as-of date. No conflicting evidence is present.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

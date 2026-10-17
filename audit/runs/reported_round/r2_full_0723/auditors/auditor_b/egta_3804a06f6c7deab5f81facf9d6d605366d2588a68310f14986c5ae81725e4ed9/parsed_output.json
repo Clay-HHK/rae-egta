@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_3804a06f6c7deab5f81facf9d6d605366d2588a68310f14986c5ae81725e4ed9",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "1983",
+    "state": "value"
+  },
+  "rationale": "Under the deictic-current reading policy, the question asks for the Raiders' most recent Super Bowl-winning year as of the audit time. Evidence e1 lists their three championships and identifies XVIII (1983) as the latest, matching the frozen answer.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_6c5ad9bdb7af188e2cc7bc9d974c967f6cd13716519fde2378b87cd5b9190b2f",
+  "item_id": "egta_48dd90728455b25e92cd213dbbf35bf75266c5e9039bcffc688c4b0fd88da493",
+  "package_sha256": "6c5ad9bdb7af188e2cc7bc9d974c967f6cd13716519fde2378b87cd5b9190b2f",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "Stable Channel Update for Desktop\nTuesday, July 21, 2026\nThursday, July 16, 2026",
+    "e2": "Wednesday, January 24, 2018"
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://chromereleases.googleblog.com/2026/07/",
+      "content_sha256": "2f872953f97e38af67f268680c33feec095002f4c3968e7022347969a72673c1",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "Google (Chrome Releases blog)",
+      "source_tier": "official_primary",
+      "spans": [
+        {
+          "locator": "post title in July 2026 archive listing",
+          "span_id": "s1",
+          "supports": [
+            "current_answer"
+          ],
+          "text": "Stable Channel Update for Desktop"
+        },
+        {
+          "locator": "date header of most recent Stable Channel Update for Desktop post in July 2026 archive",
+          "span_id": "s2",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "Tuesday, July 21, 2026"
+        },
+        {
+          "locator": "date header of earlier Stable Channel Update for Desktop post in July 2026 archive",
+          "span_id": "s3",
+          "supports": [
+            "current_answer"
+          ],
+          "text": "Thursday, July 16, 2026"
+        }
+      ],
+      "title": "Chrome Releases",
+      "url": "https://chromereleases.googleblog.com/2026/07/"
+    },
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://chromereleases.googleblog.com/2018/01/",
+      "content_sha256": "58451f7b7873ecc049656392f70428dae869a336a7c89cb85d42b9e31ab74f31",
+      "evidence_id": "e2",
+      "publication_or_update_date": null,
+      "publisher": "Google (Chrome Releases blog)",
+      "source_tier": "official_primary",
+      "spans": [
+        {
+          "locator": "date header of Stable Channel Update for Desktop post in January 2018 archive (stable desktop posts that month: Jan 4 and Jan 24)",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "Wednesday, January 24, 2018"
+        }
+      ],
+      "title": "Chrome Releases",
+      "url": "https://chromereleases.googleblog.com/2018/01/"
+    }
+  ]
+}

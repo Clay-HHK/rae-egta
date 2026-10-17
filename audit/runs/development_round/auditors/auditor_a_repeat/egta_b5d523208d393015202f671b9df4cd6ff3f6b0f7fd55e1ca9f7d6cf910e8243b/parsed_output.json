@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2017-01-01",
+    "latest": "2017-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_b5d523208d393015202f671b9df4cd6ff3f6b0f7fd55e1ca9f7d6cf910e8243b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "One For Arthur",
+    "state": "value"
+  },
+  "rationale": "The question, despite the deictic \"last year's\" phrasing, is explicitly anchored to the 2017 Grand National race. Evidence e1 (Wikipedia, race summary) confirms One For Arthur won the 2017 Grand National. This refers to a specific completed sporting event rather than a recurring current-holder title, so the winner is a fixed historical fact that cannot be superseded by later events - the outcome of the 2017 race remains permanently true regardless of audit_as_of date. No conflicting evidence is present in the package.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

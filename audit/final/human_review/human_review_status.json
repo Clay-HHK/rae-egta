@@ -1,0 +1,11 @@
+{
+  "adjudication_complete": false,
+  "case_count": 6,
+  "claim_allowed_before_completion": "EGTA-accepted, evidence-backed",
+  "claim_not_allowed_before_completion": "human-confirmed",
+  "reviewer_a_complete": false,
+  "reviewer_b_complete": false,
+  "schema_version": "egta_human_review_status.v1",
+  "scope": "six_egta_accepted_supersessions",
+  "status": "PENDING_HUMAN"
+}

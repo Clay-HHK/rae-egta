@@ -1,0 +1,55 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_858964e7686c8272ca67d4209b48a00b017a9475c6fa1e00f4af92f0f401102d",
+  "item_id": "egta_102a00c3c3f8a27f09d2cdb280bfe4a865a59807d9369b1773b3a3c4b2c7336e",
+  "package_sha256": "858964e7686c8272ca67d4209b48a00b017a9475c6fa1e00f4af92f0f401102d",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "Class of 2018",
+    "e2": "In 2018, Owens was voted into the Hall of Fame."
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://www.profootballhof.com/players/terrell-owens",
+      "content_sha256": "9f98d1d24de1c6afcce3dfacef35653a5f3345be0bbd058885cce57944d89c43",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "Pro Football Hall of Fame",
+      "source_tier": "official_primary",
+      "spans": [
+        {
+          "locator": "player profile header, class designation",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "Class of 2018"
+        }
+      ],
+      "title": "Terrell Owens | Pro Football Hall of Fame",
+      "url": "https://www.profootballhof.com/players/terrell-owens"
+    },
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/Terrell_Owens",
+      "content_sha256": "835ff05321cd42e5d11f6e3c63b20c1bf9d7bda5387907821d72ed562840da53",
+      "evidence_id": "e2",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "article body (Hall of Fame section)",
+          "span_id": "s2",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "In 2018, Owens was voted into the Hall of Fame."
+        }
+      ],
+      "title": "Terrell Owens",
+      "url": "https://en.wikipedia.org/wiki/Terrell_Owens"
+    }
+  ]
+}

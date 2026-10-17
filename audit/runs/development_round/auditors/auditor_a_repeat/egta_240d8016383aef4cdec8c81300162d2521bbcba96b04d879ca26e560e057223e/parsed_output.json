@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_240d8016383aef4cdec8c81300162d2521bbcba96b04d879ca26e560e057223e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Kyla Coleman",
+    "state": "value"
+  },
+  "rationale": "Evidence e1 confirms cycle 24 (premiered Jan 9, 2018) was the twenty-fourth and final cycle of America's Next Top Model, with Kyla Coleman as winner. Since this was the show's final cycle, there is no subsequent season to supersede this result, so 'latest' winner remains Kyla Coleman as of the evidence access date (2026-07-22) and matches the frozen answer.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

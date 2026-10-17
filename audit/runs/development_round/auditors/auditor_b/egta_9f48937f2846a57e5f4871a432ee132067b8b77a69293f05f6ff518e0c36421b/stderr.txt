@@ -1,0 +1,6 @@
+Reading additional input from stdin...
+2026-07-22T13:11:55.272784Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+2026-07-22T13:12:11.302928Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://developers.openai.com/mcp), when send initialized notification
+2026-07-22T13:12:11.354733Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp), when send initialized notification
+2026-07-22T13:12:11.361577Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://docs.langchain.com/mcp), when send initialized notification
+2026-07-22T13:12:11.419211Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://docs.langchain.com/mcp), when send initialized notification

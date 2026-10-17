@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": "2026-07-21",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_9f48937f2846a57e5f4871a432ee132067b8b77a69293f05f6ff518e0c36421b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question 'what is the latest version of chrome for linux' uses the deictic term 'latest', which per the reading policy is interpreted relative to audit_as_of (2026-07-21), giving direction=current. The frozen answer '67.0' corresponds to a Chrome version released circa 2018, consistent with the NQ (TACL 2019) reference_time provenance for when it would have been the gold answer. Evidence e1 (Google's official Chrome Releases blog) shows active Stable Channel Update for Desktop posts as recently as July 21, 2026, one day before audit_as_of, confirming that Chrome's version has continued to be revised well past version 67 through the present. This establishes that version numbering is a continuously revised field and that 67.0 is no longer the latest version as of the audit date, i.e., superseded_revision. However, evidence e1's cited spans (post titles and date headers) do not contain the specific current version number, so the exact current canonical version cannot be confirmed from the supplied evidence; proposed_current_answer is therefore left unresolved rather than guessed. change_date reflects the latest confirmed evidence date (2026-07-21) showing the answer had already changed by/near that point, with no evidence pinning an earlier precise transition date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

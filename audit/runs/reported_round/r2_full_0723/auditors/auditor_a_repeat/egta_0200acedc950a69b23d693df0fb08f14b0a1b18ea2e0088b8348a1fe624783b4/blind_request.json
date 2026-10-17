@@ -1,0 +1,29 @@
+{
+  "evidence_package_id": "egta_evidence_ede89f86ca16b39a02be85f713c5dc7b067f2fe46087324f72c1b4d6484d5eac",
+  "evidence_sources": [],
+  "frozen_answer": {
+    "normalized": "roxette",
+    "raw": "Roxette"
+  },
+  "item_id": "egta_0200acedc950a69b23d693df0fb08f14b0a1b18ea2e0088b8348a1fe624783b4",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "now"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: who sang it must have been love but its over now",
+  "schema_version": "egta.v1"
+}

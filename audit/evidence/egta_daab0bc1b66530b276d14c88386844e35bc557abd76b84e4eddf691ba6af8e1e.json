@@ -1,0 +1,63 @@
+{
+  "item_id": "egta_daab0bc1b66530b276d14c88386844e35bc557abd76b84e4eddf691ba6af8e1e",
+  "question": "nq question: who did dwight howard play for last year",
+  "frozen_answer": "Atlanta Hawks",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://www.hoopsrumors.com/2026/03/dwight-howard-announces-retirement.html",
+      "title": "Dwight Howard Announces Retirement | Hoops Rumors",
+      "publisher": "Hoops Rumors",
+      "source_tier": "reliable_secondary",
+      "publication_or_update_date": "2026-03-12",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "Longtime NBA center Dwight Howard officially announced his retirement from basketball on Thursday",
+          "locator": "article lead paragraph",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s2",
+          "text": "From 2012-22, Howard bounced around the NBA, spending time with the Lakers, Rockets, Hawks, Hornets, Wizards, and Sixers.",
+          "locator": "article body, career recap paragraph",
+          "supports": ["frozen_answer", "current_answer"]
+        },
+        {
+          "span_id": "s3",
+          "text": "He has spent the past few years competing in Taiwan, Puerto Rico, and in the BIG3.",
+          "locator": "article body, post-NBA activity paragraph",
+          "supports": ["current_answer"]
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dwight_Howard",
+      "title": "Dwight Howard",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "On July 12, 2016, Howard signed a three-year, $70 million contract with his hometown team the Atlanta Hawks.",
+          "locator": "article body, Atlanta Hawks section",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s2",
+          "text": "On March 12, 2026, Howard announced his retirement from basketball.",
+          "locator": "article body, retirement section",
+          "supports": ["current_answer", "change_date"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Seed URL verified accessible (first attempt hit a transient socket error, retry succeeded); confirms retirement announced 2026-03-12 and last NBA season 2021/22, BIG3 participation mentioned without a specific year. Added Wikipedia Dwight Howard as second source for the frozen-answer side (signed with Atlanta Hawks July 2016, i.e. Hawks was his team in 2016-17) and the retirement date. Seed does not date BIG3 play to 2025 specifically; recorded as-is.",
+  "change_date_hint": "2026-03-12"
+}

@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_371c2ba137115fca3d278af199d222fc7c9d05b6fddc945539b9532ddd2ed50f",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "roman reigns",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (\"2018\"), so per the temporal reading policy it is interpreted at that anchored time, giving direction=historical. Evidence e1 (Wikipedia article on Elimination Chamber (2018)) directly confirms Roman Reigns won the seven-man Elimination Chamber match to become number-one contender, and the results section confirms he defeated the other six competitors. This is a fixed historical sporting event result that does not change over time (no addition/revision/retirement applies), so event_type is \"none\" and there is no change_date. The frozen answer \"Roman Reigns\" is valid at the anchored time and remains the correct answer to this year-anchored question at audit time as well, since the historical fact is immutable.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2019-01-01",
+    "latest": "2021-12-31",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": false,
+  "item_id": "egta_903a0733925e3051675833bdacc7290cf9afb11f60025f7bedc5032a424344f5",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "27",
+    "state": "value"
+  },
+  "rationale": "The question asks for the current count. Both sources support 27 states permitting capital punishment, rather than the frozen value 31. DPIC lists abolition years in 2019, 2020, and 2021, supporting a revision over that interval; the evidence does not explicitly establish that 31 was the count at a particular historical reference date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

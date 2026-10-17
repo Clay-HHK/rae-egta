@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_5436c8fecc7349da7d8485ea69ab717235e99f6cbae7d17d667d168848679a9b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "20",
+    "state": "value"
+  },
+  "rationale": "“latest”依协议按审计时点作当前解读；e1 给出当前共 20 季，并能识别第 14 季。可是提供的证据未明确证明 14 在参考时点是最新季，也未给出从 14 变为 20 的可判定变更日期，因此无法保守地认定其为被后续修订取代。",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

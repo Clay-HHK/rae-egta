@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2022-01-01",
+    "latest": "2022-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_a4d88c02ca4ad9f11246849a3218293789904c8da3444e6e50395285707b7cf9",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "10,758",
+    "state": "value"
+  },
+  "rationale": "The frozen answer (10,605) is the 2017 population estimate cited in the Bora Bora (island) Wikipedia article (e2, spans s3/s4). A more recent and more specific source, the Bora-Bora (commune) Wikipedia article (e1, updated 2024-05-21), reports 10,758 at the 2022 census in both its lead paragraph and infobox. Since the question asks for the \"current\" population, a temporally-scoped, forward-looking quantity, the 2022 census figure supersedes the earlier 2017 estimate. There is no genuine conflict between the sources; e1 simply reflects a later census and is the more current figure, so this is a revision (population count updated from the 2017 estimate to the 2022 census) rather than a source conflict.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

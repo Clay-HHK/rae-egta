@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2026-07-21",
+    "latest": "2026-07-21",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_48dd90728455b25e92cd213dbbf35bf75266c5e9039bcffc688c4b0fd88da493",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "2026-07-21",
+    "state": "value"
+  },
+  "rationale": "Deictic 'latest' is read relative to audit_as_of 2026-07-21, so direction is current. Official Chrome Releases archive shows the most recent Stable Channel Update for Desktop on 2026-07-21 (with an earlier July 2026 update on 2026-07-16), so the current answer is 2026-07-21. Evidence also shows a Stable Channel Update around the frozen period (2018-01-24), supporting that a ~2018-01-22 latest-release answer could hold near reference_time; later stable releases revise that fact, so the frozen answer is superseded_revision at audit time.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

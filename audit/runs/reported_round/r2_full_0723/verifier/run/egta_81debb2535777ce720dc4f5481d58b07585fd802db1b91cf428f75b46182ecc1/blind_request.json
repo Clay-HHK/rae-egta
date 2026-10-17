@@ -1,0 +1,29 @@
+{
+  "evidence_package_id": "egta_evidence_d5057f7de9474e3179931c0b4f1a4ca30079836e0f993d984d600be98156787d",
+  "evidence_sources": [],
+  "frozen_answer": {
+    "normalized": "february 27, 2015",
+    "raw": "February 27, 2015"
+  },
+  "item_id": "egta_81debb2535777ce720dc4f5481d58b07585fd802db1b91cf428f75b46182ecc1",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "now"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: when did where are you now come out",
+  "schema_version": "egta.v1"
+}

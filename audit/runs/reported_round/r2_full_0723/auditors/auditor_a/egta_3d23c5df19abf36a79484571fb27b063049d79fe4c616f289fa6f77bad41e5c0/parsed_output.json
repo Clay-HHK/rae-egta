@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2020-12-31",
+    "latest": "2021-01-12",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_3d23c5df19abf36a79484571fb27b063049d79fe4c616f289fa6f77bad41e5c0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "The query's deictic anchor 'most current' is read per policy relative to audit_as_of (2026-07-21), giving direction=current. Evidence e1 (Adobe, official primary) establishes that Adobe stopped supporting Flash Player as of December 31, 2020 and blocked Flash content from running beginning January 12, 2021, with Adobe explicitly recommending uninstallation. This is a retirement event for the product itself, meaning there is no longer any 'most current' Flash Player version being produced or supported as of the audit date. The frozen answer (28.0.0.137), whatever its accuracy at the pre-2020 reference time, is superseded by this retirement: the correct current-as-of-audit answer is that Flash Player has been discontinued and no current version exists (absent_or_retired), not a specific version number. Evidence does not itself state version numbers, so no replacement version can be proposed, but the retirement fact is sufficient to establish supersession of any version-based answer.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_retirement"
+}

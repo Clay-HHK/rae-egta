@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_240d8016383aef4cdec8c81300162d2521bbcba96b04d879ca26e560e057223e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Kyla Coleman",
+    "state": "value"
+  },
+  "rationale": "e1 identifies Kyla Coleman as the winner and states season 24 was the final cycle, so the frozen answer remains the answer to the latest-winner question.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

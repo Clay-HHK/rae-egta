@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2018-05-01",
+    "latest": "2018-05-31",
+    "precision": "month"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_458565b350c042b7a1b01af65c68678ea691a9909a70383eebe59f8abbdbfa01",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Scottie Scheffler",
+    "state": "value"
+  },
+  "rationale": "Deictic 'right now' is read at audit_as_of 2026-07-21 (direction current). Evidence shows Dustin Johnson reached OWGR #1 on 2017-02-19 and was overtaken in May 2018, so the frozen answer is no longer valid. Wikipedia states Scheffler is currently world #1 (as of 2026-07-19) and lists him as 2025 year-end #1, establishing Scottie Scheffler as the answer at audit time via later ranking revision.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

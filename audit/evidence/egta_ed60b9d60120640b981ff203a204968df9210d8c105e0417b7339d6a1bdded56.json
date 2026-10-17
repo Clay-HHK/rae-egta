@@ -1,0 +1,45 @@
+{
+  "item_id": "egta_ed60b9d60120640b981ff203a204968df9210d8c105e0417b7339d6a1bdded56",
+  "question": "nq question: who played in the stanley cup finals last year",
+  "frozen_answer": "Pittsburgh Penguins",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_Finals",
+      "title": "2025 Stanley Cup Final",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "defending Stanley Cup champion Florida Panthers defeated the Western Conference champion Edmonton Oilers four games to two in the best-of-seven series",
+          "locator": "article lead (series played June 4 - June 17, 2025)",
+          "supports": ["current_answer", "change_date"]
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2017_Stanley_Cup_Finals",
+      "title": "2017 Stanley Cup Final",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "The Eastern Conference champion and defending Stanley Cup champion Pittsburgh Penguins defeated the Western Conference champion Nashville Predators, four games to two to repeat as Stanley Cup champions.",
+          "locator": "article lead (series played May 29 - June 11, 2017)",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Seed URL (nbcnews.com 2025 Stanley Cup Final story) returned HTTP 403 Forbidden; replaced with Wikipedia 2025 Stanley Cup Final, which confirms the legacy current answer (Panthers defeated Oilers, June 2025). Added Wikipedia 2017 Stanley Cup Final to ground the frozen answer: the Penguins played in (and won) the 2017 final, so 'last year' read as Penguins at NQ collection time (~2018). The 2025 article did not mention the Penguins' 2017 appearance, hence the second source.",
+  "change_date_hint": "2025-06-17 (most recent final in evidence; frozen reading superseded first by the 2018 final, not evidenced within budget)"
+}

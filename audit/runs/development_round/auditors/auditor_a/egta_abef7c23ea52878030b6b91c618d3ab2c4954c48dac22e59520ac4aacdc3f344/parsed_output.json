@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_abef7c23ea52878030b6b91c618d3ab2c4954c48dac22e59520ac4aacdc3f344",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks who performed the song \"What the World Needs Now Is Love\" in the film The Boss Baby. Which performer sang a particular song in a specific released film is a fixed historical/production fact rather than something that changes over time, so this item is non-temporal in nature regardless of the audit_as_of date or ambiguous direction flagged in the query context. However, evidence_sources is empty, so no evidence ID can be cited to confirm, refute, or update the frozen answer \"Missi Hale\". Per protocol, abstaining conservatively: no supporting evidence is available to verify the claim, so the current-answer state is left unresolved rather than asserting confirmation.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

@@ -1,0 +1,46 @@
+{
+  "item_id": "egta_4f6f0e4ffc5384a516efaf78786946d31fb87e867ba9a16b1dec1b56d2143b45",
+  "question": "nq question: who is the current director of the us mint",
+  "frozen_answer": "David Motl",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Director_of_the_United_States_Mint",
+      "title": "Director of the United States Mint - Wikipedia",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2026-04-20",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "The incumbent is Paul Hollis, who was confirmed by the Senate on December 18, 2025.",
+          "locator": "开头段落",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s2",
+          "text": "Incumbent Paul Hollis since January 5, 2026",
+          "locator": "页首 infobox",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s3",
+          "text": "David Motl January 20, 2017 January 31, 2018",
+          "locator": "历任名单表格 Acting 行",
+          "supports": ["frozen_answer", "change_date"]
+        },
+        {
+          "span_id": "s4",
+          "text": "David J. Ryder April 12, 2018 October 1, 2021",
+          "locator": "历任名单表格第 39 任行",
+          "supports": ["change_date"]
+        }
+      ]
+    }
+  ],
+  "search_log": "seed URL usmint.gov/about/leadership/director 返回 HTTP 403，改用 Wikipedia 'Director of the United States Mint' 条目。该页同时覆盖 frozen（Motl 代理 2017-01-20 至 2018-01-31）、当前（Hollis 自 2026-01-05）与中间更替（Ryder 2018、Gibson 2022-2025，表格行 'Ventris Gibson June 22, 2022 March 31, 2025' 亦在页面）。单一合格源即覆盖三类证据目标，未再消耗预算找第二源。",
+  "change_date_hint": "frozen 于 2018-01-31 (Motl 代理任期结束) 被取代；现任 Hollis 自 2026-01-05"
+}

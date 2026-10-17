@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_240d8016383aef4cdec8c81300162d2521bbcba96b04d879ca26e560e057223e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Kyla Coleman",
+    "state": "value"
+  },
+  "rationale": "Per policy, the deictic \"latest\" is read relative to audit_as_of (2026-07-21). The evidence explicitly states season 24 was \"the twenty-fourth and final cycle\" of America's Next Top Model (premiered Jan 9, 2018), meaning no subsequent season exists to supersede it. The winner reported for that final cycle is Kyla Coleman (span s1), matching the frozen answer. Since there has been no later season/revision, the frozen answer remains the correct answer to \"latest\" as of the audit date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

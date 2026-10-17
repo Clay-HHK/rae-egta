@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_78f8c3fa2d2e3612b30a2fd2aaeb20e8122807dd636b8ea06bb15c42ce6c8f4e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "15 December 2017",
+    "state": "value"
+  },
+  "rationale": "Frozen evidence e1 (Wikipedia episode list) directly states the series 5 final episode original air date as 15 December 2017, identifying the frozen answer. The same source shows series 6 beginning 11 January 2018. The question is temporally anchored to 2017 with deictic 'new'; under ambiguous direction and uncertain scope, so the 2017 air date is historically valid for that scoped query and is not shown to have been revised or retired as a 2017 fact. No credible source conflict is present; evidence does not establish a different value for the 2017-scoped question as of the audit time.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

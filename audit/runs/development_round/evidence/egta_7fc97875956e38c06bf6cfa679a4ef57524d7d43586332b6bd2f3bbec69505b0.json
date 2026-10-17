@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_e5830398ea129b98037f2ccf095924dc461a7273c17f2cf5e415ce2dc64633c7",
+  "item_id": "egta_7fc97875956e38c06bf6cfa679a4ef57524d7d43586332b6bd2f3bbec69505b0",
+  "package_sha256": "e5830398ea129b98037f2ccf095924dc461a7273c17f2cf5e415ce2dc64633c7",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "since January 3, 2025\nHatch (2015–2019)"
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/President_pro_tempore_of_the_United_States_Senate",
+      "content_sha256": "b786dc50f59bba723af0ec4c562681dd17492e0535f546b0c7bd9e57b7b71297",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "infobox, under Incumbent Chuck Grassley",
+          "span_id": "s1",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "since January 3, 2025"
+        },
+        {
+          "locator": "historical list of presidents pro tempore",
+          "span_id": "s2",
+          "supports": [
+            "frozen_answer",
+            "change_date"
+          ],
+          "text": "Hatch (2015–2019)"
+        }
+      ],
+      "title": "President pro tempore of the United States Senate - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/President_pro_tempore_of_the_United_States_Senate"
+    }
+  ]
+}

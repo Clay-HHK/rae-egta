@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": false,
+  "item_id": "egta_d477d79b9c6a80fc7cef7bd21a604029bf224490f97fc610b95fa38740f9cee7",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "Under the deictic-reading policy, “last” is evaluated as of 2026-07-21. e1 confirms that Thanksgiving was on November 23 in 2023, but it does not establish that 2023 is the most recent such year by the audit date, nor that 2017 held at the reference time. The supplied evidence is therefore insufficient to determine a current answer or a supersession date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

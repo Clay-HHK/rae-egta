@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2026-03-12",
+    "latest": "2026-03-12",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_daab0bc1b66530b276d14c88386844e35bc557abd76b84e4eddf691ba6af8e1e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "The cited sources identify Atlanta Hawks as a historical team association and establish Howard's retirement on 2026-03-12. However, the deictic phrase 'last year' cannot be resolved from the supplied reference-time interval, so the frozen answer cannot be validated or superseded for the question's intended historical context.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "ambiguous_context"
+}

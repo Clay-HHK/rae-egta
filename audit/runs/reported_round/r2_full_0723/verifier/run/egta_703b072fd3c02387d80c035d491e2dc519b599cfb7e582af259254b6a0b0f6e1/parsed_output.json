@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2025-02-09",
+    "latest": "2025-02-09",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_703b072fd3c02387d80c035d491e2dc519b599cfb7e582af259254b6a0b0f6e1",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "2024",
+    "state": "value"
+  },
+  "rationale": "Per the temporal reading policy, the unqualified most-recent Super Bowl appearance question is current as of audit_as_of 2026-07-21. e2 grounds the frozen answer 2017 as Super Bowl LII (season-year convention; game Feb 4 2018). e1 establishes a later Eagles Super Bowl appearance/win in Super Bowl LIX on 2025-02-09, so 2017 is no longer the last year. Matching the frozen season-year convention, the current answer is 2024; that superseding appearance is dated 2025-02-09.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

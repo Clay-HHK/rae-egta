@@ -1,0 +1,29 @@
+{
+  "evidence_package_id": "egta_evidence_c0671ac3e2b288b4dea91ffbe2a1fb9cafc40e478b697304eda5bd9d4435f29e",
+  "evidence_sources": [],
+  "frozen_answer": {
+    "normalized": "telecommunications",
+    "raw": "telecommunications"
+  },
+  "item_id": "egta_7f8c00077aec671118e0b415c7c22fe70389109e09d1d7a480002841efa7c98b",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "currently"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: what are the main sources of economic growth in the us currently",
+  "schema_version": "egta.v1"
+}

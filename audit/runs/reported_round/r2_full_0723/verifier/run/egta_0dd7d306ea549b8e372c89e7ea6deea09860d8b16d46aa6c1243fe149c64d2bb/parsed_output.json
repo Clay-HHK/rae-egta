@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0dd7d306ea549b8e372c89e7ea6deea09860d8b16d46aa6c1243fe149c64d2bb",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "joe daniher",
+    "state": "value"
+  },
+  "rationale": "Explicit year anchor 2017 fixes direction as historical under the temporal reading policy. Zero Hanger (2017-09-25) and Wikipedia both identify Essendon’s Joe Daniher as 2017 AFL Mark of the Year winner; that year-anchored fact is unchanged at audit_as_of 2026-07-21. Frozen answer joe daniher is therefore historically valid. Evidence also records Daniel Rioli as Goal of the Year, but does not revise or retire the Mark winner named in the frozen answer.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

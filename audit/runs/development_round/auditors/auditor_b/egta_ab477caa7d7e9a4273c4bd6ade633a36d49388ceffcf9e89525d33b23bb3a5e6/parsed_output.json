@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_ab477caa7d7e9a4273c4bd6ade633a36d49388ceffcf9e89525d33b23bb3a5e6",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Bill Russell",
+    "state": "value"
+  },
+  "rationale": "The question combines “right now” with the explicit year 2017, leaving the intended evaluation time ambiguous. Evidence e1 identifies Bill Russell as the record holder and supports both the frozen and current answer, with no evidenced change event.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "ambiguous_context"
+}

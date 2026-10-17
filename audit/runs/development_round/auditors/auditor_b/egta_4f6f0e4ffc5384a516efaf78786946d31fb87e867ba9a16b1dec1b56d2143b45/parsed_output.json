@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2026-01-05",
+    "latest": "2026-01-05",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_4f6f0e4ffc5384a516efaf78786946d31fb87e867ba9a16b1dec1b56d2143b45",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Paul Hollis",
+    "state": "value"
+  },
+  "rationale": "The evidence identifies David Motl as serving from 2017-01-20 through 2018-01-31 and identifies Paul Hollis as incumbent since 2026-01-05. However, the query's deictic \"current\" is not conclusively anchored to either the original NQ reference period or the audit date, so the frozen answer's validity in the intended context cannot be determined.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "ambiguous_context"
+}

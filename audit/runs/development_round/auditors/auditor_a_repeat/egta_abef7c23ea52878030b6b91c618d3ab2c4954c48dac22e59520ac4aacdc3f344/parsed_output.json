@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_abef7c23ea52878030b6b91c618d3ab2c4954c48dac22e59520ac4aacdc3f344",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks who performed a specific song in a specific, already-released film — a fixed historical/credits fact that does not vary with time, so temporal_scope is non_temporal and verdict is null per protocol. However, evidence_sources is empty, so there is no admissible evidence to confirm, refute, or cite in support of the frozen answer 'Missi Hale' or any alternative. Per conservative-abstention guidance, proposed_current_answer is marked unresolved with no canonical value and no supporting_evidence_ids are cited, since none exist in the provided evidence_sources list.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

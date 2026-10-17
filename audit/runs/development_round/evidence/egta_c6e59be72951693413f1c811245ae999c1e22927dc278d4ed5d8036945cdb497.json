@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_593e3e416faef23e69ceb1ad739d7c991c67e8dfaea6cb04de012b8e0403f62c",
+  "item_id": "egta_c6e59be72951693413f1c811245ae999c1e22927dc278d4ed5d8036945cdb497",
+  "package_sha256": "593e3e416faef23e69ceb1ad739d7c991c67e8dfaea6cb04de012b8e0403f62c",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "the game was between the National Football Conference (NFC) champion Philadelphia Eagles and the American Football Conference (AFC) and defending Super Bowl LI champion New England Patriots.\nThe underdog Eagles defeated the Patriots with a score of 41–33 to win their first Super Bowl"
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/Super_Bowl_LII",
+      "content_sha256": "072b3a18ad80b6b78fcfe9d7353778c2f6f867419c232b70878da13c549d9384",
+      "evidence_id": "e1",
+      "publication_or_update_date": null,
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "article lead section",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "the game was between the National Football Conference (NFC) champion Philadelphia Eagles and the American Football Conference (AFC) and defending Super Bowl LI champion New England Patriots."
+        },
+        {
+          "locator": "article lead section",
+          "span_id": "s2",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "The underdog Eagles defeated the Patriots with a score of 41–33 to win their first Super Bowl"
+        }
+      ],
+      "title": "Super Bowl LII",
+      "url": "https://en.wikipedia.org/wiki/Super_Bowl_LII"
+    }
+  ]
+}

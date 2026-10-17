@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_687802b461172b72c5b796120696210be004a8c0ab67b83c02d85e1aed2dacb0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "South Carolina",
+    "state": "value"
+  },
+  "rationale": "The query contains a deictic anchor (\"last year\") alongside an explicit year anchor (\"2017\"), which disambiguates the intended referent to the 2017 NCAA Division I women's basketball tournament specifically. Evidence e1 (Wikipedia article on the 2017 tournament) directly states South Carolina defeated Mississippi State to win the championship, matching the frozen answer. This is a completed, immutable historical sporting result that does not undergo revision over time, so it remains correct both at the reference time and as of the audit date. No conflicting sources were provided.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

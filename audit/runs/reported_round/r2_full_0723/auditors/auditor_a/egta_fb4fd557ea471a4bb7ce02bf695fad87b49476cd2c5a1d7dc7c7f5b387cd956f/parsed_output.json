@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_fb4fd557ea471a4bb7ce02bf695fad87b49476cd2c5a1d7dc7c7f5b387cd956f",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The question asks which scene of Breaking Bad featured the song \"Who's Gonna Save My Soul\" (the word \"now\" here is part of the song title/lyric string embedded in the NQ question, not a deictic temporal anchor about the underlying fact). Which episode/scene used a given song is a fixed historical fact about the show's content that does not change over time, so this item is non-temporal regardless of when it is asked. No evidence_sources were supplied in the blind request, so the frozen answer's factual correctness cannot be verified; the proposed current answer is left unresolved rather than affirmed or denied.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

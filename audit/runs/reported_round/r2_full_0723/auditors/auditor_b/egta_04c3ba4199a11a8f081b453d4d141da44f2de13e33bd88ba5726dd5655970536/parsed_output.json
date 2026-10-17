@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "donald trump",
+    "state": "value"
+  },
+  "rationale": "The deictic phrase “right now” is read at the 2026-07-21 audit date. The official White House administration page identifies Donald J. Trump as the 45th and 47th President, so the frozen answer remains valid.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

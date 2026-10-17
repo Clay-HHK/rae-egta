@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_687802b461172b72c5b796120696210be004a8c0ab67b83c02d85e1aed2dacb0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "south carolina",
+    "state": "value"
+  },
+  "rationale": "Evidence e1 (2017 NCAA Division I women's basketball tournament article lead) states South Carolina defeated Mississippi State to win the championship, matching the frozen answer for the 2017 event named in the question. No evidence of revision, retirement, or a different current answer for that fixed historical championship is present; the fact remains correct for 2017 despite deictic/explicit-year ambiguity in the query.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "historically_valid"
+}

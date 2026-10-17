@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_c6e59be72951693413f1c811245ae999c1e22927dc278d4ed5d8036945cdb497",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Philadelphia Eagles",
+    "state": "value"
+  },
+  "rationale": "The explicit 2018 anchor makes this a historical question. e1 identifies the Philadelphia Eagles as one of the Super Bowl LII teams and states that they defeated the New England Patriots; no later change is relevant to this fixed historical event.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

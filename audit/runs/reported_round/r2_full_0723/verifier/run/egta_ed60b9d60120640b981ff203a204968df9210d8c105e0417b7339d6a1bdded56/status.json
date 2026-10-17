@@ -1,0 +1,22 @@
+{
+  "date_normalization": {
+    "applied": false,
+    "normalized": {
+      "earliest": "2025-06-04",
+      "latest": "2025-06-17",
+      "precision": "day"
+    },
+    "raw": {
+      "earliest": "2025-06-04",
+      "latest": "2025-06-17",
+      "precision": "day"
+    }
+  },
+  "evidence_contract_valid": true,
+  "item_id": "egta_ed60b9d60120640b981ff203a204968df9210d8c105e0417b7339d6a1bdded56",
+  "json_parse_valid": true,
+  "judgment_schema_errors": [],
+  "judgment_schema_valid": true,
+  "terminal_status": "ok",
+  "zero_tool_calls": true
+}

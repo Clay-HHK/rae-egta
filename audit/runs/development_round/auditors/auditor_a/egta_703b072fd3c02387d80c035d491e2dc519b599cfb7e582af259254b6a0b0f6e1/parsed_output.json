@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": "2025-02-09",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_703b072fd3c02387d80c035d491e2dc519b599cfb7e582af259254b6a0b0f6e1",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "2024",
+    "state": "value"
+  },
+  "rationale": "The frozen answer \"2017\" reflects Super Bowl LII (played Feb 4, 2018, for the 2017 NFL season), which e2 confirms was the Eagles' Super Bowl appearance known as of the NQ dataset era. However, e1 (ESPN, publication date 2025-02-09) documents that the Eagles played in and won Super Bowl LIX on Feb 9, 2025, representing the 2024 NFL season. Since the question asks for the most recent (\"last\") year the Eagles reached the Super Bowl, and this is inherently a moving/current-referenced fact, the correct current answer per available evidence is 2024, not 2017. This makes the frozen answer superseded by a later Eagles Super Bowl appearance. The exact earliest date this supersession occurred is not established by the provided evidence (an intermediate 2022-season appearance, Super Bowl LVII in Feb 2023, is not sourced here), so the earliest bound is left unknown while the latest confirmed date (2025-02-09, per e1) anchors the interval.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "egta_48dd90728455b25e92cd213dbbf35bf75266c5e9039bcffc688c4b0fd88da493",
+  "question": "nq question: when was the latest version of chrome released",
+  "frozen_answer": "2018-01-22",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://chromereleases.googleblog.com/2026/07/",
+      "title": "Chrome Releases",
+      "publisher": "Google (Chrome Releases blog)",
+      "source_tier": "official_primary",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {"span_id": "s1", "text": "Stable Channel Update for Desktop", "locator": "post title in July 2026 archive listing", "supports": ["current_answer"]},
+        {"span_id": "s2", "text": "Tuesday, July 21, 2026", "locator": "date header of most recent Stable Channel Update for Desktop post in July 2026 archive", "supports": ["current_answer", "change_date"]},
+        {"span_id": "s3", "text": "Thursday, July 16, 2026", "locator": "date header of earlier Stable Channel Update for Desktop post in July 2026 archive", "supports": ["current_answer"]}
+      ]
+    },
+    {
+      "url": "https://chromereleases.googleblog.com/2018/01/",
+      "title": "Chrome Releases",
+      "publisher": "Google (Chrome Releases blog)",
+      "source_tier": "official_primary",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {"span_id": "s1", "text": "Wednesday, January 24, 2018", "locator": "date header of Stable Channel Update for Desktop post in January 2018 archive (stable desktop posts that month: Jan 4 and Jan 24)", "supports": ["frozen_answer"]}
+      ]
+    }
+  ],
+  "search_log": "Seed URL (chromereleases 2026/07 archive) accessible: two Stable Channel Update for Desktop posts dated 2026-07-16 and 2026-07-21, so the current answer to 'when was the latest version released' is 2026-07-21 (later than the legacy hint 2026-06-30, which July posts supersede). January 2018 archive checked for frozen date 2018-01-22: no stable desktop post on Jan 22; nearest posts are Jan 4 and Jan 24, 2018, so the frozen gold date does not exactly match an official stable desktop release date (flagged, not resolved). Individual July 21 post body did not render a version number; question asks a date, which the archive supports. 4 fetches used (budget cap).",
+  "change_date_hint": "2026-07-21 (date of latest Stable Channel Update for Desktop post; answer changes with each ~4-week release)"
+}

@@ -1,0 +1,4 @@
+reader_retrieval_arm,pre_event_winner,pre_event_selective_winner,current_valid_winner,ranking_reversal,current_valid_regret,evidence_role
+grok4p5/bm25,no_update,no_update,query_rewrite_update,True,0.4872,exploratory generative-reader transfer
+qwen3p5_9b/bm25,store_only,no_update,query_rewrite_update,True,0.2607,exploratory generative-reader transfer
+qwen3p5_9b/dense,store_only,no_update,intent_aware_postevent_filter,True,0.2457,exploratory generative-reader transfer

@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2017-09-25",
+    "latest": "2017-09-25",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0dd7d306ea549b8e372c89e7ea6deea09860d8b16d46aa6c1243fe149c64d2bb",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "joe daniher",
+    "state": "value"
+  },
+  "rationale": "The question carries an explicit year anchor (2017), so per the temporal reading policy this is a historical, year-anchored query rather than a deictic present-tense one; direction is set to historical. Both evidence sources agree: e1 (Wikipedia, 2017 AFL Mark of the Year) states the winner was Essendon's Joe Daniher, and e2 (Zero Hanger, published 2017-09-25, contemporaneous with the award) independently confirms 'Essendon big man Joe Daniher took out the Mark of the Year.' There is no conflicting or later evidence suggesting a correction or retraction of this historical award result, so the frozen answer 'Joe Daniher' is confirmed as accurate for the 2017 Mark of the Year at the anchored time, yielding historically_valid. Note the underlying question is compound ('mark and goal of the year 2017'); e2 additionally identifies Daniel Rioli as the separate 2017 Goal of the Year winner, but the frozen_answer field only encodes 'joe daniher,' which matches the Mark of the Year component and is not contradicted by any source. change_date reflects the announcement date reported in e2, marking when this historical fact was established, not a later revision.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

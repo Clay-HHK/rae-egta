@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_687802b461172b72c5b796120696210be004a8c0ab67b83c02d85e1aed2dacb0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "South Carolina",
+    "state": "value"
+  },
+  "rationale": "The question explicitly anchors to the year 2017 ('last year 2017'), making it a query about a specific historical event rather than an ever-updating 'current champion' question. Evidence e1 (Wikipedia article on the 2017 NCAA Division I women's basketball tournament) confirms South Carolina defeated Mississippi State to win that championship, matching the frozen answer exactly. Since the champion of a specific past tournament is an immutable historical fact that cannot be superseded by later events, this is historically_valid with no change_date applicable (event_type none).",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

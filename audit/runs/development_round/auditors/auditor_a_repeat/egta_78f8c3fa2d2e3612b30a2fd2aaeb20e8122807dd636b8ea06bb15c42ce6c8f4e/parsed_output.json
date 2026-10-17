@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_78f8c3fa2d2e3612b30a2fd2aaeb20e8122807dd636b8ea06bb15c42ce6c8f4e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "15 December 2017",
+    "state": "value"
+  },
+  "rationale": "The frozen answer \"15 December 2017\" matches span s1, the original air date of \"What Lies Beneath,\" the final episode of The Dumping Ground series 5, per the current (2026-04-26 accessed 2026-07-22) version of the versioned Wikipedia episode-list page. Broadcast air dates of already-aired episodes are fixed historical facts that do not change once recorded correctly; the source shows no indication of revision or correction to this specific date. The question itself, asked from a 2017 vantage point (\"when is the new dumping ground coming out 2017\"), is inherently retrospective now, anchored to a past broadcast year. No evidence in the package indicates this date was ever revised (e.g., no conflicting air date reported), so this is a stable historical fact rather than a value subject to ongoing change. The adjacent span s2 (11 January 2018, series 6 premiere) is included as contextual evidence but does not match the frozen_answer text and is not treated as a competing current value for this specific frozen answer.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

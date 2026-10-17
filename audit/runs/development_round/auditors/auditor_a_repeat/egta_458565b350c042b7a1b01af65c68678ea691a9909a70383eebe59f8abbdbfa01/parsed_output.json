@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2018-05-01",
+    "latest": "2018-05-31",
+    "precision": "month"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_458565b350c042b7a1b01af65c68678ea691a9909a70383eebe59f8abbdbfa01",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Scottie Scheffler",
+    "state": "value"
+  },
+  "rationale": "Question asks who holds the OWGR number one ranking right now. Frozen answer Dustin Johnson reached number one on 2017-02-19 (e1/s1) but was overtaken by Justin Thomas in May 2018 (e1/s2), showing the ranking is frequently revised, not a permanent status for the frozen answer. Current evidence (e2/s4, accessed 2026-07-22) states Scottie Scheffler is currently ranked world number one, corroborated by the 2025 year-end ranking table (e1/s3) showing Scheffler. The frozen answer is superseded by revision; earliest known supersession dated May 2018, with the present holder being Scheffler.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

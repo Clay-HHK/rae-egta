@@ -1,0 +1,92 @@
+[
+ {
+  "item_id": "egta_7f8c00077aec671118e0b415c7c22fe70389109e09d1d7a480002841efa7c98b",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: what are the main sources of economic growth in the us currently",
+  "frozen_answer": "telecommunications",
+  "legacy_verdict": "UNVERIFIED",
+  "legacy_current_answer": "-",
+  "legacy_note": "no authoritative single current answer; gold vague even at freeze",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_49a1f1a8ad846f2af41b68d6606a029d3c91f6291e0e570b7bd243d2d66322e5",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: the most recent technological change to the u.s. economy was",
+  "frozen_answer": "digitization of social systems",
+  "legacy_verdict": "UNVERIFIED",
+  "legacy_current_answer": "-",
+  "legacy_note": "adjudicated down from SUPERSEDED: subjective question without canonical answer",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_b5d523208d393015202f671b9df4cd6ff3f6b0f7fd55e1ca9f7d6cf910e8243b",
+  "stratum": "B_deictic_year",
+  "question": "nq question: who won last year's grand national 2017",
+  "frozen_answer": "One For Arthur",
+  "legacy_verdict": "STALE_DEIXIS_YEAR_RESCUED",
+  "legacy_current_answer": "-",
+  "legacy_note": "\"last year\" stale but 2017 anchor rescues correctness",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_687802b461172b72c5b796120696210be004a8c0ab67b83c02d85e1aed2dacb0",
+  "stratum": "B_deictic_year",
+  "question": "nq question: who won the ncaa women's championship last year 2017",
+  "frozen_answer": "South Carolina",
+  "legacy_verdict": "STALE_DEIXIS_YEAR_RESCUED",
+  "legacy_current_answer": "-",
+  "legacy_note": "\"last year\" stale but 2017 anchor rescues correctness",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_ab477caa7d7e9a4273c4bd6ade633a36d49388ceffcf9e89525d33b23bb3a5e6",
+  "stratum": "B_deictic_year",
+  "question": "nq question: who has the most rings in the nba right now 2017",
+  "frozen_answer": "Bill Russell",
+  "legacy_verdict": "STALE_DEIXIS_YEAR_RESCUED",
+  "legacy_current_answer": "-",
+  "legacy_note": "\"right now 2017\" anchored; Russell record unchanged regardless",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_0dd7d306ea549b8e372c89e7ea6deea09860d8b16d46aa6c1243fe149c64d2bb",
+  "stratum": "C_year_only",
+  "question": "nq question: who won mark and goal of the year 2017",
+  "frozen_answer": "Joe Daniher",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "2017 AFL awards fixed",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_78f8c3fa2d2e3612b30a2fd2aaeb20e8122807dd636b8ea06bb15c42ce6c8f4e",
+  "stratum": "C_year_only",
+  "question": "nq question: when is the new dumping ground coming out 2017",
+  "frozen_answer": "15 December 2017",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "2017 premiere date is a fixed past event",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_e58bd4c760807425be44b2361300e77779104a70eb822717c45766e7446af699",
+  "stratum": "C_year_only",
+  "question": "nq question: how many gold medals won by india in 2018 commonwealth games",
+  "frozen_answer": "26",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "2018 Commonwealth Games medal count fixed",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_7bcad94d148b8e08c8d041f61320c810a906b5fcbf4bed487e1d796fe838aa49",
+  "stratum": "C_year_only",
+  "question": "nq question: where is the world cup being held 2018",
+  "frozen_answer": "Russia",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "2018 World Cup host fixed",
+  "seed_url": null
+ }
+]

@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": "2026-07-21",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_48dd90728455b25e92cd213dbbf35bf75266c5e9039bcffc688c4b0fd88da493",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "July 21, 2026 (Stable Channel Update for Desktop)",
+    "state": "value"
+  },
+  "rationale": "The question asks about the \"latest\" Chrome release, an unqualified present-tense superlative with no explicit year/date anchor, so per the temporal reading policy it is read relative to audit_as_of (2026-07-21), giving direction=current rather than the ambiguous label in the context block. Evidence e2 shows a Stable Channel Update for Desktop post dated January 24, 2018, roughly matching the frozen answer era (2018-01-22, close to the reference_time window ending 2019), so the frozen answer was plausibly valid near annotation time. However, e1 (the July 2026 Chrome Releases archive) shows Stable Channel Update for Desktop posts as recently as Tuesday, July 21, 2026, which is audit_as_of itself, and another on July 16, 2026 — establishing that Chrome has continued releasing new stable versions and the 'latest version' fact has been repeatedly superseded since 2018. Because 'latest release date' is an inherently rolling fact, the 2018 answer is no longer valid at audit time; this is a revision-type change (new releases superseding old ones), not a retirement of the product. The exact date of the specific revision that invalidated the frozen answer isn't identifiable from evidence (many intervening releases occurred over 2018-2026), but the most recent known revision establishing today's answer is the July 21, 2026 post in e1, so change_date.latest is set to that day with earliest left unknown given the multi-year gap and lack of a full release timeline in evidence.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

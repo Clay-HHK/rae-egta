@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2020-12-31",
+    "latest": "2020-12-31",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "retirement",
+  "frozen_answer_identified": false,
+  "item_id": "egta_3d23c5df19abf36a79484571fb27b063049d79fe4c616f289fa6f77bad41e5c0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "The question is temporally deictic ('most current'), but the intended reference time is not resolved. Adobe states that it stopped supporting Flash Player beginning 2020-12-31 and later blocked Flash content, so there is no current supported Flash Player version. The provided evidence does not establish that 28.0.0.137 was the current version at the historical reference time.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "ambiguous_context"
+}

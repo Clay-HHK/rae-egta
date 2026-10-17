@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2020-12-31",
+    "latest": "2021-01-12",
+    "precision": "interval"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "retirement",
+  "frozen_answer_identified": false,
+  "item_id": "egta_3d23c5df19abf36a79484571fb27b063049d79fe4c616f289fa6f77bad41e5c0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "Deictic “most current” is read at audit_as_of 2026-07-21, so direction is current. Official Adobe EOL evidence states support ended 2020-12-31 and Flash content was blocked from 2021-01-12, with uninstall recommended; thus no supported current Flash Player version exists and any version string answer (including frozen 28.0.0.137) is invalid by product retirement. Evidence does not name the frozen build, so it is not identified in-source.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_retirement"
+}

@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_7f8c00077aec671118e0b415c7c22fe70389109e09d1d7a480002841efa7c98b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The evidence_sources array is empty, so no evidence is available to verify or refute the frozen answer 'telecommunications' as a main source of US economic growth, either at the NQ reference time or at the 2026-07-21 audit date. Per the temporal reading policy, the deictic anchor 'currently' resolves direction to 'current' relative to audit_as_of, but with zero evidence items I cannot ground any claim about which sectors currently drive US economic growth, nor confirm this was ever an accurate summary. Abstaining conservatively as insufficient_evidence rather than guessing.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

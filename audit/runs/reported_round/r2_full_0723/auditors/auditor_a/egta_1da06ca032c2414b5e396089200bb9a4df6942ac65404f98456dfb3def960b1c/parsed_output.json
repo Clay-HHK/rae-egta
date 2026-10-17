@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2016-01-01",
+    "latest": "2016-12-31",
+    "precision": "year"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_1da06ca032c2414b5e396089200bb9a4df6942ac65404f98456dfb3def960b1c",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Yushan, China",
+    "state": "value"
+  },
+  "rationale": "Per the temporal reading policy, the deictic \"currently\" is read relative to audit_as_of (2026-07-21). Evidence e1/s2 states China hosted the tournament in Haikou from 2012 to 2014 and \"in Yushan since 2016,\" and e1/s1 confirms the 2025 edition (23 Feb-1 Mar 2025) was held at the Yushan Sport Centre, showing the Yushan host location persists up to at least 2025, within the audit window. The frozen answer \"Haikou\" matches the documented 2012-2014 host period, so it held at some point covered by the loosely-bounded reference_time (latest 2019-12-31, no earliest bound), but was revised when the event moved to Yushan starting 2016 -- a change that predates and persists through the audit_as_of date. This is a location revision (not a retirement, since the tournament continues), so the frozen answer is superseded by the current host, Yushan.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

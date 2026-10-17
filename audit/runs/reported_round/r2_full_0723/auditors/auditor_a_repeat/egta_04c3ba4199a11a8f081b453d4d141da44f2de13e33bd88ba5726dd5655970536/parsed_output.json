@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Donald Trump",
+    "state": "value"
+  },
+  "rationale": "The question uses the deictic anchor \"right now,\" which per protocol policy is read relative to audit_as_of (2026-07-21), so direction is current. Evidence e1 is an official primary source (whitehouse.gov) accessed 2026-07-22, one day after the audit date, stating Trump is the \"45th & 47th President of the United States\" and describing him as \"returning to the White House\" after the 2024 election. This confirms the frozen answer \"Donald Trump\" remains the correct answer at the audit time, so the verdict is still_valid. Note the frozen answer coincidentally matches both the earlier NQ reference period (his first term, ending 2021) and the present (his second, non-consecutive term beginning 2025), with an intervening Biden presidency not reflected in either the frozen answer or the current evidence; since the question asks about validity at the audit time only, this intervening period does not affect the still_valid verdict.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

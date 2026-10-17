@@ -1,0 +1,73 @@
+{
+  "evidence_package_id": "egta_evidence_e34d06ff10706617d21921281ba2d662400c95ac751719c62a772e82b77c72dd",
+  "evidence_sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/New_Birth_Missionary_Baptist_Church",
+      "content_sha256": "3a5fb8d66507d05c23e3777417dd65f4754f42d8783653d2764eafef11778d95",
+      "evidence_id": "e1",
+      "publication_or_update_date": "2026-05-18",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "History 段倒数第二段落",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer",
+            "change_date"
+          ],
+          "text": "In 2017, Stephen A. Davis, pastor of New Birth Birmingham in Birmingham, Alabama became senior pastor while remaining pastor of the Birmingham. However in June, 2018 Bishop Davis resigned."
+        },
+        {
+          "locator": "History 段末句",
+          "span_id": "s2",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "In December 2018, Jamal Bryant became senior pastor."
+        },
+        {
+          "locator": "首段",
+          "span_id": "s3",
+          "supports": [
+            "current_answer"
+          ],
+          "text": "Celebrity pastor Jamal Bryant is the senior pastor since 2018."
+        }
+      ],
+      "title": "New Birth Missionary Baptist Church - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/New_Birth_Missionary_Baptist_Church"
+    }
+  ],
+  "frozen_answer": {
+    "normalized": "stephen a. davis",
+    "raw": "Stephen A. Davis"
+  },
+  "item_id": "egta_0671570008bb8e9dbabca041f523b1dc8c4185a5a377af33bf7a7a98f4aac380",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "new"
+      },
+      {
+        "kind": "deictic",
+        "text": "now"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: who is the pastor of new birth missionary baptist church now",
+  "schema_version": "egta.v1"
+}

@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_ec42c86eeb7627bca55ff1a3828a2f6827bce65b72675aeab81d28d311735747",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "ram nath kovind",
+    "state": "value"
+  },
+  "rationale": "The question carries an explicit year anchor (\"2017\"), so per the temporal reading policy it is interpreted at that anchored time, giving direction=historical. Evidence e1 (span s1) establishes that Ram Nath Kovind was one of the nominated/backed candidates (NDA nominee) in the 2017 Indian presidential election, alongside opposition candidate Meira Kumar, and span s2 confirms he was declared President-elect after the 20 July 2017 vote. This directly corroborates the frozen answer as valid at the anchored 2017 timeframe. There is no evidence of any later revision or retirement affecting this historical fact—being a 2017 presidential nominee is an immutable historical event, not subject to change. Hence verdict is historically_valid, event_type none, and the proposed current answer mirrors the frozen answer since the historical fact remains unchanged as of the audit date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

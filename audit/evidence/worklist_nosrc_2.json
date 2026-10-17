@@ -1,0 +1,82 @@
+[
+ {
+  "item_id": "egta_ec42c86eeb7627bca55ff1a3828a2f6827bce65b72675aeab81d28d311735747",
+  "stratum": "C_year_only",
+  "question": "nq question: who are nominated for president of india 2017",
+  "frozen_answer": "Ram Nath Kovind",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "anchored to 2017 presidential nomination",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_8284c64ad8cc63ffce0b61b437e5aa58cca9853d64ea838b5ef441510522ca48",
+  "stratum": "C_year_only",
+  "question": "nq question: who won women's singles us open 2017",
+  "frozen_answer": "Sloane Stephens",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "anchored to 2017 US Open",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_371c2ba137115fca3d278af199d222fc7c9d05b6fddc945539b9532ddd2ed50f",
+  "stratum": "C_year_only",
+  "question": "nq question: who won the wwe championship elimination chamber 2018",
+  "frozen_answer": "Roman Reigns",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "anchored to Elimination Chamber 2018",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_c00b0ded98829dbaea7dd37b569d8389e704f70c7de68d9c25d51fa2edf196fc",
+  "stratum": "C_year_only",
+  "question": "nq question: who's playing in the sec championship 2017",
+  "frozen_answer": "Georgia Bulldogs",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "anchored to 2017 SEC championship",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_c6e59be72951693413f1c811245ae999c1e22927dc278d4ed5d8036945cdb497",
+  "stratum": "C_year_only",
+  "question": "nq question: who are the two teams in super bowl 2018",
+  "frozen_answer": "Philadelphia Eagles",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "anchored to Super Bowl 2018",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_3f8e1e5110880e2e62703c3614d01edcf360540ab4bcd86a60945aac2184c500",
+  "stratum": "C_year_only",
+  "question": "nq question: who won the workd series of poker 2017",
+  "frozen_answer": "Scott Blumstein",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "anchored to 2017 WSOP",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_102a00c3c3f8a27f09d2cdb280bfe4a865a59807d9369b1773b3a3c4b2c7336e",
+  "stratum": "C_year_only",
+  "question": "nq question: who was selected for the 2018 football hall of fame",
+  "frozen_answer": "Terrell Owens",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "anchored to 2018 HoF class",
+  "seed_url": null
+ },
+ {
+  "item_id": "egta_97ccd4a84ad55b9d24bcd0f953bb6a28a84a2a50a30c6846cbd1ff4fc4a4813b",
+  "stratum": "C_year_only",
+  "question": "nq question: who won the mens figure skating in 2018 olympics",
+  "frozen_answer": "Yuzuru Hanyu",
+  "legacy_verdict": "YEAR_ANCHORED_VALID",
+  "legacy_current_answer": "-",
+  "legacy_note": "anchored to 2018 Olympics",
+  "seed_url": null
+ }
+]

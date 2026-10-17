@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2025-06-17",
+    "latest": "2025-06-17",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_ed60b9d60120640b981ff203a204968df9210d8c105e0417b7339d6a1bdded56",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Florida Panthers; Edmonton Oilers",
+    "state": "value"
+  },
+  "rationale": "Under the audit-date policy, “last year” refers to 2025. e1 identifies the 2025 finalists as the Florida Panthers and Edmonton Oilers, while e2 identifies Pittsburgh as the frozen 2017 answer. However, the supplied reference-time interval has no lower bound and only establishes an upper bound of 2019-12-31, so it does not establish that the frozen answer held at or near the reference time as required to assign superseded_revision conservatively.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

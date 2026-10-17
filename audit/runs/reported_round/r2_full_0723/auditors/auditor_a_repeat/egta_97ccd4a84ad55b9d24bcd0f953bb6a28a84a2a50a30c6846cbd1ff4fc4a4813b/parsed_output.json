@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_97ccd4a84ad55b9d24bcd0f953bb6a28a84a2a50a30c6846cbd1ff4fc4a4813b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "yuzuru hanyu",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (\"2018\"), so per the temporal reading policy direction is historical and it is evaluated at that anchored time. Evidence e1 (Wikipedia article on figure skating at the 2018 Winter Olympics men's singles) directly states Yuzuru Hanyu won the gold medal, matching the frozen answer. The outcome of a completed Olympic competition is a fixed historical record that does not change over time, so no revision or retirement applies; the frozen answer is historically valid at the anchored 2018 time.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

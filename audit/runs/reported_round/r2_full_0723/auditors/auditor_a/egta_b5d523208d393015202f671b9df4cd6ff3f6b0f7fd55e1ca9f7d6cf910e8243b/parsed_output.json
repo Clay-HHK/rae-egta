@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_b5d523208d393015202f671b9df4cd6ff3f6b0f7fd55e1ca9f7d6cf910e8243b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "one for arthur",
+    "state": "value"
+  },
+  "rationale": "The question carries an explicit year anchor (\"2017\"), so per the temporal reading policy it is interpreted at that anchored time despite the confounding deictic phrase \"last year's.\" Evidence e1 (Wikipedia's 2017 Grand National article) confirms One For Arthur won the 2017 Grand National, matching the frozen answer. This is a fixed historical sporting result that does not change over time, so the frozen answer remains correct as a historically anchored fact; no revision or retirement event applies.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

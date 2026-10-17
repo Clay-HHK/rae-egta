@@ -1,0 +1,25 @@
+{
+  "change_date": {
+    "earliest": "2026-03-12",
+    "latest": "2026-03-12",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "retirement",
+  "frozen_answer_identified": true,
+  "item_id": "egta_daab0bc1b66530b276d14c88386844e35bc557abd76b84e4eddf691ba6af8e1e",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "absent_or_retired"
+  },
+  "rationale": "Frozen Atlanta Hawks is grounded in e1 (2012-22 teams including Hawks) and e2 (2016 Hawks signing). Both e1 and e2 establish retirement announced 2026-03-12; e1 further notes recent non-NBA play in Taiwan, Puerto Rico, and BIG3. As of 2026-07-21 the deictic last-year reading no longer maps to Hawks and playing status is retired, so the frozen answer is superseded by retirement with no single current team identified.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "temporal_scope": "uncertain",
+  "verdict": "superseded_retirement"
+}

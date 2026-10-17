@@ -1,0 +1,40 @@
+{
+  "item_id": "egta_3d23c5df19abf36a79484571fb27b063049d79fe4c616f289fa6f77bad41e5c0",
+  "question": "nq question: what is the most current adobe flash player version",
+  "frozen_answer": "28.0.0.137",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://www.adobe.com/products/flashplayer/end-of-life-alternative.html",
+      "title": "Adobe Flash Player End of Life",
+      "publisher": "Adobe",
+      "source_tier": "official_primary",
+      "publication_or_update_date": "2021-01-13",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "Adobe stopped supporting Flash Player beginning December 31, 2020",
+          "locator": "Adobe Flash Player EOL General Information 段",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s2",
+          "text": "Adobe blocked Flash content from running in Flash Player beginning January 12, 2021",
+          "locator": "FAQ 段（页面多处出现）",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s3",
+          "text": "Adobe strongly recommends all users immediately uninstall Flash Player to help protect their systems.",
+          "locator": "EOL General Information 开头段落",
+          "supports": ["current_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "seed URL (Adobe 官方 EOL 页) 可访问且支持性内容仍在，页面标注 UPDATED: January 13, 2021，确证 Flash Player 已停用（无当前版本值，属 retirement case）。frozen answer 28.0.0.137 的历史成立性尝试取证：helpx.adobe.com/flash-player/release-note/fp_28_air_28_release_notes.html 两次抓取均超时，web.archive.org 被抓取工具屏蔽，故 frozen 过去成立性未获逐字证据，仅覆盖 (b) 当前状态与 (c) 变化日期。",
+  "change_date_hint": "2020-12-31 (停止支持) 至 2021-01-12 (屏蔽运行)"
+}

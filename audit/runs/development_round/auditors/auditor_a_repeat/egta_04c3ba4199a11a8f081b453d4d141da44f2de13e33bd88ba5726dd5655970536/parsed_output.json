@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Donald Trump",
+    "state": "value"
+  },
+  "rationale": "The question uses the deictic anchor \"right now\", so it asks for the currently-holding officeholder rather than a fixed historical fact. The White House's official administration page (accessed 2026-07-22) identifies Donald J. Trump as the \"45th & 47th President of the United States,\" noting he returned to office after the 2024 election (spans s1, s2). This matches the frozen answer \"Donald Trump,\" so the frozen answer remains correct as of the audit date. Note the presidency did change hands (Biden served 2021-2025) between the NQ reference period (~2019, Trump's first term) and now, but since the current officeholder coincides with the frozen answer at audit time, the frozen answer is still valid rather than superseded. No exact transition/inauguration date is stated in the evidence (only the election year 2024), so the change date is left unknown rather than inferred.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

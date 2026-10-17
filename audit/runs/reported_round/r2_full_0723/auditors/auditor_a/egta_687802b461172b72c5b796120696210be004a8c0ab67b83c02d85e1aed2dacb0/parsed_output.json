@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_687802b461172b72c5b796120696210be004a8c0ab67b83c02d85e1aed2dacb0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "south carolina",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (\"2017\") in its text, which per the temporal reading policy fixes direction to historical and the answer to that anchored time regardless of \"last year\" phrasing. Evidence e1 (Wikipedia article on the 2017 NCAA Division I women's basketball tournament) directly supports that South Carolina defeated Mississippi State to win the 2017 championship, matching the frozen answer. This is a completed historical sporting result that is not subject to later revision or retirement, so the frozen answer is valid at the anchored time (2017) and remains a stable historical fact today.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

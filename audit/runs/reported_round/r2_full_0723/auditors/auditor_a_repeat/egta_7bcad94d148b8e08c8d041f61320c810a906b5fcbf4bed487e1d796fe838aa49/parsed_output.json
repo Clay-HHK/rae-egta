@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_7bcad94d148b8e08c8d041f61320c810a906b5fcbf4bed487e1d796fe838aa49",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "russia",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (\"2018\"), so per the temporal reading policy it is interpreted at that anchored time, making direction historical. Evidence (e1, s1) confirms the 2018 FIFA World Cup took place in Russia from 14 June to 15 July 2018, matching the frozen answer. This is a static historical fact about a completed one-time event, not subject to later revision or retirement, so it remains valid both at the anchored time and at the audit-as-of date.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

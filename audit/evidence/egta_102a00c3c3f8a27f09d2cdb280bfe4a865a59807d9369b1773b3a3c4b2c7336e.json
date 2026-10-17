@@ -1,0 +1,45 @@
+{
+  "item_id": "egta_102a00c3c3f8a27f09d2cdb280bfe4a865a59807d9369b1773b3a3c4b2c7336e",
+  "question": "nq question: who was selected for the 2018 football hall of fame",
+  "frozen_answer": "Terrell Owens",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://www.profootballhof.com/players/terrell-owens",
+      "title": "Terrell Owens | Pro Football Hall of Fame",
+      "publisher": "Pro Football Hall of Fame",
+      "source_tier": "official_primary",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "Class of 2018",
+          "locator": "player profile header, class designation",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Terrell_Owens",
+      "title": "Terrell Owens",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s2",
+          "text": "In 2018, Owens was voted into the Hall of Fame.",
+          "locator": "article body (Hall of Fame section)",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Year-anchored item (Pro Football Hall of Fame Class of 2018). First try https://www.profootballhof.com/heroes/terrell-owens/ returned 404; WebSearch on profootballhof.com located the current player page https://www.profootballhof.com/players/terrell-owens, which shows 'Class of 2018'. Also fetched Wikipedia 'Terrell Owens' as second source confirming 2018 election. No visible dates on either fetched excerpt, left null.",
+  "change_date_hint": null
+}

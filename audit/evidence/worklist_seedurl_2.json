@@ -1,0 +1,82 @@
+[
+ {
+  "item_id": "egta_3d23c5df19abf36a79484571fb27b063049d79fe4c616f289fa6f77bad41e5c0",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: what is the most current adobe flash player version",
+  "frozen_answer": "28.0.0.137",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "discontinued (EOL 2020-12-31)",
+  "legacy_note": "Flash Player discontinued Dec 2020; retirement case, no current value",
+  "seed_url": "https://www.adobe.com/products/flashplayer/end-of-life-alternative.html"
+ },
+ {
+  "item_id": "egta_4f6f0e4ffc5384a516efaf78786946d31fb87e867ba9a16b1dec1b56d2143b45",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: who is the current director of the us mint",
+  "frozen_answer": "David Motl",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "Paul Hollis",
+  "legacy_note": "Hollis sworn in Jan 2026; Ryder, Gibson served in between",
+  "seed_url": "https://www.usmint.gov/about/leadership/director"
+ },
+ {
+  "item_id": "egta_a4d88c02ca4ad9f11246849a3218293789904c8da3444e6e50395285707b7cf9",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: what is the current population of bora bora",
+  "frozen_answer": "10,605",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "10,758 (2022 census)",
+  "legacy_note": "2022 census superseded the frozen figure",
+  "seed_url": "https://en.wikipedia.org/wiki/Bora-Bora_(commune)"
+ },
+ {
+  "item_id": "egta_458565b350c042b7a1b01af65c68678ea691a9909a70383eebe59f8abbdbfa01",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: who is the number one ranked golfer in the world right now",
+  "frozen_answer": "Dustin Johnson",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "Scottie Scheffler",
+  "legacy_note": "OWGR No.1 changed many times since 2018",
+  "seed_url": "https://www.owgr.com/current-world-ranking"
+ },
+ {
+  "item_id": "egta_0671570008bb8e9dbabca041f523b1dc8c4185a5a377af33bf7a7a98f4aac380",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: who is the pastor of new birth missionary baptist church now",
+  "frozen_answer": "Stephen A. Davis",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "Jamal Harrison Bryant",
+  "legacy_note": "Bryant senior pastor since late 2018; matches Block AUD workbook",
+  "seed_url": "https://en.wikipedia.org/wiki/New_Birth_Missionary_Baptist_Church"
+ },
+ {
+  "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: who is the president of usa right now",
+  "frozen_answer": "Donald Trump",
+  "legacy_verdict": "STILL_VALID",
+  "legacy_current_answer": "Donald Trump",
+  "legacy_note": "superseded 2021-2025 (Biden), matches again since Jan 2025",
+  "seed_url": "https://www.whitehouse.gov/administration/"
+ },
+ {
+  "item_id": "egta_3804a06f6c7deab5f81facf9d6d605366d2588a68310f14986c5ae81725e4ed9",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: when was the last year the raiders won the superbowl",
+  "frozen_answer": "1983",
+  "legacy_verdict": "STILL_VALID",
+  "legacy_current_answer": "1983",
+  "legacy_note": "Raiders have not won a Super Bowl since XVIII",
+  "seed_url": "https://en.wikipedia.org/wiki/Super_Bowl_LX"
+ },
+ {
+  "item_id": "egta_5436c8fecc7349da7d8485ea69ab717235e99f6cbae7d17d667d168848679a9b",
+  "stratum": "A_deictic_pure",
+  "question": "nq question: latest season on keeping up with the kardashians",
+  "frozen_answer": "14",
+  "legacy_verdict": "SUPERSEDED_CONFIRMED",
+  "legacy_current_answer": "20 (series ended 2021)",
+  "legacy_note": "show ended with season 20 in 2021",
+  "seed_url": "https://variety.com/2020/tv/news/keeping-up-with-the-kardashians-ending-season-20-e-kuwtk-1234762635/"
+ }
+]

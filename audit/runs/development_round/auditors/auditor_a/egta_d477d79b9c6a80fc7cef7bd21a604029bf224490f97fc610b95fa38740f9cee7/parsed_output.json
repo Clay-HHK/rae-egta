@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2023-11-23",
+    "latest": "2023-11-23",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_d477d79b9c6a80fc7cef7bd21a604029bf224490f97fc610b95fa38740f9cee7",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "2023",
+    "state": "value"
+  },
+  "rationale": "The question asks for the most recent year in which Thanksgiving (4th Thursday of November) fell on the 23rd, a recurring calendar fact that changes as time passes ('last year' is a deictic, time-relative anchor). The frozen answer '2017' was correct only relative to an earlier reference time (NQ annotation, no later than 2019): 2017-11-23 was indeed a Thursday/Thanksgiving, while 2018 (Nov 22) and 2019 (Nov 28) did not match. Evidence e1 confirms Thanksgiving 2023 was observed on Thursday, November 23, 2023 - a later occurrence of the same condition. Since neither 2024 (Nov 28) nor 2025 (Nov 27) landed on the 23rd, 2023 remains the most recent qualifying year as of the audit date (2026-07-21), superseding the frozen 2017 answer. This is a natural revision driven by the passage of time rather than a factual error, so verdict is superseded_revision with event_type revision.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

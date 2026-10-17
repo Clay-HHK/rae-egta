@@ -1,0 +1,57 @@
+{
+  "item_id": "egta_a4d88c02ca4ad9f11246849a3218293789904c8da3444e6e50395285707b7cf9",
+  "question": "nq question: what is the current population of bora bora",
+  "frozen_answer": "10,605",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Bora-Bora_(commune)",
+      "title": "Bora-Bora (commune) - Wikipedia",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2024-05-21",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "Its population was 10,758 at the 2022 census.",
+          "locator": "开头段落",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s2",
+          "text": "Population (2022) 10,758",
+          "locator": "右侧 infobox",
+          "supports": ["current_answer"]
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bora_Bora",
+      "title": "Bora Bora - Wikipedia",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s3",
+          "text": "In 2012, the population was 9,858, which increased to 10,605 according to 2017 estimates",
+          "locator": "Demographics 段",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s4",
+          "text": "Population: 10,605 (2017)",
+          "locator": "文首 infobox",
+          "supports": ["frozen_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "seed URL (commune 条目) 可访问，给出 2022 普查 10,758，支持当前答案已取代 frozen；该页无 10,605 历史数字。补抓 Wikipedia 'Bora Bora' 岛屿条目，确证 frozen 10,605 对应 2017 年普查/估计，即 frozen 在过去成立。两源各覆盖一半，合计覆盖 (a)(b)(c)。",
+  "change_date_hint": "2022 (普查年份，精确日期页面未见)"
+}

@@ -1,0 +1,8 @@
+trigger_reason,count,resolved,abstained,failed
+auditor_a_schema_failure,1,1,0,0
+auditor_ambiguity_or_conflict,16,10,6,0
+current_answer_incompatible,14,9,5,0
+revision_retirement_event_type_disagreement,9,6,3,0
+supporting_evidence_disagreement,5,3,2,0
+temporal_scope_disagreement,25,12,13,0
+verdict_disagreement,27,14,13,0

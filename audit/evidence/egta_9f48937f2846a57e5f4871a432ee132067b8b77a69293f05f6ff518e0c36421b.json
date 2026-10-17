@@ -1,0 +1,24 @@
+{
+  "item_id": "egta_9f48937f2846a57e5f4871a432ee132067b8b77a69293f05f6ff518e0c36421b",
+  "question": "nq question: what is the latest version of chrome for linux",
+  "frozen_answer": "67.0",
+  "backfill_status": "insufficient_candidate",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://chromereleases.googleblog.com/2026/07/",
+      "title": "Chrome Releases",
+      "publisher": "Google (Chrome Releases blog)",
+      "source_tier": "official_primary",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {"span_id": "s1", "text": "Stable Channel Update for Desktop", "locator": "post titles in July 2026 archive listing (posts dated July 16 and July 21, 2026)", "supports": ["change_date"]},
+        {"span_id": "s2", "text": "Tuesday, July 21, 2026", "locator": "date header of most recent Stable Channel Update for Desktop post", "supports": ["change_date"]}
+      ]
+    }
+  ],
+  "search_log": "Seed URL (chromereleases 2026/07 archive) accessible and shows stable desktop updates through 2026-07-21, which establishes the frozen 67.0 (a 2018 version) is long superseded. However, the current version NUMBER could not be verified: the individual July 21 post body did not render its version sentence via fetch, and Wikipedia 'Google Chrome version history' returned 404. Legacy hint '~150' remains unverified. Budget of 4 fetches exhausted (2026/07 archive x2, July 21 post, Wikipedia version history), so marked insufficient_candidate: change is evidenced, current value is not.",
+  "change_date_hint": "2026-07-21 (latest Stable Channel Update for Desktop; current version number not captured)"
+}

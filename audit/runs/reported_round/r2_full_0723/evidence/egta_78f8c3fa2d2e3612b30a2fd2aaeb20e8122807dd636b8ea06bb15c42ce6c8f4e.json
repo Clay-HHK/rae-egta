@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "evidence_package_id": "egta_evidence_fba2318b7dd774859161fac33ffcb36e3f9afacfdaf39f7ca3301e6149e2dc78",
+  "item_id": "egta_78f8c3fa2d2e3612b30a2fd2aaeb20e8122807dd636b8ea06bb15c42ce6c8f4e",
+  "package_sha256": "fba2318b7dd774859161fac33ffcb36e3f9afacfdaf39f7ca3301e6149e2dc78",
+  "schema_version": "egta_evidence.v1",
+  "source_contents": {
+    "e1": "15 December 2017 (2017-12-15)\n11 January 2018 (2018-01-11)"
+  },
+  "sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://en.wikipedia.org/wiki/List_of_The_Dumping_Ground_episodes",
+      "content_sha256": "ce92a3f94d06ac34ca9acf5377a574bf1f42ebaec326087244af234d409dbdbf",
+      "evidence_id": "e1",
+      "publication_or_update_date": "2026-04-26",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "spans": [
+        {
+          "locator": "series 5 episode table, original air date of final episode 'What Lies Beneath'",
+          "span_id": "s1",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "15 December 2017 (2017-12-15)"
+        },
+        {
+          "locator": "series 6 episode table, original air date of first episode",
+          "span_id": "s2",
+          "supports": [
+            "frozen_answer"
+          ],
+          "text": "11 January 2018 (2018-01-11)"
+        }
+      ],
+      "title": "List of The Dumping Ground episodes",
+      "url": "https://en.wikipedia.org/wiki/List_of_The_Dumping_Ground_episodes"
+    }
+  ]
+}

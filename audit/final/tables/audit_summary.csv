@@ -1,0 +1,8 @@
+measure,numerator,denominator,rate,wilson95_low,wilson95_high,claim_role
+accepted_supersession_primary,6,47,0.1276595744680851,0.05984604198143388,0.25173940792792504,existence in one sampled published lineage; not prevalence
+accepted_supersession_strict_reference_time,4,47,0.0851063829787234,,,reference-time sensitivity check; not prevalence
+year_anchored_negative_control,12,12,1.0,,,explicit historical anchors remain historically valid
+initial_cross_auditor_exact_class_agreement,24,47,0.5106382978723404,0.3724245374822684,0.6472444496631784,reliability limitation; below preregistered threshold
+same_auditor_repeat_exact_class_stability,45,46,0.9782608695652174,0.8866470547848865,0.9961521457419497,repeat stability only; not cross-auditor validity
+retention_eligible_pairs,17,47,0.3617021276595745,,,still-valid plus explicitly historical references
+unresolved_pairs,23,47,0.48936170212765956,,,abstained; excluded from deterministic validity claims

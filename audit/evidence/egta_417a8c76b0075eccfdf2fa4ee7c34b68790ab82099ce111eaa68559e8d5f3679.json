@@ -1,0 +1,40 @@
+{
+  "item_id": "egta_417a8c76b0075eccfdf2fa4ee7c34b68790ab82099ce111eaa68559e8d5f3679",
+  "question": "nq question: what is the latest version of microsoft office 2010",
+  "frozen_answer": "14.0.7182.5000",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/officeupdates/update-history-office-2010-click-to-run",
+      "title": "Update history for Office 2010 Click-to-Run products - Office release notes | Microsoft Learn",
+      "publisher": "Microsoft Learn",
+      "source_tier": "official_primary",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "The most current version of Office 2010 is 14.0.7261.5000, which was released on October 13, 2020.",
+          "locator": "note box above the update table (bold markers removed)",
+          "supports": ["current_answer", "change_date"]
+        },
+        {
+          "span_id": "s2",
+          "text": "June 13 | 14.0.7182.5000 | KB 4023935",
+          "locator": "update history table, 2017 release-year block, row cells joined with |",
+          "supports": ["frozen_answer"]
+        },
+        {
+          "span_id": "s3",
+          "text": "Support for Office 2010 ended on October 13, 2020.",
+          "locator": "Important banner at top of page",
+          "supports": ["current_answer", "change_date"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Seed URL verified accessible (official Microsoft Learn page). It confirms the frozen answer 14.0.7182.5000 was the Click-to-Run build released 2017-06-13, i.e. the latest Office 2010 version at that time, and that later builds superseded it (next build 14.0.7185.5000 on 2017-07-11). Discrepancy with legacy hint: this page states the final/most current version is 14.0.7261.5000 (2020-10-13), not 14.0.7268.5000 as in legacy_current_answer; 14.0.7268.5000 does not appear anywhere on this page. Recorded per evidence (rule 5); the legacy figure may refer to a non-Click-to-Run (MSI) build lineage, not verified within budget. SUPERSEDED verdict unaffected either way.",
+  "change_date_hint": "frozen build superseded 2017-07-11; final build released 2020-10-13 (support ended same day)"
+}

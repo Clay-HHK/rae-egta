@@ -1,0 +1,29 @@
+{
+  "evidence_package_id": "egta_evidence_a7ddb3fa90e86d10591508a290e8c70e58603f53b2979a3fbf5ea8905dbc9367",
+  "evidence_sources": [],
+  "frozen_answer": {
+    "normalized": "atlantic ocean",
+    "raw": "Atlantic ocean"
+  },
+  "item_id": "egta_65345b3fe1cc99c84e26f12f8508ef78152a8b4df2114973adde0689f7e5f1fa",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "current"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: the gulf stream the world's fastest ocean current flows along the western side of this water body",
+  "schema_version": "egta.v1"
+}

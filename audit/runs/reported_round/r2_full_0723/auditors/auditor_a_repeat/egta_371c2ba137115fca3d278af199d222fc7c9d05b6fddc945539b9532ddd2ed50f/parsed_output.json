@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_371c2ba137115fca3d278af199d222fc7c9d05b6fddc945539b9532ddd2ed50f",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Roman Reigns",
+    "state": "value"
+  },
+  "rationale": "The question carries an explicit year anchor (\"2018\"), so per the temporal reading policy it is interpreted at that anchored time, giving direction \"historical\". Evidence e1 (Wikipedia article on Elimination Chamber (2018)) directly states Roman Reigns won the seven-man Elimination Chamber match at that 2018 event to become number one contender for the Universal Championship at WrestleMania 34, matching the frozen answer \"Roman Reigns\". This is a fixed, one-time sporting event outcome that cannot be revised or retired retroactively, so it remains historically valid at the anchored time with no subsequent change to report.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

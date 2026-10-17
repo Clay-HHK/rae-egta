@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_c00b0ded98829dbaea7dd37b569d8389e704f70c7de68d9c25d51fa2edf196fc",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "georgia bulldogs",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (\"sec championship 2017\"), so per the temporal reading policy it is interpreted at that anchored time and direction is historical. Evidence e1 (Wikipedia, 2017 SEC Championship Game) confirms the game featured Georgia Bulldogs (Eastern Division Champion) versus Auburn Tigers (Western Division Co-Champion), with Georgia winning 28-7. This is a fixed historical sporting event whose participants and outcome do not change with the passage of time, so the frozen answer \"Georgia Bulldogs\" is historically valid at the 2017 anchor and remains an accurate historical fact as of the audit date. No revision or retirement applies to a completed historical game record.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

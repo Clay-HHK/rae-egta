@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_c6e59be72951693413f1c811245ae999c1e22927dc278d4ed5d8036945cdb497",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Philadelphia Eagles and New England Patriots",
+    "state": "value"
+  },
+  "rationale": "The question anchors to a specific past sporting event, Super Bowl LII, played February 4, 2018, per the explicit year anchor. Evidence (e1, spans s1-s2) confirms the two teams were the Philadelphia Eagles and New England Patriots, with the Eagles winning. This is a fixed historical fact that does not change over time; there is no subsequent event that supersedes it. The frozen answer 'Philadelphia Eagles' names one of the two correct teams (the winner) but the question asks for both teams, so it is an incomplete but not incorrect component of the full answer. No source conflict is present in the single provided evidence source.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "still_valid"
+}

@@ -1,0 +1,69 @@
+{
+  "evidence_package_id": "egta_evidence_8c5ba8b23532c78cc0fccff34e597e7c91959d7e1d84df72bbc62215baa12ffa",
+  "evidence_sources": [
+    {
+      "access_date": "2026-07-22",
+      "canonical_url": "https://www.adobe.com/products/flashplayer/end-of-life-alternative.html",
+      "content_sha256": "3d81b9eca1c6ed99e7b6822550360c538b007d867aa22c097902dbd2e076e294",
+      "evidence_id": "e1",
+      "publication_or_update_date": "2021-01-13",
+      "publisher": "Adobe",
+      "source_tier": "official_primary",
+      "spans": [
+        {
+          "locator": "Adobe Flash Player EOL General Information 段",
+          "span_id": "s1",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "Adobe stopped supporting Flash Player beginning December 31, 2020"
+        },
+        {
+          "locator": "FAQ 段（页面多处出现）",
+          "span_id": "s2",
+          "supports": [
+            "current_answer",
+            "change_date"
+          ],
+          "text": "Adobe blocked Flash content from running in Flash Player beginning January 12, 2021"
+        },
+        {
+          "locator": "EOL General Information 开头段落",
+          "span_id": "s3",
+          "supports": [
+            "current_answer"
+          ],
+          "text": "Adobe strongly recommends all users immediately uninstall Flash Player to help protect their systems."
+        }
+      ],
+      "title": "Adobe Flash Player End of Life",
+      "url": "https://www.adobe.com/products/flashplayer/end-of-life-alternative.html"
+    }
+  ],
+  "frozen_answer": {
+    "normalized": "28.0.0.137",
+    "raw": "28.0.0.137"
+  },
+  "item_id": "egta_3d23c5df19abf36a79484571fb27b063049d79fe4c616f289fa6f77bad41e5c0",
+  "protocol_version": "egta_47pair_v1",
+  "query_temporal_context": {
+    "anchors": [
+      {
+        "kind": "deictic",
+        "text": "most current"
+      }
+    ],
+    "audit_as_of": "2026-07-21",
+    "direction": "ambiguous",
+    "reference_time": {
+      "earliest": null,
+      "latest": "2019-12-31",
+      "precision": "year",
+      "provenance": "NQ (TACL 2019) annotation no later than publication year; see audit/evidence/REFERENCE_TIME_PROVENANCE.md"
+    },
+    "scope": "uncertain"
+  },
+  "question": "nq question: what is the most current adobe flash player version",
+  "schema_version": "egta.v1"
+}

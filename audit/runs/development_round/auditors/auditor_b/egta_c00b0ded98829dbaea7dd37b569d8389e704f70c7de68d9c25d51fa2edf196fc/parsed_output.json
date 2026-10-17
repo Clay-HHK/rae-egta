@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_c00b0ded98829dbaea7dd37b569d8389e704f70c7de68d9c25d51fa2edf196fc",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Georgia Bulldogs and Auburn Tigers",
+    "state": "value"
+  },
+  "rationale": "The question concerns a fixed 2017 event, not a changing current-state fact. e1 identifies the Georgia Bulldogs and Auburn Tigers as the participants; the frozen answer identifies Georgia but omits Auburn.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "ambiguous",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_318edb8b32721e39f5472155bce2b60038c24de056a00e74f42d0097dcb490de",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "No evidence_sources were supplied in this blind request (the list is empty), so no evidence ID can be cited for any claim about who presented this program, whether \"Ant & Dec\" is the correct frozen answer, or whether/when any presenter change occurred. Separately, the phrase \"I'm a Celebrity ... Now\" is ambiguous as an entity reference: \"Now\" could be a deictic temporal marker (read per audit_as_of, 2026-07-21) or part of a distinct proper title (a spin-off aftershow with its own separate presenter history distinct from the main series hosted by Ant & Dec). Without grounded evidence to resolve either the entity reference or the presenter timeline, the judgment abstains rather than asserting validity, revision, or retirement.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "uncertain",
+  "verdict": "insufficient_evidence"
+}

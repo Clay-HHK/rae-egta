@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_371c2ba137115fca3d278af199d222fc7c9d05b6fddc945539b9532ddd2ed50f",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Roman Reigns",
+    "state": "value"
+  },
+  "rationale": "The question is anchored to the completed 2018 event. The cited event summary and main-event result identify Roman Reigns as the winner; no later change is applicable to this historical result.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

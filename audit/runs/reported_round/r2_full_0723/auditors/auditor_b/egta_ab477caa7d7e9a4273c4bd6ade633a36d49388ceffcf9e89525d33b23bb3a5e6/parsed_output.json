@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_ab477caa7d7e9a4273c4bd6ade633a36d49388ceffcf9e89525d33b23bb3a5e6",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Bill Russell",
+    "state": "value"
+  },
+  "rationale": "The explicit 2017 anchor makes this a historical reading. e1 confirms Bill Russell is the current record holder, but it lacks evidence dated at or near 2017 to establish the frozen answer at that anchored time.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "insufficient_evidence"
+}

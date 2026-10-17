@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_7fc97875956e38c06bf6cfa679a4ef57524d7d43586332b6bd2f3bbec69505b0",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "The deictic term “currently” fixes a current reading. Evidence e1 identifies Orrin Hatch only as a historical president pro tempore and identifies Chuck Grassley as the current holder of that specific office, but the question’s “president of the senate” does not unambiguously refer to the president pro tempore rather than another Senate office. Therefore the requested office and current answer cannot be resolved from the supplied evidence.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "ambiguous_context"
+}

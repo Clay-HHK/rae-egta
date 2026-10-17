@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "unknown",
+  "frozen_answer_identified": true,
+  "item_id": "egta_fb4fd557ea471a4bb7ce02bf695fad87b49476cd2c5a1d7dc7c7f5b387cd956f",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": null,
+    "state": "unresolved"
+  },
+  "rationale": "evidence_sources is empty, so the frozen answer cannot be located or timestamp-checked against any source as of audit_as_of. Deictic 'now' is read as current under the temporal policy, but with no usable evidence the only valid outcome is insufficient_evidence.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "uncertain",
+  "verdict": "insufficient_evidence"
+}

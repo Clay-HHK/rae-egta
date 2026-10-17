@@ -1,0 +1,23 @@
+{
+ "qwen3p5_9b/bm25": {
+  "argmax_preev_retention": "store_only",
+  "argmax_preev_retention_selective": "no_update",
+  "argmax_current_valid_acc": "query_rewrite_update",
+  "reversal": true,
+  "regret_current_valid": 0.2607
+ },
+ "qwen3p5_9b/dense": {
+  "argmax_preev_retention": "store_only",
+  "argmax_preev_retention_selective": "no_update",
+  "argmax_current_valid_acc": "intent_aware_postevent_filter",
+  "reversal": true,
+  "regret_current_valid": 0.2457
+ },
+ "grok4p5/bm25": {
+  "argmax_preev_retention": "no_update",
+  "argmax_preev_retention_selective": "no_update",
+  "argmax_current_valid_acc": "query_rewrite_update",
+  "reversal": true,
+  "regret_current_valid": 0.4872
+ }
+}

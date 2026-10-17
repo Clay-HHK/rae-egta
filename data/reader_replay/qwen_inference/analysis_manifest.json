@@ -1,0 +1,133 @@
+{
+  "claim_boundary": "Exploratory post-hoc controlled-corpus LLM inference; this output is not a pre-registered CL closure.",
+  "completed_at_utc": "2026-07-17T19:51:59Z",
+  "environment": {
+    "command": "<server-env>/bin/python <server-workspace>/clean_checkout/src/rae_egta/rag_post_event/llm_cluster_inference.py --input-metrics <server-workspace>/clean_checkout/runs/controlled_document_llm/exploratory_formal_20260717T172024Z --output-dir <server-workspace>/clean_checkout/runs/controlled_document_llm_inference/controlled_llm_cluster_inference_exploratory_20260717T172024Z --run-id controlled_llm_cluster_inference_exploratory_20260717T172024Z --bootstrap-replicates 10000 --bootstrap-seed 20260714",
+    "hostname": "p1-EG630G-G20",
+    "numpy": "1.26.4",
+    "pid": 2685009,
+    "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.35",
+    "python": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:50:58) [GCC 12.3.0]"
+  },
+  "experiment": "controlled_document_llm_event_cluster_inference",
+  "exploratory": true,
+  "git": {
+    "git_dirty": false,
+    "git_dirty_ignored_paths": [
+      "data"
+    ],
+    "git_dirty_ignored_prefixes": [
+      "data/",
+      "experiments/kg_external_validation/data/eval_panels/",
+      "experiments/kg_external_validation/data/retired_provenance_audit/",
+      "experiments/kg_external_validation/runs/",
+      "experiments/kg_external_validation/go/runs/",
+      "experiments/primekg_mvp/outputs/",
+      "runs/"
+    ],
+    "git_sha": "37023b5cd5dd5da9cdaca7ce78328fff2334b780",
+    "git_status_short": "",
+    "git_status_short_raw": "<omitted>"
+  },
+  "input_metrics": "<server-workspace>/clean_checkout/runs/controlled_document_llm/exploratory_formal_20260717T172024Z",
+  "input_row_count": 6912,
+  "inputs": [
+    {
+      "manifest_path": "<server-workspace>/clean_checkout/runs/controlled_document_llm/exploratory_formal_20260717T172024Z/qwen/run_manifest.json",
+      "manifest_sha256": "6f0b84ab9558588a4f0c31ecbd8363f36b482056d2a6b83a58f554b194308795",
+      "metrics_path": "<server-workspace>/clean_checkout/runs/controlled_document_llm/exploratory_formal_20260717T172024Z/qwen/rag_document_llm_metrics.csv",
+      "metrics_sha256": "f0dc5f14f97de8c08e564d406e199a5246b26499d69f6498b58ba9f707119679",
+      "row_count": 6912,
+      "source_exploratory": true,
+      "source_git_dirty": false,
+      "source_git_sha": "37023b5cd5dd5da9cdaca7ce78328fff2334b780",
+      "source_preregistered_closure": false
+    }
+  ],
+  "outputs": [
+    "llm_cell_cluster_ci.csv",
+    "llm_current_vs_old_contrasts.csv",
+    "analysis_manifest.json",
+    "run.log"
+  ],
+  "paper_facing_eligible": false,
+  "paper_facing_requirement": "All source manifests and this analysis must record git_dirty=false, and every input row must record exploratory=false.",
+  "preregistered_closure": false,
+  "protocol": {
+    "bootstrap_batch_size": 128,
+    "bootstrap_replicates": 10000,
+    "bootstrap_rng_seed": 20260714,
+    "cluster_key": [
+      "seed",
+      "event_id"
+    ],
+    "confidence_level": 0.95,
+    "contract_source": "cluster_inference.py bootstrap_metric_means/draw_cluster_indices; replicated as explicit cluster multiplicities",
+    "contrast_direction": "current_retrieval-minus-old_store",
+    "contrast_metrics": [
+      "unconditional_target_success",
+      "selective_accuracy"
+    ],
+    "contrast_query_types": [
+      "target",
+      "obsolete_unqualified"
+    ],
+    "current_retrieval_methods": [
+      "query_rewrite_update",
+      "postevent_validity_filter"
+    ],
+    "estimand": "finite-row-weighted ratio after complete-cluster resampling",
+    "interval": "percentile",
+    "noncommitted_scoring_classes": [
+      "ABSTAIN",
+      "REFUSAL_OR_UNPARSEABLE"
+    ],
+    "obsolete_rate_query_support": [
+      "obsolete_unqualified",
+      "target"
+    ],
+    "old_store_methods": [
+      "no_update",
+      "store_only"
+    ],
+    "paired_across": [
+      "method",
+      "query_type",
+      "metric",
+      "row"
+    ],
+    "quantile_method": "linear",
+    "reader_policy": "separate inference per reader_id; never pool readers",
+    "retriever_policy": "separate inference per retriever plus within-reader ALL-retriever pooling",
+    "rng_algorithm": "PCG64",
+    "strata": [
+      "seed",
+      "event_type"
+    ]
+  },
+  "protocol_hash": "00cf475fe6b56ce1ba9aa259e8c1bd2bc7a1fd45033f6e75d6ce1a46780128fc",
+  "reader_ids": [
+    "qwen3p5_9b"
+  ],
+  "reader_retriever_cells": [
+    {
+      "reader_id": "qwen3p5_9b",
+      "retriever": "ALL"
+    },
+    {
+      "reader_id": "qwen3p5_9b",
+      "retriever": "bm25"
+    },
+    {
+      "reader_id": "qwen3p5_9b",
+      "retriever": "dense"
+    }
+  ],
+  "run_id": "controlled_llm_cluster_inference_exploratory_20260717T172024Z",
+  "source_code": {
+    "llm_cluster_inference_path": "<server-workspace>/clean_checkout/src/rae_egta/rag_post_event/llm_cluster_inference.py",
+    "llm_cluster_inference_sha256": "7eb73e15e595dc79cf9e10e39f9d25a47222276af49f6fae51d64ffa2ce78343"
+  },
+  "started_at_utc": "2026-07-17T19:51:55Z",
+  "status": "COMPLETE"
+}

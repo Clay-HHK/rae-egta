@@ -1,0 +1,28 @@
+{
+  "item_id": "egta_687802b461172b72c5b796120696210be004a8c0ab67b83c02d85e1aed2dacb0",
+  "question": "nq question: who won the ncaa women's championship last year 2017",
+  "frozen_answer": "South Carolina",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2017_NCAA_Division_I_women%27s_basketball_tournament",
+      "title": "2017 NCAA Division I women's basketball tournament - Wikipedia",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": null,
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "South Carolina defeated Mississippi State to win the championship.",
+          "locator": "article lead",
+          "supports": ["frozen_answer", "current_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Direct fetch of Wikipedia article for the 2017 tournament; champion confirmed in lead. Last-edited date not visible in fetched excerpt, left null. 2017 result is a fixed past event, so frozen answer remains correct under the explicit 2017 anchor. 1 fetch used.",
+  "change_date_hint": null
+}

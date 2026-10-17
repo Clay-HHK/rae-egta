@@ -1,0 +1,4 @@
+Reading additional input from stdin...
+2026-07-22T15:29:52.635881Z ERROR rmcp::transport::worker: worker quit with fatal: Client error: HTTP request failed: http/request failed: error sending request for url (https://docs.langchain.com/mcp), when send initialized notification
+2026-07-22T15:30:09.813284Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: tls handshake eof, url: wss://chatgpt.com/backend-api/codex/responses
+2026-07-22T15:30:15.141191Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: tls handshake eof, url: wss://chatgpt.com/backend-api/codex/responses

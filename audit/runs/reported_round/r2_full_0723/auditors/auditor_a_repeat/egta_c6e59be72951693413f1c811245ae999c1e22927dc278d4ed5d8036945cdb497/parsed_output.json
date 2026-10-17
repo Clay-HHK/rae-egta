@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_c6e59be72951693413f1c811245ae999c1e22927dc278d4ed5d8036945cdb497",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Philadelphia Eagles and New England Patriots",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (\"Super Bowl 2018\"), so per policy direction is historical and the frozen answer is evaluated at that anchored time. Wikipedia (e1) confirms Super Bowl LII, played in February 2018, was contested between the Philadelphia Eagles and New England Patriots, with the Eagles winning 41-33. The frozen answer \"Philadelphia Eagles\" correctly identifies one of the two teams at the anchored 2018 event; this is an immutable historical fact not subject to later revision or retirement, so the verdict is historically_valid.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

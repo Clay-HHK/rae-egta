@@ -1,0 +1,10 @@
+{
+  "item_id": "egta_49a1f1a8ad846f2af41b68d6606a029d3c91f6291e0e570b7bd243d2d66322e5",
+  "question": "nq question: the most recent technological change to the u.s. economy was",
+  "frozen_answer": "digitization of social systems",
+  "backfill_status": "insufficient_candidate",
+  "access_date": "2026-07-22",
+  "evidence_sources": [],
+  "search_log": "WebSearch ('digitization of social systems' United States economy wikipedia): no source uses this exact phrase; hits are unrelated digitalization commentary (Brookings, CSIS, Medium). Fetched en.wikipedia.org/wiki/Technological_and_industrial_history_of_the_United_States: phrase absent, no digitization sentence. Wikipedia fulltext search for exact phrase \"digitization of social systems\": explicit zero results ('There were no results matching the query'). The frozen NQ gold phrase appears to come from a 2017-2018 Wikipedia revision that no longer exists anywhere on current Wikipedia; question is subjective without canonical answer. Stopped within budget (2 searches + 2 fetches), no qualified supporting source found.",
+  "change_date_hint": null
+}

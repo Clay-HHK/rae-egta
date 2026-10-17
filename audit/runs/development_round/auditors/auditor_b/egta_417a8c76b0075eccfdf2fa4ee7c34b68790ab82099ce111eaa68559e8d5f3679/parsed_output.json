@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2020-10-13",
+    "latest": "2020-10-13",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_417a8c76b0075eccfdf2fa4ee7c34b68790ab82099ce111eaa68559e8d5f3679",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "14.0.7261.5000",
+    "state": "value"
+  },
+  "rationale": "The official Microsoft update history identifies the frozen version in its 2017 block and states that version 14.0.7261.5000 became the most current Office 2010 version on 2020-10-13.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "historical",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_c6e59be72951693413f1c811245ae999c1e22927dc278d4ed5d8036945cdb497",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Philadelphia Eagles and New England Patriots",
+    "state": "value"
+  },
+  "rationale": "The question contains an explicit year anchor (\"Super Bowl 2018\"), so per the temporal reading policy it is interpreted at that anchored time and direction is historical. Super Bowl 2018 refers to Super Bowl LII, played February 2018. Evidence e1 (spans s1, s2) establishes the game was between the Philadelphia Eagles (NFC champion) and the New England Patriots (AFC champion, defending Super Bowl LI champion), with the Eagles winning 41-33. This is a fixed historical sporting result that cannot be revised or retired; the frozen answer \"Philadelphia Eagles\" correctly names one of the two teams identified in the anchored event. No later event changes which teams played in that game, so the verdict is historically_valid with event_type none and no change date applicable.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "historically_valid"
+}

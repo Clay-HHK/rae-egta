@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_fb4fd557ea471a4bb7ce02bf695fad87b49476cd2c5a1d7dc7c7f5b387cd956f",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "the closing scene of the final episode of the first season",
+    "state": "value"
+  },
+  "rationale": "The question asks where in Breaking Bad the song \"Who's Gonna Save My Soul\" (Gnarls Barkley) was used; the trailing \"now\" is part of the song title/lyric, not a deictic temporal anchor. The fact asked about - placement of a specific song within a specific past TV episode (Breaking Bad season 1, aired 2008) - is a static historical/creative fact that does not change over time, so this is non-temporal. No evidence_sources were supplied, but since scope is non_temporal, verdict is null per protocol regardless of evidence availability.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

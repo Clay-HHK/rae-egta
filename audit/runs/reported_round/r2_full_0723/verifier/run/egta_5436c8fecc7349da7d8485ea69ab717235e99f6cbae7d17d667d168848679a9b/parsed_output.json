@@ -1,0 +1,24 @@
+{
+  "change_date": {
+    "earliest": "2021-06-20",
+    "latest": "2021-06-20",
+    "precision": "day"
+  },
+  "credible_source_conflict": false,
+  "direction": "current",
+  "event_type": "revision",
+  "frozen_answer_identified": true,
+  "item_id": "egta_5436c8fecc7349da7d8485ea69ab717235e99f6cbae7d17d667d168848679a9b",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "20",
+    "state": "value"
+  },
+  "rationale": "Deictic 'latest' is read at audit_as_of 2026-07-21. Evidence identifies frozen season 14 (2017-10-01–2018-03-04) and shows the series later ran to 20 seasons and concluded 2021-06-20, so 14 is no longer the latest season at audit time.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [
+    "e1"
+  ],
+  "temporal_scope": "temporal",
+  "verdict": "superseded_revision"
+}

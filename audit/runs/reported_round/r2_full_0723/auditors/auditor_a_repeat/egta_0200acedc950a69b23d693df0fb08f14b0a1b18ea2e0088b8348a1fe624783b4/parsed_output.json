@@ -1,0 +1,22 @@
+{
+  "change_date": {
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown"
+  },
+  "credible_source_conflict": false,
+  "direction": "none",
+  "event_type": "none",
+  "frozen_answer_identified": true,
+  "item_id": "egta_0200acedc950a69b23d693df0fb08f14b0a1b18ea2e0088b8348a1fe624783b4",
+  "manual_override": false,
+  "proposed_current_answer": {
+    "canonical": "Roxette",
+    "state": "value"
+  },
+  "rationale": "The question asks who performed the song \"It Must Have Been Love (But It's Over Now).\" The word \"now\" here is part of the song's title, not a deictic temporal marker for the query itself; the fact of which artist recorded/sang a specific song is a fixed historical fact (Roxette, 1990) that does not change over time and has no \"current\" variant to track. No evidence sources were provided in the blind request, so no evidence IDs can be cited, but the non-temporal nature of the question is determinable from the question content itself. Absent any dispute over song attribution, this is a non-temporal factual question; direction and verdict are set accordingly per protocol.",
+  "schema_version": "egta_judgment.v1",
+  "supporting_evidence_ids": [],
+  "temporal_scope": "non_temporal",
+  "verdict": null
+}

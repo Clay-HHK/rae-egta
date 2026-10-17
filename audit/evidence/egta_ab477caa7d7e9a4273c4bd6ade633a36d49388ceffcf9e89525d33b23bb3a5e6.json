@@ -1,0 +1,28 @@
+{
+  "item_id": "egta_ab477caa7d7e9a4273c4bd6ade633a36d49388ceffcf9e89525d33b23bb3a5e6",
+  "question": "nq question: who has the most rings in the nba right now 2017",
+  "frozen_answer": "Bill Russell",
+  "backfill_status": "complete",
+  "access_date": "2026-07-22",
+  "evidence_sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_NBA_players_with_most_championships",
+      "title": "List of NBA players with most championships",
+      "publisher": "Wikipedia",
+      "source_tier": "versioned_encyclopedia",
+      "publication_or_update_date": "2026-06-16",
+      "access_date": "2026-07-22",
+      "content_sha256": null,
+      "spans": [
+        {
+          "span_id": "s1",
+          "text": "Bill Russell holds the record for the most NBA championships won with 11 titles during his 13 years playing career.",
+          "locator": "article lead",
+          "supports": ["frozen_answer", "current_answer"]
+        }
+      ]
+    }
+  ],
+  "search_log": "Direct fetch of Wikipedia list article (first attempt failed on a transient tool error, retried once). Russell's 11-championship record held in 2017 and still holds as of access date, so the answer is valid both under the 2017 anchor and currently; no change occurred. 2 fetch attempts, 1 successful.",
+  "change_date_hint": null
+}
