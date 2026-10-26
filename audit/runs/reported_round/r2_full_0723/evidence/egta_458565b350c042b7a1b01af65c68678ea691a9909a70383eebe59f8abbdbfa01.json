@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_b7f58ad330b566b7cea8b7fc71b5a57c015aeb37ba6a2a79f46a1599229c2c1d",
   "item_id": "egta_458565b350c042b7a1b01af65c68678ea691a9909a70383eebe59f8abbdbfa01",
-  "package_sha256": "b7f58ad330b566b7cea8b7fc71b5a57c015aeb37ba6a2a79f46a1599229c2c1d",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "On February 19, 2017, Dustin Johnson became the 20th player to reach number one in the rankings following his victory at the Genesis Open.\nHe would remain number one for over a year before being overtaken in May 2018 by Justin Thomas\n2025 Scheffler (3)",
@@ -12,7 +11,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Official_World_Golf_Ranking",
-      "content_sha256": "e73017a5bf5945abbd87b4ad2298bdd7b9e29773a9a9c88f8b42be1b203519f3",
       "evidence_id": "e1",
       "publication_or_update_date": null,
       "publisher": "Wikipedia",
@@ -50,7 +48,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Scottie_Scheffler",
-      "content_sha256": "5e9e7b9ae095ed9bc84e4ad37d41db67e011bc301dc7c779a4e762539ef8bc58",
       "evidence_id": "e2",
       "publication_or_update_date": null,
       "publisher": "Wikipedia",

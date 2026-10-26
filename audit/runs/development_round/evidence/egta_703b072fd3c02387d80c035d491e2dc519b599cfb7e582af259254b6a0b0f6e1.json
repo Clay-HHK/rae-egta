@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_0703e8774227bd5b3c331255b1b5124729c7982083491be2e5575fe29d0106bc",
   "item_id": "egta_703b072fd3c02387d80c035d491e2dc519b599cfb7e582af259254b6a0b0f6e1",
-  "package_sha256": "0703e8774227bd5b3c331255b1b5124729c7982083491be2e5575fe29d0106bc",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "the Eagles routed the Chiefs 40-22 on Sunday to secure the franchise's second Super Bowl championship.\nthe Philadelphia Eagles' ferocious defense denied Patrick Mahomes, Travis Kelce and the Kansas City Chiefs a Super Bowl three-peat",
@@ -12,7 +11,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://www.espn.com/nfl/recap/_/gameId/401671889",
-      "content_sha256": "0eb055c3aa3f19756bade77878bbe76625acf807594a3f27c2d7ac7b0a226735",
       "evidence_id": "e1",
       "publication_or_update_date": "2025-02-09",
       "publisher": "ESPN",
@@ -42,7 +40,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Super_Bowl_LII",
-      "content_sha256": "5735a3e87188f7095355d49689754f93ff5775d941dadc6e3af09a897a1ba758",
       "evidence_id": "e2",
       "publication_or_update_date": null,
       "publisher": "Wikipedia",

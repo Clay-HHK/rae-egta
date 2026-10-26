@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_4f5000be552c384414a05dd59567ee09bccf98a3e58291391a36dc240c48131b",
   "item_id": "egta_5436c8fecc7349da7d8485ea69ab717235e99f6cbae7d17d667d168848679a9b",
-  "package_sha256": "4f5000be552c384414a05dd59567ee09bccf98a3e58291391a36dc240c48131b",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "No. of seasons: 20\nThe series concluded on June 20, 2021.\nOctober 1, 2017 (2017-10-01) – March 4, 2018 (2018-03-04)"
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Keeping_Up_with_the_Kardashians",
-      "content_sha256": "0936b7d4a57f297edae50db150c8f80d8a4c8b3c6a3d975c232a1edfdf14c918",
       "evidence_id": "e1",
       "publication_or_update_date": "2026-07-17",
       "publisher": "Wikipedia",

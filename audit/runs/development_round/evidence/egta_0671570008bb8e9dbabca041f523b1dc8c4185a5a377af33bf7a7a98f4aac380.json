@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_e34d06ff10706617d21921281ba2d662400c95ac751719c62a772e82b77c72dd",
   "item_id": "egta_0671570008bb8e9dbabca041f523b1dc8c4185a5a377af33bf7a7a98f4aac380",
-  "package_sha256": "e34d06ff10706617d21921281ba2d662400c95ac751719c62a772e82b77c72dd",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "In 2017, Stephen A. Davis, pastor of New Birth Birmingham in Birmingham, Alabama became senior pastor while remaining pastor of the Birmingham. However in June, 2018 Bishop Davis resigned.\nIn December 2018, Jamal Bryant became senior pastor.\nCelebrity pastor Jamal Bryant is the senior pastor since 2018."
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/New_Birth_Missionary_Baptist_Church",
-      "content_sha256": "3a5fb8d66507d05c23e3777417dd65f4754f42d8783653d2764eafef11778d95",
       "evidence_id": "e1",
       "publication_or_update_date": "2026-05-18",
       "publisher": "Wikipedia",

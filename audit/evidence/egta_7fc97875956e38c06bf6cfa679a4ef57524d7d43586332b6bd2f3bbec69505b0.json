@@ -12,7 +12,6 @@
       "source_tier": "versioned_encyclopedia",
       "publication_or_update_date": null,
       "access_date": "2026-07-22",
-      "content_sha256": null,
       "spans": [
         {"span_id": "s1", "text": "since January 3, 2025", "locator": "infobox, under Incumbent Chuck Grassley", "supports": ["current_answer", "change_date"]},
         {"span_id": "s2", "text": "Hatch (2015–2019)", "locator": "historical list of presidents pro tempore", "supports": ["frozen_answer", "change_date"]}

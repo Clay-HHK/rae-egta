@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_8c6b2cedd40ee629b75d990983c4eb882b9d2a466d247a6928ec2d3a700f9c01",
   "item_id": "egta_04c3ba4199a11a8f081b453d4d141da44f2de13e33bd88ba5726dd5655970536",
-  "package_sha256": "8c6b2cedd40ee629b75d990983c4eb882b9d2a466d247a6928ec2d3a700f9c01",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "45th & 47th President of the United States\nAfter a landslide election victory in 2024, President Donald J. Trump is returning to the White House"
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://www.whitehouse.gov/administration/",
-      "content_sha256": "4d27d041c3c1942a2b7ba690fde363a93e442ba0c591ea762296b66123a0671c",
       "evidence_id": "e1",
       "publication_or_update_date": null,
       "publisher": "The White House",

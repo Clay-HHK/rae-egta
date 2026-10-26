@@ -8755,8 +8755,7 @@
       "intent_corrupted",
       "noise_factor",
       "noise_requested_rate",
-      "noise_realized_rate",
-      "noise_assignment_hash"
+      "noise_realized_rate"
     ],
     "policy": "Noise columns and manifest fields are present in every condition, including clean. Legacy equivalence projects onto the pre-refactor schema fields."
   },
@@ -8797,7 +8796,6 @@
     "intent_corrupted",
     "noise_factor",
     "noise_requested_rate",
-    "noise_realized_rate",
-    "noise_assignment_hash"
+    "noise_realized_rate"
   ]
 }

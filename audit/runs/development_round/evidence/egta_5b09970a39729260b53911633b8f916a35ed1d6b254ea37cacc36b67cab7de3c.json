@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_6255ae52adf3528448b0a49e16a219da1669bce73529cf19e9ccfea9bb918b57",
   "item_id": "egta_5b09970a39729260b53911633b8f916a35ed1d6b254ea37cacc36b67cab7de3c",
-  "package_sha256": "6255ae52adf3528448b0a49e16a219da1669bce73529cf19e9ccfea9bb918b57",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "he spent the majority of his 16-year career playing for the Miami Heat of the National Basketball Association (NBA)\nIn the offseason, Wade announced his intentions to retire after the 2018–19 season.\nIn his final game against the Brooklyn Nets the following night, Wade recorded his fifth career triple-double with 25 points, 11 rebounds, and 10 assists as the Heat lost by a score of 113–94."
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Dwyane_Wade",
-      "content_sha256": "7fd0ec5a11f64db56fc897ce75497f6842c076fddfe900a076feba63d988553d",
       "evidence_id": "e1",
       "publication_or_update_date": null,
       "publisher": "Wikipedia",

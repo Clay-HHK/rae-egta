@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_b8ebc5c92adcd6abe2a237f0257b9d5f48c0da11c3515181bd94901633b1b074",
   "item_id": "egta_9f48937f2846a57e5f4871a432ee132067b8b77a69293f05f6ff518e0c36421b",
-  "package_sha256": "b8ebc5c92adcd6abe2a237f0257b9d5f48c0da11c3515181bd94901633b1b074",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "Stable Channel Update for Desktop\nTuesday, July 21, 2026"
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://chromereleases.googleblog.com/2026/07/",
-      "content_sha256": "64342de7a5a852bcdbc2a8ec1a59e76673530a518f901e09d7fb7b01d774f40a",
       "evidence_id": "e1",
       "publication_or_update_date": null,
       "publisher": "Google (Chrome Releases blog)",

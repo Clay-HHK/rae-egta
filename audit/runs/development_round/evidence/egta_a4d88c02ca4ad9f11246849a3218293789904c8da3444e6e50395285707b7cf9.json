@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_ac827f227796c9832f983dde58060776bbc76ca43163b01222db0ef869539208",
   "item_id": "egta_a4d88c02ca4ad9f11246849a3218293789904c8da3444e6e50395285707b7cf9",
-  "package_sha256": "ac827f227796c9832f983dde58060776bbc76ca43163b01222db0ef869539208",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "Its population was 10,758 at the 2022 census.\nPopulation (2022) 10,758",
@@ -12,7 +11,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Bora-Bora_(commune)",
-      "content_sha256": "3bbf757bea5f91da3e9d2f2564b3472c5ae6d8bd1810fcc6f3f1fbdbb51b38be",
       "evidence_id": "e1",
       "publication_or_update_date": "2024-05-21",
       "publisher": "Wikipedia",
@@ -42,7 +40,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Bora_Bora",
-      "content_sha256": "32500f526d05a5c1f24f7e12a7ab4294fc592f6c922b0785715ac4bedce52f0c",
       "evidence_id": "e2",
       "publication_or_update_date": null,
       "publisher": "Wikipedia",

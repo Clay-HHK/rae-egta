@@ -12,7 +12,6 @@
       "source_tier": "reliable_secondary",
       "publication_or_update_date": null,
       "access_date": "2026-07-22",
-      "content_sha256": null,
       "spans": [
         {"span_id": "s1", "text": "Thanksgiving Day for the year 2023 is celebrated/ observed on Thursday, November 23rd.", "locator": "page lead sentence", "supports": ["current_answer", "change_date"]}
       ]

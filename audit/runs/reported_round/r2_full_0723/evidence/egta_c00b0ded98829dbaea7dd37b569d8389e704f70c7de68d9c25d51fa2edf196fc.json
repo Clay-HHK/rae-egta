@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_4cb462bdd9df5a619af462238945d52531e3cd7e11e0f3083233f1c2f6d7ee80",
   "item_id": "egta_c00b0ded98829dbaea7dd37b569d8389e704f70c7de68d9c25d51fa2edf196fc",
-  "package_sha256": "4cb462bdd9df5a619af462238945d52531e3cd7e11e0f3083233f1c2f6d7ee80",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "The game featured the Eastern Division Champion, Georgia Bulldogs against the Western Division Co-Champion, the Auburn Tigers.\nIn this rematch, Georgia won the SEC Championship by beating Auburn 28–7."
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/2017_SEC_Championship_Game",
-      "content_sha256": "1b8ca236d315d23f7be99385ae9061b8475b305ae8ed512f3501be0681238fa9",
       "evidence_id": "e1",
       "publication_or_update_date": "2026-02-27",
       "publisher": "Wikipedia",

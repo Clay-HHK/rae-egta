@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_a4c18a8ebaa9e55658fc7515aa2a24272d8a370bf4a05b6ec86a0261f1e7fa0b",
   "item_id": "egta_e6aa2995af8c94faac2af949ec52db19626235fbe360cca400f0de0d724d4bb2",
-  "package_sha256": "a4c18a8ebaa9e55658fc7515aa2a24272d8a370bf4a05b6ec86a0261f1e7fa0b",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "The latest version of macOS is macOS Tahoe 26.5.2, which arrived on June 29, 2026.\nThis update has no new features and contains security fixes.",
@@ -12,7 +11,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://www.macworld.com/article/2644146/macos-26-features-latest-update-release-date-beta.html",
-      "content_sha256": "ef6c5e8af743e0c6025bdc9d9763e2078ab85c373dd00ae580a08bf033ae6320",
       "evidence_id": "e1",
       "publication_or_update_date": "2026-06-29",
       "publisher": "Macworld",
@@ -42,7 +40,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/MacOS_High_Sierra",
-      "content_sha256": "3e00d90e470b6bfb76a68cced4aafcec6c2269935c98bea4ba02d3b2603195c8",
       "evidence_id": "e2",
       "publication_or_update_date": null,
       "publisher": "Wikipedia",

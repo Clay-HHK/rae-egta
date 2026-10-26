@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_8ccc1cc4eb1797c722f0a402a927b1e42d5f172aa0dd883e43bf2121a73cb542",
   "item_id": "egta_903a0733925e3051675833bdacc7290cf9afb11f60025f7bedc5032a424344f5",
-  "package_sha256": "8ccc1cc4eb1797c722f0a402a927b1e42d5f172aa0dd883e43bf2121a73cb542",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "States With the Death Penalty (27)\nStates Without The Death Penalty (23)\nNew Hampshire (2019)\nColorado (2020)\nVirginia (2021)",
@@ -12,7 +11,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://deathpenaltyinfo.org/state-and-federal-info/state-by-state",
-      "content_sha256": "d000fde19147b32bc30a15da7cf320f9fc59c2476f456bef8479a4aa9c55bc66",
       "evidence_id": "e1",
       "publication_or_update_date": null,
       "publisher": "Death Penalty Information Center",
@@ -65,7 +63,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://worldpopulationreview.com/state-rankings/death-penalty-states",
-      "content_sha256": "23a93348dd2d19fd333089c7682a3fc46b6c76ff457b407c4d13d5061d49b3e9",
       "evidence_id": "e2",
       "publication_or_update_date": null,
       "publisher": "World Population Review",

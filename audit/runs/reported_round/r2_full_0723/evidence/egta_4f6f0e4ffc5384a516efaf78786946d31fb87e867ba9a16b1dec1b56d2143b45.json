@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_f05ad01ad37e9329816e594b3ed8d0118ce58af9cf93372462f5ade1bfdb539c",
   "item_id": "egta_4f6f0e4ffc5384a516efaf78786946d31fb87e867ba9a16b1dec1b56d2143b45",
-  "package_sha256": "f05ad01ad37e9329816e594b3ed8d0118ce58af9cf93372462f5ade1bfdb539c",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "The incumbent is Paul Hollis, who was confirmed by the Senate on December 18, 2025.\nIncumbent Paul Hollis since January 5, 2026\nDavid Motl January 20, 2017 January 31, 2018\nDavid J. Ryder April 12, 2018 October 1, 2021"
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Director_of_the_United_States_Mint",
-      "content_sha256": "e4fa93ff4a03c832aaa67229442956c7005c8550952fb871e75b4704c0120fe5",
       "evidence_id": "e1",
       "publication_or_update_date": "2026-04-20",
       "publisher": "Wikipedia",

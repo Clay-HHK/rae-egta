@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_a28dcd8455a2c752ff4e0e10dfc17ce6b6d9cc7b6d6b0d59dd16519bbcdbe68f",
   "item_id": "egta_b5d523208d393015202f671b9df4cd6ff3f6b0f7fd55e1ca9f7d6cf910e8243b",
-  "package_sha256": "a28dcd8455a2c752ff4e0e10dfc17ce6b6d9cc7b6d6b0d59dd16519bbcdbe68f",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "The race was won by One For Arthur, only the second horse trained in Scotland to win the Grand National"
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/2017_Grand_National",
-      "content_sha256": "c50f9a6266b5db16ac6927afe7cc10041ad6664ecfc3384e028a8de8602f35c5",
       "evidence_id": "e1",
       "publication_or_update_date": "2025-04-14",
       "publisher": "Wikipedia",

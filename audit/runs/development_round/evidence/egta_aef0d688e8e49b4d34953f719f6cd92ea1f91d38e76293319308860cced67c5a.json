@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_d60c3ff434f54ecdcfef4305dd007435cd5d302ffabea57f02f0ce7e9285aa8c",
   "item_id": "egta_aef0d688e8e49b4d34953f719f6cd92ea1f91d38e76293319308860cced67c5a",
-  "package_sha256": "d60c3ff434f54ecdcfef4305dd007435cd5d302ffabea57f02f0ce7e9285aa8c",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "you can continue to earn 7.1% tax-free compound interest on your PPF deposits\nThere has been no change in the interest rate for PPF deposits since April 1, 2020.",
@@ -12,7 +11,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://upstox.com/news/personal-finance/investing/public-provident-fund-ppf-interest-rate-for-july-september-2026/article-196141/",
-      "content_sha256": "3a926439721331e9dec5ab23636fd1e6e81be44e512f266694dbf7473de60ebd",
       "evidence_id": "e1",
       "publication_or_update_date": "2026-06-30",
       "publisher": "Upstox",
@@ -42,7 +40,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Public_Provident_Fund_(India)",
-      "content_sha256": "b2f74420e60739c240a1e7aa55bc77f868eff70e69343bff222e3447f8238eb4",
       "evidence_id": "e2",
       "publication_or_update_date": null,
       "publisher": "Wikipedia",

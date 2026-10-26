@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_1e8486ec2d2e44c9eef2046a23c05ac13465c28b1bd814e7c07079b75be225e3",
   "item_id": "egta_97ccd4a84ad55b9d24bcd0f953bb6a28a84a2a50a30c6846cbd1ff4fc4a4813b",
-  "package_sha256": "1e8486ec2d2e44c9eef2046a23c05ac13465c28b1bd814e7c07079b75be225e3",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "Yuzuru Hanyu and Shoma Uno, both of Japan, won the gold and silver medals, respectively\nThis was Hanyu's second Olympic gold medal, having also won the men's event at the 2014 Winter Olympics"
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Figure_skating_at_the_2018_Winter_Olympics_%E2%80%93_Men%27s_singles",
-      "content_sha256": "cd1781a86aa4b172811009a111f3713cc5c57d45b206f2836913ceab9f5028fd",
       "evidence_id": "e1",
       "publication_or_update_date": null,
       "publisher": "Wikipedia",

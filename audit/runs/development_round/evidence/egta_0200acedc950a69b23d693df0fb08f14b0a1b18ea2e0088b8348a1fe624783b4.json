@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_ede89f86ca16b39a02be85f713c5dc7b067f2fe46087324f72c1b4d6484d5eac",
   "item_id": "egta_0200acedc950a69b23d693df0fb08f14b0a1b18ea2e0088b8348a1fe624783b4",
-  "package_sha256": "ede89f86ca16b39a02be85f713c5dc7b067f2fe46087324f72c1b4d6484d5eac",
   "schema_version": "egta_evidence.v1",
   "source_contents": {},
   "sources": []

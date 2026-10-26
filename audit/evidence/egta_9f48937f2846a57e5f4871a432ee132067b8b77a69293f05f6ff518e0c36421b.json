@@ -12,7 +12,6 @@
       "source_tier": "official_primary",
       "publication_or_update_date": null,
       "access_date": "2026-07-22",
-      "content_sha256": null,
       "spans": [
         {"span_id": "s1", "text": "Stable Channel Update for Desktop", "locator": "post titles in July 2026 archive listing (posts dated July 16 and July 21, 2026)", "supports": ["change_date"]},
         {"span_id": "s2", "text": "Tuesday, July 21, 2026", "locator": "date header of most recent Stable Channel Update for Desktop post", "supports": ["change_date"]}

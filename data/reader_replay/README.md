@@ -24,7 +24,7 @@ Raw reader request/response caches (`reader_artifacts/*.jsonl`) are preserved on
 T4 but excluded here for size, matching the package policy on large reader caches.
 
 ## Provenance / status
-Exploratory real-LLM evidence (dual family). `git_dirty=false` (git_sha `37023b5`).
+Exploratory real-LLM evidence (dual family). `git_dirty=false`.
 Runs: Qwen `exploratory_formal_20260717T172024Z`, Grok
 `grok_crossfamily_20260717T230453Z`. Keep ABSTAIN a distinct class; report
 coverage and selective accuracy separately. Do NOT claim pre-registered closure or

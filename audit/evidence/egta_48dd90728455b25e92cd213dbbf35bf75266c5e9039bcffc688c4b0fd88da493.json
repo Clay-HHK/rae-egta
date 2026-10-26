@@ -12,7 +12,6 @@
       "source_tier": "official_primary",
       "publication_or_update_date": null,
       "access_date": "2026-07-22",
-      "content_sha256": null,
       "spans": [
         {"span_id": "s1", "text": "Stable Channel Update for Desktop", "locator": "post title in July 2026 archive listing", "supports": ["current_answer"]},
         {"span_id": "s2", "text": "Tuesday, July 21, 2026", "locator": "date header of most recent Stable Channel Update for Desktop post in July 2026 archive", "supports": ["current_answer", "change_date"]},
@@ -26,7 +25,6 @@
       "source_tier": "official_primary",
       "publication_or_update_date": null,
       "access_date": "2026-07-22",
-      "content_sha256": null,
       "spans": [
         {"span_id": "s1", "text": "Wednesday, January 24, 2018", "locator": "date header of Stable Channel Update for Desktop post in January 2018 archive (stable desktop posts that month: Jan 4 and Jan 24)", "supports": ["frozen_answer"]}
       ]

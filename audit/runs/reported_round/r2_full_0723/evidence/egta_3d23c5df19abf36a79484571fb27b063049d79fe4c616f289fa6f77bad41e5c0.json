@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_8c5ba8b23532c78cc0fccff34e597e7c91959d7e1d84df72bbc62215baa12ffa",
   "item_id": "egta_3d23c5df19abf36a79484571fb27b063049d79fe4c616f289fa6f77bad41e5c0",
-  "package_sha256": "8c5ba8b23532c78cc0fccff34e597e7c91959d7e1d84df72bbc62215baa12ffa",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "Adobe stopped supporting Flash Player beginning December 31, 2020\nAdobe blocked Flash content from running in Flash Player beginning January 12, 2021\nAdobe strongly recommends all users immediately uninstall Flash Player to help protect their systems."
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://www.adobe.com/products/flashplayer/end-of-life-alternative.html",
-      "content_sha256": "3d81b9eca1c6ed99e7b6822550360c538b007d867aa22c097902dbd2e076e294",
       "evidence_id": "e1",
       "publication_or_update_date": "2021-01-13",
       "publisher": "Adobe",

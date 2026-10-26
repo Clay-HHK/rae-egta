@@ -5,8 +5,7 @@
 
 ## 证据链
 
-1. 审计对象 `zsre_mend_eval.json`（ROME/MEMIT 官方发布，sha256
-   `8a371d51...`，见 audit_input workbook §2）的 `loc` 字段带
+1. 审计对象 `zsre_mend_eval.json`（ROME/MEMIT 官方发布，见 audit_input workbook §2）的 `loc` 字段带
    `nq question:` 前缀。
 2. MEND（Mitchell et al., Fast Model Editing at Scale, arXiv:2110.11309,
    ICLR 2022；github.com/eric-mitchell/mend）明确使用 Natural

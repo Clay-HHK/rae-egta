@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_062022fcc22f0cccc19b0bf6ada1384a4060d07c1f9a9ddb7319a9d586b23fbc",
   "item_id": "egta_371c2ba137115fca3d278af199d222fc7c9d05b6fddc945539b9532ddd2ed50f",
-  "package_sha256": "062022fcc22f0cccc19b0bf6ada1384a4060d07c1f9a9ddb7319a9d586b23fbc",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "Roman Reigns won the first-ever seven-man Elimination Chamber match to become the number one contender against Brock Lesnar for the Universal Championship at WrestleMania 34.\nRoman Reigns defeated Braun Strowman, Seth Rollins, Finn Bálor, John Cena, Elias, and The Miz"
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/Elimination_Chamber_(2018)",
-      "content_sha256": "1cfa96ea171f346643fe33d43eee8e9bca00a3edb63f84cae5d0239c0ed43549",
       "evidence_id": "e1",
       "publication_or_update_date": "2026-07-06",
       "publisher": "Wikipedia",

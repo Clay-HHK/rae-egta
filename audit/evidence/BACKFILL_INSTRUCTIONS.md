@@ -19,7 +19,6 @@
       "source_tier": "official_primary | authoritative_database | versioned_encyclopedia | reliable_secondary | other",
       "publication_or_update_date": "YYYY-MM-DD 或 null（页面可见才填，绝不猜）",
       "access_date": "2026-07-22",
-      "content_sha256": null,
       "spans": [
         {"span_id": "s1", "text": "逐字引用的短证据片段(<=300字符)", "locator": "页面位置描述", "supports": ["frozen_answer" 或 "current_answer" 或 "change_date"]}
       ]

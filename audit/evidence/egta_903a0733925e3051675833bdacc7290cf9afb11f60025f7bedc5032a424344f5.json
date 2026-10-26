@@ -12,7 +12,6 @@
       "source_tier": "authoritative_database",
       "publication_or_update_date": null,
       "access_date": "2026-07-22",
-      "content_sha256": null,
       "spans": [
         {"span_id": "s1", "text": "States With the Death Penalty (27)", "locator": "section heading on state-by-state page", "supports": ["current_answer"]},
         {"span_id": "s2", "text": "States Without The Death Penalty (23)", "locator": "section heading on state-by-state page", "supports": ["current_answer"]},
@@ -28,7 +27,6 @@
       "source_tier": "reliable_secondary",
       "publication_or_update_date": null,
       "access_date": "2026-07-22",
-      "content_sha256": null,
       "spans": [
         {"span_id": "s1", "text": "Death Penalty Permitted", "locator": "table column/section heading; 27 states listed with Yes status, table also shows New Hampshire 2019, Colorado 2020, Virginia 2021 abolition years in cells", "supports": ["current_answer"]}
       ]

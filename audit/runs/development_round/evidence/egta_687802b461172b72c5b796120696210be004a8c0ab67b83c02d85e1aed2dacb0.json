@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_bdefbf949382b593f81f684f816ddedf7e8f85744ab6362eeb1eb7bf0d2c0ab8",
   "item_id": "egta_687802b461172b72c5b796120696210be004a8c0ab67b83c02d85e1aed2dacb0",
-  "package_sha256": "bdefbf949382b593f81f684f816ddedf7e8f85744ab6362eeb1eb7bf0d2c0ab8",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "South Carolina defeated Mississippi State to win the championship."
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/2017_NCAA_Division_I_women%27s_basketball_tournament",
-      "content_sha256": "84af92682fdae2a48f4b8ccd566a519359cd1c22ea9b5490d990d40103d412dc",
       "evidence_id": "e1",
       "publication_or_update_date": null,
       "publisher": "Wikipedia",

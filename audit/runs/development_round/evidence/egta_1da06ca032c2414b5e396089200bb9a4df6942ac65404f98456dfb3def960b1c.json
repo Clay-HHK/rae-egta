@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_91ba16170d2d28d8f3f24ab1b6a8f2a8bd0075fa9edc948722e5f18f2f06ec04",
   "item_id": "egta_1da06ca032c2414b5e396089200bb9a4df6942ac65404f98456dfb3def960b1c",
-  "package_sha256": "91ba16170d2d28d8f3f24ab1b6a8f2a8bd0075fa9edc948722e5f18f2f06ec04",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "The tournament took place from 23 February to 1 March 2025 at the Yushan Sport Centre in Yushan, China.\nChina hosted the event from 2012 to 2014 in Haikou, and in Yushan since 2016."
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/2025_World_Open_(snooker)",
-      "content_sha256": "c3159b84db539e45831ad3db5bdb14aa9e6096f72dcb4cfed51ab38fd618872a",
       "evidence_id": "e1",
       "publication_or_update_date": null,
       "publisher": "Wikipedia",

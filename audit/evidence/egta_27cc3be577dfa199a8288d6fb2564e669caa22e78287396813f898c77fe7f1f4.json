@@ -12,7 +12,6 @@
       "source_tier": "reliable_secondary",
       "publication_or_update_date": "2026-04-05",
       "access_date": "2026-07-22",
-      "content_sha256": null,
       "spans": [
         {"span_id": "s1", "text": "2017 South Carolina", "locator": "all-time winners list, 2017 entry", "supports": ["frozen_answer"]},
         {"span_id": "s2", "text": "2025 UConn", "locator": "all-time winners list, 2025 entry", "supports": ["current_answer"]},
@@ -26,7 +25,6 @@
       "source_tier": "versioned_encyclopedia",
       "publication_or_update_date": "2026-04-29",
       "access_date": "2026-07-22",
-      "content_sha256": null,
       "spans": [
         {"span_id": "s1", "text": "The Bruins won the game 79–51 for the program's first NCAA title", "locator": "lead section; game played April 5, 2026, UCLA vs South Carolina", "supports": ["current_answer", "change_date"]},
         {"span_id": "s2", "text": "Coming off their 82–59 loss in the 2025 national championship game to UConn", "locator": "South Carolina Gamecocks section", "supports": ["current_answer"]}

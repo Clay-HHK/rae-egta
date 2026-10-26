@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_63519d58ae1e0676014d391de065555f25886d236534c5b214f12cceb0c6b134",
   "item_id": "egta_27cc3be577dfa199a8288d6fb2564e669caa22e78287396813f898c77fe7f1f4",
-  "package_sha256": "63519d58ae1e0676014d391de065555f25886d236534c5b214f12cceb0c6b134",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "2017 South Carolina\n2025 UConn\n2026 UCLA",
@@ -12,7 +11,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://www.espn.com/womens-college-basketball/story/_/id/39445812/ncaa-womens-basketball-championship-all-winners-list",
-      "content_sha256": "5205b3c94a6f76cd4d6365523448c653e85e45cc183bdeec098e4041341f3c6e",
       "evidence_id": "e1",
       "publication_or_update_date": "2026-04-05",
       "publisher": "ESPN",
@@ -50,7 +48,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://en.wikipedia.org/wiki/2026_NCAA_Division_I_women%27s_basketball_championship_game",
-      "content_sha256": "e59ab93e9d890aa2b1a69e94666973e00a1892b87a1bbe89f95e0e72071b7a47",
       "evidence_id": "e2",
       "publication_or_update_date": "2026-04-29",
       "publisher": "Wikipedia",

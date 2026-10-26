@@ -2,7 +2,6 @@
   "aliases": [],
   "evidence_package_id": "egta_evidence_a085ada41c23b1972aaee7910e1b9cd70f727b64fab6a5b8a13d95eea4a402c4",
   "item_id": "egta_417a8c76b0075eccfdf2fa4ee7c34b68790ab82099ce111eaa68559e8d5f3679",
-  "package_sha256": "a085ada41c23b1972aaee7910e1b9cd70f727b64fab6a5b8a13d95eea4a402c4",
   "schema_version": "egta_evidence.v1",
   "source_contents": {
     "e1": "The most current version of Office 2010 is 14.0.7261.5000, which was released on October 13, 2020.\nJune 13 | 14.0.7182.5000 | KB 4023935\nSupport for Office 2010 ended on October 13, 2020."
@@ -11,7 +10,6 @@
     {
       "access_date": "2026-07-22",
       "canonical_url": "https://learn.microsoft.com/en-us/officeupdates/update-history-office-2010-click-to-run",
-      "content_sha256": "1bef332dbb3f4b3810ab3406c41e336a2a5e159007e28bfadf9de9a581d6f8ac",
       "evidence_id": "e1",
       "publication_or_update_date": null,
       "publisher": "Microsoft Learn",
