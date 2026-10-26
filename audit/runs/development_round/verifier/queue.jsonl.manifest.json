@@ -1,9 +1,6 @@
 {
-  "auditor_a_results_sha256": "a08a6d29013489feaa342b170ec9d3b04565675e0a4e3725bf7fbb90a126cfce",
-  "auditor_b_results_sha256": "9f13412b034cf46c0ceed73dacc5fc4369a9f9835725aaf1de156a6baa2909de",
   "auditor_item_count": 47,
   "queue_item_count": 32,
-  "queue_sha256": "929cacf8fa087bc6ee835d2fb49c556c1aa5f1de1b493de145c98bcdaa9f65cb",
   "reason_counts": {
     "auditor_a_schema_failure": 1,
     "auditor_ambiguity_or_conflict": 16,

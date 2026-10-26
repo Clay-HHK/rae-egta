@@ -1,11 +1,8 @@
 {
   "backend": "grok_http",
   "input_projection": "blind_request_only",
-  "prompt_template_sha256": "e2f89f0693c8049be79f3ef0c66efa64db39456de70ac2bcc05f7c2d98e48af1",
   "queue_item_count": 26,
-  "queue_sha256": "20949a484723187c20d3eaccd128b8f1ab333202a1d9d15e091ef797e4b90983",
   "requested_model": "grok-4.5",
-  "results_sha256": "60c2bf1ad98f6bacc9715b0891e63af445a423fca46218ef8cc086d13fca20e0",
   "schema_version": "egta_verifier_manifest.v1",
   "session_persistence": false,
   "status_counts": {

@@ -25,7 +25,6 @@
       "experiments/primekg_mvp/outputs/",
       "runs/"
     ],
-    "git_sha": "6efdfcdd0d862b6560135482081fd3f11a4ed6ef",
     "git_status_short": "",
     "git_status_short_raw": "<omitted>"
   },
@@ -34,13 +33,10 @@
   "inputs": [
     {
       "manifest_path": "<server-workspace>/clean_checkout/runs/controlled_document_llm/exploratory_formal_grok_20260717T223053Z/grok/run_manifest.json",
-      "manifest_sha256": "27a87dd95ecd8bfd14dc8829c57dd93cab3698c1af2eccdcf9205318279e0ef0",
       "metrics_path": "<server-workspace>/clean_checkout/runs/controlled_document_llm/exploratory_formal_grok_20260717T223053Z/grok/rag_document_llm_metrics.csv",
-      "metrics_sha256": "0b7783dd85d0107aee635333bdd34bfa67d1e949b4192f908d1eba87d5c20110",
       "row_count": 3456,
       "source_exploratory": true,
       "source_git_dirty": false,
-      "source_git_sha": "6efdfcdd0d862b6560135482081fd3f11a4ed6ef",
       "source_preregistered_closure": false
     }
   ],
@@ -105,7 +101,6 @@
       "event_type"
     ]
   },
-  "protocol_hash": "00cf475fe6b56ce1ba9aa259e8c1bd2bc7a1fd45033f6e75d6ce1a46780128fc",
   "reader_ids": [
     "grok_4_5"
   ],
@@ -121,8 +116,7 @@
   ],
   "run_id": "grok_crossfamily_20260717T230453Z",
   "source_code": {
-    "llm_cluster_inference_path": "<server-workspace>/clean_checkout/src/rae_egta/rag_post_event/llm_cluster_inference.py",
-    "llm_cluster_inference_sha256": "7eb73e15e595dc79cf9e10e39f9d25a47222276af49f6fae51d64ffa2ce78343"
+    "llm_cluster_inference_path": "<server-workspace>/clean_checkout/src/rae_egta/rag_post_event/llm_cluster_inference.py"
   },
   "started_at_utc": "2026-07-17T23:04:53Z",
   "status": "COMPLETE"

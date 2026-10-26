@@ -33,8 +33,6 @@
     "top_k": 5
   },
   "chunk_record_count": 16560,
-  "condition_spec_hash": "f72e404acb69657e908d0f33f160f6ebb697e10e88f8780ed7e56ce535b721f1",
-  "dataset_spec_hash": "484763dce03d372b71379374db6e4d87b49fecb3d39e2ed86685034e8183ad76",
   "document_record_count": 8280,
   "environment": {
     "command": "<server-env>/bin/python <server-workspace>/clean_checkout/src/rae_egta/rag_post_event/run_document.py --output-dir runs/block_n_metadata_intent_noise/metadata_missing_05 --run-id block_n_metadata_missing_05 --events 400 --seeds 13 21 34 --methods no_update store_only query_rewrite_update oldref_adapted_preserver postevent_validity_filter intent_aware_postevent_filter --stable-queries-per-event 2 --add-fraction 0.10 --revise-fraction 0.50 --retire-fraction 0.40 --distractors-per-event 2 --chunk-noise-paragraphs 0 --retriever bm25 --top-k 5 --rerank-candidate-k 20 --stress-axis lexical_schema --noise-factor metadata_missing --noise-rate 0.05 --noise-assignment-seed 20260714 --partial-write-every-queries 250 --device cuda",
@@ -63,7 +61,6 @@
       "experiments/primekg_mvp/outputs/",
       "runs/"
     ],
-    "git_sha": "57f101720fe9c3670cfa961a3e4dc0b7be52c8d1",
     "git_status_short": "",
     "git_status_short_raw": "<omitted>"
   },
@@ -493,7 +490,6 @@
       "34:e0395_distractor_1",
       "34:e0395_stable_0"
     ],
-    "assignment_hash": "1a176393ac510222a3d6f37fc89af5f46a358891a06d97deb4ccaeac9d193469",
     "assignment_seed": 20260714,
     "changes": [
       {

@@ -5,16 +5,12 @@
   ],
   "cache_reused": false,
   "evidence_snapshot_error": null,
-  "evidence_snapshot_sha256": "17ebfce19e1bf7c6bb6119f80350298d61cc940766b4ed59b1f5a4f72dc5ae95",
-  "input_sha256": "2c1b2ca83cdc426f1784ae5f69cd2947bda2c6c8feeda9bcf782b7bd466ffd8f",
   "item_count": 47,
-  "prompt_template_sha256": "10784afa3223417f97222490ca43096d530206d3132804c59f8e3f32ed5b2171",
   "repeat_of": null,
   "requested_model": "claude-sonnet-5",
   "resolved_models": [
     "claude-sonnet-5"
   ],
-  "results_sha256": "a08a6d29013489feaa342b170ec9d3b04565675e0a4e3725bf7fbb90a126cfce",
   "role": "auditor_a",
   "schema_version": "egta_auditor_manifest.v1",
   "session_persistence": false,

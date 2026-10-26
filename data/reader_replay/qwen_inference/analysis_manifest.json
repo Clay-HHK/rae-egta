@@ -25,7 +25,6 @@
       "experiments/primekg_mvp/outputs/",
       "runs/"
     ],
-    "git_sha": "37023b5cd5dd5da9cdaca7ce78328fff2334b780",
     "git_status_short": "",
     "git_status_short_raw": "<omitted>"
   },
@@ -34,13 +33,10 @@
   "inputs": [
     {
       "manifest_path": "<server-workspace>/clean_checkout/runs/controlled_document_llm/exploratory_formal_20260717T172024Z/qwen/run_manifest.json",
-      "manifest_sha256": "6f0b84ab9558588a4f0c31ecbd8363f36b482056d2a6b83a58f554b194308795",
       "metrics_path": "<server-workspace>/clean_checkout/runs/controlled_document_llm/exploratory_formal_20260717T172024Z/qwen/rag_document_llm_metrics.csv",
-      "metrics_sha256": "f0dc5f14f97de8c08e564d406e199a5246b26499d69f6498b58ba9f707119679",
       "row_count": 6912,
       "source_exploratory": true,
       "source_git_dirty": false,
-      "source_git_sha": "37023b5cd5dd5da9cdaca7ce78328fff2334b780",
       "source_preregistered_closure": false
     }
   ],
@@ -105,7 +101,6 @@
       "event_type"
     ]
   },
-  "protocol_hash": "00cf475fe6b56ce1ba9aa259e8c1bd2bc7a1fd45033f6e75d6ce1a46780128fc",
   "reader_ids": [
     "qwen3p5_9b"
   ],
@@ -125,8 +120,7 @@
   ],
   "run_id": "controlled_llm_cluster_inference_exploratory_20260717T172024Z",
   "source_code": {
-    "llm_cluster_inference_path": "<server-workspace>/clean_checkout/src/rae_egta/rag_post_event/llm_cluster_inference.py",
-    "llm_cluster_inference_sha256": "7eb73e15e595dc79cf9e10e39f9d25a47222276af49f6fae51d64ffa2ce78343"
+    "llm_cluster_inference_path": "<server-workspace>/clean_checkout/src/rae_egta/rag_post_event/llm_cluster_inference.py"
   },
   "started_at_utc": "2026-07-17T19:51:55Z",
   "status": "COMPLETE"

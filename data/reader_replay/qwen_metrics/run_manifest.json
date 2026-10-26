@@ -35,7 +35,6 @@
     "stress_axis": "lexical_schema",
     "top_k": 5
   },
-  "config_hash": "23b516dd33fa3a3b9d1d208a05ce5c7487e5df7188ce02af3998ff3a7f98854d",
   "environment": {
     "command": "<server-env>/bin/python <server-workspace>/clean_checkout/src/rae_egta/rag_post_event/run_document_llm.py --output-dir <server-workspace>/clean_checkout/runs/controlled_document_llm/exploratory_formal_20260717T172024Z/qwen --run-id controlled_llm_qwen_exploratory_formal_20260717T172024Z --mode formal --seeds 13 21 34 --source-events-per-seed 1500 --source-stable-queries-per-event 2 --methods no_update store_only query_rewrite_update oldref_adapted_preserver postevent_validity_filter intent_aware_postevent_filter --top-k 5 --rerank-candidate-k 20 --stress-axis lexical_schema --device cuda --exploratory --dense-model-path <server-workspace>/models/Qwen3-Embedding-0.6B_97b0c614 --dense-model-snapshot 97b0c614 --dense-cache-dir <server-workspace>/clean_checkout/runs/dense_cache_cl --retrievers bm25 dense --reader qwen3p5_9b --base-url http://127.0.0.1:18080/v1 --base-url http://127.0.0.1:18081/v1 --base-url http://127.0.0.1:18082/v1 --base-url http://127.0.0.1:18083/v1",
     "cuda_available": true,
@@ -63,7 +62,6 @@
       "experiments/primekg_mvp/outputs/",
       "runs/"
     ],
-    "git_sha": "37023b5cd5dd5da9cdaca7ce78328fff2334b780",
     "git_status_short": "",
     "git_status_short_raw": "<omitted>"
   },
@@ -96,7 +94,6 @@
   "retrieval_indexes": [
     {
       "chunk_count": 15000,
-      "chunk_fingerprint": "0c728363107fc418e5c257e74c36e5b95a537d5da7ec4885ca6d0c322ca1041d",
       "protocol_version": "document_bm25_v1",
       "retriever": "bm25",
       "seed": 13,
@@ -104,7 +101,6 @@
     },
     {
       "chunk_count": 17700,
-      "chunk_fingerprint": "057c1cfe29954479020cf4d0917799b11bbc0288fae3a26d6407021689f243eb",
       "protocol_version": "document_bm25_v1",
       "retriever": "bm25",
       "seed": 13,
@@ -112,7 +108,6 @@
     },
     {
       "chunk_count": 20700,
-      "chunk_fingerprint": "1f651afca637eddc0703f333d0d6c6292cc67fd638c558b521c60bb282ee50a9",
       "protocol_version": "document_bm25_v1",
       "retriever": "bm25",
       "seed": 13,
@@ -120,7 +115,6 @@
     },
     {
       "chunk_count": 15000,
-      "chunk_fingerprint": "7fbe07134921cd9b546353186db3189bed8ff6b73a930146312109b6b41c3767",
       "dimension": 1024,
       "embedding_cache_path": "<server-workspace>/clean_checkout/runs/dense_cache_cl/seed_13_old_dense_qwen3embed_k5_v1.npz",
       "model_id": "Qwen/Qwen3-Embedding-0.6B",
@@ -133,7 +127,6 @@
     },
     {
       "chunk_count": 17700,
-      "chunk_fingerprint": "50eee0a7726a1d29e1f1b2dd304779e4a73408c50fecd89fcf0559f796c109b5",
       "dimension": 1024,
       "embedding_cache_path": "<server-workspace>/clean_checkout/runs/dense_cache_cl/seed_13_postevent_dense_qwen3embed_k5_v1.npz",
       "model_id": "Qwen/Qwen3-Embedding-0.6B",
@@ -146,7 +139,6 @@
     },
     {
       "chunk_count": 20700,
-      "chunk_fingerprint": "be2f3430835127e8bd0eb99549b0718b8f7c471572727def7a1bb7189303695c",
       "dimension": 1024,
       "embedding_cache_path": "<server-workspace>/clean_checkout/runs/dense_cache_cl/seed_13_combined_dense_qwen3embed_k5_v1.npz",
       "model_id": "Qwen/Qwen3-Embedding-0.6B",
@@ -159,7 +151,6 @@
     },
     {
       "chunk_count": 15000,
-      "chunk_fingerprint": "ec7560e1080b26da2ff32622c5f8f374cbedb7cb97f7f4f4b225a623c6c0f7fd",
       "protocol_version": "document_bm25_v1",
       "retriever": "bm25",
       "seed": 21,
@@ -167,7 +158,6 @@
     },
     {
       "chunk_count": 17700,
-      "chunk_fingerprint": "52d7ab04e1502faabc720828e2950fef12141b23af399c7aa8a82dec6806e786",
       "protocol_version": "document_bm25_v1",
       "retriever": "bm25",
       "seed": 21,
@@ -175,7 +165,6 @@
     },
     {
       "chunk_count": 20700,
-      "chunk_fingerprint": "67bd62a0d0adec84560540c2e057f41e38266d00083f1b7e2579ecdfacd3bd17",
       "protocol_version": "document_bm25_v1",
       "retriever": "bm25",
       "seed": 21,
@@ -183,7 +172,6 @@
     },
     {
       "chunk_count": 15000,
-      "chunk_fingerprint": "b6ba3c59a5921759af5b9acdb94e98e1e05165c52e7191e58e9f142645d7bb9f",
       "dimension": 1024,
       "embedding_cache_path": "<server-workspace>/clean_checkout/runs/dense_cache_cl/seed_21_old_dense_qwen3embed_k5_v1.npz",
       "model_id": "Qwen/Qwen3-Embedding-0.6B",
@@ -196,7 +184,6 @@
     },
     {
       "chunk_count": 17700,
-      "chunk_fingerprint": "d53b37a51e87c262d9399cfc7e826f81515293f508529886b379ecdd763fd401",
       "dimension": 1024,
       "embedding_cache_path": "<server-workspace>/clean_checkout/runs/dense_cache_cl/seed_21_postevent_dense_qwen3embed_k5_v1.npz",
       "model_id": "Qwen/Qwen3-Embedding-0.6B",
@@ -209,7 +196,6 @@
     },
     {
       "chunk_count": 20700,
-      "chunk_fingerprint": "5fd2e04f5e403c20fb6286b3c26379dc975a9ad29ecf4363f89253bf78d47001",
       "dimension": 1024,
       "embedding_cache_path": "<server-workspace>/clean_checkout/runs/dense_cache_cl/seed_21_combined_dense_qwen3embed_k5_v1.npz",
       "model_id": "Qwen/Qwen3-Embedding-0.6B",
@@ -222,7 +208,6 @@
     },
     {
       "chunk_count": 15000,
-      "chunk_fingerprint": "43bae5f76063edbfbe8c4a7d00ff29cff9ca8d1c8be4539096e9b8acd134c7fe",
       "protocol_version": "document_bm25_v1",
       "retriever": "bm25",
       "seed": 34,
@@ -230,7 +215,6 @@
     },
     {
       "chunk_count": 17700,
-      "chunk_fingerprint": "a3dc135db450d1fd71eea9f6cadda18e3db05b50b7fcf7f955034df937cc2a35",
       "protocol_version": "document_bm25_v1",
       "retriever": "bm25",
       "seed": 34,
@@ -238,7 +222,6 @@
     },
     {
       "chunk_count": 20700,
-      "chunk_fingerprint": "a353e520aeeebfbfd75c523c24e5712e8dd674cb5babf7c646398c349234353b",
       "protocol_version": "document_bm25_v1",
       "retriever": "bm25",
       "seed": 34,
@@ -246,7 +229,6 @@
     },
     {
       "chunk_count": 15000,
-      "chunk_fingerprint": "28270ade8238b22d4eb3f69328a3d593d769b62d9970427520f26a362b9195db",
       "dimension": 1024,
       "embedding_cache_path": "<server-workspace>/clean_checkout/runs/dense_cache_cl/seed_34_old_dense_qwen3embed_k5_v1.npz",
       "model_id": "Qwen/Qwen3-Embedding-0.6B",
@@ -259,7 +241,6 @@
     },
     {
       "chunk_count": 17700,
-      "chunk_fingerprint": "b4cfd420410af96ce327c7e6bf5972c15b3513f936eb65da84c08b80a3553c98",
       "dimension": 1024,
       "embedding_cache_path": "<server-workspace>/clean_checkout/runs/dense_cache_cl/seed_34_postevent_dense_qwen3embed_k5_v1.npz",
       "model_id": "Qwen/Qwen3-Embedding-0.6B",
@@ -272,7 +253,6 @@
     },
     {
       "chunk_count": 20700,
-      "chunk_fingerprint": "14ed084c1d7d73fa195d7e213907387df99b2e6e437a346560480ffa7bd82702",
       "dimension": 1024,
       "embedding_cache_path": "<server-workspace>/clean_checkout/runs/dense_cache_cl/seed_34_combined_dense_qwen3embed_k5_v1.npz",
       "model_id": "Qwen/Qwen3-Embedding-0.6B",
@@ -3527,9 +3507,7 @@
         ],
         "seed": 34
       }
-    ],
-    "subsample_hash": "0cbc1ae978fcd1a45b4942a9ca4bb9300d27d72a6d516c6e7367ad4ce1e1085c"
+    ]
   },
-  "subsample_hash": "0cbc1ae978fcd1a45b4942a9ca4bb9300d27d72a6d516c6e7367ad4ce1e1085c",
   "subsample_protocol_version": "controlled_llm_subsample_v2"
 }
