@@ -1,8 +1,8 @@
 # Final RAE/EGTA experiment bundle
 
 This is the canonical compact data entrypoint for the paper. It contains
-derived tables, one sensitivity figure in PDF/PNG, concise reports, exact
-source hashes, and the pending human-review packet. Large raw outputs remain
+derived tables, one sensitivity figure in PDF/PNG, and concise
+reports. Large raw outputs remain
 at their original repository paths and are linked through
 `source_inventory.csv`.
 

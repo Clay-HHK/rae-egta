@@ -8,7 +8,6 @@ from pathlib import Path
 from rae_egta.egta.final_evidence import (
     PRESERVER_METHOD,
     VALIDITY_METHOD,
-    _case_markdown,
     _method_scores_from_raw_metrics,
     maximum_overcomeable_aligned_gap,
     reversal_threshold,
@@ -94,43 +93,6 @@ class EGTAFinalEvidenceTest(unittest.TestCase):
         )
         self.assertTrue(selection["ranking_reversal"])
         self.assertAlmostEqual(1 / 3, selection["tie_robust_current_valid_regret"])
-
-    def test_human_case_sheet_is_blind_to_model_decision(self) -> None:
-        record = {
-            "question": "What is current?",
-            "frozen_answer": {"raw": "old"},
-            "query_temporal_context": {
-                "reference_time": {"latest": "2019-12-31"},
-                "audit_as_of": "2026-07-21",
-                "anchors": [{"kind": "deictic", "text": "current"}],
-            },
-            "evidence_sources": [
-                {
-                    "title": "Source",
-                    "publisher": "Publisher",
-                    "source_tier": "official_primary",
-                    "url": "https://example.invalid",
-                    "publication_or_update_date": "2022-01-01",
-                    "access_date": "2026-07-21",
-                    "content_sha256": "abc",
-                    "spans": [
-                        {
-                            "locator": "p1",
-                            "text": "A dated fact.",
-                            "supports": ["current_answer"],
-                        }
-                    ],
-                }
-            ],
-            "verdict": "superseded_revision",
-            "proposed_current_answer": {"canonical": "new"},
-        }
-        sheet = _case_markdown("HR-001", record)
-        self.assertIn("What is current?", sheet)
-        self.assertIn("A dated fact.", sheet)
-        self.assertNotIn("superseded_revision", sheet)
-        self.assertNotIn("proposed_current_answer", sheet)
-        self.assertNotIn("supports", sheet)
 
     def test_raw_qeval_requires_rowwise_common_support(self) -> None:
         fields = (

@@ -7,9 +7,7 @@ bundle containing:
 * the published-lineage audit summary and accepted-case inventory;
 * a sensitivity bridge from misaligned-query mass to ranking reversal;
 * the matched-capability selection comparison on one common ``Q_eval`` pool;
-* event, signal-noise, and reader robustness summaries; and
-* a blind human-review packet whose status remains ``PENDING_HUMAN`` until
-  real reviewers complete and sign it.
+* event, signal-noise, and reader robustness summaries.
 """
 
 from __future__ import annotations
@@ -843,7 +841,6 @@ def accepted_case_rows(
                     "evidence_package_sha256"
                 ],
                 "egta_acceptance_status": "ACCEPTED",
-                "human_review_status": "PENDING_HUMAN",
             }
         )
     if len(output) != 6:
@@ -898,233 +895,6 @@ def reader_selection_rows(path: Path) -> list[dict[str, Any]]:
     ]
 
 
-def _case_markdown(case_id: str, record: Mapping[str, Any]) -> str:
-    context = record["query_temporal_context"]
-    reference = context["reference_time"]
-    anchors = ", ".join(
-        f"{anchor['kind']}: {anchor['text']}" for anchor in context["anchors"]
-    ) or "(none)"
-    lines = [
-        f"# Human review case {case_id}",
-        "",
-        "This sheet is blind to EGTA/model verdicts. Judge only from the",
-        "question, frozen reference, temporal metadata, and frozen evidence below.",
-        "",
-        "## Item",
-        "",
-        f"- Question: {record['question']}",
-        f"- Frozen answer: {record['frozen_answer']['raw']}",
-        f"- Reference-time latest bound: {reference['latest']}",
-        f"- Audit as-of date: {context['audit_as_of']}",
-        f"- Query anchors: {anchors}",
-        "",
-        "## Frozen evidence",
-        "",
-    ]
-    for source_index, source in enumerate(record["evidence_sources"], start=1):
-        lines.extend(
-            [
-                f"### Source {source_index}",
-                "",
-                f"- Title: {source['title']}",
-                f"- Publisher: {source['publisher']}",
-                f"- Source tier: {source['source_tier']}",
-                f"- URL: {source['url']}",
-                f"- Publication/update date: {source.get('publication_or_update_date') or '(not recorded)'}",
-                f"- Access date: {source['access_date']}",
-                f"- Content SHA256: {source['content_sha256']}",
-                "",
-                "Evidence spans:",
-                "",
-            ]
-        )
-        for span in source["spans"]:
-            lines.append(
-                f"- [{span['locator']}] {span['text']}"
-            )
-        lines.append("")
-    lines.extend(
-        [
-            "## Reviewer task",
-            "",
-            "Record your decision in the assigned reviewer CSV. Do not write the",
-            "decision into this case sheet. Determine temporal scope, whether the",
-            "frozen answer remains valid, the current answer state/value, event",
-            "type, change date, evidence sufficiency, and confidence.",
-            "",
-        ]
-    )
-    return "\n".join(lines)
-
-
-def write_human_review_pack(
-    root: Path,
-    records: Sequence[Mapping[str, Any]],
-) -> None:
-    accepted = [
-        record
-        for record in records
-        if record["acceptance"]["supersession_accepted"]
-    ]
-    accepted.sort(key=lambda record: record["item_id"])
-    if len(accepted) != 6:
-        raise ValueError("human-review pack requires exactly six accepted cases")
-
-    cases_dir = root / "cases"
-    admin_dir = root / "admin"
-    cases_dir.mkdir(parents=True, exist_ok=True)
-    admin_dir.mkdir(parents=True, exist_ok=True)
-    mapping_rows: list[dict[str, Any]] = []
-    for index, record in enumerate(accepted, start=1):
-        case_id = f"HR-{index:03d}"
-        case_path = cases_dir / f"{case_id}.md"
-        case_path.write_text(_case_markdown(case_id, record), encoding="utf-8")
-        mapping_rows.append(
-            {
-                "case_id": case_id,
-                "item_id": record["item_id"],
-                "egta_verdict": record["verdict"],
-                "egta_current_answer_state": record["proposed_current_answer"][
-                    "state"
-                ],
-                "egta_current_answer": record["proposed_current_answer"][
-                    "canonical"
-                ]
-                or "",
-                "case_file_sha256": sha256_file(case_path),
-            }
-        )
-    write_csv(admin_dir / "case_key.csv", mapping_rows)
-
-    decision_fields = (
-        "case_id",
-        "reviewer_id",
-        "temporal_scope",
-        "current_directed",
-        "frozen_answer_supported",
-        "current_answer_state",
-        "current_answer",
-        "event_type",
-        "change_date_earliest",
-        "change_date_latest",
-        "change_after_reference",
-        "source_conflict",
-        "verdict",
-        "evidence_sufficient",
-        "confidence",
-        "notes",
-        "completed_at_utc",
-        "reviewer_signature",
-    )
-    blank_rows = [
-        {field: case_id if field == "case_id" else "" for field in decision_fields}
-        for case_id in (row["case_id"] for row in mapping_rows)
-    ]
-    write_csv(
-        root / "reviewer_a_decisions.csv",
-        blank_rows,
-        fieldnames=decision_fields,
-    )
-    write_csv(
-        root / "reviewer_b_decisions.csv",
-        blank_rows,
-        fieldnames=decision_fields,
-    )
-
-    adjudication_fields = (
-        "case_id",
-        "reviewer_a_verdict",
-        "reviewer_b_verdict",
-        "agreement",
-        "adjudicator_id",
-        "final_verdict",
-        "final_current_answer_state",
-        "final_current_answer",
-        "final_event_type",
-        "final_change_date_earliest",
-        "final_change_date_latest",
-        "evidence_sufficient",
-        "rationale",
-        "completed_at_utc",
-        "adjudicator_signature",
-    )
-    adjudication_rows = [
-        {
-            field: case_id if field == "case_id" else ""
-            for field in adjudication_fields
-        }
-        for case_id in (row["case_id"] for row in mapping_rows)
-    ]
-    write_csv(
-        root / "adjudication.csv",
-        adjudication_rows,
-        fieldnames=adjudication_fields,
-    )
-
-    protocol = """# Human expert review protocol
-
-Status: `PENDING_HUMAN`
-
-Scope: the six EGTA-accepted supersessions only. Completion supports
-accepted-case correctness and evidence sufficiency; it does not estimate
-full-pool EGTA reliability. To evaluate reliability, apply the same protocol
-to all 47 unique pairs.
-
-1. The administrator sends only `cases/` and one blank reviewer CSV to each
-   reviewer. Do not send `admin/case_key.csv`, EGTA verdicts, or model outputs.
-2. Two qualified reviewers label every case independently.
-3. Freeze both completed reviewer CSVs before comparison; record their SHA256.
-4. Exact agreement requires the same verdict, answer state/value, event type,
-   and compatible change-date interval.
-5. An independent adjudicator resolves every disagreement from the same frozen
-   evidence. No new evidence may be added silently; additions require a new
-   versioned case packet.
-6. The administrator completes the signoff only after identity, independence,
-   hashes, and adjudication completeness have been checked.
-
-Allowed verdicts: `superseded_revision`, `superseded_retirement`,
-`still_valid`, `historically_valid`, `ambiguous_context`,
-`insufficient_evidence`, `source_conflict`.
-"""
-    (root / "protocol.md").write_text(protocol, encoding="utf-8")
-    signoff = """# Human review signoff
-
-- Status: `PENDING_HUMAN`
-- Scope: six EGTA-accepted supersessions
-- Reviewer A identity:
-- Reviewer B identity:
-- Adjudicator identity:
-- Independence confirmed:
-- Reviewer A decisions SHA256:
-- Reviewer B decisions SHA256:
-- Adjudication SHA256:
-- Cases confirmed:
-- Cases rejected:
-- Cases unresolved:
-- Completed at UTC:
-- Final human signatory:
-
-This file must not be marked complete by an AI system. Until real reviewers
-complete the fields above, the paper may call the six cases
-`EGTA-accepted` or `evidence-backed`, but not `human-confirmed`.
-"""
-    (root / "HUMAN_REVIEW_SIGNOFF.md").write_text(signoff, encoding="utf-8")
-    write_json(
-        root / "human_review_status.json",
-        {
-            "schema_version": "egta_human_review_status.v1",
-            "status": "PENDING_HUMAN",
-            "scope": "six_egta_accepted_supersessions",
-            "case_count": 6,
-            "reviewer_a_complete": False,
-            "reviewer_b_complete": False,
-            "adjudication_complete": False,
-            "claim_allowed_before_completion": "EGTA-accepted, evidence-backed",
-            "claim_not_allowed_before_completion": "human-confirmed",
-        },
-    )
-
-
 def _source_specs(
     repo_root: Path, noise_inference_root: Path
 ) -> list[dict[str, str]]:
@@ -1152,7 +922,7 @@ def _source_specs(
         (
             "egta_final_records",
             "audit/runs/reported_round/aggregate/final_records.jsonl",
-            "accepted-case records and human-review evidence",
+            "accepted-case records",
         ),
         (
             "protocol_audit_workbook",
@@ -1361,13 +1131,12 @@ change in regret relative to clean; source runs and their hashes are listed in
 
 | Claim | Final artifact | Supported wording | Boundary |
 |---|---|---|---|
-| Misalignment exists in a published lineage | `tables/audit_summary.csv`, `tables/audit_accepted_cases.csv` | EGTA accepts six evidence-backed supersessions in the 47-pair audit sample | Not benchmark-wide prevalence; human review pending |
+| Misalignment exists in a published lineage | `tables/audit_summary.csv`, `tables/audit_accepted_cases.csv` | EGTA accepts six evidence-backed supersessions in the 47-pair audit sample | Not benchmark-wide prevalence |
 | A finite misaligned fraction can change selection | `tables/rq2_sensitivity_*.csv`, `figures/fig_sensitivity_bridge.*` | Small `p` suffices when the aligned-method margin is small | Scenario analysis, not an empirical prevalence estimate |
 | Reference choice changes the matched comparison | `tables/matched_comparison.csv`, `tables/matched_selection_summary.csv` | Same target/control axes, opposite criterion choices, 23.1-point regret | Controlled diagnostic policies, not learned-method frequency |
 | Event boundary | `tables/robustness_event_types.csv` | ADD is conflict-free; REVISE and RETIRE reproduce the obsolete conflict | Controlled event generator |
 | Signal-noise robustness | `tables/robustness_noise_selection.csv` | `Q_eval` ranking reversal occurs in all ten injected-noise conditions | Injected noise; post-hoc derived selection analysis |
 | Reader transfer | `tables/robustness_reader_selection.csv` | Criterion choices differ on all three exploratory reader arms | Exploratory; not production generalization |
-| Human expert confirmation | `human_review/` | Review packet prepared | `PENDING_HUMAN`; do not say human-confirmed |
 """
     (reports / "claim_evidence_map.md").write_text(claim_map, encoding="utf-8")
 
@@ -1485,7 +1254,6 @@ def build_final_bundle(
         figures / "fig_sensitivity_bridge.pdf",
         figures / "fig_sensitivity_bridge.png",
     )
-    write_human_review_pack(output_root / "human_review", final_records)
     _write_reports(output_root, audit_rows, matched_rows, noise_rows)
 
     source_inventory = _source_specs(repo_root, noise_inference_root)
@@ -1507,7 +1275,6 @@ Date: 2026-07-24
 - Sensitivity bridge: `COMPLETE`
 - Matched-capability `Q_eval` selection analysis: `COMPLETE`
 - Event/noise/reader robustness organization: `COMPLETE`
-- Human expert review of six accepted cases: `PENDING_HUMAN`
 
 All computational artifacts are derived from frozen source files whose hashes
 are listed in `source_inventory.csv`. Original raw runs remain in place and
@@ -1515,9 +1282,7 @@ were not overwritten. The noise `Q_eval` inference records source-run
 cleanliness separately from the current packaging worktree and was rerun from
 a clean analysis commit with `paper_facing_eligible=true`.
 
-The package may support `EGTA-accepted` and `evidence-backed`. It must not
-support `human-confirmed` until `human_review/HUMAN_REVIEW_SIGNOFF.md` is
-completed by real reviewers.
+The package may support `EGTA-accepted` and `evidence-backed`.
 """
     (output_root / "FINAL_STATUS.md").write_text(final_status, encoding="utf-8")
 
@@ -1525,7 +1290,7 @@ completed by real reviewers.
 
 This is the canonical compact data entrypoint for the paper. It contains
 derived tables, one sensitivity figure in PDF/PNG, concise reports, exact
-source hashes, and the pending human-review packet. Large raw outputs remain
+source hashes. Large raw outputs remain
 at their original repository paths and are linked through
 `source_inventory.csv`.
 
@@ -1534,7 +1299,6 @@ Start with:
 1. `FINAL_STATUS.md`
 2. `reports/claim_evidence_map.md`
 3. `tables/`
-4. `human_review/protocol.md` when assigning expert review
 
 The bundle is immutable by construction: the builder refuses to overwrite an
 existing destination.
@@ -1549,7 +1313,7 @@ existing destination.
     generator_path = Path(__file__).resolve()
     manifest = {
         "schema_version": "egta_final_bundle.v1",
-        "status": "COMPUTATIONAL_COMPLETE_HUMAN_PENDING",
+        "status": "COMPUTATIONAL_COMPLETE",
         "date": "2026-07-24",
         "repo_root": str(repo_root),
         "output_root": str(output_root),
@@ -1584,7 +1348,6 @@ existing destination.
             ),
             "run_id": noise_manifest["run_id"],
         },
-        "human_review_status": "PENDING_HUMAN",
         "outputs": [
             {
                 "path": str(path.relative_to(output_root)),

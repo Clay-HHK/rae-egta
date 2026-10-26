@@ -3,7 +3,7 @@ egta_summary,audit/runs/reported_round/tables/egta_summary.json,RQ1 audit headli
 egta_sensitivity,audit/runs/reported_round/tables/sensitivity_reference_time.json,RQ1 strict reference-time sensitivity
 egta_item_accounting,audit/runs/reported_round/tables/egta_item_accounting.csv,RQ1 negative control and item accounting
 egta_verdict_distribution,audit/runs/reported_round/tables/egta_verdict_distribution.csv,RQ1 verdict distribution
-egta_final_records,audit/runs/reported_round/aggregate/final_records.jsonl,accepted-case records and human-review evidence
+egta_final_records,audit/runs/reported_round/aggregate/final_records.jsonl,accepted-case records
 protocol_audit_workbook,data/protocol_audit/protocol_audit_workbook_2026-07-17.md,five-protocol published-lineage audit
 matched_query_summary,data/matched_comparison/rag_postevent_query_summary.csv,matched-capability Q_eval reanalysis
 matched_gate,data/matched_comparison/rag_postevent_r2_gate.csv,matched-success validity-control gate

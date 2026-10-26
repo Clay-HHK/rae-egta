@@ -43,7 +43,6 @@ def main(argv: Sequence[str] | None = None) -> int:
             {
                 "status": manifest["status"],
                 "output_root": manifest["output_root"],
-                "human_review_status": manifest["human_review_status"],
             },
             sort_keys=True,
         )

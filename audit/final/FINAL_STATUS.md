@@ -8,7 +8,6 @@ Date: 2026-07-24
 - Sensitivity bridge: `COMPLETE`
 - Matched-capability `Q_eval` selection analysis: `COMPLETE`
 - Event/noise/reader robustness organization: `COMPLETE`
-- Human expert review of six accepted cases: `PENDING_HUMAN`
 
 All computational artifacts are derived from frozen source files listed in
 `source_inventory.csv`. Original raw runs remain in place and

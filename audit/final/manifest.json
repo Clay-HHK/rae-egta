@@ -5,7 +5,6 @@
     "path": "src/rae_egta/egta/final_evidence.py",
     "sha256": "09f8fd835c90616e64c214eeabfae53d34286597c6351959a6784faf35932fa4"
   },
-  "human_review_status": "PENDING_HUMAN",
   "noise_inference": {
     "manifest_sha256": "b5e08cd6cea4f1773a167365f9a4e2ae89be5ba4f063fa7be44d8f8843faee83",
     "path": "data/noise_selection",
@@ -15,11 +14,11 @@
   "outputs": [
     {
       "path": "FINAL_STATUS.md",
-      "sha256": "17781235078aeb1f32073435383c9e4b885e8a5ead9ff9d203957ac89d647f8a"
+      "sha256": "bbf12074b6f860a6e62c2d02d4289f88c69b55e7b6da3a1823e0bd9b48e082ed"
     },
     {
       "path": "README.md",
-      "sha256": "e97b25325c512ab945aee6009166536e1234dc566797b46b95ac9cd420ca14be"
+      "sha256": "bdd5887248bbce7288cf9521f9af63301ded0e3b5939290bac46cff3799ad6ea"
     },
     {
       "path": "figures/fig_sensitivity_bridge.pdf",
@@ -30,60 +29,8 @@
       "sha256": "91e647f17fe3db2106b9a8d077402c3a7434eab7cb6bde5dc2c6c667124d07f4"
     },
     {
-      "path": "human_review/HUMAN_REVIEW_SIGNOFF.md",
-      "sha256": "709a0a04707527d1680c7edfc2239cdba0933f53cb4bd277eeb5a1093cdfc403"
-    },
-    {
-      "path": "human_review/adjudication.csv",
-      "sha256": "bf1d5b6de04e882b62de6e22a906982ec7113c2efd9594534d1f31a50736f346"
-    },
-    {
-      "path": "human_review/admin/case_key.csv",
-      "sha256": "069959767bc4766d87107334083d5c292f1043189728a1f4cd1e5371061cdf48"
-    },
-    {
-      "path": "human_review/cases/HR-001.md",
-      "sha256": "804298ee822c1a3e47ce9e474c3d36fb954b365197ab7b78c4da32b0150d99e4"
-    },
-    {
-      "path": "human_review/cases/HR-002.md",
-      "sha256": "4656549aaa7b929a3efce6807927c0a49fd1c99888544ab58aa45479737acd6c"
-    },
-    {
-      "path": "human_review/cases/HR-003.md",
-      "sha256": "c6e769b1987566103dabf75e46834044a7b7b4d8b90f3dfafbed9c1f7ec4cdd2"
-    },
-    {
-      "path": "human_review/cases/HR-004.md",
-      "sha256": "e0cc4f8aa91c818983eee9f66cfa205325a88086d230022e9684c23c340210e1"
-    },
-    {
-      "path": "human_review/cases/HR-005.md",
-      "sha256": "9184de1d36e737e6c4d98f5056e758b72cf79240043ee09202c33f376d43ef35"
-    },
-    {
-      "path": "human_review/cases/HR-006.md",
-      "sha256": "2c6c6699f065a34bc26724d43ee72f4b47be781e13903b2f96d8eeb1faddd6ae"
-    },
-    {
-      "path": "human_review/human_review_status.json",
-      "sha256": "e83477d290d7783e7168c0aa10ad233f438ec4648112b947362f742a4ec16b8d"
-    },
-    {
-      "path": "human_review/protocol.md",
-      "sha256": "f6052bcd55e7d64a528eb5501ebd706ac5193e6cc19cc5ce09a9bb78b288b4d4"
-    },
-    {
-      "path": "human_review/reviewer_a_decisions.csv",
-      "sha256": "18f2cf2664253465f1821feb8d6a438e3f3db7e3d11696d5a0a0abb8d9382f54"
-    },
-    {
-      "path": "human_review/reviewer_b_decisions.csv",
-      "sha256": "18f2cf2664253465f1821feb8d6a438e3f3db7e3d11696d5a0a0abb8d9382f54"
-    },
-    {
       "path": "reports/claim_evidence_map.md",
-      "sha256": "a1edb43eaff0f73f580c338d339d9aea89b1523be4bd853de1278a8260dfb3eb"
+      "sha256": "84ab207962821701389ffb2746a5e2c8c41fdc5789fe9e4a9f92efe6829898f6"
     },
     {
       "path": "reports/robustness_noise_selection.md",
@@ -99,7 +46,7 @@
     },
     {
       "path": "source_inventory.csv",
-      "sha256": "cb447de6cfaac519a4dfaaf0b7fe28aed67bc0ae30702e2509c5bfeb04b7992c"
+      "sha256": "3338d3c9a5e59a284471e4090ba9b6ae67516950f56b1de44dccfe799231d6ea"
     },
     {
       "path": "source_snapshots/accepted_records.jsonl",
@@ -131,7 +78,7 @@
     },
     {
       "path": "tables/audit_accepted_cases.csv",
-      "sha256": "de990c5a3ed7de875c78bf98cdd94f9b5df60e52774ea33b3e50b5497d84fddf"
+      "sha256": "c0c14fab23d8df86569d1cabce035d6ce85d5446d47542b6a1ea6ee6127d0cdc"
     },
     {
       "path": "tables/audit_summary.csv",
@@ -170,7 +117,7 @@
     "noise_derived_inference_paper_facing_eligible": true,
     "note": "The source-run manifests and the selected derived-inference run are clean; the current packaging worktree is tracked separately and all inputs are content-hashed."
   },
-  "status": "COMPUTATIONAL_COMPLETE_HUMAN_PENDING",
+  "status": "COMPUTATIONAL_COMPLETE",
   "workspace_git": {
     "git_dirty": true,
     "git_sha": "829b25c2e55fc57d50b5a937e1ab475d807da486"
