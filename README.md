@@ -53,7 +53,6 @@ The repository contains the code and evidence behind the two main results:
 | Appendix D, event-type boundary | `audit/final/tables/robustness_event_types.csv`, `data/event_types/` |
 | Appendix E, injected signal noise | `audit/final/tables/robustness_noise_selection.csv`, `data/noise_selection/` |
 | Appendix E, generative-reader replay | `audit/final/tables/robustness_reader_selection.csv`, `data/reader_replay/` |
-| Blind expert review of the six accepted cases | `audit/final/human_review/` |
 | Allowed wording for each claim | `audit/final/reports/claim_evidence_map.md` |
 
 ## Repository layout

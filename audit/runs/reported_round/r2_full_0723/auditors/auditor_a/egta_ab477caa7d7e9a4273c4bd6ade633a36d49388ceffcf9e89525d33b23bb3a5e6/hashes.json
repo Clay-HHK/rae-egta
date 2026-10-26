@@ -1,9 +1,0 @@
-{
-  "blind_request.json": "61f242f299204d46a4e602cf808a07299875e02a63b01bc6efd373dc35950000",
-  "evidence_file": "ce8ef297609fae3aaa827eb47671a9fbdb5fb5445baea52b0558a7948d28e768",
-  "parsed_output.json": "c7ab2b03bbd944d94bc3ca3401a23d34338b61f52d6a3b37fca62965e5bc3775",
-  "prompt.md": "d853c6f4ca16bbd1824a6c9c74ec56040da0aaacc6574ca3db334ec05ffaffad",
-  "raw_output.txt": "8e109c9efbf317f7bdf117786c45fa0206a6ede59b9d4325e7168c600a2243ae",
-  "status.json": "83bee9b96807a9be459fd9c039ecc982f703e42d7824a2b0f9380571ea56e82b",
-  "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-}
